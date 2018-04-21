@@ -4,7 +4,7 @@ This codebase has evolved over many years of conducting data management for most
 
 (python 3.6 and Django 2.0+ required)
 
-Some more recent examples of EDC's using this codebase:
+Recent examples of EDC's using this codebase:
 
 ### The Ambition Study
 
