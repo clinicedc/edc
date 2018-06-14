@@ -8,7 +8,7 @@ Recent examples of EDC's using this codebase:
 
 ### The Ambition Study
 
-https://github.com/ambition-study (2018- ) 
+https://github.com/ambition-trial (2018- ) 
 
 Start with main repo `ambition`
 
