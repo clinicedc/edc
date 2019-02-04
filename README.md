@@ -1,6 +1,6 @@
 # edc
 
-This "organization" contains code for the core clinical trial data management system modules for our "edc". The codebase has evolved over many years of conducting clinical trials for mostly NIH-funded clinical trials at the [Botswana-Harvard AIDS Institute Partnership](https://aids.harvard.edu/research/bhp) in Gaborone, Botswana. Almost all trials were related to HIV/AIDS research.
+``Clinicedc`` contains code for the core clinical trial data management system modules for our "edc". The codebase has evolved over many years of conducting clinical trials for mostly NIH-funded clinical trials at the [Botswana-Harvard AIDS Institute Partnership](https://aids.harvard.edu/research/bhp) in Gaborone, Botswana. Almost all trials were related to HIV/AIDS research.
 
 The EDC for each trial consists of a subset of trial-specific modules that reference these ``edc-`` modules. 
 
