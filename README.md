@@ -10,13 +10,17 @@ Recent examples of EDC's using this codebase:
 
 ### The Ambition Study
 
-https://github.com/ambition-trial (2018- ) 
+https://github.com/ambition-trial (2018- )
+
+http://www.isrctn.com/ISRCTN72509687
 
 Start with main repo `ambition-edc`
 
 ### The Botswana Combination Prevention Project
 
 https://github.com/botswana-combination-prevention-project (2013-2018)
+
+https://clinicaltrials.gov/ct2/show/NCT01965470
 
 Start with main repo `bcpp`
 
