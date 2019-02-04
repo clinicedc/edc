@@ -22,6 +22,8 @@ https://github.com/botswana-combination-prevention-project (2013-2018)
 
 https://clinicaltrials.gov/ct2/show/NCT01965470
 
+https://www.ncbi.nlm.nih.gov/pubmed/?term=NCT01965470
+
 Start with main repo `bcpp`
 
 ### Contacts
