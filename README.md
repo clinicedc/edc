@@ -8,7 +8,15 @@ The EDC for each trial consists of a subset of trial-specific modules that refer
 
 Recent examples of EDC's using this codebase:
 
-### The Ambition Study
+### The META Trial
+
+https://github.com/meta-trial (2019- )
+
+http://www.isrctn.com/ISRCTN76157257
+
+Start with main repo `meta-edc`
+
+### The Ambition Trial
 
 https://github.com/ambition-trial (2018- )
 
