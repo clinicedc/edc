@@ -1,4 +1,5 @@
-# confirm the working directory
+# place in /etc/systemd/system/
+# confirm the path in `WorkingDirectory` and username in `User`
 
 [Unit]
 Description=gunicorn daemon (UAT)
