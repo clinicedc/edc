@@ -1,0 +1,20 @@
+# confirm the working directory
+
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=ambition
+Group=www-data
+WorkingDirectory=/home/ambition/app
+ExecStart=/home/live/minconda3/envs/edc/bin/gunicorn \
+    --access-logfile - \
+    --workers 3 \
+    --timeout=300 \
+    --bind unix:/run/gunicorn.sock \
+    ambition_edc.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

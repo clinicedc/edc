@@ -1,0 +1,18 @@
+# see https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#daemon-systemd-generic
+
+[Unit]
+Description=Celery Beat Service (UAT)
+After=network.target
+
+[Service]
+Type=simple
+User=celery
+Group=celery
+EnvironmentFile=/etc/celery/celery_uat.conf
+WorkingDirectory=/home/celery/working/uat
+ExecStart=/bin/sh -c '${CELERY_BIN} beat  \
+  -A ${CELERY_APP} --pidfile=${CELERYBEAT_PID_FILE} \
+  --logfile=${CELERYBEAT_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL}'
+
+[Install]
+WantedBy=multi-user.target
