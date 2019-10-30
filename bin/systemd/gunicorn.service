@@ -6,7 +6,7 @@ Requires=gunicorn.socket
 After=network.target
 
 [Service]
-User=ambition
+User=live
 Group=www-data
 WorkingDirectory=/home/live/app
 ExecStart=/home/live/minconda3/envs/edc/bin/gunicorn \
