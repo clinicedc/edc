@@ -10,7 +10,7 @@ After=network.target
 User=live
 Group=www-data
 WorkingDirectory=/home/live/app
-ExecStart=/home/live/minconda3/envs/edc/bin/gunicorn \
+ExecStart=/home/live/miniconda3/envs/edc/bin/gunicorn \
     --access-logfile - \
     --workers 3 \
     --timeout=300 \
