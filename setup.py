@@ -12,9 +12,12 @@ with open(os.path.join(os.path.dirname(__file__), 'VERSION')) as f:
 tests_require = ["edc_test_utils",
                  "model-bakery",
                  "faker"]
+install_requires = []
 with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
     for line in f:
-        tests_require.append(line.strip())
+        if "https:/" not in line.strip():
+            install_requires.append(line.strip())
+            tests_require.append(line.strip())
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -32,7 +35,7 @@ setup(
     long_description=README,
     zip_safe=False,
     keywords='django edc clinical trials research',
-    install_requires=[],
+    install_requires=install_requires,
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
