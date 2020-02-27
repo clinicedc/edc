@@ -49,7 +49,6 @@ edc-selenium==0.1.3
 edc-sites==0.1.14
 edc-subject-dashboard==0.1.45
 edc-subject-model-wrappers==0.1.8
-edc-test-utils==0.1.14
 edc-timepoint==0.1.13
 edc-utils==0.1.13
 edc-visit-schedule==0.2.51
