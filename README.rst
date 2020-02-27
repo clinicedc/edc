@@ -9,9 +9,7 @@ The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules
 
 (python 3.7 and Django 2.1+ required)
 
-This repo now contains all ``edc`` modules and is versioned.
-
-Previous deployments install each ``edc`` module as a separate library.
+As of version 1.0.0, this repo will contain all the currently individual ``edc`` modules and carry a single version number.
 
 
 Projects that use the EDC

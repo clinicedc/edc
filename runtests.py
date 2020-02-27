@@ -57,7 +57,13 @@ def main():
     django.setup()
     tags = [t.split("=")[1] for t in sys.argv if t.startswith("--tag")]
     failures = DiscoverRunner(failfast=False, tags=tags).run_tests(
-        ["edc_consent.tests", "edc_visit_schedule.tests"]
+        [
+            # "edc_action_item.tests",
+            "edc_consent.tests",
+            "edc_crf.tests",
+            "edc_visit_schedule.tests",
+            "edc_visit_tracking.tests",
+        ]
     )
     sys.exit(failures)
 
