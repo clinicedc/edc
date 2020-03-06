@@ -1,0 +1,8 @@
+edc-test-utils
+tox
+twine
+wheel
+ipython
+black
+flake8
+django-webtest
