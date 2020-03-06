@@ -7,9 +7,7 @@ The ``Clinic EDC`` contains code for the core clinical trial data management sys
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.7 and Django 2.1+ required)
-
-As of version 1.0.0, this repo will contain all the currently individual ``edc`` modules and carry a single version number.
+(python 3.7 and Django 2.2+ required)
 
 
 Projects that use the EDC
