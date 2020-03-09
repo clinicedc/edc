@@ -25,7 +25,7 @@ edc-auth==0.1.51
 edc-consent==0.2.48
 edc-constants==0.2.28
 edc-crf==0.0.2
-edc-dashboard==0.2.66
+edc-dashboard==0.2.67
 edc-data-manager==0.2.46
 edc-device==0.2.24
 edc-export==0.2.41
