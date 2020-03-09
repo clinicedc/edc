@@ -29,7 +29,7 @@ edc-dashboard==0.2.66
 edc-data-manager==0.2.46
 edc-device==0.2.24
 edc-export==0.2.41
-edc-facility==0.1.25
+edc-facility==0.1.26
 edc-fieldsets==0.1.7
 edc-form-label==0.1.3
 edc-form-validators==0.1.29
