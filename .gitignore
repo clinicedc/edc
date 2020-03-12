@@ -6,7 +6,6 @@ django_crypto_fields
 db.sqlite3
 .DS_Store
 
-
 # Swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
