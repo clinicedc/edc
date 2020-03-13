@@ -70,4 +70,4 @@ edc-utils==0.1.20
 edc-visit-schedule==0.2.54
 edc-visit-tracking==0.2.47
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
-Django[argon2]==3.0
+Django[argon2]>=3.0.3

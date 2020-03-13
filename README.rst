@@ -55,8 +55,8 @@ For further information contact [Erik van Widenfelt](https://github.com/erikvw).
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
 
-.. |travis| image:: https://travis-ci.org/clinicedc/edc.svg?branch=develop
-    :target: https://travis-ci.org/clinicedc/edc
+.. |travis| image:: https://travis-ci.com/clinicedc/edc.svg?branch=develop
+    :target: https://travis-ci.com/clinicedc/edc
 
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc
