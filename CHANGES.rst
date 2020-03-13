@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.1.8
+0.1.9
 -----
 - `get_datetime_from_env` to convert env list to timezone-aware datetime
   (edc-utils)
