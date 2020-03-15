@@ -1,7 +1,7 @@
 Changes
 =======
 
-Unreleased
+0.1.10
 ----------
 - fix model_mixin import in test app (edc-review-dashboard)
 - add `fasting` as a default field for normal and grading references (edc-reportable)
