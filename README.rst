@@ -46,9 +46,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=NCT01965470
 
 Start with main repo `bcpp`
 
-### Contacts
+Contacts
+--------
 
-For further information contact [Erik van Widenfelt](https://github.com/erikvw).
+For further information contact Erik van Widenfelt at .
+
 
 
 

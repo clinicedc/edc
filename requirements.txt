@@ -31,7 +31,7 @@ edc-device==0.2.26
 edc-export==0.2.44
 edc-facility==0.1.28
 edc-fieldsets==0.1.9
-edc-form-label==0.1.5
+edc-form-label==0.1.6
 edc-form-validators==0.1.30
 edc-identifier==0.2.41
 edc-lab==0.2.63
