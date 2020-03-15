@@ -1,6 +1,12 @@
 Changes
 =======
 
+Unreleased
+----------
+- fix model_mixin import in test app (edc-review-dashboard)
+- add `fasting` as a default field for normal and grading references (edc-reportable)
+- add back settings attribute to overwrite the default randomizer's assignment map, `EDC_RANDOMIZATION_ASSIGNMENT_MAP` (edc-randomization)
+
 0.1.9
 -----
 - `get_datetime_from_env` to convert env list to timezone-aware datetime
