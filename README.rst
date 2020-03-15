@@ -14,7 +14,8 @@ Projects that use the EDC
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Recent examples of EDC's using this codebase:
 
-### The META Trial
+The META Trial
+--------------
 
 (2 sites in Tanzania)
 
@@ -24,7 +25,8 @@ http://www.isrctn.com/ISRCTN76157257
 
 Start with main repo `meta-edc`
 
-### The Ambition Trial
+The Ambition Trial
+------------------
 
 (7 sites in Botswana, Malawi, South Africa, Uganda)
 
@@ -34,7 +36,8 @@ http://www.isrctn.com/ISRCTN72509687
 
 Start with main repo `ambition-edc`
 
-### The Botswana Combination Prevention Project
+The Botswana Combination Prevention Project
+-------------------------------------------
 
 (30 sites in Botswana)
 
@@ -46,9 +49,10 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=NCT01965470
 
 Start with main repo `bcpp`
 
-### Contacts
+Contacts
+--------
 
-For further information contact [Erik van Widenfelt](https://github.com/erikvw).
+For further information go to https://github.com/erikvw.
 
 
 
