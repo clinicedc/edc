@@ -21,7 +21,7 @@ sentry_sdk
 edc-action-item==0.1.71
 edc-adverse-event==0.1.27
 edc-appointment==0.2.67
-edc-auth==0.1.54
+edc-auth==0.1.55
 edc-consent==0.2.52
 edc-constants==0.2.29
 edc-crf==0.1.1
@@ -33,7 +33,7 @@ edc-facility==0.1.29
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
 edc-form-validators==0.1.30
-edc-identifier==0.2.41
+edc-identifier==0.2.42
 edc-lab==0.2.63
 edc-lab-dashboard==0.1.35
 edc-label==0.1.30
@@ -52,7 +52,7 @@ edc-pdutils==0.1.23
 edc-pharmacy==0.1.2a14
 edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.1.18
-edc-protocol==0.1.24
+edc-protocol==0.1.25
 edc-randomization==0.1.41
 edc-reference==0.1.48
 edc-registration==0.2.46
