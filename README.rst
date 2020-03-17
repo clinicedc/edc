@@ -1,7 +1,7 @@
-|pypi| |travis| |codecov| |downloads|
+|pypi| |downloads|
 
 Clinic EDC
------------
+==========
 
 The ``Clinic EDC`` contains code for the core clinical trial data management system modules for our "edc". The codebase has evolved over many years of conducting clinical trials for mostly NIH-funded clinical trials at the [Botswana-Harvard AIDS Institute Partnership](https://aids.harvard.edu/research/bhp) in Gaborone, Botswana. Almost all trials were related to HIV/AIDS research.
 
@@ -11,10 +11,11 @@ The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules
 
 
 Projects that use the EDC
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 Recent examples of EDC's using this codebase:
 
-### The META Trial
+The META Trial
+~~~~~~~~~~~~~~
 
 (2 sites in Tanzania)
 
@@ -24,7 +25,8 @@ http://www.isrctn.com/ISRCTN76157257
 
 Start with main repo `meta-edc`
 
-### The Ambition Trial
+The Ambition Trial
+~~~~~~~~~~~~~~~~~~
 
 (7 sites in Botswana, Malawi, South Africa, Uganda)
 
@@ -34,7 +36,8 @@ http://www.isrctn.com/ISRCTN72509687
 
 Start with main repo `ambition-edc`
 
-### The Botswana Combination Prevention Project
+The Botswana Combination Prevention Project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (30 sites in Botswana)
 
@@ -46,20 +49,15 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=NCT01965470
 
 Start with main repo `bcpp`
 
-### Contacts
+Contacts
+--------
 
-For further information contact [Erik van Widenfelt](https://github.com/erikvw).
+For further information go to https://github.com/erikvw.
 
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
-
-.. |travis| image:: https://travis-ci.com/clinicedc/edc.svg?branch=develop
-    :target: https://travis-ci.com/clinicedc/edc
-
-.. |codecov| image:: https://codecov.io/gh/clinicedc/edc/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc
 
 .. |downloads| image:: https://pepy.tech/badge/edc
    :target: https://pepy.tech/project/edc
