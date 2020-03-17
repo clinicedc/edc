@@ -1,9 +1,10 @@
 Changes
 =======
 
-0.1.11
+0.1.12
 ----------
 - add site utils for multi-country, multi-site deployments (edc-sites)
+- update all modules to get subject and screening identifier patterns from edc-protocol
 
 0.1.10
 ----------
