@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.11
+----------
+- add site utils for multi-country, multi-site deployments (edc-sites)
+
 0.1.10
 ----------
 - fix model_mixin import in test app (edc-review-dashboard)

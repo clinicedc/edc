@@ -61,7 +61,7 @@ edc-reports==0.1.26
 edc-review-dashboard==0.2.18
 edc-screening==0.1.20
 edc-search==0.1.12
-edc-sites==0.1.18
+edc-sites==0.1.19
 edc-subject-dashboard==0.1.52
 edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.31
