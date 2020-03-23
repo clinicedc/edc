@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.14
+------
+- minor bug fixes (edc-sites, edc-facility)
+
 0.1.13
 ------
 - change approach to multi-country, multi-site deployments to that of django-multisite.

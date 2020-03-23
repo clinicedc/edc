@@ -30,7 +30,7 @@ edc-dashboard==0.2.70
 edc-data-manager==0.2.48
 edc-device==0.2.26
 edc-export==0.2.44
-edc-facility==0.1.31
+edc-facility==0.1.32
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
 edc-form-validators==0.1.30
@@ -54,7 +54,7 @@ edc-pharmacy==0.1.2a14
 edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.1.18
 edc-protocol==0.1.25
-edc-randomization==0.1.42
+edc-randomization==0.1.43
 edc-reference==0.1.48
 edc-registration==0.2.46
 edc-reportable==0.1.34
