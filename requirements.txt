@@ -22,7 +22,7 @@ sentry_sdk
 edc-action-item==0.1.71
 edc-adverse-event==0.1.27
 edc-appointment==0.2.67
-edc-auth==0.1.55
+edc-auth==0.1.56
 edc-consent==0.2.52
 edc-constants==0.2.29
 edc-crf==0.1.1
@@ -30,7 +30,7 @@ edc-dashboard==0.2.70
 edc-data-manager==0.2.48
 edc-device==0.2.26
 edc-export==0.2.44
-edc-facility==0.1.30
+edc-facility==0.1.31
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
 edc-form-validators==0.1.30
@@ -63,7 +63,7 @@ edc-review-dashboard==0.2.18
 edc-screening==0.1.20
 edc-search==0.1.12
 edc-sites==0.1.25
-edc-subject-dashboard==0.1.53
+edc-subject-dashboard==0.1.54
 edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.33
 edc-timepoint==0.1.16
