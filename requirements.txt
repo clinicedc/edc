@@ -9,6 +9,7 @@ django-crypto-fields==0.1.27
 django-environ
 django-extensions
 django-ipware
+django-multisite
 django-redis
 django-restframework
 django-revision==0.1.20
@@ -29,7 +30,7 @@ edc-dashboard==0.2.70
 edc-data-manager==0.2.48
 edc-device==0.2.26
 edc-export==0.2.44
-edc-facility==0.1.29
+edc-facility==0.1.30
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
 edc-form-validators==0.1.30
@@ -61,13 +62,14 @@ edc-reports==0.1.26
 edc-review-dashboard==0.2.18
 edc-screening==0.1.20
 edc-search==0.1.12
-edc-sites==0.1.20
+edc-sites==0.1.25
 edc-subject-dashboard==0.1.53
 edc-subject-model-wrappers==0.1.12
-edc-test-utils==0.1.32
+edc-test-utils==0.1.33
 edc-timepoint==0.1.16
 edc-utils==0.1.22
 edc-visit-schedule==0.2.56
 edc-visit-tracking==0.2.49
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
-Django[argon2]>=3.0.3
+git+https://github.com/erikvw/django-multisite@master
+Django[argon2]>=3.0.4
