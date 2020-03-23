@@ -59,3 +59,5 @@ edc-utils
 edc-visit-schedule
 edc-visit-tracking
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
+git+https://github.com/erikvw/django-multisite@master
+
