@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.15
+------
+- Add django's ``site`` and ``auth`` models to the list of exportable models (edc-export)
+- Add edc_sites` model to the list of exportables (edc-site)
+
 0.1.14
 ------
 - minor bug fixes (edc-sites, edc-facility)
@@ -8,7 +13,7 @@ Changes
 0.1.13
 ------
 - change approach to multi-country, multi-site deployments to that of django-multisite.
-  Add `django-multisite` as a requirement.
+  Add ``django-multisite`` as a requirement.
   Using erikvw/django-multisite until PR is accepted.
 - SITE_ID is now extracted from the site name in the url (django-multisite)
 - use SingleSite class to wrap site information (edc-sites)
