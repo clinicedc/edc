@@ -29,7 +29,7 @@ edc-crf==0.1.1
 edc-dashboard==0.2.70
 edc-data-manager==0.2.48
 edc-device==0.2.26
-edc-export==0.2.46
+edc-export==0.2.47
 edc-facility==0.1.32
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
@@ -62,7 +62,7 @@ edc-reports==0.1.26
 edc-review-dashboard==0.2.18
 edc-screening==0.1.20
 edc-search==0.1.12
-edc-sites==0.1.26
+edc-sites==0.1.28
 edc-subject-dashboard==0.1.54
 edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.34
