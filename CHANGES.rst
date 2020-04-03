@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.16
+------
+- improve handling of sites grouped by country (edc-sites)
+- fix problem with exportables class that broke the export html page (edc-export)
+
 0.1.15
 ------
 - Add django's ``site`` and ``auth`` models to the list of exportable models (edc-export)
