@@ -1,19 +1,30 @@
 Changes
 =======
 
+0.1.17
+------
+- register `holiday` system checks to run on deploy only. Run the `check` management
+  command with the `--deploy` option. (edc-facility)
+- register `rando` checks to run on deploy only. Add utility to generate
+  dummy randomization list for trials that do not randomized at the patient
+  level. (edc-randomization)
+- raise an exception if settings.EDC_PROTOCOL_NUMBER is not set. (edc-protocol)
+- add `enrolment` codenames by default. Add `my` codenames used by ListView to
+  filter the queryset for records created by the current user only. (edc-auth)
+
 0.1.16
 ------
-- improve handling of sites grouped by country (edc-sites)
-- fix problem with exportables class that broke the export html page (edc-export)
+- improve handling of sites grouped by country. (edc-sites)
+- fix problem with exportables class that broke the export html page. (edc-export)
 
 0.1.15
 ------
-- Add django's ``site`` and ``auth`` models to the list of exportable models (edc-export)
-- Add edc_sites` model to the list of exportables (edc-site)
+- Add django's ``site`` and ``auth`` models to the list of exportable models. (edc-export)
+- Add edc_sites` model to the list of exportables. (edc-site)
 
 0.1.14
 ------
-- minor bug fixes (edc-sites, edc-facility)
+- minor bug fixes. (edc-sites, edc-facility)
 
 0.1.13
 ------
