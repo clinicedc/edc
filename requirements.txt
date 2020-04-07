@@ -67,7 +67,7 @@ edc-subject-dashboard==0.1.54
 edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.35
 edc-timepoint==0.1.16
-edc-utils==0.1.22
+edc-utils==0.1.23
 edc-visit-schedule==0.2.56
 edc-visit-tracking==0.2.49
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
