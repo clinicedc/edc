@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.1.18
+------
+- fix date comparison error when submitting requisitions that traced back to verifying
+  the report_datetime to the consent_datetime. (edc-consent)
+
+
 0.1.17
 ------
 - register `holiday` system checks to run on deploy only. Run the `check` management
