@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.19
+------
+- add additional constants/choices (edc-constants)
+- other very minor changes / formatting
+
 0.1.18
 ------
 - fix date comparison error when submitting requisitions that traced back to verifying
