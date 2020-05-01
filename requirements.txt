@@ -24,9 +24,9 @@ edc-adverse-event==0.1.28
 edc-appointment==0.2.67
 edc-auth==0.1.58
 edc-consent==0.2.54
-edc-constants==0.2.33
+edc-constants==0.2.34
 edc-crf==0.1.2
-edc-dashboard==0.2.71
+edc-dashboard==0.2.72
 edc-data-manager==0.2.48
 edc-device==0.2.26
 edc-export==0.2.48
@@ -42,7 +42,7 @@ edc-list-data==0.1.21
 edc-locator==0.2.35
 edc-metadata==0.2.59
 edc-metadata-rules==0.1.28
-edc-model==0.1.27
+edc-model==0.1.28
 edc-model-admin==0.2.28
 edc-model-fields==0.1.13
 edc-model-wrapper==0.1.31
@@ -63,7 +63,7 @@ edc-review-dashboard==0.2.18
 edc-screening==0.1.21
 edc-search==0.1.12
 edc-sites==0.1.28
-edc-subject-dashboard==0.1.54
+edc-subject-dashboard==0.1.55
 edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.35
 edc-timepoint==0.1.16
