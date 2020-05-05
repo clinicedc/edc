@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.1.21
+------
+- in base.html, update bootstrap3 version to latest (edc-dashboard)
+- in base.html, update jquery 1 version to latest (edc-dashboard)
+- in base.html and overridden admin forms, update fontawesome (edc-dashboard, edc-model-admin)
+- in base.html, pull js and css from cdn (bootstrap/jquery) (edc-dashboard)
+- in base.html, remove unused js and css (edc-dashboard)
+- include minor migration (edc-data-manager)
+
 0.1.20
 ------
 - additional constants/choices (edc-constants)
