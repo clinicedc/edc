@@ -36,7 +36,7 @@ edc-form-label==0.1.6
 edc-form-validators==0.1.30
 edc-identifier==0.2.42
 edc-lab==0.2.63
-edc-lab-dashboard==0.1.35
+edc-lab-dashboard==0.1.36
 edc-label==0.1.30
 edc-list-data==0.1.21
 edc-locator==0.2.35
