@@ -1,7 +1,11 @@
 Changes
 =======
 
-0.1.21
+0.1.23
+------
+- add base.html and load lab specific css/js (edc-lab-dashboard)
+
+0.1.22
 ------
 - in base.html, update bootstrap3 version to latest (edc-dashboard)
 - in base.html, update jquery 1 version to latest (edc-dashboard)
