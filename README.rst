@@ -45,7 +45,7 @@ The Ambition Trial
 
 (7 sites in Botswana, Malawi, South Africa, Uganda, Zimbabwe)
 
-https://github.com/ambition-trial (2018- )
+https://github.com/ambition-trial/ambition-edc (2018- )
 
 http://www.isrctn.com/ISRCTN72509687
 
