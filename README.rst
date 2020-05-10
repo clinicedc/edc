@@ -19,14 +19,14 @@ Mapitio
 
 Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
 
-https://github.com/mapitio (2020- )
+https://github.com/mapitio/mapitio-edc (2020- )
 
 INTE Africa Trial
 ~~~~~~~~~~~~~~~~~
 
 (16 sites in Uganda)
 
-https://github.com/inte-africa-trial (2020- )
+https://github.com/inte-africa-trial/inte-edc (2020- )
 
 https://inteafrica.org
 
@@ -35,7 +35,7 @@ The META Trial
 
 (3 sites in Tanzania)
 
-https://github.com/meta-trial (2019- )
+https://github.com/meta-trial/meta-edc (2019- )
 
 http://www.isrctn.com/ISRCTN76157257
 
