@@ -9,6 +9,8 @@ django-crypto-fields
 django-environ
 django-extensions
 django-ipware
+django-multisite
+django-import-export
 django-redis
 django-restframework
 django-revision

@@ -10,6 +10,7 @@ django-environ
 django-extensions
 django-ipware
 django-multisite
+django-import-export
 django-redis
 django-restframework
 django-revision==0.1.20
@@ -19,9 +20,9 @@ mysqlclient
 pyrabbit
 python-memcached
 sentry_sdk
-edc-action-item==0.1.71
-edc-adverse-event==0.1.28
-edc-appointment==0.2.67
+edc-action-item==0.1.72
+edc-adverse-event==0.1.29
+edc-appointment==0.2.68
 edc-auth==0.1.58
 edc-consent==0.2.54
 edc-constants==0.2.34
@@ -72,4 +73,4 @@ edc-visit-schedule==0.2.56
 edc-visit-tracking==0.2.50
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
-Django[argon2]>=3.0.5
+Django[argon2]>=3.0.6
