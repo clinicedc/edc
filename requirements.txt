@@ -43,7 +43,7 @@ edc-list-data==0.1.22
 edc-locator==0.2.35
 edc-metadata==0.2.61
 edc-metadata-rules==0.1.28
-edc-model==0.1.30
+edc-model==0.1.31
 edc-model-admin==0.2.29
 edc-model-fields==0.1.13
 edc-model-wrapper==0.1.31
