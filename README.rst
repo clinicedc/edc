@@ -7,30 +7,45 @@ The ``Clinic EDC`` contains code for the core clinical trial data management sys
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.7 and Django 2.2+ required)
+(python 3.8 and Django 3.0+ required, see requirements.txt)
 
 
 Projects that use the EDC
 -------------------------
 Recent examples of EDC's using this codebase:
 
+Mapitio
+~~~~~~~
+
+Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
+
+https://github.com/mapitio/mapitio-edc (2020- )
+
+INTE Africa Trial
+~~~~~~~~~~~~~~~~~
+
+(16 sites in Uganda)
+
+https://github.com/inte-africa-trial/inte-edc (2020- )
+
+https://inteafrica.org
+
 The META Trial
 ~~~~~~~~~~~~~~
 
-(2 sites in Tanzania)
+(3 sites in Tanzania)
 
-https://github.com/meta-trial (2019- )
+https://github.com/meta-trial/meta-edc (2019- )
 
 http://www.isrctn.com/ISRCTN76157257
 
-Start with main repo `meta-edc`
 
 The Ambition Trial
 ~~~~~~~~~~~~~~~~~~
 
-(7 sites in Botswana, Malawi, South Africa, Uganda)
+(7 sites in Botswana, Malawi, South Africa, Uganda, Zimbabwe)
 
-https://github.com/ambition-trial (2018- )
+https://github.com/ambition-trial/ambition-edc (2018- )
 
 http://www.isrctn.com/ISRCTN72509687
 
@@ -39,13 +54,15 @@ Start with main repo `ambition-edc`
 The Botswana Combination Prevention Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(30 sites in Botswana)
+(30 remote offline sites in Botswana)
 
 https://github.com/botswana-combination-prevention-project (2013-2018)
 
 https://clinicaltrials.gov/ct2/show/NCT01965470
 
 https://www.ncbi.nlm.nih.gov/pubmed/?term=NCT01965470
+
+https://aids.harvard.edu/tag/bcpp/
 
 Start with main repo `bcpp`
 
