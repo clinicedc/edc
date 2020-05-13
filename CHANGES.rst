@@ -1,6 +1,21 @@
 Changes
 =======
 
+0.1.24
+------
+- add "export" as a default permission to ``BaseUuidModelMixin.Meta`` (edc_model)
+- add ``CrfStatus`` model to track the ``crf_status`` of models using
+  the mixin (edc_crf)
+- add "export" as a default permission to ``CrfModelMixin.Meta`` (edc_crf)
+- fix change_list in CrfMetadata (edc_metadata)
+- add dashboard link to change_list, and admin action to bulk update ``appt_status``
+  (edc_appointment)
+- integrate ``django-import-export`` as a new dependency.
+- add ``export`` codenames to be referred to in change_list when
+  exporting using ``django-import-export`` (edc-auth)
+- add links to CRF metadata, CRF status, appointments in home template (edc_data_manager)
+- separate ``get_country`` and ``get_current_country`` into separate funcs (edc-sites)
+
 0.1.23
 ------
 - add base.html and load lab specific css/js (edc-lab-dashboard)
