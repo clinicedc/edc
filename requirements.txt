@@ -21,12 +21,12 @@ pyrabbit
 python-memcached
 sentry_sdk
 edc-action-item==0.1.73
-edc-adverse-event==0.1.30
+edc-adverse-event==0.1.31
 edc-appointment==0.2.70
 edc-auth==0.1.60
 edc-consent==0.2.54
 edc-constants==0.2.34
-edc-crf==0.1.6
+edc-crf==0.1.7
 edc-dashboard==0.2.73
 edc-data-manager==0.2.51
 edc-device==0.2.26
@@ -51,7 +51,7 @@ edc-navbar==0.1.39
 edc-notification==0.1.39
 edc-offstudy==0.2.29
 edc-pdutils==0.1.23
-edc-pharmacy==0.1.2a14
+edc-pharmacy==0.1.2a15
 edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.1.18
 edc-protocol==0.1.26
@@ -74,4 +74,5 @@ edc-visit-tracking==0.2.50
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
-Django[argon2]>=3.0.6
+argon2-cffi
+Django>=3.0.6
