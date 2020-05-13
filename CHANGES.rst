@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.25
+------
+- minor fix (edc-model)
+
 0.1.24
 ------
 - add "export" as a default permission to ``BaseUuidModelMixin.Meta`` (edc_model)
