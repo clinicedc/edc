@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.1.26
+------
+- update MANIFEST.in files in edc-auth, edc-crf
+- move fix for export permissions to edc-auth
+- add offschedule datetime to appointment export resource
+
 0.1.25
 ------
 - minor fix (edc-model)
