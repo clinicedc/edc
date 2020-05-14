@@ -22,11 +22,11 @@ python-memcached
 sentry_sdk
 edc-action-item==0.1.73
 edc-adverse-event==0.1.31
-edc-appointment==0.2.70
-edc-auth==0.1.60
+edc-appointment==0.2.71
+edc-auth==0.1.61
 edc-consent==0.2.54
 edc-constants==0.2.34
-edc-crf==0.1.7
+edc-crf==0.1.9
 edc-dashboard==0.2.73
 edc-data-manager==0.2.51
 edc-device==0.2.26
@@ -43,7 +43,7 @@ edc-list-data==0.1.22
 edc-locator==0.2.35
 edc-metadata==0.2.61
 edc-metadata-rules==0.1.28
-edc-model==0.1.31
+edc-model==0.1.32
 edc-model-admin==0.2.29
 edc-model-fields==0.1.13
 edc-model-wrapper==0.1.31
@@ -69,7 +69,7 @@ edc-subject-model-wrappers==0.1.12
 edc-test-utils==0.1.35
 edc-timepoint==0.1.16
 edc-utils==0.1.23
-edc-visit-schedule==0.2.58
+edc-visit-schedule==0.2.59
 edc-visit-tracking==0.2.50
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
