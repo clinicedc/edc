@@ -26,7 +26,7 @@ edc-appointment==0.2.71
 edc-auth==0.1.61
 edc-consent==0.2.54
 edc-constants==0.2.34
-edc-crf==0.1.9
+edc-crf==0.1.10
 edc-dashboard==0.2.73
 edc-data-manager==0.2.51
 edc-device==0.2.26
@@ -34,7 +34,7 @@ edc-export==0.2.51
 edc-facility==0.1.34
 edc-fieldsets==0.1.9
 edc-form-label==0.1.6
-edc-form-validators==0.1.30
+edc-form-validators==0.1.31
 edc-identifier==0.2.43
 edc-lab==0.2.64
 edc-lab-dashboard==0.1.36
