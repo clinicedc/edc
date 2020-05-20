@@ -23,7 +23,7 @@ sentry_sdk
 edc-action-item==0.1.73
 edc-adverse-event==0.1.31
 edc-appointment==0.2.72
-edc-auth==0.1.62
+edc-auth==0.1.63
 edc-consent==0.2.54
 edc-constants==0.2.34
 edc-crf==0.1.10
