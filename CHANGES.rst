@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.1.29
+------
+- fix minor issues with "export" permission updater (edc-auth)
+- fix "appointment_mark_as_done" admin action (edc-appointment)
+- increase systolic max for BP field class (edc-model)
+- add crf collection option for "missed" visits (edc-metadata)
+
 0.1.26
 ------
 - update MANIFEST.in files in edc-auth, edc-crf

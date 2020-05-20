@@ -22,8 +22,8 @@ python-memcached
 sentry_sdk
 edc-action-item==0.1.73
 edc-adverse-event==0.1.31
-edc-appointment==0.2.71
-edc-auth==0.1.61
+edc-appointment==0.2.72
+edc-auth==0.1.62
 edc-consent==0.2.54
 edc-constants==0.2.34
 edc-crf==0.1.10
@@ -41,9 +41,9 @@ edc-lab-dashboard==0.1.36
 edc-label==0.1.30
 edc-list-data==0.1.22
 edc-locator==0.2.35
-edc-metadata==0.2.61
+edc-metadata==0.2.62
 edc-metadata-rules==0.1.28
-edc-model==0.1.32
+edc-model==0.1.33
 edc-model-admin==0.2.29
 edc-model-fields==0.1.13
 edc-model-wrapper==0.1.31
@@ -54,7 +54,7 @@ edc-pdutils==0.1.23
 edc-pharmacy==0.1.2a15
 edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.1.18
-edc-protocol==0.1.26
+edc-protocol==0.1.27
 edc-randomization==0.1.46
 edc-reference==0.1.48
 edc-registration==0.2.47
