@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.30
+------
+- add crfs_missed to Visit object
+
 0.1.29
 ------
 - fix minor issues with "export" permission updater (edc-auth)
