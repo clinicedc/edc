@@ -1,6 +1,14 @@
 Changes
 =======
 
+0.1.32
+------
+- evaluate actions on m2m-change (edc-action-item)
+- use `get_subject_visit` to get more reliably (edc-consent)
+- add m2m "not" other specify method (edc-form-validators)
+- use get visit model (edc-data-manager)
+- recover if metadata is out of sync (edc-metadata)
+
 0.1.30
 ------
 - add crfs_missed to Visit object
