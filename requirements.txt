@@ -26,7 +26,7 @@ edc-appointment==0.2.74
 edc-auth==0.1.64
 edc-clinic==0.1.0
 edc-consent==0.2.57
-edc-constants==0.2.36
+edc-constants==0.2.37
 edc-crf==0.1.13
 edc-dashboard==0.2.73
 edc-data-manager==0.2.54
