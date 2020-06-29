@@ -21,10 +21,12 @@ Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
 
 https://github.com/mapitio/mapitio-edc (2020- )
 
-INTE Africa Trial
-~~~~~~~~~~~~~~~~~
+INTE Africa Trial (Phase II)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (16 sites in Uganda)
+
+additional sites in Tanzania coming mid-2020
 
 https://github.com/inte-africa-trial/inte-edc (2020- )
 
