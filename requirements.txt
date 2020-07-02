@@ -20,7 +20,7 @@ mysqlclient
 pyrabbit
 python-memcached
 sentry_sdk
-edc-action-item==0.1.78
+edc-action-item==0.1.79
 edc-adverse-event==0.1.33
 edc-appointment==0.2.74
 edc-auth==0.1.64
