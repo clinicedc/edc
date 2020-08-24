@@ -1,5 +1,10 @@
 Changes
 =======
+0.1.47
+------
+- hold at Django == 3.0.9
+- add EDC_APPOINTMENT_APPT_REASON (edc-appointment)
+- preload list data in autodiscover instead of in app `list_data` files (edc-list-data)
 
 0.1.32
 ------
