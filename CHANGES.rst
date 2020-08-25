@@ -1,5 +1,13 @@
 Changes
 =======
+
+0.1.48
+------
+- hold at Django == 3.0.9
+- minor, mostly tests and pep8
+- update interface to ipware (edc-device)
+- bypass validation for reason_unscheduled if not in cleaned data (edc-visit-tracking)
+
 0.1.47
 ------
 - hold at Django == 3.0.9
