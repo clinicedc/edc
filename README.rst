@@ -24,9 +24,7 @@ https://github.com/mapitio/mapitio-edc (2020- )
 INTE Africa Trial (Phase II)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(16 sites in Uganda)
-
-additional sites in Tanzania coming mid-2020
+(32 sites in Uganda and Tanzania)
 
 https://github.com/inte-africa-trial/inte-edc (2020- )
 
