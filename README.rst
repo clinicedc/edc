@@ -3,7 +3,8 @@
 Clinic EDC
 ==========
 
-The ``Clinic EDC`` contains code for the core clinical trial data management system modules for our "edc". The codebase has evolved over many years of conducting clinical trials for mostly NIH-funded clinical trials at the [Botswana-Harvard AIDS Institute Partnership](https://aids.harvard.edu/research/bhp) in Gaborone, Botswana. Almost all trials were related to HIV/AIDS research. Recent work has expanded into Diabetes (DM), Hypertension (HTN) and models of integrating care in Africa ([INTE Africa Project](https://inteafrica.org)] for the three main chronic conditions -- HIV/DM/HTN. 
+The ``Clinic EDC`` contains code for the core clinical trial data management system modules for our "edc". The codebase has evolved over many years of conducting clinical trials for mostly NIH-funded clinical trials through the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the `Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__ in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__. Almost all trials were related to HIV/AIDS research. Recent work with the `Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ has expanded into Diabetes (DM), Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the three main chronic conditions -- HIV/DM/HTN. 
+
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
@@ -78,3 +79,6 @@ For further information go to https://github.com/erikvw.
 
 .. |downloads| image:: https://pepy.tech/badge/edc
    :target: https://pepy.tech/project/edc
+   
+
+
