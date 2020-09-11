@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.50
+------
+- hold at Django == 3.0.9
+- add manager migration (edc-appointment)
+
 0.1.48
 ------
 - hold at Django == 3.0.9
