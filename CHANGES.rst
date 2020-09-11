@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.51
+------
+- hold at Django == 3.0.9
+- add export user (edc-auth)
+
 0.1.50
 ------
 - hold at Django == 3.0.9

@@ -21,7 +21,7 @@ sentry_sdk
 edc-action-item==0.1.80
 edc-adverse-event==0.1.34
 edc-appointment==0.2.78
-edc-auth==0.1.65
+edc-auth==0.1.66
 edc-clinic==0.1.0
 edc-consent==0.2.58
 edc-constants==0.2.40
