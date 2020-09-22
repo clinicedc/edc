@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.52
+------
+- query references using objects manager instead of on_site manager (edc-reference)
+- minor pep8 / code cleanup
+
 0.1.51
 ------
 - hold at Django == 3.0.9
