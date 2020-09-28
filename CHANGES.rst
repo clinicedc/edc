@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.1.53
+------
+- carry site id from visit instance (edc-reference, edc-metadata)
+- raise exception if invalid visit code refered to (edc-appointment)
+- remove any code referring to unused reviewer site id (edc-sites)
+
 0.1.52
 ------
 - query references using objects manager instead of on_site manager (edc-reference)
