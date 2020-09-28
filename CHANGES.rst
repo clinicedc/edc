@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.54
+------
+- remove site framework from app (edc-reference)
+
 0.1.53
 ------
 - carry site id from visit instance (edc-reference, edc-metadata)

@@ -20,7 +20,7 @@ python-memcached
 sentry_sdk
 edc-action-item==0.1.81
 edc-adverse-event==0.1.34
-edc-appointment==0.2.79
+edc-appointment==0.2.80
 edc-auth==0.1.67
 edc-clinic==0.1.0
 edc-consent==0.2.59
@@ -56,7 +56,7 @@ edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.1.18
 edc-protocol==0.1.27
 edc-randomization==0.1.47
-edc-reference==0.1.49
+edc-reference==0.1.50
 edc-registration==0.2.49
 edc-reportable==0.1.38
 edc-reports==0.1.26
