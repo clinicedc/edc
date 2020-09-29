@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.56
+------
+- check metadata_obj exists when evaluating rule (edc-metadata-rule)
+
 0.1.54
 ------
 - remove site framework from app (edc-reference)
