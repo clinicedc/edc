@@ -41,7 +41,7 @@ edc-lab-dashboard==0.1.36
 edc-label==0.1.30
 edc-list-data==0.1.24
 edc-locator==0.2.38
-edc-metadata==0.2.68
+edc-metadata==0.2.69
 edc-metadata-rules==0.1.32
 edc-model==0.1.40
 edc-model-admin==0.2.31
