@@ -1,6 +1,26 @@
 Changes
 =======
 
+0.1.57
+------
+- modify how facility selects an available appt date by changing the
+  order of precedence (edc-facility)
+- enforce window period defined on the visit object
+  from edc-visit-schedule (edc-appointment)
+- enforce window period using visit lower/upper for scheduled appointments
+  and lower as visit.lower and upper as next_visit.lower for
+  unscheduled appointments (edc-visit-schedule)
+- rename method `visit` to `visit_from_schedule` to avoid being overriden
+  by AppointmentModelMixin. Keep `visit` available as a wrapper for
+  `visit_from_schedule` (edc-visit-schedule)
+- add days, `d`, to duration YMD field and validation (edc-model)
+- add slider widget (edc-model)
+- add `in` operator to predicate evaluation (edc-metadata-rules)
+- default responses to `other` in m2m_other_specify (edc-form-validators)
+- add `export_format` to user profile (edc-auth)
+- remove `site` framework from model (edc-reference)
+
+
 0.1.56
 ------
 - check metadata_obj exists when evaluating rule (edc-metadata-rule)
