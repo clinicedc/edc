@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.1.58
+0.1.59
 ------
 - modify how facility selects an available appt date by changing the
   order of precedence (edc-facility)
