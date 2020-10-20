@@ -1,5 +1,10 @@
 Changes
 =======
+
+0.1.61
+------
+- add new requirement (edc-ltfu)
+
 0.1.60
 ------
 - also inspect crfs_missed when querying CrfMetadata for subject
