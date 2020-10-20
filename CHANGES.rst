@@ -1,5 +1,27 @@
 Changes
 =======
+0.1.60
+------
+- also inspect crfs_missed when querying CrfMetadata for subject
+  visit (edc-metadata)
+- add testcase methods for getting appointment and next appointment
+  (edc-appointment)
+- add subjectvisitmissed formvalidator mixin, model mixin, action item
+  (edc-visit-tracking)
+- more constants (edc-constants)
+- allow to opt-out of TMG workflow in actions, add attr for offschedule
+  reason field (edc-adverse-event)
+- add method `m2m_applicable_if_true` (edc-form-validators)
+- move load_list_data to function (edc-list-data)
+- refer to action by name using constant (edc-locator)
+- add slider widget and resources for adherence visual scale
+  (edc-model-fields)
+- add off study action item (edc-offstudy)
+- register CRFs listed in crfs_missed (edc-reference)
+
+
+
+
 
 0.1.59
 ------
