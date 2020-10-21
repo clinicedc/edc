@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.1.62
+------
+- fix required_if_true to equate blank and None (edc-form-validator)
+- fix issues with subjectvisitmissed validator (edc-visit-tracking)
+
 0.1.61
 ------
 - add new requirement (edc-ltfu)

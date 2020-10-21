@@ -34,7 +34,7 @@ edc-facility==0.1.37
 edc-fieldsets==0.1.9
 edc-form-describer==0.1.7
 edc-form-label==0.1.7
-edc-form-validators==0.1.39
+edc-form-validators==0.1.40
 edc-identifier==0.2.44
 edc-lab==0.2.69
 edc-lab-dashboard==0.1.36
@@ -71,7 +71,7 @@ edc-test-utils==0.1.37
 edc-timepoint==0.1.16
 edc-utils==0.1.24
 edc-visit-schedule==0.2.65
-edc-visit-tracking==0.2.61
+edc-visit-tracking==0.2.62
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
