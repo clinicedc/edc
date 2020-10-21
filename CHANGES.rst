@@ -1,5 +1,11 @@
 Changes
 =======
+0.1.64
+------
+- track LTFU model in schedule, fix view detecting wrong schedule
+  if more than one exists (edc-visit-schedule)
+- fix incorrect action description, get next action using LTFU
+  model name (edc-visit-tracking)
 
 0.1.62
 ------
