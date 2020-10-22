@@ -19,7 +19,7 @@ pyrabbit
 python-memcached
 sentry_sdk
 edc-action-item==0.1.81
-edc-adverse-event==0.1.35
+edc-adverse-event==0.1.36
 edc-appointment==0.2.85
 edc-auth==0.1.68
 edc-clinic==0.1.0
