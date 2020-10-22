@@ -41,7 +41,7 @@ edc-lab-dashboard==0.1.36
 edc-label==0.1.30
 edc-list-data==0.1.26
 edc-locator==0.2.39
-edc-ltfu==0.1.1
+edc-ltfu==0.1.2
 edc-metadata==0.2.70
 edc-metadata-rules==0.1.33
 edc-model==0.1.42
@@ -50,7 +50,7 @@ edc-model-fields==0.1.14
 edc-model-wrapper==0.1.31
 edc-navbar==0.1.39
 edc-notification==0.1.39
-edc-offstudy==0.2.32
+edc-offstudy==0.2.33
 edc-pdutils==0.1.25
 edc-pharmacy==0.1.2a15
 edc-pharmacy-dashboard==0.1.1a13
@@ -65,12 +65,12 @@ edc-review-dashboard==0.2.22
 edc-screening==0.1.21
 edc-search==0.1.12
 edc-sites==0.1.31
-edc-subject-dashboard==0.1.56
+edc-subject-dashboard==0.1.57
 edc-subject-model-wrappers==0.1.15
 edc-test-utils==0.1.37
 edc-timepoint==0.1.16
 edc-utils==0.1.24
-edc-visit-schedule==0.2.66
+edc-visit-schedule==0.2.67
 edc-visit-tracking==0.2.63
 git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
