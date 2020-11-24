@@ -54,7 +54,7 @@ edc-offstudy==0.2.33
 edc-pdutils==0.1.25
 edc-pharmacy==0.1.2a15
 edc-pharmacy-dashboard==0.1.1a13
-edc-prn==0.1.19
+edc-prn==0.1.20
 edc-protocol==0.1.27
 edc-randomization==0.1.47
 edc-reference==0.1.53
