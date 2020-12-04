@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.68
+------
+- minor fixes
+
 0.1.65
 ------
 - add lftu_date to model mixin, form validator to check model
