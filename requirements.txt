@@ -62,7 +62,7 @@ edc-registration==0.2.49
 edc-reportable==0.1.38
 edc-reports==0.1.26
 edc-review-dashboard==0.2.22
-edc-screening==0.1.21
+edc-screening==0.1.22
 edc-search==0.1.12
 edc-sites==0.1.32
 edc-subject-dashboard==0.1.58
