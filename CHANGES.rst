@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.1.71
+------
+- add missing model Meta class inheritance (edc_action, edc-adverse-event)
+- load permissions through post-migrate (edc-auth)
+- load sites through post-migrate (edc-sites)
+- load lists through post-migrate (edc-list-data)
+- add LIST_MODEL_APP_LABEL settings attribute (edc-list-data)q
+- remove ugettext, force_text (several modules)
+
 0.1.68
 ------
 - minor fixes
