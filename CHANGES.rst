@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.72
+------
+- add migrations for model Meta class changes
+
 0.1.71
 ------
 - add missing model Meta class inheritance (edc_action, edc-adverse-event)
