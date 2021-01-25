@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.1.73
+------
+- bump to django 3.1.5
+
 0.1.72
 ------
 - add migrations for model Meta class changes
