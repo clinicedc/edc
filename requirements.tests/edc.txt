@@ -6,7 +6,7 @@ django-collect-offline-files
 django-crypto-fields
 django-revision
 django_extensions
-mysqlclient
+django-simple-history
 edc-action-item
 edc-adverse-event
 edc-appointment
@@ -28,6 +28,7 @@ edc-lab-dashboard
 edc-label
 edc-list-data
 edc-locator
+edc-ltfu
 edc-metadata
 edc-metadata-rules
 edc-model
@@ -58,6 +59,4 @@ edc-timepoint
 edc-utils
 edc-visit-schedule
 edc-visit-tracking
-git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
-git+https://github.com/erikvw/django-multisite@master
 
