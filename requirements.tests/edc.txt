@@ -8,6 +8,7 @@ django-defender
 django-revision
 django_extensions
 django-simple-history
+django-storages
 edc-action-item
 edc-adverse-event
 edc-appointment
