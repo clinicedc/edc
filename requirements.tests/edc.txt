@@ -4,6 +4,7 @@ django-celery-results
 django-collect-offline
 django-collect-offline-files
 django-crypto-fields
+django-defender
 django-revision
 django_extensions
 django-simple-history
@@ -54,7 +55,6 @@ edc-search
 edc-sites
 edc-subject-dashboard
 edc-subject-model-wrappers
-edc-test-utils
 edc-timepoint
 edc-utils
 edc-visit-schedule
