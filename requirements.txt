@@ -12,6 +12,7 @@ django-ipware
 django-redis
 django-restframework
 django-revision==0.1.20
+django-simple-history
 django-storages
 gunicorn
 mysqlclient
@@ -21,7 +22,7 @@ sentry_sdk
 edc-action-item==0.3.0
 edc-adverse-event==0.3.0
 edc-appointment==0.3.0
-edc-auth==0.3.0
+edc-auth==0.3.1
 edc-clinic==0.3.0
 edc-consent==0.3.0
 edc-constants==0.2.44
@@ -59,7 +60,7 @@ edc-protocol==0.3.0
 edc-randomization==0.3.0
 edc-reference==0.3.0
 edc-registration==0.3.0
-edc-reportable==0.1.39
+edc-reportable==0.3.0
 edc-reports==0.3.0
 edc-review-dashboard==0.3.0
 edc-screening==0.3.0
@@ -73,7 +74,6 @@ edc-transfer==0.3.0
 edc-utils==0.1.24
 edc-visit-schedule==0.3.0
 edc-visit-tracking==0.3.0
-git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 git+https://github.com/erikvw/django-multisite@master
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
 argon2-cffi
