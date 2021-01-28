@@ -1,5 +1,11 @@
 boto3
 celery
+gunicorn
+mysqlclient
+pyrabbit
+python-memcached
+sentry_sdk
+argon2-cffi
 django-audit-fields==0.1.16
 django-celery-beat
 django-celery-results
@@ -14,11 +20,6 @@ django-restframework
 django-revision==0.1.20
 django-simple-history
 django-storages
-gunicorn
-mysqlclient
-pyrabbit
-python-memcached
-sentry_sdk
 edc-action-item==0.3.0
 edc-adverse-event==0.3.0
 edc-appointment==0.3.0
@@ -76,5 +77,4 @@ edc-visit-schedule==0.3.0
 edc-visit-tracking==0.3.0
 git+https://github.com/erikvw/django-multisite@master
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
-argon2-cffi
 Django==3.1.5
