@@ -22,6 +22,7 @@ edc-device
 edc-export
 edc-facility
 edc-fieldsets
+edc-form-describer
 edc-form-label
 edc-form-validators
 edc-identifier
