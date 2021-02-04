@@ -44,11 +44,11 @@ edc-lab==0.3.0
 edc-lab-dashboard==0.3.0
 edc-label==0.1.30
 edc-list-data==0.3.0
-edc-locator==0.3.0
-edc-ltfu==0.3.0
-edc-metadata==0.3.0
-edc-metadata-rules==0.3.0
-edc-model==0.3.0
+edc-locator==0.3.1
+edc-ltfu==0.3.1
+edc-metadata==0.3.1
+edc-metadata-rules==0.3.1
+edc-model==0.3.1
 edc-model-admin==0.3.0
 edc-model-fields==0.3.0
 edc-model-wrapper==0.3.0
@@ -61,7 +61,7 @@ edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.3.0
 edc-protocol==0.3.0
 edc-randomization==0.3.0
-edc-reference==0.3.0
+edc-reference==0.3.1
 edc-registration==0.3.0
 edc-reportable==0.3.0
 edc-reports==0.3.0
@@ -73,9 +73,9 @@ edc-subject-dashboard==0.3.0
 edc-subject-model-wrappers==0.1.15
 edc-test-utils==0.3.0
 edc-timepoint==0.3.1
-edc-transfer==0.3.0
+edc-transfer==0.3.1
 edc-utils==0.1.24
 edc-visit-schedule==0.3.0
 edc-visit-tracking==0.3.0
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
-Django==3.1.5
+Django==3.1.6
