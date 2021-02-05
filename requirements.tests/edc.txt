@@ -5,6 +5,7 @@ django-collect-offline
 django-collect-offline-files
 django-crypto-fields
 django-defender
+django-multisite
 django-revision
 django_extensions
 django-simple-history
@@ -61,4 +62,3 @@ edc-timepoint
 edc-utils
 edc-visit-schedule
 edc-visit-tracking
-
