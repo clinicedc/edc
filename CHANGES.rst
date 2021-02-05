@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.5
+-----
+- add django-defender
+
 0.3.4
 -----
 - Django 3.1.6 (for all requirements)
