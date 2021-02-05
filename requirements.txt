@@ -27,7 +27,7 @@ edc-adverse-event==0.3.1
 edc-appointment==0.3.1
 edc-auth==0.3.4
 edc-clinic==0.3.0
-edc-consent==0.3.2
+edc-consent==0.3.3
 edc-constants==0.2.44
 edc-crf==0.3.1
 edc-dashboard==0.3.0

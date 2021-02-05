@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.4
+-----
+- Django 3.1.6 (for all requirements)
+- gh-actions, isort, black (for all requirements)
+
 0.1.73
 ------
 - bump to django 3.1.5
