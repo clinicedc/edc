@@ -15,6 +15,7 @@ django-crypto-fields==0.1.30
 django-environ
 django-extensions
 django-import-export
+django-defender
 django-ipware
 django-multisite
 django-redis
