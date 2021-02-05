@@ -72,6 +72,8 @@ Contacts
 
 For further information go to https://github.com/erikvw.
 
+|django|
+
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
@@ -80,5 +82,6 @@ For further information go to https://github.com/erikvw.
 .. |downloads| image:: https://pepy.tech/badge/edc
    :target: https://pepy.tech/project/edc
    
-
-
+.. |django| image:: https://www.djangoproject.com/m/img/badges/djangomade124x25.gif
+   :target: http://www.djangoproject.com/
+   :alt: Made with Django
