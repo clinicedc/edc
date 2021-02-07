@@ -144,10 +144,13 @@ For further information go to https://github.com/erikvw.
 
 .. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/workflows/build/badge.svg?branch=develop/n
   :target: https://github.com/clinicedc/edc-action-item/actions?query=workflow:build
+  
 .. |edc-adverse-event| image:: https://github.com/clinicedc/edc-adverse-event/workflows/build/badge.svg?branch=develop/n
   :target: https://github.com/clinicedc/edc-adverse-event/actions?query=workflow:build
+  
 .. |edc-appointment| image:: https://github.com/clinicedc/edc-appointment/workflows/build/badge.svg?branch=develop/n
   :target: https://github.com/clinicedc/edc-appointment/actions?query=workflow:build
+
 .. |edc-auth| image:: https://github.com/clinicedc/edc-auth/workflows/build/badge.svg?branch=develop/n
   :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop/n
