@@ -75,61 +75,61 @@ For further information go to https://github.com/erikvw.
 |django|
 
 
-* edc-action-item | edc-action-item |
-* edc-adverse-event | edc-adverse-event |
-* edc-appointment | edc-appointment |
-* edc-auth | edc-auth |
-* edc-clinic | edc-clinic |
-* edc-consent | edc-consent |
-* edc-constants | edc-constants |
-* edc-crf | edc-crf |
-* edc-dashboard | edc-dashboard |
-* edc-data-manager | edc-data-manager |
-* edc-device | edc-device |
-* edc-export | edc-export |
-* edc-facility | edc-facility |
-* edc-fieldsets | edc-fieldsets |
-* edc-form-describer | edc-form-describer |
-* edc-form-label | edc-form-label |
-* edc-form-validators | edc-form-validators |
-* edc-identifier | edc-identifier |
-* edc-lab | edc-lab |
-* edc-lab-dashboard | edc-lab-dashboard |
-* edc-label | edc-label |
-* edc-list-data | edc-list-data |
-* edc-locator | edc-locator |
-* edc-ltfu | edc-ltfu |
-* edc-metadata | edc-metadata |
-* edc-metadata-rules | edc-metadata-rules |
-* edc-model | edc-model |
-* edc-model-admin | edc-model-admin |
-* edc-model-fields | edc-model-fields |
-* edc-model-wrapper | edc-model-wrapper |
-* edc-navbar | edc-navbar |
-* edc-notification | edc-notification |
-* edc-offstudy | edc-offstudy |
-* edc-pdutils | edc-pdutils |
-* edc-pharmacy | edc-pharmacy |
-* edc-pharmacy-dashboard | edc-pharmacy-dashboard |
-* edc-prn | edc-prn |
-* edc-protocol | edc-protocol |
-* edc-randomization | edc-randomization |
-* edc-reference | edc-reference |
-* edc-registration | edc-registration |
-* edc-reportable | edc-reportable |
-* edc-reports | edc-reports |
-* edc-review-dashboard | edc-review-dashboard |
-* edc-screening | edc-screening |
-* edc-search | edc-search |
-* edc-sites | edc-sites |
-* edc-subject-dashboard | edc-subject-dashboard |
-* edc-subject-model-wrappers | edc-subject-model-wrappers |
-* edc-test-utils | edc-test-utils |
-* edc-timepoint | edc-timepoint |
-* edc-transfer | edc-transfer |
-* edc-utils | edc-utils |
-* edc-visit-schedule | edc-visit-schedule |
-* edc-visit-tracking | edc-visit-tracking |
+* edc-action-item |edc-action-item|
+* edc-adverse-event |edc-adverse-event|
+* edc-appointment |edc-appointment|
+* edc-auth |edc-auth|
+* edc-clinic |edc-clinic|
+* edc-consent |edc-consent|
+* edc-constants |edc-constants|
+* edc-crf |edc-crf|
+* edc-dashboard |edc-dashboard|
+* edc-data-manager |edc-data-manager|
+* edc-device |edc-device|
+* edc-export |edc-export|
+* edc-facility |edc-facility|
+* edc-fieldsets |edc-fieldsets|
+* edc-form-describer |edc-form-describer|
+* edc-form-label |edc-form-label|
+* edc-form-validators |edc-form-validators|
+* edc-identifier |edc-identifier|
+* edc-lab |edc-lab|
+* edc-lab-dashboard |edc-lab-dashboard|
+* edc-label |edc-label|
+* edc-list-data |edc-list-data|
+* edc-locator |edc-locator|
+* edc-ltfu |edc-ltfu|
+* edc-metadata |edc-metadata|
+* edc-metadata-rules |edc-metadata-rules|
+* edc-model |edc-model|
+* edc-model-admin |edc-model-admin|
+* edc-model-fields |edc-model-fields|
+* edc-model-wrapper |edc-model-wrapper|
+* edc-navbar |edc-navbar|
+* edc-notification |edc-notification|
+* edc-offstudy |edc-offstudy|
+* edc-pdutils |edc-pdutils|
+* edc-pharmacy |edc-pharmacy|
+* edc-pharmacy-dashboard |edc-pharmacy-dashboard|
+* edc-prn |edc-prn|
+* edc-protocol |edc-protocol|
+* edc-randomization |edc-randomization|
+* edc-reference |edc-reference|
+* edc-registration |edc-registration|
+* edc-reportable |edc-reportable|
+* edc-reports |edc-reports|
+* edc-review-dashboard |edc-review-dashboard|
+* edc-screening |edc-screening|
+* edc-search |edc-search|
+* edc-sites |edc-sites|
+* edc-subject-dashboard |edc-subject-dashboard|
+* edc-subject-model-wrappers |edc-subject-model-wrappers|
+* edc-test-utils |edc-test-utils|
+* edc-timepoint |edc-timepoint|
+* edc-transfer |edc-transfer|
+* edc-utils |edc-utils|
+* edc-visit-schedule |edc-visit-schedule|
+* edc-visit-tracking |edc-visit-tracking|
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
