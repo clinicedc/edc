@@ -74,7 +74,6 @@ For further information go to https://github.com/erikvw.
 
 |django|
 
-
 * edc-action-item |edc-action-item|
 * edc-adverse-event |edc-adverse-event|
 * edc-appointment |edc-appointment|
