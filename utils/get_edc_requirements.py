@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+"""
+Print a list of latest versions for each edc module.
+Usage:
+    python get_edc_requirements.py
+"""
+
 import requests
 import json
 

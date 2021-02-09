@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.6
+-----
+- gh-actions, isort, black (for all requirements, the rest ...)
+
 0.3.5
 -----
 - add django-defender
