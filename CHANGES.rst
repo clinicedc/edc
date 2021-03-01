@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.3.8
+-----
+- start adding typing hints
+- merge edc-metadata-rules into edc-metadata
+- Django 3.1.7
+
 0.3.6
 -----
 - gh-actions, isort, black (for all requirements, the rest ...)
