@@ -1,7 +1,6 @@
 arrow
 celery
 inflect
-mysqlclient
 python-dateutil
 pytz
 reportlab
