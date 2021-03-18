@@ -217,4 +217,5 @@ References
 
 * https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-back-up-data-to-digitalocean-spaces
 * https://help.ubuntu.com/community/DuplicityBackupHowto#List_Archived_Files
+* Renew a gpg key: https://gist.github.com/krisleech/760213ed287ea9da85521c7c9aac1df0
 
