@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.11
+------
+- minor
+
 0.3.8
 -----
 - start adding typing hints

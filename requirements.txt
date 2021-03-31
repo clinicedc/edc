@@ -32,7 +32,7 @@ django-storages
 edc-action-item==0.3.3
 edc-adverse-event==0.3.1
 edc-appointment==0.3.2
-edc-auth==0.3.4
+edc-auth==0.3.6
 edc-clinic==0.3.1
 edc-consent==0.3.4
 edc-constants==0.3.1
@@ -47,7 +47,7 @@ edc-form-describer==0.3.0
 edc-form-label==0.3.1
 edc-form-validators==0.3.2
 edc-identifier==0.3.3
-edc-lab==0.3.2
+edc-lab==0.3.3
 edc-lab-dashboard==0.3.1
 edc-label==0.3.0
 edc-list-data==0.3.2
@@ -69,7 +69,7 @@ edc-protocol==0.3.1
 edc-randomization==0.3.1
 edc-reference==0.3.3
 edc-registration==0.3.3
-edc-reportable==0.3.2
+edc-reportable==0.3.3
 edc-reports==0.3.2
 edc-review-dashboard==0.3.2
 edc-screening==0.3.2
@@ -77,11 +77,11 @@ edc-search==0.3.3
 edc-sites==0.3.2
 edc-subject-dashboard==0.3.2
 edc-subject-model-wrappers==0.3.0
-edc-test-utils==0.3.7
+edc-test-utils==0.3.8
 edc-timepoint==0.3.1
 edc-transfer==0.3.1
 edc-utils==0.3.1
-edc-visit-schedule==0.3.3
+edc-visit-schedule==0.3.4
 edc-visit-tracking==0.3.2
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
 Django==3.1.7
