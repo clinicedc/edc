@@ -1,3 +1,10 @@
+arrow
+celery
+inflect
+python-dateutil
+pytz
+reportlab
+tqdm
 django-audit-fields
 django-celery-beat
 django-celery-results
