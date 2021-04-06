@@ -81,7 +81,7 @@ edc-appointment            |edc-appointment|
 edc-auth                   |edc-auth|
 edc-clinic                 |edc-clinic|
 edc-consent                |edc-consent|
-edc-constants              |edc-constants|
+edc-constants              
 edc-crf                    |edc-crf|
 edc-dashboard              |edc-dashboard|
 edc-data-manager           |edc-data-manager|
@@ -155,8 +155,6 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-consent/actions?query=workflow:build
-.. |edc-constants| image:: https://github.com/clinicedc/edc-constants/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-constants/actions?query=workflow:build
 .. |edc-crf| image:: https://github.com/clinicedc/edc-crf/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-crf/actions?query=workflow:build
 .. |edc-dashboard| image:: https://github.com/clinicedc/edc-dashboard/workflows/build/badge.svg?branch=develop
