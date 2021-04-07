@@ -79,7 +79,6 @@ edc-action-item            |edc-action-item|
 edc-adverse-event          |edc-adverse-event|
 edc-appointment            |edc-appointment|
 edc-auth                   |edc-auth|
-edc-clinic                 |edc-clinic|
 edc-consent                |edc-consent|
 edc-constants              
 edc-crf                    |edc-crf|
