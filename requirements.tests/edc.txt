@@ -41,7 +41,6 @@ edc-list-data
 edc-locator
 edc-ltfu
 edc-metadata
-edc-metadata-rules
 edc-model
 edc-model-admin
 edc-model-fields

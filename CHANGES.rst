@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.3.12
+------
+- fix grade notification not emitting on grade escalation (edc-adverse-event)
+- expand model notification to consider C(r)UD operations (edc-notification)
+- subclass graded event notification from model notification (edc-notification)
+
 0.3.11
 ------
 - minor
