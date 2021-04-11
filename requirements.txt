@@ -30,10 +30,9 @@ django-revision==0.1.20
 django-simple-history
 django-storages
 edc-action-item==0.3.4
-edc-adverse-event==0.3.1
+edc-adverse-event==0.3.2
 edc-appointment==0.3.3
 edc-auth==0.3.6
-edc-clinic==0.3.1
 edc-consent==0.3.5
 edc-constants==0.3.2
 edc-crf==0.3.3
@@ -59,7 +58,7 @@ edc-model-admin==0.3.2
 edc-model-fields==0.3.2
 edc-model-wrapper==0.3.3
 edc-navbar==0.3.1
-edc-notification==0.3.3
+edc-notification==0.3.4
 edc-offstudy==0.3.3
 edc-pdutils==0.3.0
 edc-pharmacy==0.1.2a15
@@ -77,7 +76,6 @@ edc-search==0.3.3
 edc-sites==0.3.2
 edc-subject-dashboard==0.3.3
 edc-subject-model-wrappers==0.3.0
-edc-test-utils==0.3.8
 edc-timepoint==0.3.1
 edc-transfer==0.3.1
 edc-utils==0.3.1
