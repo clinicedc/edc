@@ -80,7 +80,7 @@ edc-adverse-event          |edc-adverse-event|
 edc-appointment            |edc-appointment|
 edc-auth                   |edc-auth|
 edc-consent                |edc-consent|
-edc-constants              
+edc-constants
 edc-crf                    |edc-crf|
 edc-dashboard              |edc-dashboard|
 edc-data-manager           |edc-data-manager|
@@ -99,7 +99,6 @@ edc-list-data              |edc-list-data|
 edc-locator                |edc-locator|
 edc-ltfu                   |edc-ltfu|
 edc-metadata               |edc-metadata|
-edc-metadata-rules         |edc-metadata-rules|
 edc-model                  |edc-model|
 edc-model-admin            |edc-model-admin|
 edc-model-fields           |edc-model-fields|
@@ -108,8 +107,8 @@ edc-navbar                 |edc-navbar|
 edc-notification           |edc-notification|
 edc-offstudy               |edc-offstudy|
 edc-pdutils                |edc-pdutils|
-edc-pharmacy               |edc-pharmacy|
-edc-pharmacy-dashboard     |edc-pharmacy-dashboard|
+edc-pharmacy
+edc-pharmacy-dashboard
 edc-prn                    |edc-prn|
 edc-protocol               |edc-protocol|
 edc-randomization          |edc-randomization|
