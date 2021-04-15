@@ -80,4 +80,4 @@ edc-utils==0.3.1
 edc-visit-schedule==0.3.4
 edc-visit-tracking==0.3.3
 git+https://github.com/erikvw/django-import-export@get_export_admin_action
-Django==3.1.7
+Django==3.1.8
