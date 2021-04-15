@@ -15,8 +15,6 @@ tqdm
 django-audit-fields==0.3.2
 django-celery-beat
 django-celery-results
-django-collect-offline==0.2.49
-django-collect-offline-files==0.1.27
 django-crypto-fields==0.3.0
 django-environ
 django-extensions

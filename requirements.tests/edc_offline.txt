@@ -1,0 +1,2 @@
+django-collect-offline==0.2.49
+django-collect-offline-files==0.1.27
