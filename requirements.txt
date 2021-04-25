@@ -29,7 +29,7 @@ django-simple-history
 django-storages
 djangorestframework
 edc-action-item==0.3.5
-edc-adverse-event==0.3.5
+edc-adverse-event==0.3.6
 edc-appointment==0.3.4
 edc-auth==0.3.8
 edc-consent==0.3.6
@@ -48,7 +48,7 @@ edc-identifier==0.3.4
 edc-lab==0.3.4
 edc-lab-dashboard==0.3.2
 edc-label==0.3.1
-edc-list-data==0.3.3
+edc-list-data==0.3.4
 edc-locator==0.3.5
 edc-ltfu==0.3.3
 edc-metadata==0.3.4

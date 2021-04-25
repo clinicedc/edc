@@ -1,6 +1,16 @@
 Changes
 =======
 
+0.3.14
+------
+- fix to set screening identifier in one place only; ScreeningModelMixin
+  (edc-screening)
+- modify tox and gh-actions configs for py38, py39 and dj31, dj32 (all).
+- change default auto id to bigintautofield if not uuidautofield
+- add default_auto_field to apps config where needed (edc-export,
+  edc-sites, edc-data-manager)
+- add css for custom changelist buttons (edc-dashboard)
+
 0.3.12
 ------
 - fix grade notification not emitting on grade escalation (edc-adverse-event)
