@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.15
+------
+- fix inlines not showing edc custom submit row by making the modified inline
+  change_form.html the default for all forms (edc-model-admin) 
+
 0.3.14
 ------
 - fix to set screening identifier in one place only; ScreeningModelMixin
