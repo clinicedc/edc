@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.16
+------
+- fix validation error in data query form (edc-data-manager)
+- update tests/test env. Add migration (edc-pharmacy)
+
 0.3.15
 ------
 - fix inlines not showing edc custom submit row by making the modified inline
