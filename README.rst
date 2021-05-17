@@ -15,6 +15,12 @@ Projects that use the EDC
 -------------------------
 Recent examples of EDC's using this codebase:
 
+META Trial (Phase III)
+~~~~~~~~~~~~~~~~~~~~~~
+
+under-development
+
+
 Mapitio
 ~~~~~~~
 
@@ -22,8 +28,8 @@ Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
 
 https://github.com/mapitio/mapitio-edc (2020- )
 
-INTE Africa Trial (Phase II)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INTE Africa Trial
+~~~~~~~~~~~~~~~~~
 
 (32 sites in Uganda and Tanzania)
 
@@ -31,8 +37,8 @@ https://github.com/inte-africa-trial/inte-edc (2020- )
 
 https://inteafrica.org
 
-The META Trial
-~~~~~~~~~~~~~~
+META Trial (Phase II)
+~~~~~~~~~~~~~~~~~~~~~
 
 (3 sites in Tanzania)
 
