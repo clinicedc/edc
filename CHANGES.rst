@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.17
+----------
+- default EDC adminsite to urls catch_all_view=False (edc-model-admin)
+- bump to Django 3.2
+
 0.3.16
 ------
 - fix validation error in data query form (edc-data-manager)
