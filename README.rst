@@ -15,6 +15,12 @@ Projects that use the EDC
 -------------------------
 Recent examples of EDC's using this codebase:
 
+META Trial (Phase III)
+~~~~~~~~~~~~~~~~~~~~~~
+
+under-development
+
+
 Mapitio
 ~~~~~~~
 
@@ -22,8 +28,8 @@ Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
 
 https://github.com/mapitio/mapitio-edc (2020- )
 
-INTE Africa Trial (Phase II)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INTE Africa Trial
+~~~~~~~~~~~~~~~~~
 
 (32 sites in Uganda and Tanzania)
 
@@ -31,8 +37,8 @@ https://github.com/inte-africa-trial/inte-edc (2020- )
 
 https://inteafrica.org
 
-The META Trial
-~~~~~~~~~~~~~~
+META Trial (Phase II)
+~~~~~~~~~~~~~~~~~~~~~
 
 (3 sites in Tanzania)
 
@@ -131,8 +137,6 @@ edc-visit-tracking         |edc-visit-tracking|
 ========================== ======================
 
 
-
-
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
 
@@ -155,8 +159,6 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-consent/actions?query=workflow:build
-.. |edc-constants| image:: https://github.com/clinicedc/edc-constants/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-constants/actions?query=workflow:build
 .. |edc-crf| image:: https://github.com/clinicedc/edc-crf/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-crf/actions?query=workflow:build
 .. |edc-dashboard| image:: https://github.com/clinicedc/edc-dashboard/workflows/build/badge.svg?branch=develop
@@ -253,4 +255,3 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-visit-schedule/actions?query=workflow:build
 .. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-visit-tracking/actions?query=workflow:build
-
