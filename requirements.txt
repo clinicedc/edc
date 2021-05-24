@@ -50,7 +50,7 @@ edc-locator==0.3.6
 edc-ltfu==0.3.4
 edc-metadata==0.3.5
 edc-model==0.3.4
-edc-model-admin==0.3.5
+edc-model-admin==0.3.7
 edc-model-fields==0.3.3
 edc-model-wrapper==0.3.4
 edc-navbar==0.3.3
