@@ -1,0 +1,1 @@
+git+https://github.com/clinicedc/edc-test-utils@develop#egg=edc-test-utils
