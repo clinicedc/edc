@@ -77,7 +77,7 @@ edc-transfer==0.3.3
 edc-utils==0.3.2
 edc-visit-schedule==0.3.6
 edc-visit-tracking==0.3.6
-git+https://github.com/erikvw/django-import-export@get_export_admin_action
-git+https://github.com/jazzband/django-defender@master
-git+https://github.com/yprez/django-logentry-admin@master
+git+https://github.com/erikvw/django-import-export@get_export_admin_action#egg=django-import-export
+git+https://github.com/jazzband/django-defender@master#egg=django-defender
+git+https://github.com/yprez/django-logentry-admin@master#egg=django-logentry-admin
 Django>=3.2,<4.0
