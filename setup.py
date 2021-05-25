@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import warnings
 
 from setuptools import setup
 from setuptools import find_packages
@@ -15,6 +16,12 @@ with open(os.path.join(os.path.dirname(__file__), "requirements.txt")) as f:
     for line in f:
         if "https:/" not in line.strip():
             install_requires.append(line.strip())
+        else:
+            warnings.warn(
+                f"Cannot add git+https:// to install_requires. Got `{line}`. "
+                "See requirements.txt"
+            )
+
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
