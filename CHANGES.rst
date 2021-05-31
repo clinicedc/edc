@@ -5,6 +5,7 @@ Changes
 ------
 - fix issue with setup.py (edc-model-admin)
 - add django-log-entry@master to requirements
+
 0.3.17
 ------
 - default EDC adminsite to urls catch_all_view=False (edc-model-admin)
