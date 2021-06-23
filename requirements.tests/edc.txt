@@ -11,7 +11,6 @@ django-celery-results
 django-collect-offline
 django-collect-offline-files
 django-crypto-fields
-django-multisite
 django-revision
 django_extensions
 django-simple-history
@@ -68,6 +67,3 @@ edc-transfer
 edc-utils
 edc-visit-schedule
 edc-visit-tracking
-git+https://github.com/erikvw/django-import-export.git@get_export_admin_action
-git+https://github.com/yprez/django-logentry-admin.git@master
-git+https://github.com/jazzband/django-defender.git@master

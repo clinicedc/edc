@@ -1,10 +1,18 @@
 Changes
 =======
 
+0.3.22
+------
+- fix missing attr in AdminSite (edc-action-item)
+- get current schedule objects from current appointment
+  (edc-subject-dashboard, edc-subject-model-wrapper)
+- include Roles in AdminSite (edc-auth) 
+
 0.3.18
 ------
 - fix issue with setup.py (edc-model-admin)
 - add django-log-entry@master to requirements
+
 0.3.17
 ------
 - default EDC adminsite to urls catch_all_view=False (edc-model-admin)

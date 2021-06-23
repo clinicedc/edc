@@ -1,0 +1,4 @@
+git+https://github.com/django-import-export/django-import-export.git@main#egg=django-import-export
+git+https://github.com/ecometrica/django-multisite.git@master#egg=django-multisite
+git+https://github.com/yprez/django-logentry-admin.git@master#egg=django-logentry-admin
+git+https://github.com/jazzband/django-defender.git@master#egg=django-defender
