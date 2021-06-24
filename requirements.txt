@@ -76,7 +76,7 @@ edc-transfer==0.3.3
 edc-utils==0.3.2
 edc-visit-schedule==0.3.6
 edc-visit-tracking==0.3.6
-git+https://github.com/ecometrica/django-multisite.git@master#egg=django-import-export
+git+https://github.com/ecometrica/django-multisite.git@master#egg=django-multisite
 git+https://github.com/jazzband/django-defender.git@master#egg=django-defender
 git+https://github.com/yprez/django-logentry-admin.git@master#egg=django-logentry-admin
 Django>=3.2,<4.0
