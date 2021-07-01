@@ -18,7 +18,7 @@ Recent examples of EDC's using this codebase:
 META Trial (Phase III)
 ~~~~~~~~~~~~~~~~~~~~~~
 
-under-development
+under-development (2021- )
 
 
 Mapitio
@@ -52,7 +52,7 @@ The Ambition Trial
 
 (7 sites in Botswana, Malawi, South Africa, Uganda, Zimbabwe)
 
-https://github.com/ambition-trial/ambition-edc (2018- )
+https://github.com/ambition-trial/ambition-edc (2018-2021)
 
 http://www.isrctn.com/ISRCTN72509687
 
@@ -85,6 +85,7 @@ edc-action-item            |edc-action-item|
 edc-adverse-event          |edc-adverse-event|
 edc-appointment            |edc-appointment|
 edc-auth                   |edc-auth|
+edc-blood-results          |edc-blood-results|
 edc-consent                |edc-consent|
 edc-constants
 edc-crf                    |edc-crf|
@@ -99,6 +100,7 @@ edc-form-label             |edc-form-label|
 edc-form-validators        |edc-form-validators|
 edc-identifier             |edc-identifier|
 edc-lab                    |edc-lab|
+edc-lab-panel              |edc-lab-panel|
 edc-lab-dashboard          |edc-lab-dashboard|
 edc-label                  |edc-label|
 edc-list-data              |edc-list-data|
@@ -155,6 +157,8 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-appointment/actions?query=workflow:build
 .. |edc-auth| image:: https://github.com/clinicedc/edc-auth/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
+.. |edc-blood-results| image:: https://github.com/clinicedc/edc-blood-results/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-blood-results/actions?query=workflow:build
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
@@ -183,6 +187,8 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-identifier/actions?query=workflow:build
 .. |edc-lab| image:: https://github.com/clinicedc/edc-lab/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-lab/actions?query=workflow:build
+.. |edc-lab-panel| image:: https://github.com/clinicedc/edc-lab-panel/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-lab-panel/actions?query=workflow:build
 .. |edc-lab-dashboard| image:: https://github.com/clinicedc/edc-lab-dashboard/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-lab-dashboard/actions?query=workflow:build
 .. |edc-label| image:: https://github.com/clinicedc/edc-label/workflows/build/badge.svg?branch=develop
