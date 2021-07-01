@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.24
+------
+- add panel groups, add list of utest-ids to panels (edc-lab)
+
 0.3.22
 ------
 - fix missing attr in AdminSite (edc-action-item)
