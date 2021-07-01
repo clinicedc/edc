@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.24
+------
+- add panel groups, add list of utest-ids to panels (edc-lab)
+- add edc-lab-panels, edc-blood-result dependencies
+
 0.3.22
 ------
 - fix missing attr in AdminSite (edc-action-item)
