@@ -76,6 +76,6 @@ edc-subject-model-wrappers==0.3.3
 edc-timepoint==0.3.3
 edc-transfer==0.3.3
 edc-utils==0.3.2
-edc-visit-schedule==0.3.7
+edc-visit-schedule==0.3.8
 edc-visit-tracking==0.3.6
 Django>=3.2,<4.0
