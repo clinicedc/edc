@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.26
+------
+- improve field attr consistency for glucose, fasting, etc
+- improve form validators for glucose
+
 0.3.24
 ------
 - add panel groups, add list of utest-ids to panels (edc-lab)
