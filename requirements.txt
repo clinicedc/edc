@@ -41,7 +41,7 @@ edc-fieldsets==0.3.2
 edc-form-describer==0.3.2
 edc-form-label==0.3.2
 edc-form-validators==0.3.3
-edc-glucose==0.1.0
+edc-glucose==0.1.1
 edc-identifier==0.3.5
 edc-lab==0.3.6
 edc-lab-dashboard==0.3.2
