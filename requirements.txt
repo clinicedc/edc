@@ -28,7 +28,7 @@ edc-action-item==0.3.6
 edc-adverse-event==0.3.7
 edc-appointment==0.3.6
 edc-auth==0.3.10
-edc-blood-results==0.1.0
+edc-blood-results==0.1.1
 edc-consent==0.3.8
 edc-constants==0.3.6
 edc-crf==0.3.5
@@ -41,10 +41,11 @@ edc-fieldsets==0.3.2
 edc-form-describer==0.3.2
 edc-form-label==0.3.2
 edc-form-validators==0.3.3
+edc-glucose==0.1.0
 edc-identifier==0.3.5
 edc-lab==0.3.6
 edc-lab-dashboard==0.3.2
-edc-lab-panel==0.1.0
+edc-lab-panel==0.1.1
 edc-label==0.3.1
 edc-list-data==0.3.4
 edc-locator==0.3.6
@@ -65,7 +66,7 @@ edc-protocol==0.3.2
 edc-randomization==0.3.3
 edc-reference==0.3.6
 edc-registration==0.3.6
-edc-reportable==0.3.4
+edc-reportable==0.3.6
 edc-reports==0.3.3
 edc-review-dashboard==0.3.4
 edc-screening==0.3.4
