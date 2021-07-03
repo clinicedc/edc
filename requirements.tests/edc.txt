@@ -19,6 +19,7 @@ edc-action-item
 edc-adverse-event
 edc-appointment
 edc-auth
+edc-blood-results
 edc-consent
 edc-constants
 edc-crf
@@ -31,9 +32,11 @@ edc-fieldsets
 edc-form-describer
 edc-form-label
 edc-form-validators
+edc-glucose
 edc-identifier
 edc-lab
 edc-lab-dashboard
+edc-lab-panel
 edc-label
 edc-list-data
 edc-locator
