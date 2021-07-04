@@ -21,6 +21,7 @@ django-crypto-fields==0.3.1
 django-defender
 django-extensions
 django-ipware
+django-logentry-admin
 django-multisite
 django-revision==0.3.0
 django-simple-history
