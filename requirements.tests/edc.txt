@@ -11,6 +11,7 @@ django-celery-results
 django-collect-offline
 django-collect-offline-files
 django-crypto-fields
+django-defender
 django-multisite
 django-revision
 django_extensions
