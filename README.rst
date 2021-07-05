@@ -98,6 +98,7 @@ edc-fieldsets              |edc-fieldsets|
 edc-form-describer         |edc-form-describer|
 edc-form-label             |edc-form-label|
 edc-form-validators        |edc-form-validators|
+edc-glucose                |edc-glucose|
 edc-identifier             |edc-identifier|
 edc-lab                    |edc-lab|
 edc-lab-panel              |edc-lab-panel|
@@ -149,6 +150,8 @@ edc-visit-tracking         |edc-visit-tracking|
    :target: http://www.djangoproject.com/
    :alt: Made with Django
 
+.. |edc-glucose| image:: https://github.com/clinicedc/edc-glucose/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-glucose/actions?query=workflow:build
 .. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-action-item/actions?query=workflow:build
 .. |edc-adverse-event| image:: https://github.com/clinicedc/edc-adverse-event/workflows/build/badge.svg?branch=develop
