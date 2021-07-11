@@ -20,7 +20,7 @@ Restart the shell and create a new env named `edc`
 
 .. code-block:: bash
 
-	conda create -n edc python=3.7
+	conda create -n edc python=3.9
 
 Activate the env
 
