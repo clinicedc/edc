@@ -1,6 +1,12 @@
 Changes
 =======
 
+unreleased
+---------
+
+- slight refactor in randomizer class (edc-randomization)
+- get registered subject model by func (edc-registration)
+
 0.3.26
 ------
 - improve field attr consistency for glucose, fasting, etc
