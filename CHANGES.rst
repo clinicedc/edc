@@ -4,6 +4,7 @@ Changes
 0.3.32
 ------
 - edc-adherence
+- edc-dx
 
 0.3.31
 ------
