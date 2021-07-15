@@ -1,6 +1,14 @@
 Changes
 =======
 
+0.3.31
+------
+- access list imported through randomizer class, add methods that can be
+  overriden to add extra stratification criteria (edc-randomization)
+- get registered subject model by func (edc-registration)
+- add mcv, mch, mchc, amyl, chol, creat (edc-blood-results, edc-lab-panel)
+- refactor objects to use `lftu` in naming (edc-lftu)
+
 0.3.26
 ------
 - improve field attr consistency for glucose, fasting, etc
