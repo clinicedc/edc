@@ -28,6 +28,7 @@ django-simple-history
 django-storages
 djangorestframework
 edc-action-item==0.3.7
+edc-adherence==0.1.0
 edc-adverse-event==0.3.8
 edc-appointment==0.3.7
 edc-auth==0.3.12
@@ -38,6 +39,7 @@ edc-crf==0.3.7
 edc-dashboard==0.3.3
 edc-data-manager==0.3.6
 edc-device==0.3.2
+edc-dx=0.1.1
 edc-export==0.3.3
 edc-facility==0.3.5
 edc-fieldsets==0.3.2
