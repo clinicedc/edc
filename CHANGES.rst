@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.32
+------
+- edc-adherence
+
 0.3.31
 ------
 - access list imported through randomizer class, add methods that can be
