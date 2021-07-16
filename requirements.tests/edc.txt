@@ -19,6 +19,7 @@ django_extensions
 django-simple-history
 django-storages
 edc-action-item
+edc-adherence
 edc-adverse-event
 edc-appointment
 edc-auth
@@ -29,6 +30,7 @@ edc-crf
 edc-dashboard
 edc-data-manager
 edc-device
+edc-dx
 edc-export
 edc-facility
 edc-fieldsets
@@ -59,6 +61,7 @@ edc-prn
 edc-protocol
 edc-randomization
 edc-reference
+edc-refusal
 edc-registration
 edc-reportable
 edc-reports
