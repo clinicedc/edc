@@ -1,7 +1,12 @@
 Changes
 =======
 
-0.3.32
+0.3.34
+------
+- raise on duplicates, replace default list data, remove unique
+  field update function (edc-list-data)
+
+0.3.33
 ------
 - edc-adherence
 - edc-dx
