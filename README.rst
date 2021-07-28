@@ -82,6 +82,7 @@ For further information go to https://github.com/erikvw.
 
 ========================== ======================
 edc-action-item            |edc-action-item|
+edc-adherence              |edc-adherence|
 edc-adverse-event          |edc-adverse-event|
 edc-appointment            |edc-appointment|
 edc-auth                   |edc-auth|
@@ -154,6 +155,8 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-glucose/actions?query=workflow:build
 .. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-action-item/actions?query=workflow:build
+.. |edc-adherence| image:: https://github.com/clinicedc/edc-adherence/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-adherence/actions?query=workflow:build
 .. |edc-adverse-event| image:: https://github.com/clinicedc/edc-adverse-event/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-adverse-event/actions?query=workflow:build
 .. |edc-appointment| image:: https://github.com/clinicedc/edc-appointment/workflows/build/badge.svg?branch=develop
