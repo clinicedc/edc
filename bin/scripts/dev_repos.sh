@@ -26,6 +26,7 @@ pip install django-simple-history
 pip install django-storages
 pip install djangorestframework
 pip install -e ../edc-action-item
+pip install -e ../edc-adherence
 pip install -e ../edc-adverse-event
 pip install -e ../edc-appointment
 pip install -e ../edc-auth
@@ -36,6 +37,7 @@ pip install -e ../edc-crf
 pip install -e ../edc-dashboard
 pip install -e ../edc-data-manager
 pip install -e ../edc-device
+pip install -e ../edc-dx
 pip install -e ../edc-export
 pip install -e ../edc-facility
 pip install -e ../edc-fieldsets
@@ -66,6 +68,7 @@ pip install -e ../edc-prn
 pip install -e ../edc-protocol
 pip install -e ../edc-randomization
 pip install -e ../edc-reference
+pip install -e ../edc-refusal
 pip install -e ../edc-registration
 pip install -e ../edc-reportable
 pip install -e ../edc-reports
