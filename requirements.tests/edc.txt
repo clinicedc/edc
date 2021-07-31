@@ -31,6 +31,7 @@ edc-dashboard
 edc-data-manager
 edc-device
 edc-dx
+edc_dx_review
 edc-export
 edc-facility
 edc-fieldsets
