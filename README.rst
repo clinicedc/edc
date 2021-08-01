@@ -80,65 +80,65 @@ For further information go to https://github.com/erikvw.
 
 |django|
 
-========================== ======================
-edc-action-item            |edc-action-item|
-edc-adherence              |edc-adherence|
-edc-adverse-event          |edc-adverse-event|
-edc-appointment            |edc-appointment|
-edc-auth                   |edc-auth|
-edc-blood-results          |edc-blood-results|
-edc-consent                |edc-consent|
-edc-constants
-edc-crf                    |edc-crf|
-edc-dashboard              |edc-dashboard|
-edc-data-manager           |edc-data-manager|
-edc-device                 |edc-device|
-edc-export                 |edc-export|
-edc-facility               |edc-facility|
-edc-fieldsets              |edc-fieldsets|
-edc-form-describer         |edc-form-describer|
-edc-form-label             |edc-form-label|
-edc-form-validators        |edc-form-validators|
-edc-glucose                |edc-glucose|
-edc-identifier             |edc-identifier|
-edc-lab                    |edc-lab|
-edc-lab-panel              |edc-lab-panel|
-edc-lab-dashboard          |edc-lab-dashboard|
-edc-label                  |edc-label|
-edc-list-data              |edc-list-data|
-edc-locator                |edc-locator|
-edc-ltfu                   |edc-ltfu|
-edc-metadata               |edc-metadata|
-edc-model                  |edc-model|
-edc-model-admin            |edc-model-admin|
-edc-model-fields           |edc-model-fields|
-edc-model-wrapper          |edc-model-wrapper|
-edc-navbar                 |edc-navbar|
-edc-notification           |edc-notification|
-edc-offstudy               |edc-offstudy|
-edc-pdutils                |edc-pdutils|
-edc-pharmacy
-edc-pharmacy-dashboard
-edc-prn                    |edc-prn|
-edc-protocol               |edc-protocol|
-edc-randomization          |edc-randomization|
-edc-reference              |edc-reference|
-edc-registration           |edc-registration|
-edc-reportable             |edc-reportable|
-edc-reports                |edc-reports|
-edc-review-dashboard       |edc-review-dashboard|
-edc-screening              |edc-screening|
-edc-search                 |edc-search|
-edc-sites                  |edc-sites|
-edc-subject-dashboard      |edc-subject-dashboard|
-edc-subject-model-wrappers |edc-subject-model-wrappers|
-edc-test-utils             |edc-test-utils|
-edc-timepoint              |edc-timepoint|
-edc-transfer               |edc-transfer|
-edc-utils                  |edc-utils|
-edc-visit-schedule         |edc-visit-schedule|
-edc-visit-tracking         |edc-visit-tracking|
-========================== ======================
+========================== ============================== ==================================
+edc-action-item             |edc-action-item|             |pypi-edc-action-item|
+edc-adherence               |edc-adherence|               |pypi-edc-adherence|
+edc-adverse-event           |edc-adverse-event|           |pypi-edc-adverse-event|
+edc-appointment             |edc-appointment|             |pypi-edc-appointment|
+edc-auth                    |edc-auth|                    |pypi-edc-auth|
+edc-blood-results           |edc-blood-results|           |pypi-edc-blood-results|
+edc-consent                 |edc-consent|                 |pypi-edc-consent|
+edc-constants                                             |pypi-edc-constants|
+edc-crf                     |edc-crf|                     |pypi-edc-crf|
+edc-dashboard               |edc-dashboard|               |pypi-edc-dashboard|
+edc-data-manager            |edc-data-manager|            |pypi-edc-data-manager|
+edc-device                  |edc-device|                  |pypi-edc-device|
+edc-export                  |edc-export|                  |pypi-edc-export|
+edc-facility                |edc-facility|                |pypi-edc-facility|
+edc-fieldsets               |edc-fieldsets|               |pypi-edc-fieldsets|
+edc-form-describer          |edc-form-describer|          |pypi-edc-form-describer|
+edc-form-label              |edc-form-label|              |pypi-edc-form-label|
+edc-form-validators         |edc-form-validators|         |pypi-edc-form-validators|
+edc-glucose                 |edc-glucose|                 |pypi-edc-glucose|
+edc-identifier              |edc-identifier|              |pypi-edc-identifier|
+edc-lab                     |edc-lab|                     |pypi-edc-lab|
+edc-lab-panel               |edc-lab-panel|               |pypi-edc-lab-panel|
+edc-lab-dashboard           |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
+edc-label                   |edc-label|                   |pypi-edc-label|
+edc-list-data               |edc-list-data|               |pypi-edc-list-data|
+edc-locator                 |edc-locator|                 |pypi-edc-locator|
+edc-ltfu                    |edc-ltfu|                    |pypi-edc-ltfu|
+edc-metadata                |edc-metadata|                |pypi-edc-metadata|
+edc-model                   |edc-model|                   |pypi-edc-model|
+edc-model-admin             |edc-model-admin|             |pypi-edc-model-admin|
+edc-model-fields            |edc-model-fields|            |pypi-edc-model-fields|
+edc-model-wrapper           |edc-model-wrapper|           |pypi-edc-model-wrapper|
+edc-navbar                  |edc-navbar|                  |pypi-edc-navbar|
+edc-notification            |edc-notification|            |pypi-edc-notification|
+edc-offstudy                |edc-offstudy|                |pypi-edc-offstudy|
+edc-pdutils                 |edc-pdutils|                 |pypi-edc-pdutils|
+edc-pharmacy                                              |pypi-edc-pharmacy|
+edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-dashboard|
+edc-prn                     |edc-prn|                     |pypi-edc-prn|
+edc-protocol                |edc-protocol|                |pypi-edc-protocol|
+edc-randomization           |edc-randomization|           |pypi-edc-randomization|
+edc-reference               |edc-reference|               |pypi-edc-reference|
+edc-registration            |edc-registration|            |pypi-edc-registration|
+edc-reportable              |edc-reportable|              |pypi-edc-reportable|
+edc-reports                 |edc-reports|                 |pypi-edc-reports|
+edc-review-dashboard        |edc-review-dashboard|        |pypi-edc-review-dashboard|
+edc-screening               |edc-screening|               |pypi-edc-screening|
+edc-search                  |edc-search|                  |pypi-edc-search|
+edc-sites                   |edc-sites|                   |pypi-edc-sites|
+edc-subject-dashboard       |edc-subject-dashboard|       |pypi-edc-subject-dashboard|
+edc-subject-model-wrappers  |edc-subject-model-wrappers|  |pypi-edc-subject-model-wrappers|
+edc-test-utils              |edc-test-utils|              |pypi-edc-test-utils|
+edc-timepoint               |edc-timepoint|               |pypi-edc-timepoint|
+edc-transfer                |edc-transfer|                |pypi-edc-transfer|
+edc-utils                   |edc-utils|                   |pypi-edc-utils|
+edc-visit-schedule          |edc-visit-schedule|          |pypi-edc-visit-schedule|
+edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracking|
+========================== ============================== ==================================
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
@@ -267,3 +267,118 @@ edc-visit-tracking         |edc-visit-tracking|
   :target: https://github.com/clinicedc/edc-visit-schedule/actions?query=workflow:build
 .. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-visit-tracking/actions?query=workflow:build
+
+.. |pypi-edc-action-item| image:: https://img.shields.io/pypi/v/edc-action-item.svg
+    :target: https://pypi.python.org/pypi/edc-action-item
+.. |pypi-edc-adherence| image:: https://img.shields.io/pypi/v/edc-adherence.svg
+    :target: https://pypi.python.org/pypi/edc-adherence
+.. |pypi-edc-adverse-event| image:: https://img.shields.io/pypi/v/edc-adverse-event.svg
+    :target: https://pypi.python.org/pypi/edc-adverse-event
+.. |pypi-edc-appointment| image:: https://img.shields.io/pypi/v/edc-appointment.svg
+    :target: https://pypi.python.org/pypi/edc-appointment
+.. |pypi-edc-auth| image:: https://img.shields.io/pypi/v/edc-auth.svg
+    :target: https://pypi.python.org/pypi/edc-auth
+.. |pypi-edc-blood-results| image:: https://img.shields.io/pypi/v/edc-blood-results.svg
+    :target: https://pypi.python.org/pypi/edc-blood-results
+.. |pypi-edc-consent| image:: https://img.shields.io/pypi/v/edc-consent.svg
+    :target: https://pypi.python.org/pypi/edc-consent
+.. |pypi-edc-constants| image:: https://img.shields.io/pypi/v/edc-constants.svg
+    :target: https://pypi.python.org/pypi/edc-constants
+.. |pypi-edc-crf| image:: https://img.shields.io/pypi/v/edc-crf.svg
+    :target: https://pypi.python.org/pypi/edc-crf
+.. |pypi-edc-dashboard| image:: https://img.shields.io/pypi/v/edc-dashboard.svg
+    :target: https://pypi.python.org/pypi/edc-dashboard
+.. |pypi-edc-data-manager| image:: https://img.shields.io/pypi/v/edc-data-manager.svg
+    :target: https://pypi.python.org/pypi/edc-data-manager
+.. |pypi-edc-device| image:: https://img.shields.io/pypi/v/edc-device.svg
+    :target: https://pypi.python.org/pypi/edc-device
+.. |pypi-edc-export| image:: https://img.shields.io/pypi/v/edc-export.svg
+    :target: https://pypi.python.org/pypi/edc-export
+.. |pypi-edc-facility| image:: https://img.shields.io/pypi/v/edc-facility.svg
+    :target: https://pypi.python.org/pypi/edc-facility
+.. |pypi-edc-fieldsets| image:: https://img.shields.io/pypi/v/edc-fieldsets.svg
+    :target: https://pypi.python.org/pypi/edc-fieldsets
+.. |pypi-edc-form-describer| image:: https://img.shields.io/pypi/v/edc-form-describer.svg
+    :target: https://pypi.python.org/pypi/edc-form-describer
+.. |pypi-edc-form-label| image:: https://img.shields.io/pypi/v/edc-form-label.svg
+    :target: https://pypi.python.org/pypi/edc-form-label
+.. |pypi-edc-form-validators| image:: https://img.shields.io/pypi/v/edc-form-validators.svg
+    :target: https://pypi.python.org/pypi/edc-form-validators
+.. |pypi-edc-glucose| image:: https://img.shields.io/pypi/v/edc-glucose.svg
+    :target: https://pypi.python.org/pypi/edc-glucose
+.. |pypi-edc-identifier| image:: https://img.shields.io/pypi/v/edc-identifier.svg
+    :target: https://pypi.python.org/pypi/edc-identifier
+.. |pypi-edc-lab| image:: https://img.shields.io/pypi/v/edc-lab.svg
+    :target: https://pypi.python.org/pypi/edc-lab
+.. |pypi-edc-lab-panel| image:: https://img.shields.io/pypi/v/edc-lab-panel.svg
+    :target: https://pypi.python.org/pypi/edc-lab-panel
+.. |pypi-edc-lab-dashboard| image:: https://img.shields.io/pypi/v/edc-lab-dashboard.svg
+    :target: https://pypi.python.org/pypi/edc-lab-dashboard
+.. |pypi-edc-label| image:: https://img.shields.io/pypi/v/edc-label.svg
+    :target: https://pypi.python.org/pypi/edc-label
+.. |pypi-edc-list-data| image:: https://img.shields.io/pypi/v/edc-list-data.svg
+    :target: https://pypi.python.org/pypi/edc-list-data
+.. |pypi-edc-locator| image:: https://img.shields.io/pypi/v/edc-locator.svg
+    :target: https://pypi.python.org/pypi/edc-locator
+.. |pypi-edc-ltfu| image:: https://img.shields.io/pypi/v/edc-ltfu.svg
+    :target: https://pypi.python.org/pypi/edc-ltfu
+.. |pypi-edc-metadata| image:: https://img.shields.io/pypi/v/edc-metadata.svg
+    :target: https://pypi.python.org/pypi/edc-metadata
+.. |pypi-edc-model| image:: https://img.shields.io/pypi/v/edc-model.svg
+    :target: https://pypi.python.org/pypi/edc-model
+.. |pypi-edc-model-admin| image:: https://img.shields.io/pypi/v/edc-model-admin.svg
+    :target: https://pypi.python.org/pypi/edc-model-admin
+.. |pypi-edc-model-fields| image:: https://img.shields.io/pypi/v/edc-model-fields.svg
+    :target: https://pypi.python.org/pypi/edc-model-fields
+.. |pypi-edc-model-wrapper| image:: https://img.shields.io/pypi/v/edc-model-wrapper.svg
+    :target: https://pypi.python.org/pypi/edc-model-wrapper
+.. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
+    :target: https://pypi.python.org/pypi/edc-navbar
+.. |pypi-edc-notification| image:: https://img.shields.io/pypi/v/edc-notification.svg
+    :target: https://pypi.python.org/pypi/edc-notification
+.. |pypi-edc-offstudy| image:: https://img.shields.io/pypi/v/edc-offstudy.svg
+    :target: https://pypi.python.org/pypi/edc-offstudy
+.. |pypi-edc-pdutils| image:: https://img.shields.io/pypi/v/edc-pdutils.svg
+    :target: https://pypi.python.org/pypi/edc-pdutils
+.. |pypi-edc-pharmacy| image:: https://img.shields.io/pypi/v/edc-pharmacy.svg
+    :target: https://pypi.python.org/pypi/edc-pharmacy
+.. |pypi-edc-pharmacy-dashboard| image:: https://img.shields.io/pypi/v/edc-pharmacy-dashboard.svg
+    :target: https://pypi.python.org/pypi/edc-pharmacy-dashboard
+.. |pypi-edc-prn| image:: https://img.shields.io/pypi/v/edc-prn.svg
+    :target: https://pypi.python.org/pypi/edc-prn
+.. |pypi-edc-protocol| image:: https://img.shields.io/pypi/v/edc-protocol.svg
+    :target: https://pypi.python.org/pypi/edc-protocol
+.. |pypi-edc-randomization| image:: https://img.shields.io/pypi/v/edc-randomization.svg
+    :target: https://pypi.python.org/pypi/edc-randomization
+.. |pypi-edc-reference| image:: https://img.shields.io/pypi/v/edc-reference.svg
+    :target: https://pypi.python.org/pypi/edc-reference
+.. |pypi-edc-registration| image:: https://img.shields.io/pypi/v/edc-registration.svg
+    :target: https://pypi.python.org/pypi/edc-registration
+.. |pypi-edc-reportable| image:: https://img.shields.io/pypi/v/edc-reportable.svg
+    :target: https://pypi.python.org/pypi/edc-reportable
+.. |pypi-edc-reports| image:: https://img.shields.io/pypi/v/edc-reports.svg
+    :target: https://pypi.python.org/pypi/edc-reports
+.. |pypi-edc-review-dashboard| image:: https://img.shields.io/pypi/v/edc-review-dashboard.svg
+    :target: https://pypi.python.org/pypi/edc-review-dashboard
+.. |pypi-edc-screening| image:: https://img.shields.io/pypi/v/edc-screening.svg
+    :target: https://pypi.python.org/pypi/edc-screening
+.. |pypi-edc-search| image:: https://img.shields.io/pypi/v/edc-search.svg
+    :target: https://pypi.python.org/pypi/edc-search
+.. |pypi-edc-sites| image:: https://img.shields.io/pypi/v/edc-sites.svg
+    :target: https://pypi.python.org/pypi/edc-sites
+.. |pypi-edc-subject-dashboard| image:: https://img.shields.io/pypi/v/edc-subject-dashboard.svg
+    :target: https://pypi.python.org/pypi/edc-subject-dashboard
+.. |pypi-edc-subject-model-wrappers| image:: https://img.shields.io/pypi/v/edc-subject-model-wrappers.svg
+    :target: https://pypi.python.org/pypi/edc-subject-model-wrappers
+.. |pypi-edc-test-utils| image:: https://img.shields.io/pypi/v/edc-test-utils.svg
+    :target: https://pypi.python.org/pypi/edc-test-utils
+.. |pypi-edc-timepoint| image:: https://img.shields.io/pypi/v/edc-timepoint.svg
+    :target: https://pypi.python.org/pypi/edc-timepoint
+.. |pypi-edc-transfer| image:: https://img.shields.io/pypi/v/edc-transfer.svg
+    :target: https://pypi.python.org/pypi/edc-transfer
+.. |pypi-edc-utils| image:: https://img.shields.io/pypi/v/edc-utils.svg
+    :target: https://pypi.python.org/pypi/edc-utils
+.. |pypi-edc-visit-schedule| image:: https://img.shields.io/pypi/v/edc-visit-schedule.svg
+    :target: https://pypi.python.org/pypi/edc-visit-schedule
+.. |pypi-edc-visit-tracking| image:: https://img.shields.io/pypi/v/edc-visit-tracking.svg
+    :target: https://pypi.python.org/pypi/edc-visit-tracking
