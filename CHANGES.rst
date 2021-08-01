@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.3.35
+------
+- add edc-blood-results, edc-dx, edc-dx-review
+- several minor Q/A fixes
+- improve test coverage on some modules
+
 0.3.34
 ------
 - raise on duplicates, replace default list data, remove unique
