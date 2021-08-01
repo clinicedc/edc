@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.35
+------
+- remove `identity_or_pk` field from registered_subject (edc-registration)
+- improve edc-dx, edc-dx-review
+- several minor Q/A fixes
+- improve test coverage on some modules
+
 0.3.34
 ------
 - raise on duplicates, replace default list data, remove unique
@@ -17,7 +24,7 @@ Changes
   overriden to add extra stratification criteria (edc-randomization)
 - get registered subject model by func (edc-registration)
 - add mcv, mch, mchc, amyl, chol, creat (edc-blood-results, edc-lab-panel)
-- refactor objects to use `lftu` in naming (edc-lftu)
+- refactor objects to use `ltfu` in naming (edc-ltfu)
 
 0.3.26
 ------
