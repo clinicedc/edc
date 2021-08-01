@@ -40,7 +40,7 @@ edc-dashboard==0.3.4
 edc-data-manager==0.3.8
 edc-device==0.3.3
 edc-dx==0.1.3
-edc_dx_review=0.1.1
+edc-dx-review==0.1.1
 edc-export==0.3.4
 edc-facility==0.3.5
 edc-fieldsets==0.3.2
