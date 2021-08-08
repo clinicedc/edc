@@ -301,6 +301,10 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
     :target: https://pypi.python.org/pypi/edc-data-manager
 .. |pypi-edc-device| image:: https://img.shields.io/pypi/v/edc-device.svg
     :target: https://pypi.python.org/pypi/edc-device
+.. |pypi-edc-dx| image:: https://img.shields.io/pypi/v/edc-dx.svg
+    :target: https://pypi.python.org/pypi/edc-dx
+.. |pypi-edc-dx-review| image:: https://img.shields.io/pypi/v/edc-dx-review.svg
+    :target: https://pypi.python.org/pypi/edc-dx-review
 .. |pypi-edc-export| image:: https://img.shields.io/pypi/v/edc-export.svg
     :target: https://pypi.python.org/pypi/edc-export
 .. |pypi-edc-facility| image:: https://img.shields.io/pypi/v/edc-facility.svg
