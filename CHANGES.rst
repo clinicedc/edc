@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.37
+------
+- add back deprecated field class paths (edc-model)
+
 0.3.36
 ------
 - add codenames for (edc-auth)
