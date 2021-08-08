@@ -1,6 +1,25 @@
 Changes
 =======
 
+0.3.36
+------
+- add codenames for (edc-auth)
+- introduce edc-vitals, move `vitals` field classes from edc-model
+  to edc-vitals (edc-vitals)
+- bloodpressure model mixins for both single and double measurement.
+  Calculate average if two measurements. Use BMI for validation (edc-vitals)
+- Add models, etc for Insulin (edc-blood-results)
+- Add form validator to intercept errors from ConsentObject (edc-consent)
+- Add BP avg calculator to blood result mixin (edc-dx-review)
+- Add option N/A to glucose units (edc-glucose)
+- Add panel for insulin (edc-lab-panel)
+- make `check_loaded` a class method (edc-randomization)
+- remove code that passed on LookupError (edc-registration)
+- fix syntax error in uric-acid parse string, add dummy parser for
+  utest_ids without defined ranges, refactor BMI/EGFR calculators (edc-reportable)
+
+
+
 0.3.35
 ------
 - remove `identity_or_pk` field from registered_subject (edc-registration)
