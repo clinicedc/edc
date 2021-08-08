@@ -77,3 +77,4 @@ edc-transfer
 edc-utils
 edc-visit-schedule
 edc-visit-tracking
+edc-vitals
