@@ -3,21 +3,37 @@
 Clinic EDC
 ==========
 
-``Clinic EDC`` contains complete code for a set of core modules for clinical trial data management to build a trial EDC. Refer to the specific open projects listed below for example EDC systems built with these modules. The codebase continues to evolve over many years of conducting clinical trials for mostly NIH-funded clinical trials through the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the `Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__ in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__. Almost all trials have been related to HIV/AIDS research. Recent work with the `Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ has expanded into Diabetes (DM), Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the three main chronic conditions -- HIV/DM/HTN. 
+``Clinic EDC`` contains complete code for a set of core modules for clinical trial data management to build a trial EDC. Refer to the specific open projects listed below for example EDC systems built with these modules. The more recent the trial the better the example. The codebase continues to evolve over many years of conducting clinical trials for mostly NIH-funded clinical trials through the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the `Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__ in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__. Almost all trials have been related to HIV/AIDS research. Recent work with the `Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ has expanded into Diabetes (DM), Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the three main chronic conditions -- HIV/DM/HTN.
+
+See also https://www.lstmed.ac.uk/RespondAfrica
 
 The implementations we have developed are mostly eSource systems rather than the traditional EDCs.
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.8 and Django 3.0+ required, see requirements.txt)
+(python 3.9 and Django 3.0+ required, see requirements.txt)
 
 
 Projects that use the EDC
 -------------------------
 Recent examples of EDC's using this codebase:
 
+INTECOMM
+--------
+under-development (2021- )
+
+EFFECT
+------
+Fluconazole plus flucytosine vs. fluconazole alone for cryptococcal antigen-positive patients identified through screening:
+
+A phase III randomised controlled trial
+
+under-development (2021- )
+
+
 META Trial (Phase III)
 ~~~~~~~~~~~~~~~~~~~~~~
+A randomised placebo-controlled double-blind phase III trial to determine the effects of metformin versus placebo on the incidence of diabetes in HIV-infected persons with pre-diabetes in Tanzania.
 
 under-development (2021- )
 
@@ -43,7 +59,7 @@ META Trial (Phase II)
 
 (3 sites in Tanzania)
 
-https://github.com/meta-trial/meta-edc (2019- )
+https://github.com/meta-trial/meta-edc (2019-2021)
 
 http://www.isrctn.com/ISRCTN76157257
 
@@ -302,6 +318,10 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
     :target: https://pypi.python.org/pypi/edc-data-manager
 .. |pypi-edc-device| image:: https://img.shields.io/pypi/v/edc-device.svg
     :target: https://pypi.python.org/pypi/edc-device
+.. |pypi-edc-dx| image:: https://img.shields.io/pypi/v/edc-dx.svg
+    :target: https://pypi.python.org/pypi/edc-dx
+.. |pypi-edc-dx-review| image:: https://img.shields.io/pypi/v/edc-dx-review.svg
+    :target: https://pypi.python.org/pypi/edc-dx-review
 .. |pypi-edc-export| image:: https://img.shields.io/pypi/v/edc-export.svg
     :target: https://pypi.python.org/pypi/edc-export
 .. |pypi-edc-facility| image:: https://img.shields.io/pypi/v/edc-facility.svg
