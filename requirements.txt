@@ -40,7 +40,7 @@ edc-dashboard==0.3.4
 edc-data-manager==0.3.8
 edc-device==0.3.3
 edc-dx==0.1.3
-edc-dx-review==0.1.2
+edc-dx-review==0.1.3
 edc-export==0.3.4
 edc-facility==0.3.5
 edc-fieldsets==0.3.2
@@ -57,7 +57,7 @@ edc-list-data==0.3.8
 edc-locator==0.3.8
 edc-ltfu==0.3.7
 edc-metadata==0.3.10
-edc-model==0.3.6
+edc-model==0.3.7
 edc-model-admin==0.3.10
 edc-model-fields==0.3.3
 edc-model-wrapper==0.3.4
@@ -86,5 +86,5 @@ edc-transfer==0.3.3
 edc-utils==0.3.5
 edc-visit-schedule==0.3.13
 edc-visit-tracking==0.3.13
-edc-vitals=0.1.0
+edc-vitals=0.1.1
 Django>=3.2,<4.0

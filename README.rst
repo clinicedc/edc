@@ -93,6 +93,8 @@ edc-crf                     |edc-crf|                     |pypi-edc-crf|
 edc-dashboard               |edc-dashboard|               |pypi-edc-dashboard|
 edc-data-manager            |edc-data-manager|            |pypi-edc-data-manager|
 edc-device                  |edc-device|                  |pypi-edc-device|
+edc-dx                      |edc-dx|                      |pypi-edc-dx|
+edc-dx-review               |edc-dx-review|               |pypi-edc-dx-review|
 edc-export                  |edc-export|                  |pypi-edc-export|
 edc-facility                |edc-facility|                |pypi-edc-facility|
 edc-fieldsets               |edc-fieldsets|               |pypi-edc-fieldsets|
@@ -138,6 +140,7 @@ edc-transfer                |edc-transfer|                |pypi-edc-transfer|
 edc-utils                   |edc-utils|                   |pypi-edc-utils|
 edc-visit-schedule          |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracking|
+edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
 
 
@@ -177,6 +180,10 @@ edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracki
   :target: https://github.com/clinicedc/edc-data-manager/actions?query=workflow:build
 .. |edc-device| image:: https://github.com/clinicedc/edc-device/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-device/actions?query=workflow:build
+.. |edc-dx| image:: https://github.com/clinicedc/edc-dx/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-dx/actions?query=workflow:build
+.. |edc-dx-review| image:: https://github.com/clinicedc/edc-dx-review/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-dx-review/actions?query=workflow:build
 .. |edc-export| image:: https://github.com/clinicedc/edc-export/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-export/actions?query=workflow:build
 .. |edc-facility| image:: https://github.com/clinicedc/edc-facility/workflows/build/badge.svg?branch=develop
@@ -267,6 +274,8 @@ edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracki
   :target: https://github.com/clinicedc/edc-visit-schedule/actions?query=workflow:build
 .. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-visit-tracking/actions?query=workflow:build
+.. |edc-vitals| image:: https://github.com/clinicedc/edc-vitals/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-vitals/actions?query=workflow:build
 
 .. |pypi-edc-action-item| image:: https://img.shields.io/pypi/v/edc-action-item.svg
     :target: https://pypi.python.org/pypi/edc-action-item
@@ -382,3 +391,5 @@ edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracki
     :target: https://pypi.python.org/pypi/edc-visit-schedule
 .. |pypi-edc-visit-tracking| image:: https://img.shields.io/pypi/v/edc-visit-tracking.svg
     :target: https://pypi.python.org/pypi/edc-visit-tracking
+.. |pypi-edc-vitals| image:: https://img.shields.io/pypi/v/edc-vitals.svg
+    :target: https://pypi.python.org/pypi/edc-vitals
