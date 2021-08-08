@@ -33,7 +33,7 @@ edc-adverse-event==0.3.10
 edc-appointment==0.3.9
 edc-auth==0.3.14
 edc-blood-results==0.1.5
-edc-consent==0.3.11
+edc-consent==0.3.12
 edc-constants==0.3.8
 edc-crf==0.3.10
 edc-dashboard==0.3.4
@@ -57,7 +57,7 @@ edc-list-data==0.3.8
 edc-locator==0.3.8
 edc-ltfu==0.3.7
 edc-metadata==0.3.10
-edc-model==0.3.7
+edc-model==0.3.8
 edc-model-admin==0.3.10
 edc-model-fields==0.3.3
 edc-model-wrapper==0.3.4
