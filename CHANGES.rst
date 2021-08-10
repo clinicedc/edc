@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.38
+------
+- model form mixin for inline CRFs (edc-crf)
+- bypass query updates for inline models (edc-data-manager)
+- allow required_if to access inline fields (edc-form-validators)
+- add util to detect inline models (edc-model)
+- model form mixin for parent form or inlines (edc-model-form)
+- move crf model mixin to edc-crf (edc-visit-tracking)
+
 0.3.37
 ------
 - add back deprecated field class paths (edc-model)
