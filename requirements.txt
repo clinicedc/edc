@@ -60,7 +60,7 @@ edc-metadata==0.3.10
 edc-model==0.3.9
 edc-model-admin==0.3.10
 edc-model-fields==0.3.3
-edc-model-form=0.1.0
+edc-model-form==0.1.0
 edc-model-wrapper==0.3.4
 edc-navbar==0.3.3
 edc-notification==0.3.7

@@ -131,6 +131,7 @@ edc-metadata                |edc-metadata|                |pypi-edc-metadata|
 edc-model                   |edc-model|                   |pypi-edc-model|
 edc-model-admin             |edc-model-admin|             |pypi-edc-model-admin|
 edc-model-fields            |edc-model-fields|            |pypi-edc-model-fields|
+edc-model-form              |edc-model-form|              |pypi-edc-model-form|
 edc-model-wrapper           |edc-model-wrapper|           |pypi-edc-model-wrapper|
 edc-navbar                  |edc-navbar|                  |pypi-edc-navbar|
 edc-notification            |edc-notification|            |pypi-edc-notification|
@@ -239,6 +240,8 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
   :target: https://github.com/clinicedc/edc-model-admin/actions?query=workflow:build
 .. |edc-model-fields| image:: https://github.com/clinicedc/edc-model-fields/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-model-fields/actions?query=workflow:build
+.. |edc-model-form| image:: https://github.com/clinicedc/edc-model-form/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-model-form/actions?query=workflow:build
 .. |edc-model-wrapper| image:: https://github.com/clinicedc/edc-model-wrapper/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-model-wrapper/actions?query=workflow:build
 .. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/workflows/build/badge.svg?branch=develop
@@ -360,6 +363,8 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
     :target: https://pypi.python.org/pypi/edc-model-admin
 .. |pypi-edc-model-fields| image:: https://img.shields.io/pypi/v/edc-model-fields.svg
     :target: https://pypi.python.org/pypi/edc-model-fields
+.. |pypi-edc-model-form| image:: https://img.shields.io/pypi/v/edc-model-form.svg
+    :target: https://pypi.python.org/pypi/edc-model-form
 .. |pypi-edc-model-wrapper| image:: https://img.shields.io/pypi/v/edc-model-wrapper.svg
     :target: https://pypi.python.org/pypi/edc-model-wrapper
 .. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
