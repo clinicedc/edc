@@ -51,6 +51,7 @@ edc-metadata
 edc-model
 edc-model-admin
 edc-model-fields
+edc-model-form
 edc-model-wrapper
 edc-navbar
 edc-notification
