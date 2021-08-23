@@ -1,6 +1,18 @@
 Changes
 =======
 
+0.3.39
+------
+- add role for statistician (edc-auth)
+- add new module to handle vitals, BP, weight, height (edc-vitals)
+- refactor BMI/EGFR. fix syntax in uric acid string (edc-reportable)
+- get_by_model defaults to model randomizationlist (edc_randomization)
+- util to detect inline models (edc-model)
+- add grade and grade description field to capture result of realtime
+  assessment against reference list (edc-blood-results)
+- move APPT_REASON_CHOICES to form class to avoid triggering a
+  migration when using a custom set of CHOICES (edc-appointment)
+
 0.3.38
 ------
 - model form mixin for inline CRFs (edc-crf)

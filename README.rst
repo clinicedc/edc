@@ -99,26 +99,21 @@ For further information go to https://github.com/erikvw.
 
 ========================== ============================== ==================================
 edc-action-item             |edc-action-item|             |pypi-edc-action-item|
-edc-adherence               |edc-adherence|               |pypi-edc-adherence|
 edc-adverse-event           |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-appointment             |edc-appointment|             |pypi-edc-appointment|
 edc-auth                    |edc-auth|                    |pypi-edc-auth|
-edc-blood-results           |edc-blood-results|           |pypi-edc-blood-results|
 edc-consent                 |edc-consent|                 |pypi-edc-consent|
 edc-constants                                             |pypi-edc-constants|
 edc-crf                     |edc-crf|                     |pypi-edc-crf|
 edc-dashboard               |edc-dashboard|               |pypi-edc-dashboard|
 edc-data-manager            |edc-data-manager|            |pypi-edc-data-manager|
 edc-device                  |edc-device|                  |pypi-edc-device|
-edc-dx                      |edc-dx|                      |pypi-edc-dx|
-edc-dx-review               |edc-dx-review|               |pypi-edc-dx-review|
 edc-export                  |edc-export|                  |pypi-edc-export|
 edc-facility                |edc-facility|                |pypi-edc-facility|
 edc-fieldsets               |edc-fieldsets|               |pypi-edc-fieldsets|
 edc-form-describer          |edc-form-describer|          |pypi-edc-form-describer|
 edc-form-label              |edc-form-label|              |pypi-edc-form-label|
 edc-form-validators         |edc-form-validators|         |pypi-edc-form-validators|
-edc-glucose                 |edc-glucose|                 |pypi-edc-glucose|
 edc-identifier              |edc-identifier|              |pypi-edc-identifier|
 edc-lab                     |edc-lab|                     |pypi-edc-lab|
 edc-lab-panel               |edc-lab-panel|               |pypi-edc-lab-panel|
@@ -137,8 +132,6 @@ edc-navbar                  |edc-navbar|                  |pypi-edc-navbar|
 edc-notification            |edc-notification|            |pypi-edc-notification|
 edc-offstudy                |edc-offstudy|                |pypi-edc-offstudy|
 edc-pdutils                 |edc-pdutils|                 |pypi-edc-pdutils|
-edc-pharmacy                                              |pypi-edc-pharmacy|
-edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-dashboard|
 edc-prn                     |edc-prn|                     |pypi-edc-prn|
 edc-protocol                |edc-protocol|                |pypi-edc-protocol|
 edc-randomization           |edc-randomization|           |pypi-edc-randomization|
@@ -158,9 +151,25 @@ edc-transfer                |edc-transfer|                |pypi-edc-transfer|
 edc-utils                   |edc-utils|                   |pypi-edc-utils|
 edc-visit-schedule          |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracking|
+========================== ============================== ==================================
+
+
+Contrib
+-------
+
+========================== ============================== ==================================
+edc-adherence               |edc-adherence|               |pypi-edc-adherence|
+edc-blood-results           |edc-blood-results|           |pypi-edc-blood-results|
+edc-dx                      |edc-dx|                      |pypi-edc-dx|
+edc-dx-review               |edc-dx-review|               |pypi-edc-dx-review|
+edc-glucose                 |edc-glucose|                 |pypi-edc-glucose|
+edc-mnsi                    |edc-mnsi|                    |pypi-edc-mnsi|
+edc-pharmacy                                              |pypi-edc-pharmacy|
+edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-dashboard|
 edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
 
+Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-brains|
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
@@ -234,6 +243,8 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
   :target: https://github.com/clinicedc/edc-metadata/actions?query=workflow:build
 .. |edc-metadata-rules| image:: https://github.com/clinicedc/edc-metadata-rules/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-metadata-rules/actions?query=workflow:build
+.. |edc-mnsi| image:: https://github.com/clinicedc/edc-mnsi/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-mnsi/actions?query=workflow:build
 .. |edc-model| image:: https://github.com/clinicedc/edc-model/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-model/actions?query=workflow:build
 .. |edc-model-admin| image:: https://github.com/clinicedc/edc-model-admin/workflows/build/badge.svg?branch=develop
@@ -357,6 +368,8 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
     :target: https://pypi.python.org/pypi/edc-ltfu
 .. |pypi-edc-metadata| image:: https://img.shields.io/pypi/v/edc-metadata.svg
     :target: https://pypi.python.org/pypi/edc-metadata
+.. |pypi-edc-mnsi| image:: https://img.shields.io/pypi/v/edc-mnsi.svg
+    :target: https://pypi.python.org/pypi/edc-mnsi
 .. |pypi-edc-model| image:: https://img.shields.io/pypi/v/edc-model.svg
     :target: https://pypi.python.org/pypi/edc-model
 .. |pypi-edc-model-admin| image:: https://img.shields.io/pypi/v/edc-model-admin.svg
@@ -419,3 +432,7 @@ edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
     :target: https://pypi.python.org/pypi/edc-visit-tracking
 .. |pypi-edc-vitals| image:: https://img.shields.io/pypi/v/edc-vitals.svg
     :target: https://pypi.python.org/pypi/edc-vitals
+.. |jet-brains| image:: https://github.com/clinicedc/edc/blob/master/image/icon-pycharm.png
+    :target: https://jb.gg/OpenSource
+    :width: 120
+    :alt: JetBrains PyCharm
