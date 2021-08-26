@@ -4,6 +4,8 @@ Changes
 Unreleased
 ----------
 - allow opt out of requisition if POC (edc-blood-results)
+- add extra fields as a separate model mixin for the death report
+  (edc-adverse-event)
 
 0.3.39
 ------
