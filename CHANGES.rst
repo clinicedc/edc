@@ -1,6 +1,10 @@
 Changes
 =======
 
+Unreleased
+----------
+- allow opt out of requisition if POC (edc-blood-results)
+
 0.3.39
 ------
 - add role for statistician (edc-auth)
