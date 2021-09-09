@@ -147,6 +147,7 @@ edc-subject-model-wrappers  |edc-subject-model-wrappers|  |pypi-edc-subject-mode
 edc-test-utils              |edc-test-utils|              |pypi-edc-test-utils|
 edc-timepoint               |edc-timepoint|               |pypi-edc-timepoint|
 edc-transfer                |edc-transfer|                |pypi-edc-transfer|
+edc-unblinding              |edc-unblinding|              |pypi-edc-unblinding|
 edc-utils                   |edc-utils|                   |pypi-edc-utils|
 edc-visit-schedule          |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking          |edc-visit-tracking|          |pypi-edc-visit-tracking|
@@ -298,6 +299,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-bra
   :target: https://github.com/clinicedc/edc-timepoint/actions?query=workflow:build
 .. |edc-transfer| image:: https://github.com/clinicedc/edc-transfer/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-transfer/actions?query=workflow:build
+.. |edc-unblinding| image:: https://github.com/clinicedc/edc-unblinding/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-unblinding/actions?query=workflow:build
 .. |edc-utils| image:: https://github.com/clinicedc/edc-utils/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-utils/actions?query=workflow:build
 .. |edc-visit-schedule| image:: https://github.com/clinicedc/edc-visit-schedule/workflows/build/badge.svg?branch=develop
@@ -423,6 +426,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-bra
     :target: https://pypi.python.org/pypi/edc-timepoint
 .. |pypi-edc-transfer| image:: https://img.shields.io/pypi/v/edc-transfer.svg
     :target: https://pypi.python.org/pypi/edc-transfer
+.. |pypi-edc-unblinding| image:: https://img.shields.io/pypi/v/edc-utils.svg
+    :target: https://pypi.python.org/pypi/edc-unblinding
 .. |pypi-edc-utils| image:: https://img.shields.io/pypi/v/edc-utils.svg
     :target: https://pypi.python.org/pypi/edc-utils
 .. |pypi-edc-visit-schedule| image:: https://img.shields.io/pypi/v/edc-visit-schedule.svg
