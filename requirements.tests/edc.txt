@@ -75,6 +75,7 @@ edc-subject-dashboard
 edc-subject-model-wrappers
 edc-timepoint
 edc-transfer
+edc-unblinding
 edc-utils
 edc-visit-schedule
 edc-visit-tracking
