@@ -48,7 +48,7 @@ edc-form-describer==0.3.2
 edc-form-label==0.3.2
 edc-form-validators==0.3.5
 edc-glucose==0.1.2
-edc-identifier==0.3.6
+edc-identifier==0.3.7
 edc-lab==0.3.14
 edc-lab-dashboard==0.3.2
 edc-lab-panel==0.1.3
@@ -70,7 +70,7 @@ edc-pharmacy==0.1.4
 edc-pharmacy-dashboard==0.1.1a13
 edc-prn==0.3.2
 edc-protocol==0.3.2
-edc_protocol_violation=0.1.0
+edc-protocol-violation=0.1.0
 edc-randomization==0.3.11
 edc-reference==0.3.7
 edc-refusal==0.1.3
