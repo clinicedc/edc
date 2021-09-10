@@ -96,7 +96,7 @@ For further information go to https://github.com/erikvw.
 
 |django|
 
-========================== ============================== ==================================
+=========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
@@ -123,7 +123,7 @@ edc-locator_                |edc-locator|                 |pypi-edc-locator|
 edc-ltfu_                   |edc-ltfu|                    |pypi-edc-ltfu|
 edc-metadata_               |edc-metadata|                |pypi-edc-metadata|
 edc-model_                  |edc-model|                   |pypi-edc-model|
-edc-model-admin_             |edc-model-admin|             |pypi-edc-model-admin|
+edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|
 edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|
 edc-model-form_             |edc-model-form|              |pypi-edc-model-form|
 edc-model-wrapper_          |edc-model-wrapper|           |pypi-edc-model-wrapper|
@@ -152,7 +152,7 @@ edc-unblinding_             |edc-unblinding|              |pypi-edc-unblinding|
 edc-utils_                  |edc-utils|                   |pypi-edc-utils|
 edc-visit-schedule_         |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking_         |edc-visit-tracking|          |pypi-edc-visit-tracking|
-========================== ============================== ==================================
+=========================== ============================= ==================================
 
 
 Contrib
