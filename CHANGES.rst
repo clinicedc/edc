@@ -1,6 +1,17 @@
 Changes
 =======
 
+0.3.40
+------
+- allow opt out of requisition if POC (edc-blood-results)
+- add extra fields as a separate model mixin for the death report
+  (edc-adverse-event)
+- add site_auth global to discover auths configurations in modules
+  instead of defining all permissions in edc-auth (edc-auth)
+- update edc modules to use new site_auth, auths.py (edc_xxx)
+- add edc-unblinding of models for managing blinding/unblinding
+  in RCTs (edc-unblinding)
+
 0.3.39
 ------
 - add role for statistician (edc-auth)
