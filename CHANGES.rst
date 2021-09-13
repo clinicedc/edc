@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.41
+------
+- minor fixes
+
 0.3.40
 ------
 - allow opt out of requisition if POC (edc-blood-results)

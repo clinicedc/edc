@@ -27,7 +27,7 @@ django-revision==0.3.0
 django-simple-history
 django-storages
 djangorestframework
-edc-action-item==0.3.13
+edc-action-item==0.3.14
 edc-adherence==0.1.3
 edc-adverse-event==0.3.13
 edc-appointment==0.3.13
@@ -37,7 +37,7 @@ edc-consent==0.3.13
 edc-constants==0.3.12
 edc-crf==0.3.12
 edc-dashboard==0.3.7
-edc-data-manager==0.3.12
+edc-data-manager==0.3.13
 edc-device==0.3.3
 edc-dx==0.1.5
 edc-dx-review==0.1.6
@@ -47,7 +47,7 @@ edc-fieldsets==0.3.4
 edc-form-describer==0.3.7
 edc-form-label==0.3.3
 edc-form-validators==0.3.5
-edc-glucose==0.1.3
+edc-glucose==0.1.4
 edc-identifier==0.3.7
 edc-lab==0.3.14
 edc-lab-dashboard==0.3.3
