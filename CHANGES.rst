@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.42
+------
+- add and update auths config for edc modules. Move app specific objects
+  from edc_auth to edc_***.auths and edc_***.auth_objects (edc_auth)
+
 0.3.41
 ------
 - minor fixes
