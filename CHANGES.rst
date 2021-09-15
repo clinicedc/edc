@@ -1,5 +1,10 @@
 Changes
 =======
+
+0.3.45
+------
+- remove custom "export" codenames
+
 0.3.44
 ------
 - add and update auths config for edc modules. Move app specific objects
