@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.46
+------
+- fix looping on undistinct list when updateing query rules. Add management
+  command to run rules. Create query on save. (edc-data-manager)
+
 0.3.45
 ------
 - remove custom "export" codenames
