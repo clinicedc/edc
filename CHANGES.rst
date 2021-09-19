@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.47
+------
+- add management command to update query rules (edc-data-manager)
+- fix metadata inspector to not filter on site ID.
+  Add management command to update metadata and run metadata rules
+  (edc-medadata)
+
 0.3.46
 ------
 - fix looping on undistinct list when updateing query rules. Add management
