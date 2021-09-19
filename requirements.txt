@@ -37,7 +37,7 @@ edc-consent==0.3.14
 edc-constants==0.3.12
 edc-crf==0.3.14
 edc-dashboard==0.3.10
-edc-data-manager==0.3.16
+edc-data-manager==0.3.17
 edc-device==0.3.3
 edc-dx==0.1.5
 edc-dx-review==0.1.6
@@ -56,9 +56,9 @@ edc-label==0.3.2
 edc-list-data==0.3.11
 edc-locator==0.3.11
 edc-ltfu==0.3.9
-edc-metadata==0.3.13
+edc-metadata==0.3.14
 edc-model==0.3.12
-edc-model-admin==0.3.10
+edc-model-admin==0.3.11
 edc-model-fields==0.3.4
 edc-model-form==0.1.0
 edc-model-wrapper==0.3.5
@@ -87,7 +87,7 @@ edc-timepoint==0.3.3
 edc-transfer==0.3.3
 edc-unblinding==0.1.4
 edc-utils==0.3.5
-edc-visit-schedule==0.3.15
+edc-visit-schedule==0.3.16
 edc-visit-tracking==0.3.16
 edc-vitals==0.1.4
 Django>=3.2,<4.0
