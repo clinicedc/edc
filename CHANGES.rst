@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.48
+------
+- minor fixes to 0.3.47
+
 0.3.47
 ------
 - add management command to update query rules (edc-data-manager)
