@@ -64,7 +64,7 @@ edc-model-form==0.1.0
 edc-model-wrapper==0.3.5
 edc-navbar==0.3.6
 edc-notification==0.3.11
-edc-offstudy==0.3.12
+edc-offstudy==0.3.13
 edc-pdutils==0.3.4
 edc-pharmacy==0.1.4
 edc-pharmacy-dashboard==0.1.1a13
