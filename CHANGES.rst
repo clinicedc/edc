@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.49
+------
+- add groups to default roles from edc-auth (edc-screening, edc-offstudy)
+- refresh user roles as last step in AuthUpdater (edc-auth)
+- allow data manager to lock a generated data query that
+  cannot be resolved and should not be re-opened (edc-data-manager)
+
 0.3.48
 ------
 - minor fixes to 0.3.47
