@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.50
+------
+- add management command to update metadata (edc-metadata)
+
 0.3.49
 ------
 - add groups to default roles from edc-auth (edc-screening, edc-offstudy)

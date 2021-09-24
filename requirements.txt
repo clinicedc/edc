@@ -29,7 +29,7 @@ django-storages
 djangorestframework
 edc-action-item==0.3.18
 edc-adherence==0.1.3
-edc-adverse-event==0.3.16
+edc-adverse-event==0.3.17
 edc-appointment==0.3.16
 edc-auth==0.3.29
 edc-blood-results==0.1.9
@@ -56,7 +56,7 @@ edc-label==0.3.2
 edc-list-data==0.3.11
 edc-locator==0.3.11
 edc-ltfu==0.3.9
-edc-metadata==0.3.15
+edc-metadata==0.3.16
 edc-model==0.3.12
 edc-model-admin==0.3.11
 edc-model-fields==0.3.4
