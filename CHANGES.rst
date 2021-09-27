@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.51
+------
+- calculate ALP, AST, Creatinine relative to ULN. (edc-reportable)
+- when registering references ranges with `site_reportables`
+  a new parameter can limit the list of reportable grades. Defaults to
+  grade3/4 only. (edc-reportable)
+- fix issue where assigning a role on User `add` raises
+  an ObjectDoesNotExist exception. (edc-auth) 
+
 0.3.50
 ------
 - add management command to update metadata (edc-metadata)
