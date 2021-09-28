@@ -5,6 +5,11 @@
 #   - requirements.tests/edc.txt
 #
 # based on contents of requirements.txt
+#
+# Usage:
+#   $ cd bin/scripts
+#   $ bash ./generate_reqs_files.sh
+#
 ######################
 
 set -e  # on error, fail early
