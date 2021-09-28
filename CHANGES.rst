@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.52
+------
+- change options for dashboard url (edc-metadata)
+- methods to list visits for required forms (edc-visit-schedule)
+
 0.3.51
 ------
 - calculate ALP, AST, Creatinine relative to ULN. (edc-reportable)
