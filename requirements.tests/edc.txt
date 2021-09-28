@@ -72,6 +72,7 @@ edc-pharmacy
 edc-pharmacy-dashboard
 edc-prn
 edc-protocol
+edc_protocol_violation
 edc-randomization
 edc-reference
 edc-refusal
@@ -86,6 +87,7 @@ edc-subject-dashboard
 edc-subject-model-wrappers
 edc-timepoint
 edc-transfer
+edc-unblinding
 edc-utils
 edc-visit-schedule
 edc-visit-tracking

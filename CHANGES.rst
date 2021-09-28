@@ -1,11 +1,75 @@
 Changes
 =======
 
-Unreleased
-----------
+0.3.52
+------
+- change options for dashboard url (edc-metadata)
+- methods to list visits for required forms (edc-visit-schedule)
+
+0.3.51
+------
+- calculate ALP, AST, Creatinine relative to ULN. (edc-reportable)
+- when registering references ranges with `site_reportables`
+  a new parameter can limit the list of reportable grades. Defaults to
+  grade3/4 only. (edc-reportable)
+- fix issue where assigning a role on User `add` raises
+  an ObjectDoesNotExist exception. (edc-auth) 
+
+0.3.50
+------
+- add management command to update metadata (edc-metadata)
+
+0.3.49
+------
+- add groups to default roles from edc-auth (edc-screening, edc-offstudy)
+- refresh user roles as last step in AuthUpdater (edc-auth)
+- allow data manager to lock a generated data query that
+  cannot be resolved and should not be re-opened (edc-data-manager)
+
+0.3.48
+------
+- minor fixes to 0.3.47
+
+0.3.47
+------
+- add management command to update query rules (edc-data-manager)
+- fix metadata inspector to not filter on site ID.
+  Add management command to update metadata and run metadata rules
+  (edc-medadata)
+
+0.3.46
+------
+- fix looping on undistinct list when updateing query rules. Add management
+  command to run rules. Create query on save. (edc-data-manager)
+
+0.3.45
+------
+- remove custom "export" codenames
+
+0.3.44
+------
+- add and update auths config for edc modules. Move app specific objects
+  from edc_auth to edc_***.auths and edc_***.auth_objects (edc_auth)
+
+0.3.42
+------
+- add and update auths config for edc modules. Move app specific objects
+  from edc_auth to edc_***.auths and edc_***.auth_objects (edc_auth)
+
+0.3.41
+------
+- minor fixes
+
+0.3.40
+------
 - allow opt out of requisition if POC (edc-blood-results)
 - add extra fields as a separate model mixin for the death report
   (edc-adverse-event)
+- add site_auth global to discover auths configurations in modules
+  instead of defining all permissions in edc-auth (edc-auth)
+- update edc modules to use new site_auth, auths.py (edc_xxx)
+- add edc-unblinding of models for managing blinding/unblinding
+  in RCTs (edc-unblinding)
 
 0.3.39
 ------
