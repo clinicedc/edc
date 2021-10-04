@@ -1,5 +1,10 @@
 Changes
 =======
+0.3.53
+------
+- use objects manager, instead of _default_manager, on select PRN forms (edc-data-manager)
+- prevent add/edit access if site does not match current (edc-subject-dashboard)
+- add link to subject schedule history on Subject Review dashboard (edc-review-dashboard)
 
 0.3.52
 ------
