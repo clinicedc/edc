@@ -1,5 +1,10 @@
 Changes
 =======
+
+0.3.54
+------
+- fix issue when adding a RequisitionPanelGroup, instead of a RequisitionPanel, in LapProfile (edc-lab)
+
 0.3.53
 ------
 - use objects manager, instead of _default_manager, on select PRN forms (edc-data-manager)
