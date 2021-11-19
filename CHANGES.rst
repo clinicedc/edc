@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.58
+------
+- edc-pharmacy models changed
+
 0.3.54
 ------
 - fix issue when adding a RequisitionPanelGroup, instead of a RequisitionPanel, in LapProfile (edc-lab)
