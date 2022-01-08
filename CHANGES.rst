@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.59
+------
+- change screening eligibility mixin add abstract methods.
+  Review your code before upgrading.(edc-screening)
+- change auth group names. Review your code before
+  upgrading. (edc-randomization)
+- move auth objects to owner app from edc-auth (edc-auth and other apps)
+
+
 0.3.58
 ------
 - edc-pharmacy models changed
