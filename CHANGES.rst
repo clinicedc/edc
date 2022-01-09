@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.60
+------
+- add migrations and auths (edc-dx_review)
+
+
 0.3.59
 ------
 - change screening eligibility mixin add abstract methods.
