@@ -40,14 +40,14 @@ edc-dashboard==0.3.14
 edc-data-manager==0.3.22
 edc-device==0.3.3
 edc-dx==0.1.5
-edc-dx-review==0.1.7
+edc-dx-review==0.1.8
 edc-export==0.3.6
 edc-facility==0.3.7
 edc-fieldsets==0.3.4
 edc-form-describer==0.3.7
 edc-form-label==0.3.3
 edc-form-validators==0.3.5
-edc-glucose==0.1.8
+edc-glucose==0.1.9
 edc-identifier==0.3.8
 edc-lab==0.3.17
 edc-lab-dashboard==0.3.4
