@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.61
+------
+- add additional validation to eligibility base class (edc-screening)
+- change file not found exception to RandomizationListFileNotFound (edc-randomization)
+
 0.3.60
 ------
 - add migrations and auths (edc-dx_review)
