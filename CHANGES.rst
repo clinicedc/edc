@@ -272,7 +272,7 @@ Changes
 
 0.1.65
 ------
-- add lftu_date to model mixin, form validator to check model
+- add ltfu_date to model mixin, form validator to check model
   exists and date matches (edc-ltfu)
 - set action item as singleton (edc-offstudy)
 - fix assessment of current visit schedule / schedule for
