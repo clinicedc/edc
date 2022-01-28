@@ -1,5 +1,4 @@
 
-
 Install Miniconda3
 
 .. code-block:: bash
@@ -15,6 +14,15 @@ Install Miniconda3
 	sh Miniconda3-latest-Linux-x86_64.sh
 
 	conda config --set auto_activate_base false
+
+
+M1/Apple Silicon Notes
+
+.. code-block:: bash
+
+	conda config --add channels conda-forge
+	conda config --set channel_priority strict
+
 
 Restart the shell and create a new env named `edc`
 
