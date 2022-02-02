@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.62
+------
+- add duration field class (edc-model)
+- add form validator asserts for tests (edc-form-validators)
+- enforce sid count for tests (edc-randomization)
+- add settings attr for severe HTN (edc-vitals)
+
 0.3.61
 ------
 - add additional validation to eligibility base class (edc-screening)
@@ -272,7 +279,7 @@ Changes
 
 0.1.65
 ------
-- add lftu_date to model mixin, form validator to check model
+- add ltfu_date to model mixin, form validator to check model
   exists and date matches (edc-ltfu)
 - set action item as singleton (edc-offstudy)
 - fix assessment of current visit schedule / schedule for

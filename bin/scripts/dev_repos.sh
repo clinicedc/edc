@@ -1,4 +1,5 @@
 # install editable repos
+pip install -U Django==3.2.11
 pip install argon2-cffi
 pip install arrow
 pip install boto3
@@ -11,7 +12,7 @@ pip install python-dateutil
 pip install python-memcached
 pip install pytz
 pip install reportlab
-pip install sentry_sdk
+pip uninstall sentry_sdk
 pip install tqdm
 pip install django-environ
 pip install django-redis
@@ -19,8 +20,12 @@ pip install django-audit-fields
 pip install django-celery-beat
 pip install django-celery-results
 pip install django-crypto-fields
+pip install django-defender
 pip install django-extensions
+pip install django-import-export
 pip install django-ipware
+pip install django-logentry-admin
+pip install django-multisite
 pip install django-revision
 pip install django-simple-history
 pip install django-storages
@@ -38,6 +43,7 @@ pip install -e ../edc-dashboard
 pip install -e ../edc-data-manager
 pip install -e ../edc-device
 pip install -e ../edc-dx
+pip install -e ../edc-dx-review
 pip install -e ../edc-export
 pip install -e ../edc-facility
 pip install -e ../edc-fieldsets
@@ -66,6 +72,7 @@ pip install -e ../edc-pharmacy
 pip install -e ../edc-pharmacy-dashboard
 pip install -e ../edc-prn
 pip install -e ../edc-protocol
+pip install -e ../edc-protocol-violation
 pip install -e ../edc-randomization
 pip install -e ../edc-reference
 pip install -e ../edc-refusal
@@ -80,7 +87,9 @@ pip install -e ../edc-subject-dashboard
 pip install -e ../edc-subject-model-wrappers
 pip install -e ../edc-timepoint
 pip install -e ../edc-transfer
+pip install -e ../edc-unblinding
 pip install -e ../edc-utils
 pip install -e ../edc-visit-schedule
 pip install -e ../edc-visit-tracking
-pip install -U Django
+pip install -e ../edc-vitals
+pip install -U Django==3.2.11
