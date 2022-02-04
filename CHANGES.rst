@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.63
+------
+- fix misspelled settings attr to EDC_LTFU_MODEL_NAME- (edc-ltfu)
+
 0.3.62
 ------
 - add duration field class (edc-model)
