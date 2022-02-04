@@ -227,6 +227,8 @@ Collect static, note that if ``AWS_ENABLED``, will test the connection::
 
 	python manage.py collectstatic
 
+	# note: you should purge CDN cache if required.
+
 Import the holiday file, check the ``.env`` to make sure this is correct::
 
 	python manage.py import_holidays
