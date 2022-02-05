@@ -35,6 +35,7 @@ setup(
     url="https://github.com/clinicedc/edc",
     license="GPL license, see LICENSE",
     description="EDC core modules for clinicedc/edc projects.",
+    long_description_content_type="text/x-rst",
     long_description=README,
     zip_safe=False,
     keywords="django edc clinical trials research",

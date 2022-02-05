@@ -26,7 +26,7 @@ django-revision==0.3.0
 django-simple-history
 django-storages
 djangorestframework
-edc-action-item==0.3.19
+edc-action-item==0.3.20
 edc-adherence==0.1.4
 edc-adverse-event==0.3.20
 edc-appointment==0.3.18
