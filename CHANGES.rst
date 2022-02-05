@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.64
+------
+- add func to register actions (edc-action-item)
+
 0.3.63
 ------
 - fix misspelled settings attr to EDC_LTFU_MODEL_NAME- (edc-ltfu)
