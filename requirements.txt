@@ -26,11 +26,11 @@ django-revision==0.3.0
 django-simple-history
 django-storages
 djangorestframework
-edc-action-item==0.3.20
+edc-action-item==0.3.21
 edc-adherence==0.1.4
 edc-adverse-event==0.3.20
 edc-appointment==0.3.18
-edc-auth==0.3.33
+edc-auth==0.3.34
 edc-blood-results==0.1.15
 edc-consent==0.3.19
 edc-constants==0.3.16
@@ -40,7 +40,7 @@ edc-data-manager==0.3.22
 edc-device==0.3.3
 edc-dx==0.1.5
 edc-dx-review==0.1.8
-edc-export==0.3.6
+edc-export==0.3.7
 edc-facility==0.3.8
 edc-fieldsets==0.3.4
 edc-form-describer==0.3.7
@@ -55,7 +55,7 @@ edc-label==0.3.6
 edc-list-data==0.3.12
 edc-locator==0.3.12
 edc-ltfu==0.3.14
-edc-metadata==0.3.20
+edc-metadata==0.3.21
 edc-model==0.3.13
 edc-model-admin==0.3.11
 edc-model-fields==0.3.4
@@ -77,7 +77,7 @@ edc-registration==0.3.12
 edc-reportable==0.3.13
 edc-reports==0.3.8
 edc-review-dashboard==0.3.8
-edc-screening==0.3.15
+edc-screening==0.3.16
 edc-search==0.3.4
 edc-sites==0.3.5
 edc-subject-dashboard==0.3.11

@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.65
+------
+- correctly handle ranges in FC of eligibility (edc-screening)
+- update site ID from model in update_action_identifier (edc-action-item)
+- add minor (alter) migration (edc-auth, edc-export)
+- consider panel name when validating requisition metadata (edc-metadata)  
+
 0.3.64
 ------
 - add func to register actions (edc-action-item)
