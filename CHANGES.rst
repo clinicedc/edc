@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.66
+------
+- move field class factory to edc-lab-panel (edc-blood-result)
+- add additional panels (edc-lab-panel)
+- add additional assertions for tests (edc-form-validator)
+- add model mixins for CRFs with requisitions (edc-lab) 
+
 0.3.65
 ------
 - correctly handle ranges in FC of eligibility (edc-screening)
