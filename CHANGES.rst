@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.67
+------
+- remove code in model save() duplicated in ScreeninEligibility class
+
 0.3.66
 ------
 - move field class factory to edc-lab-panel (edc-blood-result)

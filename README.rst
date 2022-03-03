@@ -28,14 +28,16 @@ Fluconazole plus flucytosine vs. fluconazole alone for cryptococcal antigen-posi
 
 A phase III randomised controlled trial
 
-under-development (2021- )
+https://github.com/effect-trial/effect-edc (2021- )
 
 
 META Trial (Phase III)
 ~~~~~~~~~~~~~~~~~~~~~~
 A randomised placebo-controlled double-blind phase III trial to determine the effects of metformin versus placebo on the incidence of diabetes in HIV-infected persons with pre-diabetes in Tanzania.
 
-under-development (2021- )
+https://github.com/meta-trial/meta-edc (2021- )
+
+(The same codebase is used for META Phase 2 and META Phase 3)
 
 
 Mapitio
