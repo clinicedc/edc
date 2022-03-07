@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.68
+------
+- rename IFG to FBG (edc-blood-result)
+- rename IFG to FBG, add model factory for FBG, add utestid as field
+  name prefix in factories and form validators (edc-glucose)
+- bump edc-pharmacy to 0.1.7
+
 0.3.67
 ------
 - remove code in model save() duplicated in ScreeninEligibility class
