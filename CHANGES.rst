@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.69
+------
+- change fasting blood glucode abbreviation from ifg to fbg. 
+  Affects field names (edc-glucose)
+- add date validator method much like model validator date funcs
+  (edc-form-validators)
+
 0.3.68
 ------
 - rename IFG to FBG (edc-blood-result)
