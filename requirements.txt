@@ -30,7 +30,7 @@ edc-action-item==0.3.21
 edc-adherence==0.1.4
 edc-adverse-event==0.3.20
 edc-appointment==0.3.18
-edc-auth==0.3.34
+edc-auth==0.3.35
 edc-blood-results==0.1.17
 edc-consent==0.3.19
 edc-constants==0.3.18
@@ -45,8 +45,8 @@ edc-facility==0.3.8
 edc-fieldsets==0.3.4
 edc-form-describer==0.3.7
 edc-form-label==0.3.3
-edc-form-validators==0.3.7
-edc-glucose==0.1.11
+edc-form-validators==0.3.8
+edc-glucose==0.1.12
 edc-identifier==0.3.8
 edc-lab==0.3.18
 edc-lab-dashboard==0.3.4
@@ -87,6 +87,6 @@ edc-transfer==0.3.3
 edc-unblinding==0.1.5
 edc-utils==0.3.6
 edc-visit-schedule==0.3.21
-edc-visit-tracking==0.3.19
+edc-visit-tracking==0.3.20
 edc-vitals==0.1.5
 Django>=3.2,<4.0
