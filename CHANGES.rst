@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.70
+------
+- add date validators relative to report_datetime (edc-form-validators)
+- fix not returning to subject dashboard after CRF delete 
+  (edc-model-admin)
+- add form validator mixins for FBG abd OGTT (edc-glucose)
+
 0.3.69
 ------
 - change fasting blood glucode abbreviation from ifg to fbg. 
