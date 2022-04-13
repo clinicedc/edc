@@ -1,6 +1,12 @@
 Changes
 =======
 
+unreleased
+----------
+- fix module typo (edc-form-validators)
+- convert form date to utc to compare with db date (edc-crf)
+
+
 0.3.70
 ------
 - add date validators relative to report_datetime (edc-form-validators)
