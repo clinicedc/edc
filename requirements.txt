@@ -86,7 +86,7 @@ edc-timepoint==0.3.3
 edc-transfer==0.3.3
 edc-unblinding==0.1.5
 edc-utils==0.3.6
-edc-visit-schedule==0.3.22
+edc-visit-schedule==0.3.23
 edc-visit-tracking==0.3.21
 edc-vitals==0.1.5
 Django>=3.2,<4.0
