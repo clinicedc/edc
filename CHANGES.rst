@@ -5,7 +5,7 @@ unreleased
 ----------
 - fix module typo (edc-form-validators)
 - convert form date to utc to compare with db date (edc-crf)
-
+- fix issue with PRN metadata entry status (edc-metadata)
 
 0.3.70
 ------
