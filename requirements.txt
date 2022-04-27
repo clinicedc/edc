@@ -55,7 +55,7 @@ edc-label==0.3.6
 edc-list-data==0.3.12
 edc-locator==0.3.12
 edc-ltfu==0.3.14
-edc-metadata==0.3.21
+edc-metadata==0.3.23
 edc-model==0.3.13
 edc-model-admin==0.3.12
 edc-model-fields==0.3.4
@@ -71,7 +71,7 @@ edc-prn==0.3.4
 edc-protocol==0.3.3
 edc-protocol-violation==0.1.5
 edc-randomization==0.3.26
-edc-reference==0.3.8
+edc-reference==0.3.9
 edc-refusal==0.1.4
 edc-registration==0.3.12
 edc-reportable==0.3.14
@@ -86,7 +86,7 @@ edc-timepoint==0.3.3
 edc-transfer==0.3.3
 edc-unblinding==0.1.5
 edc-utils==0.3.6
-edc-visit-schedule==0.3.23
-edc-visit-tracking==0.3.21
+edc-visit-schedule==0.3.26
+edc-visit-tracking==0.3.22
 edc-vitals==0.1.5
 Django>=3.2,<4.0

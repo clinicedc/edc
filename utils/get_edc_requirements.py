@@ -6,15 +6,22 @@ Usage:
     python get_edc_requirements.py
 """
 
-import requests
 import json
+
+import requests
 
 with open("requirements.txt", "r") as f:
     for line in f:
-        if line.startswith("edc-"):
-            pkgname = line.split('==')[0]
-            r = requests.get(f"https://pypi.org/pypi/{pkgname}/json")
-            try:
-                print(f"{pkgname}=={r.json()['info']['version']}")
-            except json.JSONDecodeError as e:
-                print(pkgname, str(e))
+        for prefix in [
+            "edc-",
+            "django-audit-fields",
+            "django-crypto-fields",
+            "django-revision",
+        ]:
+            if line.startswith(prefix):
+                pkgname = line.split("==")[0]
+                r = requests.get(f"https://pypi.org/pypi/{pkgname}/json")
+                try:
+                    print(f"{pkgname}=={r.json()['info']['version']}")
+                except json.JSONDecodeError as e:
+                    print(pkgname, str(e))
