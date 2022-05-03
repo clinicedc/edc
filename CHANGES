@@ -1,6 +1,22 @@
 Changes
 =======
 
+0.3.71
+------
+- auto-create subject-visit with reason=missed if appointment is missed
+  tighen up window period restriction
+  recalculate appointment dates relative to baseline appointment
+  (edc-appointment)
+- tighten up report datetime relative to the appointment
+  add window period checks (edc-visit-tracking)
+- add option to skip baseline when recalculating appointment dates
+  (edc-visit-schedule)
+- add _clean method to call default behaviour
+  fix module typo (edc-form-validators)
+- convert form date to utc to compare with db date (edc-crf)
+- fix issue with PRN metadata entry status (edc-metadata)
+- change build system (multiple modules)
+
 0.3.70
 ------
 - add date validators relative to report_datetime (edc-form-validators)

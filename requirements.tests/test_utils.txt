@@ -1,1 +1,2 @@
+django-mock-queries
 git+https://github.com/clinicedc/edc-test-utils@develop
