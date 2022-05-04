@@ -29,12 +29,12 @@ djangorestframework
 edc-action-item==0.3.23
 edc-adherence==0.1.5
 edc-adverse-event==0.3.20
-edc-appointment==0.3.19
+edc-appointment==0.3.20
 edc-auth==0.3.35
 edc-blood-results==0.1.17
-edc-consent==0.3.21
-edc-constants==0.3.21
-edc-crf==0.3.18
+edc-consent==0.3.22
+edc-constants==0.3.22
+edc-crf==0.3.19
 edc-dashboard==0.3.15
 edc-data-manager==0.3.22
 edc-device==0.3.3
@@ -45,7 +45,7 @@ edc-facility==0.3.8
 edc-fieldsets==0.3.4
 edc-form-describer==0.3.7
 edc-form-label==0.3.3
-edc-form-validators==0.3.13
+edc-form-validators==0.3.14
 edc-glucose==0.1.13
 edc-identifier==0.3.8
 edc-lab==0.3.19
@@ -55,7 +55,7 @@ edc-label==0.3.6
 edc-list-data==0.3.12
 edc-locator==0.3.12
 edc-ltfu==0.3.14
-edc-metadata==0.3.23
+edc-metadata==0.3.24
 edc-model==0.3.13
 edc-model-admin==0.3.13
 edc-model-fields==0.3.4
@@ -86,7 +86,7 @@ edc-timepoint==0.3.3
 edc-transfer==0.3.3
 edc-unblinding==0.1.5
 edc-utils==0.3.7
-edc-visit-schedule==0.3.28
-edc-visit-tracking==0.3.23
+edc-visit-schedule==0.3.29
+edc-visit-tracking==0.3.24
 edc-vitals==0.1.5
 Django>=3.2,<4.0
