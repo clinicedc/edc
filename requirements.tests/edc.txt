@@ -23,7 +23,6 @@ edc-adherence
 edc-adverse-event
 edc-appointment
 edc-auth
-edc-blood-results
 edc-consent
 edc-constants
 edc-crf
@@ -43,6 +42,7 @@ edc-identifier
 edc-lab
 edc-lab-dashboard
 edc-lab-panel
+edc-lab-results
 edc-label
 edc-list-data
 edc-locator
