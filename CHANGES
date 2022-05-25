@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.81
+------
+- remove dependencies: ipware, django-import-export
+
 0.3.80
 ------
 - fix issues with test runners and install requires
