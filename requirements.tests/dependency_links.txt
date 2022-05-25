@@ -1,1 +1,0 @@
-git+https://github.com/erikvw/django-multisite.git@master#egg=django-multisite
