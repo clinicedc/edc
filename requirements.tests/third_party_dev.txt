@@ -1,1 +1,0 @@
-git+https://github.com/django-import-export/django-import-export.git@main#egg=django-import-export
