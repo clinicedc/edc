@@ -23,7 +23,6 @@ pip install django-crypto-fields
 pip install django-defender
 pip install django-extensions
 pip install django-import-export
-pip install django-ipware
 pip install django-logentry-admin
 pip install django-multisite
 pip install django-revision
