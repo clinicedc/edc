@@ -1,8 +1,8 @@
 Changes
 =======
 
-unreleased
-----------
+0.3.79
+------
 - improvements to handling of window period, duplicate appointment and visit dates, etc
   (edc-appointment, edc-visit-tracking, edc-visit-schedule, edc-metadata)
 - improve handling of missed visits, ensure metadata-rules do not create
