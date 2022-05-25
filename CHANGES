@@ -1,6 +1,19 @@
 Changes
 =======
 
+unreleased
+----------
+- improvements to handling of window period, duplicate appointment and visit dates, etc
+  (edc-appointment, edc-visit-tracking, edc-visit-schedule, edc-metadata)
+- improve handling of missed visits, ensure metadata-rules do not create
+  unwanted required forms when missed. (edc-metadata, edc-visit-tracking,
+  edc-apointment)
+- add appt_timing field (edc-appointment)
+- improve subject dashboard to always force user to validate data through
+  appointment and visit tracking forms, and other minor improvements
+  (edc-subject-dashboard, edc-metadata)
+- use _meta.get_fields instead of _meta.fields where found
+
 0.3.71
 ------
 - auto-create subject-visit with reason=missed if appointment is missed
