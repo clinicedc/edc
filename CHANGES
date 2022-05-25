@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.80
+------
+- fix issues with test runners and install requires
+
 0.3.79
 ------
 - improvements to handling of window period, duplicate appointment and visit dates, etc
