@@ -5,6 +5,7 @@ python-dateutil
 pytz
 reportlab
 tqdm
+mempass
 django-audit-fields
 django-celery-beat
 django-celery-results
@@ -29,6 +30,7 @@ edc-crf
 edc-dashboard
 edc-data-manager
 edc-device
+edc-document-status
 edc-dx
 edc_dx_review
 edc-export
