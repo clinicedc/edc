@@ -1,6 +1,17 @@
 Changes
 =======
 
+0.3.82
+------
+- improve context sensitive showing of subject dashboard's unscheduled appt
+  button (edc-appointment, edc-subject-dashboard)
+- reorder unscheduled appointments if a deletion breaks the sequence
+  (edc-appointment) 
+- cascade changed appointment visit_code_sequence to subject visit and
+  crf/requisition metadata (edc-appointment, edc-visit-tracking)
+- declare metadata helper mixin as a model mixin also (edc-metadata)
+- add metadata helper to appointment and visit tracking models
+
 0.3.81
 ------
 - remove dependencies: ipware, django-import-export
