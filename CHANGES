@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.86
+------
+- add migrations (edc-appointment,, edc-protocol-violation)
+- refactor paths in edc_model, fix references in other modules 
+
 0.3.85
 ------
 - rebuild edc-data-manager
