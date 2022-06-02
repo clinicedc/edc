@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.3.83
+------
+- refactor paths in edc_model, fix references in other modules 
+- add django-multisite-edc to install_requires, remove git+url
+- configure new build for more edc modules
+
 0.3.82
 ------
 - improve context sensitive showing of subject dashboard's unscheduled appt
