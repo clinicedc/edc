@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.85
+------
+- rebuild edc-data-manager
+
 0.3.84
 ------
 - refactor paths in edc_model, fix references in other modules 
