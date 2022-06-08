@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.3.87
+------
+- fix validation issues with consent modelform mixins / validator
+  (edc-consent)
+
 0.3.86
 ------
 - add migrations (edc-appointment,, edc-protocol-violation)
