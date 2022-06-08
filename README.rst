@@ -30,6 +30,7 @@ A phase III randomised controlled trial
 
 https://github.com/effect-trial/effect-edc (2021- )
 
+http://www.isrctn.com/ISRCTN30579828
 
 META Trial (Phase III)
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -39,6 +40,7 @@ https://github.com/meta-trial/meta-edc (2021- )
 
 (The same codebase is used for META Phase 2 and META Phase 3)
 
+http://www.isrctn.com/ISRCTN77382043
 
 Mapitio
 ~~~~~~~
@@ -46,6 +48,15 @@ Mapitio
 Retrospective HIV/Diabetes/Hypertension Cohort (Tanzania)
 
 https://github.com/mapitio/mapitio-edc (2020- )
+
+MOCCA
+~~~~~
+
+Integrated care for HIV and non-communicable diseases in Africa: a pilot study to inform a large-scale trial (MOCCA and MOCCA Extension Study)
+
+https://github.com/mocca-trail/mocca-edc (2020- )
+
+http://www.isrctn.com/ISRCTN71437522
 
 INTE Africa Trial
 ~~~~~~~~~~~~~~~~~
@@ -55,6 +66,8 @@ INTE Africa Trial
 https://github.com/inte-africa-trial/inte-edc (2020- )
 
 https://inteafrica.org
+
+http://www.isrctn.com/ISRCTN43896688
 
 META Trial (Phase II)
 ~~~~~~~~~~~~~~~~~~~~~
