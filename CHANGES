@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.90
+------
+- refactor some references to settings to do so thru funcs
+  (e.g. EDC_BOOTSTRAP)
+
+0.3.88
+------
+- interim release
+
 0.3.87
 ------
 - fix validation issues with consent modelform mixins / validator
