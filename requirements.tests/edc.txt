@@ -68,7 +68,7 @@ edc-reference
 edc-refusal
 edc-registration
 edc-reportable
-edc-reports
+edc-pdf-reports
 edc-review-dashboard
 edc-screening
 edc-search
