@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.3.91
+------
+- add missing install requires (edc-notification)
+
 0.3.90
 ------
 - refactor some references to settings to do so thru funcs
