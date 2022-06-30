@@ -1,6 +1,24 @@
 Changes
 =======
 
+0.3.93
+------
+- display message on changelist if data manager (edc-data-manager)
+- include subjectvisitmissed in REQUIRED CRFs when determining
+  completed CRFs (edc-metadata)
+- get subjectvisit from instance if not in cleaned data in
+  reporatbles form validator (edc-reportable)
+- accept site_id when creating simple identifier (edc-identifier)
+
+0.3.92
+------
+- is_baseline works for CRFs (edc-visit-schedule)
+- add calculator for egfr percent change (edc-reportable)
+- add protocol incident model (edc-protocol-violation)
+- not_applicable_if_true (edc-form-validators)
+- enforce a sensible appt_status on save (edc-appointment)
+ 
+
 0.3.91
 ------
 - add missing install requires (edc-notification)
