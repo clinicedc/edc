@@ -1,6 +1,14 @@
 Changes
 =======
 
+0.3.95
+------
+- minor fixes to urls from admin changelist to subject dashboard
+  (edc-prn, edc-metadata)
+- add DATA MANAGER models to AUDITOR role
+- fix dashboard url from admin (edc-dashboard)
+- fix verbose name (edc-adherence)
+
 0.3.94
 ------
 - bump django-simple-history add migrations
