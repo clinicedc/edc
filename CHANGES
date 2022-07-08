@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.94
+------
+- bump django-simple-history add migrations
+- add BP funcs (edc-vitals)
+- improve refill/dispense calculations, rename stock/product
+  models (edc-pharmacy)
+
 0.3.93
 ------
 - display message on changelist if data manager (edc-data-manager)

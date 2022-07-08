@@ -18,6 +18,7 @@ django-revision
 django_extensions
 django-simple-history
 django-storages
+canned-views
 edc-action-item
 edc-adherence
 edc-adverse-event
