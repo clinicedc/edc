@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.96
+------
+- add refresh button to subject dashboard, refreshes metadata for
+  the current visit (edc-subject-dashbaord)
+- fix date validation against report_datetime failing on inlines 
+  (edc-model-admin)
+- add method for persistant singletons to predicate collection
+  (edc-metadata) 
+
 0.3.95
 ------
 - minor fixes to urls from admin changelist to subject dashboard
