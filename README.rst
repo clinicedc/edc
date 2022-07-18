@@ -186,7 +186,7 @@ edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-das
 edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
 
-Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-brains|
+Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-brains|
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
