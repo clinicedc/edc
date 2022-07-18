@@ -523,7 +523,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-bra
     :target: https://pypi.python.org/pypi/edc-visit-tracking
 .. |pypi-edc-vitals| image:: https://img.shields.io/pypi/v/edc-vitals.svg
     :target: https://pypi.python.org/pypi/edc-vitals
-.. |jet-brains| image:: https://github.com/clinicedc/edc/blob/master/image/icon-pycharm.png
+.. |jet-brains| image:: https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.png
     :target: https://jb.gg/OpenSource
     :width: 120
     :alt: JetBrains PyCharm
