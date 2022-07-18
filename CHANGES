@@ -1,6 +1,24 @@
 Changes
 =======
 
+0.3.98
+------
+- add custom appt_datetime listfilter to appointment modeladmin
+  (edc-appointment)
+- add custom sites listfilter to user modeladmin (edc-auth,
+  edc-action-item))
+- remove support for sentry
+- move custom modelform fields to attrs on Meta (edc-adverse-event)
+
+0.3.97
+------
+- add fields `missing`, `missing_count` to blood result models to
+  be viewed in admin to track missing results within an instance.
+  Will trigger a schema migration for your project. You will need
+  to write a data migration to update existing records.
+  See also: meta_edc.meta_subject migration 0124.
+  (edc-lab-results)
+
 0.3.96
 ------
 - add refresh button to subject dashboard, refreshes metadata for
