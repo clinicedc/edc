@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.3.98
+------
+- add custom appt_datetime listfilter to appointment modeladmin
+  (edc-appointment)
+- add custom sites listfilter to user modeladmin (edc-auth,
+  edc-action-item))
+- remove support for sentry
+- move custom modelform fields to attrs on Meta (edc-adverse-event)
+
 0.3.97
 ------
 - add fields `missing`, `missing_count` to blood result models to
