@@ -116,7 +116,7 @@ edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
 edc-auth_                   |edc-auth|                    |pypi-edc-auth|
-edc-call_manager_           |edc-call-manager|
+edc-call-manager_           |edc-call-manager|
 edc-consent_                |edc-consent|                 |pypi-edc-consent|
 edc-constants_                                            |pypi-edc-constants|
 edc-crf_                    |edc-crf|                     |pypi-edc-crf|
