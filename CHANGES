@@ -3,6 +3,12 @@ Changes
 
 0.3.98
 ------
+- add egfr_drop to rft panel (edc-lab-panel)
+- add egfr and egfr_drop to DAIDS and normal range;
+  fix egfr_percent func to return percents 
+  (edc-reportables)
+- add subject_identifier attrs to modelform Meta
+  (edc-action-item)
 - add custom appt_datetime listfilter to appointment modeladmin
   (edc-appointment)
 - add custom sites listfilter to user modeladmin (edc-auth,
