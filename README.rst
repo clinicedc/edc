@@ -7,8 +7,11 @@ Clinic EDC
 
 See also https://www.lstmed.ac.uk/RespondAfrica
 
+<<<<<<< HEAD
 The implementations we have developed are mostly eSource systems rather than the traditional EDCs.
 
+=======
+>>>>>>> release/0.3.98
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
 <<<<<<< HEAD
@@ -24,7 +27,8 @@ Recent examples of EDC's using this codebase:
 
 INTECOMM
 --------
-under-development (2021- )
+
+https://github.com/intecomm-trial/intecomm-edc (under-development (2022- )
 
 EFFECT
 ------
@@ -121,6 +125,7 @@ edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
 edc-auth_                   |edc-auth|                    |pypi-edc-auth|
+edc-call-manager_           |edc-call-manager|
 edc-consent_                |edc-consent|                 |pypi-edc-consent|
 edc-constants_                                            |pypi-edc-constants|
 edc-crf_                    |edc-crf|                     |pypi-edc-crf|
@@ -137,6 +142,7 @@ edc-identifier_             |edc-identifier|              |pypi-edc-identifier|
 edc-lab_                    |edc-lab|                     |pypi-edc-lab|
 edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|
 edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
+edc-lab-results_            |edc-lab-results|               |pypi-edc-lab-panel|
 edc-label_                  |edc-label|                   |pypi-edc-label|
 edc-list-data_              |edc-list-data|               |pypi-edc-list-data|
 edc-locator_                |edc-locator|                 |pypi-edc-locator|
@@ -180,12 +186,11 @@ Contrib
 
 ========================== ============================== ==================================
 edc-adherence               |edc-adherence|               |pypi-edc-adherence|
-edc-blood-results           |edc-blood-results|           |pypi-edc-blood-results|
 edc-dx                      |edc-dx|                      |pypi-edc-dx|
 edc-dx-review               |edc-dx-review|               |pypi-edc-dx-review|
 edc-glucose                 |edc-glucose|                 |pypi-edc-glucose|
 edc-mnsi                    |edc-mnsi|                    |pypi-edc-mnsi|
-edc-pharmacy                                              |pypi-edc-pharmacy|
+edc-pharmacy                |edc-pharmacy|                                |pypi-edc-pharmacy|
 edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-dashboard|
 edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
@@ -208,7 +213,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-adverse-event: https://github.com/clinicedc/edc-adverse-event
 .. _edc-appointment: https://github.com/clinicedc/edc-appointment
 .. _edc-auth: https://github.com/clinicedc/edc-auth
-.. _edc-blood-results: https://github.com/clinicedc/edc-blood-results
+.. _edc-call-manager: https://github.com/clinicedc/edc-call-manager
 .. _edc-consent: https://github.com/clinicedc/edc-consent
 .. _edc-constants: https://github.com/clinicedc/edc-constants
 .. _edc-crf: https://github.com/clinicedc/edc-crf
@@ -228,6 +233,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-lab: https://github.com/clinicedc/edc-lab
 .. _edc-lab-dashboard: https://github.com/clinicedc/edc-lab-dashboard
 .. _edc-lab-panel: https://github.com/clinicedc/edc-lab-panel
+.. _edc-lab-results: https://github.com/clinicedc/edc-lab-results
 .. _edc-label: https://github.com/clinicedc/edc-label
 .. _edc-list-data: https://github.com/clinicedc/edc-list-data
 .. _edc-locator: https://github.com/clinicedc/edc-locator
@@ -280,8 +286,10 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-appointment/actions?query=workflow:build
 .. |edc-auth| image:: https://github.com/clinicedc/edc-auth/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
-.. |edc-blood-results| image:: https://github.com/clinicedc/edc-blood-results/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-blood-results/actions?query=workflow:build
+.. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-lab-results/actions?query=workflow:build
+.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-call-manager/actions?query=workflow:build
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
