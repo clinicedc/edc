@@ -279,6 +279,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE licence. |jet-bra
   :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
 .. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-lab-results/actions?query=workflow:build
+.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-call-manager/actions?query=workflow:build
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
