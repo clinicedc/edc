@@ -10,7 +10,7 @@ See also https://www.lstmed.ac.uk/RespondAfrica
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.9 and Django 3.0+ required, see requirements.txt)
+(python 3.9 and Django 3.2+ required, see setup.cfg)
 
 
 Projects that use the EDC
