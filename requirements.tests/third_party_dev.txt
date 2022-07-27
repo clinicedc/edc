@@ -4,6 +4,7 @@ django-celery-beat
 django-celery-results
 django-defender
 django-logentry-admin
+django-multisite-edc==2.0.0
 django-simple-history
 django-storages
 django_extensions
