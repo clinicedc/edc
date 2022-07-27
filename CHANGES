@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.3.99
+------
+- fix ethinicty factor from 0.1.50 to 0.1.59 in 2009 CKI-GFR calculator (edc-reportable)
+- check permissions before creating unscheduled appointment (edc-appointment)
+- add quantifier as default field in result factory (edc-lab-panel
+- fix perms param not iterable in listboard (edc-dashboard)
+
 0.3.98
 ------
 - add egfr_drop to rft panel (edc-lab-panel)
