@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.0
+-----
+- add site_id as param for simpleidentifier to use in migrations (edc-identifier)
+
 0.3.99
 ------
 - fix ethinicty factor from 0.1.50 to 0.1.59 in 2009 CKI-GFR calculator (edc-reportable)
