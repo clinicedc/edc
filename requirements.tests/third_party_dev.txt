@@ -1,0 +1,15 @@
+arrow
+celery
+django-celery-beat
+django-celery-results
+django-defender
+django-logentry-admin
+django-simple-history
+django-storages
+django_extensions
+inflect
+mempass
+python-dateutil
+pytz
+reportlab
+tqdm
