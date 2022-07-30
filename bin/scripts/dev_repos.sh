@@ -1,5 +1,4 @@
 # install editable repos
-pip install -U Django==3.2.11
 pip install argon2-cffi
 pip install arrow
 pip install boto3
@@ -91,4 +90,3 @@ pip install -e ../edc-utils
 pip install -e ../edc-visit-schedule
 pip install -e ../edc-visit-tracking
 pip install -e ../edc-vitals
-pip install -U Django==3.2.11
