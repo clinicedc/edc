@@ -115,7 +115,7 @@ Trigger a restore with URL before backup folder
 Restore the DB with the most recent file, for example, if the most recent file is ``ambition_production-20180730184227.sql``:
 
 .. code-block:: bash
-	
+
 	mysql -u edc -p $DB_NAME < $BACKUP_DIR/ambition_production-20180730184227.sql
 
 
@@ -134,7 +134,7 @@ restore the entire folder
       --verbosity info \
       --encrypt-sign-key=$GPG_KEY \
       --log-file $HOME/.duplicity/restore.log \
-        $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR 
+        $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR
 
 
 restore one file
@@ -146,7 +146,7 @@ restore one file
       --encrypt-sign-key=$GPG_KEY \
       --log-file $HOME/.duplicity/restore.log \
       --file-to-restore=some_file \
-        $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR 
+        $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR
 
 verify files
 

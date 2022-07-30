@@ -93,23 +93,23 @@
 * column: symptom
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `double_vision`: *Double vision* 
-  - `behaviour_change`: *Behaviour change* 
-  - `confusion`: *Confusion* 
-  - `cough`: *Cough* 
-  - `drowsiness`: *Drowsiness* 
-  - `fever`: *Fever* 
-  - `focal_weakness`: *Focal weakness* 
-  - `headache`: *Headache* 
-  - `hearing_loss`: *Hearing loss* 
-  - `nausea`: *Nausea* 
-  - `seizures_gt_72`: *Seizures (72 hrs - 1 mo)* 
-  - `seizures_lt_72 hrs`: *Seizures (<72 hrs)* 
-  - `shortness_of_breath`: *Shortness of breath* 
-  - `skin_lesions`: *Skin lesions* 
-  - `visual_loss`: *Visual loss* 
-  - `vomiting`: *Vomiting* 
-  - `weight_loss`: *Weight loss* 
+  - `double_vision`: *Double vision*
+  - `behaviour_change`: *Behaviour change*
+  - `confusion`: *Confusion*
+  - `cough`: *Cough*
+  - `drowsiness`: *Drowsiness*
+  - `fever`: *Fever*
+  - `focal_weakness`: *Focal weakness*
+  - `headache`: *Headache*
+  - `hearing_loss`: *Hearing loss*
+  - `nausea`: *Nausea*
+  - `seizures_gt_72`: *Seizures (72 hrs - 1 mo)*
+  - `seizures_lt_72 hrs`: *Seizures (<72 hrs)*
+  - `shortness_of_breath`: *Shortness of breath*
+  - `skin_lesions`: *Skin lesions*
+  - `visual_loss`: *Visual loss*
+  - `vomiting`: *Vomiting*
+  - `weight_loss`: *Weight loss*
 ---
 
 **4.0.** If headache, how many days did it last?
@@ -132,8 +132,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **7.0.** If YES, site of TB?
@@ -142,10 +142,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `N/A`: *Not applicable* 
-  - `pulmonary`: *Pulmonary* 
-  - `extra_pulmonary`: *Extra-pulmonary* 
-  - `both`: *Both* 
+  - `N/A`: *Not applicable*
+  - `pulmonary`: *Pulmonary*
+  - `extra_pulmonary`: *Extra-pulmonary*
+  - `both`: *Both*
 ---
 
 **8.0.** Are you currently taking TB treatment?
@@ -154,8 +154,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **9.0.** If YES, are you currently also taking Rifampicin?
@@ -164,9 +164,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **10.0.** If YES, when did you first start taking Rifampicin?
@@ -184,8 +184,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** If NO, already taking ARVs?
@@ -194,9 +194,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **13.0.** If YES, date ARVs were started.
@@ -214,11 +214,11 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `not_estimated`: *No.* 
-  - `D`: *Yes, estimated the Day* 
-  - `MD`: *Yes, estimated Month and Day* 
-  - `YMD`: *Yes, estimated Year, Month and Day* 
+  - `N/A`: *Not applicable*
+  - `not_estimated`: *No.*
+  - `D`: *Yes, estimated the Day*
+  - `MD`: *Yes, estimated Month and Day*
+  - `YMD`: *Yes, estimated Year, Month and Day*
 ---
 
 **15.0.** Drug used in first line ARV regimen
@@ -227,10 +227,10 @@
 * type: CharField
 * length: 50
 * responses:
-  - `N/A`: *Not applicable* 
-  - `TDF_3TC_FTC_with_EFV_or_NVP`: *TDF + 3TC/FTC + either EFV or NVP or DTG* 
-  - `AZT_3TC_with_EFV_NVP_or_DTG`: *AZT+3TC+ either EFV or NVP or DTG* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `TDF_3TC_FTC_with_EFV_or_NVP`: *TDF + 3TC/FTC + either EFV or NVP or DTG*
+  - `AZT_3TC_with_EFV_NVP_or_DTG`: *AZT+3TC+ either EFV or NVP or DTG*
+  - `OTHER`: *Other*
 ---
 
 **15.1.** If Other, specify ...
@@ -247,11 +247,11 @@
 * type: CharField
 * length: 5
 * responses:
-  - `N/A`: *Not applicable* 
-  - `EFV`: *EFV* 
-  - `DTG`: *DTG* 
-  - `NVP`: *NVP* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `EFV`: *EFV*
+  - `DTG`: *DTG*
+  - `NVP`: *NVP*
+  - `OTHER`: *Other*
 ---
 
 **17.0.** Second line ARV regimen
@@ -260,10 +260,10 @@
 * type: CharField
 * length: 50
 * responses:
-  - `N/A`: *Not applicable* 
-  - `TDF_3TC_FTC_with_ATZ_r_or_Lopinavir_r`: *TDF + 3TC/FTC + either ATZ/r or Lopinavir/r* 
-  - `AZT_3TC_with_ATZ_r_or_Lopinavir_r`: *AZT +3TC + either ATZ/r or Lopinavir/r* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `TDF_3TC_FTC_with_ATZ_r_or_Lopinavir_r`: *TDF + 3TC/FTC + either ATZ/r or Lopinavir/r*
+  - `AZT_3TC_with_ATZ_r_or_Lopinavir_r`: *AZT +3TC + either ATZ/r or Lopinavir/r*
+  - `OTHER`: *Other*
 ---
 
 **17.1.** If Other, specify ...
@@ -280,9 +280,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **19.0.** If not adherent, how many doses missed in the last month?
@@ -320,11 +320,11 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `not_estimated`: *No.* 
-  - `D`: *Yes, estimated the Day* 
-  - `MD`: *Yes, estimated Month and Day* 
-  - `YMD`: *Yes, estimated Year, Month and Day* 
+  - `N/A`: *Not applicable*
+  - `not_estimated`: *No.*
+  - `D`: *Yes, estimated the Day*
+  - `MD`: *Yes, estimated Month and Day*
+  - `YMD`: *Yes, estimated Year, Month and Day*
 ---
 
 **24.0.** Last CD4, if known?
@@ -350,11 +350,11 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `not_estimated`: *No.* 
-  - `D`: *Yes, estimated the Day* 
-  - `MD`: *Yes, estimated Month and Day* 
-  - `YMD`: *Yes, estimated Year, Month and Day* 
+  - `N/A`: *Not applicable*
+  - `not_estimated`: *No.*
+  - `D`: *Yes, estimated the Day*
+  - `MD`: *Yes, estimated Month and Day*
+  - `YMD`: *Yes, estimated Year, Month and Day*
 ---
 
 **Section: Vital Signs**
@@ -413,8 +413,8 @@
 * type: CharField
 * length: 15
 * responses:
-  - `estimated`: *Estimated* 
-  - `measured`: *Measured* 
+  - `estimated`: *Estimated*
+  - `measured`: *Measured*
 ---
 
 **34.0.** Glasgow Coma Score:
@@ -432,15 +432,15 @@
 * column: neurological
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `focal_neurologic_deficit`: *Focal neurologic deficit* 
-  - `meningism`: *Meningism* 
-  - `papilloedema`: * Papilloedema* 
-  - `CN_III_palsy`: *Cranial Nerve III palsy* 
-  - `CN_IV_palsy`: *Cranial Nerve IV palsy* 
-  - `CN_VIII_palsy`: *Cranial Nerve VIII palsy* 
-  - `CN_VII_palsy`: *Cranial Nerve VII palsy* 
-  - `CN_VI_palsy`: *Cranial Nerve VI palsy* 
-  - `OTHER`: *Other CN palsy* 
+  - `focal_neurologic_deficit`: *Focal neurologic deficit*
+  - `meningism`: *Meningism*
+  - `papilloedema`: * Papilloedema*
+  - `CN_III_palsy`: *Cranial Nerve III palsy*
+  - `CN_IV_palsy`: *Cranial Nerve IV palsy*
+  - `CN_VIII_palsy`: *Cranial Nerve VIII palsy*
+  - `CN_VII_palsy`: *Cranial Nerve VII palsy*
+  - `CN_VI_palsy`: *Cranial Nerve VI palsy*
+  - `OTHER`: *Other CN palsy*
 ---
 
 **35.1.** If "Other CN palsy", specify
@@ -482,12 +482,12 @@
 * type: CharField
 * length: 15
 * responses:
-  - `0`: *Fully active, able to carry on all pre-disease performance without restriction* 
-  - `1`: *Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work* 
-  - `2`: *Ambulatory and capable of all self-care but unable to carry out any work activities; up and about more than 50% of waking hours * 
-  - `3`: *Capable of only limited self-care; confined to bed or chair more than 50% of waking hours* 
-  - `4`: *Completely disabled; cannot carry on any self-care; totally confined to bed or chair* 
-  - `5`: *Deceased* 
+  - `0`: *Fully active, able to carry on all pre-disease performance without restriction*
+  - `1`: *Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work*
+  - `2`: *Ambulatory and capable of all self-care but unable to carry out any work activities; up and about more than 50% of waking hours *
+  - `3`: *Capable of only limited self-care; confined to bed or chair more than 50% of waking hours*
+  - `4`: *Completely disabled; cannot carry on any self-care; totally confined to bed or chair*
+  - `5`: *Deceased*
 ---
 
 **Section: Other**
@@ -498,8 +498,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** Cryptococcal related skin lesions:
@@ -508,8 +508,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **43.0.** specify medications
@@ -517,8 +517,8 @@
 * column: specify_medications
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `TMP-SMX`: *TMP-SMX* 
-  - `OTHER`: *Other, specify;* 
+  - `TMP-SMX`: *TMP-SMX*
+  - `OTHER`: *Other, specify;*
 ---
 
 **43.1.** specify medications other
@@ -536,8 +536,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 
@@ -575,12 +575,12 @@
 * type: CharField
 * length: 20
 * responses:
-  - `botswana_pula`: *Botswana Pula* 
-  - `malawian_kwacha`: *Malawian Kwacha* 
-  - `south_african_rand`: *South African Rand* 
-  - `ugandan_shilling`: *Ugandan Shilling* 
-  - `us_dollar`: *US Dollar* 
-  - `zimbabwean_dollar`: *Zimbabwean Dollar* 
+  - `botswana_pula`: *Botswana Pula*
+  - `malawian_kwacha`: *Malawian Kwacha*
+  - `south_african_rand`: *South African Rand*
+  - `ugandan_shilling`: *Ugandan Shilling*
+  - `us_dollar`: *US Dollar*
+  - `zimbabwean_dollar`: *Zimbabwean Dollar*
 ---
 
 **4.0.** Over the last 4/10 weeks, how much have you spent on activities relating to your health?
@@ -621,12 +621,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `working`: *Working* 
-  - `studying`: *Studying* 
-  - `caring_for_children`: *Caring for children* 
-  - `maintaining_house`: *Maintaining the house* 
-  - `nothing`: *Nothing* 
-  - `OTHER`: *Other* 
+  - `working`: *Working*
+  - `studying`: *Studying*
+  - `caring_for_children`: *Caring for children*
+  - `maintaining_house`: *Maintaining the house*
+  - `nothing`: *Nothing*
+  - `OTHER`: *Other*
 ---
 
 **8.1.** If Other, specify ...
@@ -659,9 +659,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **12.0.** How much did you lose?
@@ -678,8 +678,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **Section: Information Source**
@@ -690,8 +690,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `patient`: *Patient* 
-  - `next_of_kin`: *Next of Kin/Relative* 
+  - `patient`: *Patient*
+  - `next_of_kin`: *Next of Kin/Relative*
 ---
 
 **Section: House Essentials**
@@ -722,16 +722,16 @@
 * type: CharField
 * length: 25
 * responses:
-  - `bus`: *Bus* 
-  - `train`: *Train* 
-  - `ambulance`: *Ambulance* 
-  - `private_taxi`: *Private taxi* 
-  - `hired_motorbike`: *Hired motorbike* 
-  - `own_car`: *Own car* 
-  - `own_motorbike`: *Own motorbike* 
-  - `bicycle`: *Bicycle* 
-  - `foot`: *Foot* 
-  - `N/A`: *Not applicable* 
+  - `bus`: *Bus*
+  - `train`: *Train*
+  - `ambulance`: *Ambulance*
+  - `private_taxi`: *Private taxi*
+  - `hired_motorbike`: *Hired motorbike*
+  - `own_car`: *Own car*
+  - `own_motorbike`: *Own motorbike*
+  - `bicycle`: *Bicycle*
+  - `foot`: *Foot*
+  - `N/A`: *Not applicable*
 ---
 
 **19.0.** How much did you spend on the transport (in total)?
@@ -758,8 +758,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **22.0.** Did you sell anything to pay for your healthcare?
@@ -768,8 +768,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **23.0.** Do you have private healthcare insurance?
@@ -778,8 +778,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** Did you use it to help pay for your healthcare?
@@ -788,9 +788,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Welfare or social service support**
@@ -801,8 +801,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 
@@ -893,8 +893,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **7.0.** If YES, for how many years?
@@ -909,8 +909,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **9.0.** If YES, for how many years?
@@ -925,8 +925,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **11.0.** If YES, for how many years?
@@ -943,8 +943,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 
@@ -1006,8 +1006,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **7.0.** If YES, for how many years?
@@ -1022,8 +1022,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **9.0.** If YES, for how many years?
@@ -1038,8 +1038,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **11.0.** If YES, for how many years?
@@ -1108,8 +1108,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -1118,8 +1118,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -1128,12 +1128,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -1150,8 +1150,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -1160,8 +1160,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -1170,12 +1170,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -1192,7 +1192,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -1201,8 +1201,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -1211,12 +1211,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -1233,7 +1233,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -1242,8 +1242,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -1252,12 +1252,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -1274,8 +1274,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -1284,8 +1284,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -1294,12 +1294,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -1316,7 +1316,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -1325,8 +1325,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -1335,12 +1335,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -1374,7 +1374,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -1383,8 +1383,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -1393,12 +1393,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -1415,7 +1415,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -1424,8 +1424,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -1434,12 +1434,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -1456,7 +1456,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -1465,8 +1465,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -1475,12 +1475,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -1497,7 +1497,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -1506,8 +1506,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -1516,12 +1516,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -1555,7 +1555,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -1564,8 +1564,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -1574,12 +1574,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -1613,7 +1613,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -1622,8 +1622,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -1632,12 +1632,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -1648,8 +1648,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -1660,9 +1660,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -1711,9 +1711,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **67.0.** Control result
@@ -1724,9 +1724,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **68.0.** T1 result
@@ -1737,9 +1737,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **69.0.** T2 result
@@ -1750,9 +1750,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -1797,9 +1797,9 @@
 * type: CharField
 * length: 50
 * responses:
-  - `scheduled_per_protocol`: *Scheduled per protocol* 
-  - `therapeutic_lp`: *Therapeutic LP* 
-  - `clincal_deterioration`: *Clinical deterioration* 
+  - `scheduled_per_protocol`: *Scheduled per protocol*
+  - `therapeutic_lp`: *Therapeutic LP*
+  - `clincal_deterioration`: *Clinical deterioration*
 ---
 
 **5.0.** opening pressure
@@ -1818,7 +1818,7 @@
 * type: IntegerField
 ---
 
-**7.0.** CSF amount removed 
+**7.0.** CSF amount removed
 
 &nbsp;&nbsp;&nbsp;&nbsp; *Units ml*
 * db_table: ambition_subject_lumbarpuncturecsf
@@ -1876,10 +1876,10 @@
 * type: CharField
 * length: 18
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `awaiting_results`: *Awaiting results* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `awaiting_results`: *Awaiting results*
+  - `not_done`: *Not done*
 ---
 
 **14.0.** If YES, specify organism:
@@ -1912,8 +1912,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **18.0.** Differential neutrophil cell count:
@@ -1930,8 +1930,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **20.0.** india ink
@@ -1940,10 +1940,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **21.0.** CSF glucose:
@@ -1960,8 +1960,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** CSF protein:
@@ -1978,10 +1978,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **25.0.** CSF CrAg done by IMMY CrAg LFA:
@@ -1990,9 +1990,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **26.0.** Biosynex Semi-quantitative CrAg performed?
@@ -2003,9 +2003,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **27.0.** Control result
@@ -2016,9 +2016,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **28.0.** T1 result
@@ -2029,9 +2029,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **29.0.** T2 result
@@ -2042,9 +2042,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -2084,8 +2084,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **4.0.** urine taken date
@@ -2101,9 +2101,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `N/A`: *Not applicable* 
-  - `no_growth`: *No growth* 
-  - `POS`: *Positive* 
+  - `N/A`: *Not applicable*
+  - `no_growth`: *No growth*
+  - `POS`: *Positive*
 ---
 
 **6.0.** If positive, organism
@@ -2112,10 +2112,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `e_coli`: *E.coli* 
-  - `klebsiella_sp`: *Klebsiella spp.* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `e_coli`: *E.coli*
+  - `klebsiella_sp`: *Klebsiella spp.*
+  - `OTHER`: *Other*
 ---
 
 **6.1.** If Other, specify ...
@@ -2134,8 +2134,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** Blood culture results, if completed
@@ -2144,9 +2144,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `N/A`: *Not applicable* 
-  - `no_growth`: *No growth* 
-  - `POS`: *Positive* 
+  - `N/A`: *Not applicable*
+  - `no_growth`: *No growth*
+  - `POS`: *Positive*
 ---
 
 **9.0.** blood taken date
@@ -2168,11 +2168,11 @@
 * type: CharField
 * length: 50
 * responses:
-  - `N/A`: *Not applicable* 
-  - `cryptococcus_neoformans`: *Cryptococcus neoformans* 
-  - `bacteria`: *Bacteria* 
-  - `bacteria_and_cryptococcus`: *Bacteria and Cryptococcus* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `cryptococcus_neoformans`: *Cryptococcus neoformans*
+  - `bacteria`: *Bacteria*
+  - `bacteria_and_cryptococcus`: *Bacteria and Cryptococcus*
+  - `OTHER`: *Other*
 ---
 
 **11.1.** If Other, specify ...
@@ -2189,13 +2189,13 @@
 * type: CharField
 * length: 50
 * responses:
-  - `N/A`: *Not applicable* 
-  - `e_coli`: *E.coli* 
-  - `klebsiella_sp`: *Klebsiella spp.* 
-  - `streptococcus_pneumoniae`: *Streptococcus pneumoniae* 
-  - `staphylococus_aureus`: *(Sensitive) Staphylococus aureus* 
-  - `mrsa`: *MRSA* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `e_coli`: *E.coli*
+  - `klebsiella_sp`: *Klebsiella spp.*
+  - `streptococcus_pneumoniae`: *Streptococcus pneumoniae*
+  - `staphylococus_aureus`: *(Sensitive) Staphylococus aureus*
+  - `mrsa`: *MRSA*
+  - `OTHER`: *Other*
 ---
 
 **12.1.** If Other, specify ...
@@ -2216,8 +2216,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **14.0.** sputum afb date
@@ -2233,9 +2233,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **16.0.** Culture performed?
@@ -2244,9 +2244,9 @@
 * type: CharField
 * length: 15
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **17.0.** sputum taken date
@@ -2262,9 +2262,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **19.0.** If culture is positive, please specify:
@@ -2281,9 +2281,9 @@
 * type: CharField
 * length: 15
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **21.0.** Date sputum Gene-Xpert taken
@@ -2299,11 +2299,11 @@
 * type: CharField
 * length: 45
 * responses:
-  - `mtb_detected_rif_resistance_detected`: *MTB DETECTED & Rif Resistance DETECTED* 
-  - `mtb_detected_rif_resistance_not_detected`: *MTB DETECTED & Rif Resistance NOT detected* 
-  - `mtb_detected_rif_resistance_indeterminate`: *MTB DETECTED & Rif Resistance INDETERMINATE* 
-  - `mtb_not_detected`: *MTB NOT detected* 
-  - `N/A`: *Not applicable* 
+  - `mtb_detected_rif_resistance_detected`: *MTB DETECTED & Rif Resistance DETECTED*
+  - `mtb_detected_rif_resistance_not_detected`: *MTB DETECTED & Rif Resistance NOT detected*
+  - `mtb_detected_rif_resistance_indeterminate`: *MTB DETECTED & Rif Resistance INDETERMINATE*
+  - `mtb_not_detected`: *MTB NOT detected*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: CSF Microbiology**
@@ -2314,9 +2314,9 @@
 * type: CharField
 * length: 15
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **24.0.** Date CSF Gene-Xpert taken
@@ -2332,11 +2332,11 @@
 * type: CharField
 * length: 45
 * responses:
-  - `mtb_detected_rif_resistance_detected`: *MTB DETECTED & Rif Resistance DETECTED* 
-  - `mtb_detected_rif_resistance_not_detected`: *MTB DETECTED & Rif Resistance NOT detected* 
-  - `mtb_detected_rif_resistance_indeterminate`: *MTB DETECTED & Rif Resistance INDETERMINATE* 
-  - `mtb_not_detected`: *MTB NOT detected* 
-  - `N/A`: *Not applicable* 
+  - `mtb_detected_rif_resistance_detected`: *MTB DETECTED & Rif Resistance DETECTED*
+  - `mtb_detected_rif_resistance_not_detected`: *MTB DETECTED & Rif Resistance NOT detected*
+  - `mtb_detected_rif_resistance_indeterminate`: *MTB DETECTED & Rif Resistance INDETERMINATE*
+  - `mtb_not_detected`: *MTB NOT detected*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Histopathology**
@@ -2347,8 +2347,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **27.0.** If YES, results
@@ -2357,9 +2357,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `N/A`: *Not applicable* 
-  - `no_growth`: *No growth* 
-  - `POS`: *Positive* 
+  - `N/A`: *Not applicable*
+  - `no_growth`: *No growth*
+  - `POS`: *Positive*
 ---
 
 **28.0.** biopsy date
@@ -2381,10 +2381,10 @@
 * type: CharField
 * length: 50
 * responses:
-  - `N/A`: *Not applicable* 
-  - `cryptococcus_neoformans`: *Cryptococcus neoformans* 
-  - `mycobacterium_tuberculosis`: *Mycobacterium Tuberculosis* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `cryptococcus_neoformans`: *Cryptococcus neoformans*
+  - `mycobacterium_tuberculosis`: *Mycobacterium Tuberculosis*
+  - `OTHER`: *Other*
 ---
 
 **30.1.** If Other, specify ...
@@ -2436,8 +2436,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **4.0.** If yes, when was CXR done
@@ -2452,11 +2452,11 @@
 * column: cxr_type
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `hilar_adenopathy`: *Hilar adenopathy* 
-  - `infiltrates`: *Infiltrates* 
-  - `miliary_appearance`: *Miliary appearance* 
-  - `NORMAL`: *Normal* 
-  - `pleural_effusion`: *Pleural effusion* 
+  - `hilar_adenopathy`: *Hilar adenopathy*
+  - `infiltrates`: *Infiltrates*
+  - `miliary_appearance`: *Miliary appearance*
+  - `NORMAL`: *Normal*
+  - `pleural_effusion`: *Pleural effusion*
 ---
 
 **6.0.** If infiltrates, specify location
@@ -2464,12 +2464,12 @@
 * column: infiltrate_location
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `diffuse`: *Diffuse* 
-  - `lll`: *LLL* 
-  - `lul`: *LUL* 
-  - `rll`: *RLL* 
-  - `rml`: *RML* 
-  - `rul`: *RUL* 
+  - `diffuse`: *Diffuse*
+  - `lll`: *LLL*
+  - `lul`: *LUL*
+  - `rll`: *RLL*
+  - `rml`: *RML*
+  - `rul`: *RUL*
 ---
 
 **7.0.** Description/Comments
@@ -2486,8 +2486,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **9.0.** Date CT performed
@@ -2503,9 +2503,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **11.0.** Reason for brain imaging
@@ -2514,10 +2514,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `reduction_in_gcs`: *Reduction in GCS* 
-  - `new_neurology`: *New neurology* 
-  - `OTHER`: *Other* 
+  - `N/A`: *Not applicable*
+  - `reduction_in_gcs`: *Reduction in GCS*
+  - `new_neurology`: *New neurology*
+  - `OTHER`: *Other*
 ---
 
 **11.1.** If other, please specify
@@ -2534,9 +2534,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **13.0.** If results are abnormal, what is the reason?
@@ -2544,13 +2544,13 @@
 * column: abnormal_results_reason
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `cerebral_oedema`: *Cerebral oedema* 
-  - `cryptococcomas`: *Cryptococcomas* 
-  - `dilated_virchow_robin_spaces`: *Dilated Virchow-Robin spaces* 
-  - `enhancing_mass_lesions`: *Enhancing mass lesions DD toxoplasmosis, TB, lymphoma* 
-  - `hydrocephalus`: *Hydrocephalus* 
-  - `infarcts`: *Infarcts* 
-  - `OTHER`: *Other* 
+  - `cerebral_oedema`: *Cerebral oedema*
+  - `cryptococcomas`: *Cryptococcomas*
+  - `dilated_virchow_robin_spaces`: *Dilated Virchow-Robin spaces*
+  - `enhancing_mass_lesions`: *Enhancing mass lesions DD toxoplasmosis, TB, lymphoma*
+  - `hydrocephalus`: *Hydrocephalus*
+  - `infarcts`: *Infarcts*
+  - `OTHER`: *Other*
 ---
 
 **13.1.** If other, please specify reason
@@ -2663,8 +2663,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -2673,8 +2673,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -2683,12 +2683,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -2705,8 +2705,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -2715,8 +2715,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -2725,12 +2725,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -2747,7 +2747,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -2756,8 +2756,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -2766,12 +2766,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -2788,7 +2788,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -2797,8 +2797,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -2807,12 +2807,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -2829,8 +2829,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -2839,8 +2839,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -2849,12 +2849,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -2871,7 +2871,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -2880,8 +2880,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -2890,12 +2890,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -2929,7 +2929,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -2938,8 +2938,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -2948,12 +2948,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -2970,7 +2970,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -2979,8 +2979,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -2989,12 +2989,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -3011,7 +3011,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -3020,8 +3020,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -3030,12 +3030,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -3052,7 +3052,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -3061,8 +3061,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -3071,12 +3071,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -3110,7 +3110,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -3119,8 +3119,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -3129,12 +3129,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -3168,7 +3168,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -3177,8 +3177,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -3187,12 +3187,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -3203,8 +3203,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -3215,9 +3215,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -3326,8 +3326,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -3336,8 +3336,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -3346,12 +3346,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -3368,8 +3368,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -3378,8 +3378,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -3388,12 +3388,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -3410,7 +3410,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -3419,8 +3419,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -3429,12 +3429,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -3451,7 +3451,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -3460,8 +3460,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -3470,12 +3470,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -3492,8 +3492,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -3502,8 +3502,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -3512,12 +3512,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -3534,7 +3534,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -3543,8 +3543,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -3553,12 +3553,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -3592,7 +3592,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -3601,8 +3601,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -3611,12 +3611,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -3633,7 +3633,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -3642,8 +3642,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -3652,12 +3652,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -3674,7 +3674,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -3683,8 +3683,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -3693,12 +3693,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -3715,7 +3715,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -3724,8 +3724,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -3734,12 +3734,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -3773,7 +3773,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -3782,8 +3782,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -3792,12 +3792,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -3831,7 +3831,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -3840,8 +3840,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -3850,12 +3850,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -3866,8 +3866,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -3878,9 +3878,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -3985,8 +3985,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -3995,8 +3995,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -4005,12 +4005,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -4027,8 +4027,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -4037,8 +4037,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -4047,12 +4047,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -4069,7 +4069,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -4078,8 +4078,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -4088,12 +4088,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -4110,7 +4110,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -4119,8 +4119,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -4129,12 +4129,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -4151,8 +4151,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -4161,8 +4161,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -4171,12 +4171,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -4193,7 +4193,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -4202,8 +4202,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -4212,12 +4212,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -4251,7 +4251,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -4260,8 +4260,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -4270,12 +4270,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -4292,7 +4292,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -4301,8 +4301,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -4311,12 +4311,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -4333,7 +4333,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -4342,8 +4342,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -4352,12 +4352,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -4374,7 +4374,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -4383,8 +4383,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -4393,12 +4393,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -4432,7 +4432,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -4441,8 +4441,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -4451,12 +4451,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -4490,7 +4490,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -4499,8 +4499,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -4509,12 +4509,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -4525,8 +4525,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -4537,9 +4537,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -4620,9 +4620,9 @@
 * type: CharField
 * length: 50
 * responses:
-  - `scheduled_per_protocol`: *Scheduled per protocol* 
-  - `therapeutic_lp`: *Therapeutic LP* 
-  - `clincal_deterioration`: *Clinical deterioration* 
+  - `scheduled_per_protocol`: *Scheduled per protocol*
+  - `therapeutic_lp`: *Therapeutic LP*
+  - `clincal_deterioration`: *Clinical deterioration*
 ---
 
 **5.0.** opening pressure
@@ -4641,7 +4641,7 @@
 * type: IntegerField
 ---
 
-**7.0.** CSF amount removed 
+**7.0.** CSF amount removed
 
 &nbsp;&nbsp;&nbsp;&nbsp; *Units ml*
 * db_table: ambition_subject_lumbarpuncturecsf
@@ -4699,10 +4699,10 @@
 * type: CharField
 * length: 18
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `awaiting_results`: *Awaiting results* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `awaiting_results`: *Awaiting results*
+  - `not_done`: *Not done*
 ---
 
 **14.0.** If YES, specify organism:
@@ -4735,8 +4735,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **18.0.** Differential neutrophil cell count:
@@ -4753,8 +4753,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **20.0.** india ink
@@ -4763,10 +4763,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **21.0.** CSF glucose:
@@ -4783,8 +4783,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** CSF protein:
@@ -4801,10 +4801,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **25.0.** CSF CrAg done by IMMY CrAg LFA:
@@ -4813,9 +4813,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **26.0.** Biosynex Semi-quantitative CrAg performed?
@@ -4826,9 +4826,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **27.0.** Control result
@@ -4839,9 +4839,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **28.0.** T1 result
@@ -4852,9 +4852,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **29.0.** T2 result
@@ -4865,9 +4865,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -4907,8 +4907,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **4.0.** If Yes, Which formulation of amphotericin?
@@ -4917,8 +4917,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `ambisome`: *AmBisome* 
-  - `amphotericin_b`: *Amphotericin B Deoxycholate* 
+  - `ambisome`: *AmBisome*
+  - `amphotericin_b`: *Amphotericin B Deoxycholate*
 ---
 
 **5.0.** Dose given
@@ -4949,8 +4949,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **Section: Flucytosine**
@@ -4963,14 +4963,14 @@
 * type: IntegerField
 ---
 
-**10.0.** Flucytosine <b><u>DOSE&nbsp;1</u></b> given? 
+**10.0.** Flucytosine <b><u>DOSE&nbsp;1</u></b> given?
 * db_table: ambition_subject_pkpdcrf
 * column: flucytosine_dose_one_given
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **11.0.** Date and time Flucytosine <u>DOSE&nbsp;1</u> was swallowed?
@@ -4988,14 +4988,14 @@
 * type: IntegerField
 ---
 
-**13.0.** Flucytosine <b><u>DOSE&nbsp;2</u></b> given? 
+**13.0.** Flucytosine <b><u>DOSE&nbsp;2</u></b> given?
 * db_table: ambition_subject_pkpdcrf
 * column: flucytosine_dose_two_given
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **14.0.** Date and time Flucytosine <u>DOSE&nbsp;2</u> was swallowed?
@@ -5013,14 +5013,14 @@
 * type: IntegerField
 ---
 
-**16.0.** Flucytosine <b><u>DOSE&nbsp;3</u></b> given? 
+**16.0.** Flucytosine <b><u>DOSE&nbsp;3</u></b> given?
 * db_table: ambition_subject_pkpdcrf
 * column: flucytosine_dose_three_given
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **17.0.** Date and time Flucytosine <u>DOSE&nbsp;3</u> was swallowed?
@@ -5038,14 +5038,14 @@
 * type: IntegerField
 ---
 
-**19.0.** Flucytosine <b><u>DOSE&nbsp;4</u></b> given? 
+**19.0.** Flucytosine <b><u>DOSE&nbsp;4</u></b> given?
 * db_table: ambition_subject_pkpdcrf
 * column: flucytosine_dose_four_given
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** Date and time Flucytosine <u>DOSE&nbsp;4</u> was swallowed?
@@ -5093,9 +5093,9 @@
 * type: CharField
 * length: 11
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **26.0.** If Fluconazole dose not given, provide reason
@@ -5155,8 +5155,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** If any blood samples missed, provide reason
@@ -5174,8 +5174,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **36.0.** Is this a post-dose LP?
@@ -5184,8 +5184,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **37.0.** What date and time was the CSF sample taken?
@@ -5281,8 +5281,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -5291,8 +5291,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -5301,12 +5301,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -5323,8 +5323,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -5333,8 +5333,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -5343,12 +5343,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -5365,7 +5365,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -5374,8 +5374,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -5384,12 +5384,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -5406,7 +5406,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -5415,8 +5415,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -5425,12 +5425,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -5447,8 +5447,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -5457,8 +5457,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -5467,12 +5467,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -5489,7 +5489,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -5498,8 +5498,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -5508,12 +5508,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -5547,7 +5547,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -5556,8 +5556,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -5566,12 +5566,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -5588,7 +5588,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -5597,8 +5597,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -5607,12 +5607,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -5629,7 +5629,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -5638,8 +5638,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -5648,12 +5648,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -5670,7 +5670,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -5679,8 +5679,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -5689,12 +5689,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -5728,7 +5728,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -5737,8 +5737,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -5747,12 +5747,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -5786,7 +5786,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -5795,8 +5795,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -5805,12 +5805,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -5821,8 +5821,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -5833,9 +5833,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -5940,8 +5940,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -5950,8 +5950,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -5960,12 +5960,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -5982,8 +5982,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -5992,8 +5992,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -6002,12 +6002,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -6024,7 +6024,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -6033,8 +6033,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -6043,12 +6043,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -6065,7 +6065,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -6074,8 +6074,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -6084,12 +6084,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -6106,8 +6106,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -6116,8 +6116,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -6126,12 +6126,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -6148,7 +6148,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -6157,8 +6157,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -6167,12 +6167,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -6206,7 +6206,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -6215,8 +6215,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -6225,12 +6225,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -6247,7 +6247,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -6256,8 +6256,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -6266,12 +6266,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -6288,7 +6288,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -6297,8 +6297,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -6307,12 +6307,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -6329,7 +6329,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -6338,8 +6338,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -6348,12 +6348,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -6387,7 +6387,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -6396,8 +6396,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -6406,12 +6406,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -6445,7 +6445,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -6454,8 +6454,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -6464,12 +6464,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -6480,8 +6480,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -6492,9 +6492,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -6574,8 +6574,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **4.0.** discharge date
@@ -6598,8 +6598,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **7.0.** death date time
@@ -6611,14 +6611,14 @@
 
 **Section: Part2: Induction phase study medication**
 
-**8.0.** Amphotericin B start date: 
+**8.0.** Amphotericin B start date:
 * db_table: ambition_subject_week2
 * column: ampho_start_date
 * type: DateField
 * format: YYYY-MM-DD
 ---
 
-**9.0.** Amphotericin B end date: 
+**9.0.** Amphotericin B end date:
 * db_table: ambition_subject_week2
 * column: ampho_end_date
 * type: DateField
@@ -6672,15 +6672,15 @@
 * column: drug_intervention
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `anti_convulsants`: *Anticonvulsants* 
-  - `antibiotics`: *Antibiotics* 
-  - `magnesium`: *Magnesium* 
-  - `potassium`: * Potassium* 
-  - `tmp_smx_Cotrimoxazole`: * TMP-SMX/Cotrimoxazole* 
-  - `vitamins`: * Vitamins* 
-  - `OTHER`: *Other, specify* 
-  - `none`: *None, no other drugs/interventions given* 
-  - `N/A`: *Not applicable* 
+  - `anti_convulsants`: *Anticonvulsants*
+  - `antibiotics`: *Antibiotics*
+  - `magnesium`: *Magnesium*
+  - `potassium`: * Potassium*
+  - `tmp_smx_Cotrimoxazole`: * TMP-SMX/Cotrimoxazole*
+  - `vitamins`: * Vitamins*
+  - `OTHER`: *Other, specify*
+  - `none`: *None, no other drugs/interventions given*
+  - `N/A`: *Not applicable*
 ---
 
 **16.1.** If other, please specify:
@@ -6694,14 +6694,14 @@
 * column: antibiotic
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `amoxicillin_ampicillin`: *Amoxicillin/Ampicillin* 
-  - `ceftriaxone`: *Ceftriaxone* 
-  - `ciprofloxacin`: *Ciprofloxacin* 
-  - `doxycycline`: *Doxycycline* 
-  - `erythromycin`: *Erythromycin* 
-  - `flucloxacillin`: *Flucloxacillin* 
-  - `gentamicin`: *Gentamicin* 
-  - `OTHER`: *Other, specify* 
+  - `amoxicillin_ampicillin`: *Amoxicillin/Ampicillin*
+  - `ceftriaxone`: *Ceftriaxone*
+  - `ciprofloxacin`: *Ciprofloxacin*
+  - `doxycycline`: *Doxycycline*
+  - `erythromycin`: *Erythromycin*
+  - `flucloxacillin`: *Flucloxacillin*
+  - `gentamicin`: *Gentamicin*
+  - `OTHER`: *Other, specify*
 ---
 
 **17.1.** If other antibiotics, please specify:
@@ -6716,8 +6716,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **19.0.** If YES, no. of units
@@ -6734,9 +6734,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **21.0.** Glasgow Coma Score
@@ -6753,9 +6753,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **23.0.** Recent seizure (<72 hrs)
@@ -6764,9 +6764,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **24.0.** CN palsy
@@ -6775,9 +6775,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **25.0.** Behaviour change
@@ -6786,9 +6786,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **26.0.** Focal neurology
@@ -6797,9 +6797,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **27.0.** Weight:
@@ -6815,12 +6815,12 @@
 * column: medicines
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `co_trimoxazole`: *Co-trimoxazole* 
-  - `fluconazole`: *Fluconazole* 
-  - `rifampicin`: * Rifampicin* 
-  - `OTHER`: *Other* 
-  - `none`: *None, no other medications given* 
-  - `N/A`: *Not applicable* 
+  - `co_trimoxazole`: *Co-trimoxazole*
+  - `fluconazole`: *Fluconazole*
+  - `rifampicin`: * Rifampicin*
+  - `OTHER`: *Other*
+  - `none`: *None, no other medications given*
+  - `N/A`: *Not applicable*
 ---
 
 **28.1.** If other, please specify:
@@ -6835,8 +6835,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 
@@ -6899,8 +6899,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -6909,8 +6909,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -6919,12 +6919,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -6941,8 +6941,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -6951,8 +6951,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -6961,12 +6961,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -6983,7 +6983,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -6992,8 +6992,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -7002,12 +7002,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -7024,7 +7024,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -7033,8 +7033,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -7043,12 +7043,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -7065,8 +7065,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -7075,8 +7075,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -7085,12 +7085,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -7107,7 +7107,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -7116,8 +7116,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -7126,12 +7126,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -7165,7 +7165,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -7174,8 +7174,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -7184,12 +7184,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -7206,7 +7206,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -7215,8 +7215,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -7225,12 +7225,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -7247,7 +7247,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -7256,8 +7256,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -7266,12 +7266,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -7288,7 +7288,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -7297,8 +7297,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -7307,12 +7307,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -7346,7 +7346,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -7355,8 +7355,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -7365,12 +7365,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -7404,7 +7404,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -7413,8 +7413,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -7423,12 +7423,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -7439,8 +7439,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -7451,9 +7451,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -7534,9 +7534,9 @@
 * type: CharField
 * length: 50
 * responses:
-  - `scheduled_per_protocol`: *Scheduled per protocol* 
-  - `therapeutic_lp`: *Therapeutic LP* 
-  - `clincal_deterioration`: *Clinical deterioration* 
+  - `scheduled_per_protocol`: *Scheduled per protocol*
+  - `therapeutic_lp`: *Therapeutic LP*
+  - `clincal_deterioration`: *Clinical deterioration*
 ---
 
 **5.0.** opening pressure
@@ -7555,7 +7555,7 @@
 * type: IntegerField
 ---
 
-**7.0.** CSF amount removed 
+**7.0.** CSF amount removed
 
 &nbsp;&nbsp;&nbsp;&nbsp; *Units ml*
 * db_table: ambition_subject_lumbarpuncturecsf
@@ -7613,10 +7613,10 @@
 * type: CharField
 * length: 18
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `awaiting_results`: *Awaiting results* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `awaiting_results`: *Awaiting results*
+  - `not_done`: *Not done*
 ---
 
 **14.0.** If YES, specify organism:
@@ -7649,8 +7649,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **18.0.** Differential neutrophil cell count:
@@ -7667,8 +7667,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mm3`: *mm<sup>3</sup>* 
-  - `%`: *%* 
+  - `mm3`: *mm<sup>3</sup>*
+  - `%`: *%*
 ---
 
 **20.0.** india ink
@@ -7677,10 +7677,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **21.0.** CSF glucose:
@@ -7697,8 +7697,8 @@
 * type: CharField
 * length: 6
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** CSF protein:
@@ -7715,10 +7715,10 @@
 * type: CharField
 * length: 15
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `IND`: *Indeterminate* 
-  - `not_done`: *Not done* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `IND`: *Indeterminate*
+  - `not_done`: *Not done*
 ---
 
 **25.0.** CSF CrAg done by IMMY CrAg LFA:
@@ -7727,9 +7727,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **26.0.** Biosynex Semi-quantitative CrAg performed?
@@ -7740,9 +7740,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **27.0.** Control result
@@ -7753,9 +7753,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **28.0.** T1 result
@@ -7766,9 +7766,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 **29.0.** T2 result
@@ -7779,9 +7779,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `POS`: *Positive* 
-  - `NEG`: *Negative* 
-  - `N/A`: *Not applicable* 
+  - `POS`: *Positive*
+  - `NEG`: *Negative*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -7837,9 +7837,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **4.0.** Headache
@@ -7848,9 +7848,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **5.0.** Glasgow Coma Score
@@ -7867,9 +7867,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **7.0.** Recent seizure (<72 hrs)
@@ -7878,9 +7878,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **8.0.** CN palsy
@@ -7889,9 +7889,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **9.0.** Behaviour change
@@ -7900,9 +7900,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **10.0.** Focal neurology
@@ -7911,9 +7911,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **Section: Drug Treatment**
@@ -7924,9 +7924,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `800mg_daily`: *800mg daily* 
-  - `OTHER`: *Other* 
-  - `not_done`: *Not done* 
+  - `800mg_daily`: *800mg daily*
+  - `OTHER`: *Other*
+  - `not_done`: *Not done*
 ---
 
 **11.1.** If Other, specify ...
@@ -7943,10 +7943,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `already_on_rifampicin`: *Already on Rifampicin* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `already_on_rifampicin`: *Already on Rifampicin*
+  - `not_done`: *Not done*
 ---
 
 **13.0.** Date Rifampicin started
@@ -7962,9 +7962,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -8027,8 +8027,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -8037,8 +8037,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -8047,12 +8047,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -8069,8 +8069,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -8079,8 +8079,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -8089,12 +8089,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -8111,7 +8111,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -8120,8 +8120,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -8130,12 +8130,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -8152,7 +8152,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -8161,8 +8161,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -8171,12 +8171,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -8193,8 +8193,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -8203,8 +8203,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -8213,12 +8213,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -8235,7 +8235,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -8244,8 +8244,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -8254,12 +8254,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -8293,7 +8293,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -8302,8 +8302,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -8312,12 +8312,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -8334,7 +8334,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -8343,8 +8343,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -8353,12 +8353,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -8375,7 +8375,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -8384,8 +8384,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -8394,12 +8394,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -8416,7 +8416,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -8425,8 +8425,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -8435,12 +8435,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -8474,7 +8474,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -8483,8 +8483,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -8493,12 +8493,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -8532,7 +8532,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -8541,8 +8541,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -8551,12 +8551,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -8567,8 +8567,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -8579,9 +8579,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -8663,9 +8663,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **4.0.** Headache
@@ -8674,9 +8674,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **5.0.** Glasgow Coma Score
@@ -8693,9 +8693,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **7.0.** Recent seizure (<72 hrs)
@@ -8704,9 +8704,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **8.0.** CN palsy
@@ -8715,9 +8715,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **9.0.** Behaviour change
@@ -8726,9 +8726,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **10.0.** Focal neurology
@@ -8737,9 +8737,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **Section: Drug Treatment**
@@ -8750,9 +8750,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `800mg_daily`: *800mg daily* 
-  - `OTHER`: *Other* 
-  - `not_done`: *Not done* 
+  - `800mg_daily`: *800mg daily*
+  - `OTHER`: *Other*
+  - `not_done`: *Not done*
 ---
 
 **11.1.** If other, specify dose:
@@ -8769,10 +8769,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `already_on_rifampicin`: *Already on Rifampicin* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `already_on_rifampicin`: *Already on Rifampicin*
+  - `not_done`: *Not done*
 ---
 
 **13.0.** Date Rifampicin started
@@ -8842,8 +8842,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -8852,8 +8852,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -8862,12 +8862,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -8884,8 +8884,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -8894,8 +8894,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -8904,12 +8904,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -8926,7 +8926,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -8935,8 +8935,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -8945,12 +8945,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -8967,7 +8967,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -8976,8 +8976,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -8986,12 +8986,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -9008,8 +9008,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -9018,8 +9018,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -9028,12 +9028,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -9050,7 +9050,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -9059,8 +9059,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -9069,12 +9069,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -9108,7 +9108,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -9117,8 +9117,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -9127,12 +9127,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -9149,7 +9149,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -9158,8 +9158,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -9168,12 +9168,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -9190,7 +9190,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -9199,8 +9199,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -9209,12 +9209,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -9231,7 +9231,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -9240,8 +9240,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -9250,12 +9250,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -9289,7 +9289,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -9298,8 +9298,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -9308,12 +9308,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -9347,7 +9347,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -9356,8 +9356,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -9366,12 +9366,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -9382,8 +9382,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -9394,9 +9394,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -9474,9 +9474,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **4.0.** Headache
@@ -9485,9 +9485,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **5.0.** Glasgow Coma Score
@@ -9504,9 +9504,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **7.0.** Recent seizure (<72 hrs)
@@ -9515,9 +9515,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **8.0.** CN palsy
@@ -9526,9 +9526,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **9.0.** Behaviour change
@@ -9537,9 +9537,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **10.0.** Focal neurology
@@ -9548,9 +9548,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **Section: Drug Treatment**
@@ -9561,9 +9561,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `800mg_daily`: *800mg daily* 
-  - `OTHER`: *Other* 
-  - `not_done`: *Not done* 
+  - `800mg_daily`: *800mg daily*
+  - `OTHER`: *Other*
+  - `not_done`: *Not done*
 ---
 
 **11.1.** If other, specify dose:
@@ -9580,10 +9580,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `already_on_rifampicin`: *Already on Rifampicin* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `already_on_rifampicin`: *Already on Rifampicin*
+  - `not_done`: *Not done*
 ---
 
 **13.0.** Date Rifampicin started
@@ -9653,8 +9653,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -9663,8 +9663,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -9673,12 +9673,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -9695,8 +9695,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -9705,8 +9705,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -9715,12 +9715,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -9737,7 +9737,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -9746,8 +9746,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -9756,12 +9756,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -9778,7 +9778,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -9787,8 +9787,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -9797,12 +9797,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -9819,8 +9819,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -9829,8 +9829,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -9839,12 +9839,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -9861,7 +9861,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -9870,8 +9870,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -9880,12 +9880,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -9919,7 +9919,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -9928,8 +9928,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -9938,12 +9938,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -9960,7 +9960,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -9969,8 +9969,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -9979,12 +9979,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -10001,7 +10001,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -10010,8 +10010,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -10020,12 +10020,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -10042,7 +10042,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -10051,8 +10051,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -10061,12 +10061,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -10100,7 +10100,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -10109,8 +10109,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -10119,12 +10119,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -10158,7 +10158,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -10167,8 +10167,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -10177,12 +10177,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -10193,8 +10193,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -10205,9 +10205,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -10285,9 +10285,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **4.0.** Headache
@@ -10296,9 +10296,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **5.0.** Glasgow Coma Score
@@ -10315,9 +10315,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **7.0.** Recent seizure (<72 hrs)
@@ -10326,9 +10326,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **8.0.** CN palsy
@@ -10337,9 +10337,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **9.0.** Behaviour change
@@ -10348,9 +10348,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **10.0.** Focal neurology
@@ -10359,9 +10359,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **Section: Drug Treatment**
@@ -10372,9 +10372,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `800mg_daily`: *800mg daily* 
-  - `OTHER`: *Other* 
-  - `not_done`: *Not done* 
+  - `800mg_daily`: *800mg daily*
+  - `OTHER`: *Other*
+  - `not_done`: *Not done*
 ---
 
 **11.1.** If other, specify dose:
@@ -10391,10 +10391,10 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `already_on_rifampicin`: *Already on Rifampicin* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `already_on_rifampicin`: *Already on Rifampicin*
+  - `not_done`: *Not done*
 ---
 
 **13.0.** Date Rifampicin started
@@ -10417,14 +10417,14 @@
 * column: antibiotic
 * type: ManyToManyField
 * responses: *Select all that apply*
-  - `amoxicillin_ampicillin`: *Amoxicillin/Ampicillin* 
-  - `ceftriaxone`: *Ceftriaxone* 
-  - `ciprofloxacin`: *Ciprofloxacin* 
-  - `doxycycline`: *Doxycycline* 
-  - `erythromycin`: *Erythromycin* 
-  - `flucloxacillin`: *Flucloxacillin* 
-  - `gentamicin`: *Gentamicin* 
-  - `OTHER`: *Other, specify* 
+  - `amoxicillin_ampicillin`: *Amoxicillin/Ampicillin*
+  - `ceftriaxone`: *Ceftriaxone*
+  - `ciprofloxacin`: *Ciprofloxacin*
+  - `doxycycline`: *Doxycycline*
+  - `erythromycin`: *Erythromycin*
+  - `flucloxacillin`: *Flucloxacillin*
+  - `gentamicin`: *Gentamicin*
+  - `OTHER`: *Other, specify*
 ---
 
 **15.1.** If other antibiotics, please specify:
@@ -10435,17 +10435,17 @@
 * responses: *free text*
 ---
 
-**16.0.** Has the patient had any blood transfusions since week two? 
+**16.0.** Has the patient had any blood transfusions since week two?
 * db_table: ambition_subject_followup
 * column: blood_transfusions
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
-**17.0.** If YES, no. of units?    
+**17.0.** If YES, no. of units?
 * db_table: ambition_subject_followup
 * column: blood_transfusions_units
 * type: DecimalField
@@ -10465,7 +10465,7 @@
 * type: DecimalField
 ---
 
-**20.0.** Does the patient require help from anybody for everyday activities? 
+**20.0.** Does the patient require help from anybody for everyday activities?
 
 &nbsp;&nbsp;&nbsp;&nbsp; *For example eating, drinking, washing, brushing teeth, going to the toilet*
 * db_table: ambition_subject_followup
@@ -10473,9 +10473,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **21.0.** Has the illness left the patient with any other problems?
@@ -10484,9 +10484,9 @@
 * type: CharField
 * length: 10
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `not_done`: *Not done* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `not_done`: *Not done*
 ---
 
 **22.0.** Modified Rankin score
@@ -10495,14 +10495,14 @@
 * type: CharField
 * length: 10
 * responses:
-  - `0`: *0 - No symptoms at all* 
-  - `1`: *1 - No significant disability despite symptoms; able to carry out all usual duties and activities* 
-  - `2`: *2 - Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance* 
-  - `3`: *3 - Moderate disability; requiring some help, but able to walk without assistance* 
-  - `4`: *4 - Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance* 
-  - `5`: *5 - Severe disability; bedridden, incontinent and requiring constant nursing care and attention* 
-  - `6`: *6 - Dead* 
-  - `not_done`: *Not done* 
+  - `0`: *0 - No symptoms at all*
+  - `1`: *1 - No significant disability despite symptoms; able to carry out all usual duties and activities*
+  - `2`: *2 - Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance*
+  - `3`: *3 - Moderate disability; requiring some help, but able to walk without assistance*
+  - `4`: *4 - Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance*
+  - `5`: *5 - Severe disability; bedridden, incontinent and requiring constant nursing care and attention*
+  - `6`: *6 - Dead*
+  - `not_done`: *Not done*
 ---
 
 
@@ -10540,12 +10540,12 @@
 * type: CharField
 * length: 20
 * responses:
-  - `botswana_pula`: *Botswana Pula* 
-  - `malawian_kwacha`: *Malawian Kwacha* 
-  - `south_african_rand`: *South African Rand* 
-  - `ugandan_shilling`: *Ugandan Shilling* 
-  - `us_dollar`: *US Dollar* 
-  - `zimbabwean_dollar`: *Zimbabwean Dollar* 
+  - `botswana_pula`: *Botswana Pula*
+  - `malawian_kwacha`: *Malawian Kwacha*
+  - `south_african_rand`: *South African Rand*
+  - `ugandan_shilling`: *Ugandan Shilling*
+  - `us_dollar`: *US Dollar*
+  - `zimbabwean_dollar`: *Zimbabwean Dollar*
 ---
 
 **4.0.** Over the last 4/10 weeks, how much have you spent on activities relating to your health?
@@ -10586,12 +10586,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `working`: *Working* 
-  - `studying`: *Studying* 
-  - `caring_for_children`: *Caring for children* 
-  - `maintaining_house`: *Maintaining the house* 
-  - `nothing`: *Nothing* 
-  - `OTHER`: *Other* 
+  - `working`: *Working*
+  - `studying`: *Studying*
+  - `caring_for_children`: *Caring for children*
+  - `maintaining_house`: *Maintaining the house*
+  - `nothing`: *Nothing*
+  - `OTHER`: *Other*
 ---
 
 **8.1.** If Other, specify ...
@@ -10624,9 +10624,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **12.0.** How much did you lose?
@@ -10643,8 +10643,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **Section: Information Source**
@@ -10655,8 +10655,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `patient`: *Patient* 
-  - `next_of_kin`: *Next of Kin/Relative* 
+  - `patient`: *Patient*
+  - `next_of_kin`: *Next of Kin/Relative*
 ---
 
 **Section: Loans and Insurance**
@@ -10667,8 +10667,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** Did you sell anything to pay for your healthcare?
@@ -10677,8 +10677,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **17.0.** Do you have private healthcare insurance?
@@ -10687,8 +10687,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **18.0.** Did you use it to help pay for your healthcare?
@@ -10697,9 +10697,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 
@@ -10791,8 +10791,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -10801,8 +10801,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -10811,12 +10811,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -10833,8 +10833,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -10843,8 +10843,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -10853,12 +10853,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -10875,7 +10875,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -10884,8 +10884,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -10894,12 +10894,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -10916,7 +10916,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -10925,8 +10925,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -10935,12 +10935,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -10957,8 +10957,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -10967,8 +10967,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -10977,12 +10977,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -10999,7 +10999,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -11008,8 +11008,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -11018,12 +11018,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -11057,7 +11057,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -11066,8 +11066,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -11076,12 +11076,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -11098,7 +11098,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -11107,8 +11107,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -11117,12 +11117,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -11139,7 +11139,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -11148,8 +11148,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -11158,12 +11158,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -11180,7 +11180,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -11189,8 +11189,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -11199,12 +11199,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -11238,7 +11238,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -11247,8 +11247,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -11257,12 +11257,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -11296,7 +11296,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -11305,8 +11305,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -11315,12 +11315,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -11331,8 +11331,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -11343,9 +11343,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**
@@ -11423,8 +11423,8 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **4.0.** If dead, date and time of death
@@ -11442,9 +11442,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **6.0.** Has the illness left the patient with any other problems?
@@ -11453,9 +11453,9 @@
 * type: CharField
 * length: 5
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **7.0.** Modified Rankin score
@@ -11464,14 +11464,14 @@
 * type: CharField
 * length: 10
 * responses:
-  - `0`: *0 - No symptoms at all* 
-  - `1`: *1 - No significant disability despite symptoms; able to carry out all usual duties and activities* 
-  - `2`: *2 - Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance* 
-  - `3`: *3 - Moderate disability; requiring some help, but able to walk without assistance* 
-  - `4`: *4 - Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance* 
-  - `5`: *5 - Severe disability; bedridden, incontinent and requiring constant nursing care and attention* 
-  - `6`: *6 - Dead* 
-  - `not_done`: *Not done* 
+  - `0`: *0 - No symptoms at all*
+  - `1`: *1 - No significant disability despite symptoms; able to carry out all usual duties and activities*
+  - `2`: *2 - Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance*
+  - `3`: *3 - Moderate disability; requiring some help, but able to walk without assistance*
+  - `4`: *4 - Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance*
+  - `5`: *5 - Severe disability; bedridden, incontinent and requiring constant nursing care and attention*
+  - `6`: *6 - Dead*
+  - `not_done`: *Not done*
 ---
 
 **8.0.** Narrative
@@ -11541,8 +11541,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `umol/L`: *μmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `umol/L`: *μmol/L*
 ---
 
 **7.0.** abnormal
@@ -11551,8 +11551,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **8.0.** reportable
@@ -11561,12 +11561,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: UREA**
@@ -11583,8 +11583,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **11.0.** abnormal
@@ -11593,8 +11593,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **12.0.** reportable
@@ -11603,12 +11603,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: SODIUM**
@@ -11625,7 +11625,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **15.0.** abnormal
@@ -11634,8 +11634,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **16.0.** reportable
@@ -11644,12 +11644,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: POTASSIUM**
@@ -11666,7 +11666,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `mmol/L`: *mmol/L* 
+  - `mmol/L`: *mmol/L*
 ---
 
 **19.0.** abnormal
@@ -11675,8 +11675,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **20.0.** reportable
@@ -11685,12 +11685,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: MAGNESIUM**
@@ -11707,8 +11707,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `mg/dL`: *mg/dL* 
-  - `mmol/L`: *mmol/L* 
+  - `mg/dL`: *mg/dL*
+  - `mmol/L`: *mmol/L*
 ---
 
 **23.0.** abnormal
@@ -11717,8 +11717,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **24.0.** reportable
@@ -11727,12 +11727,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: ALT**
@@ -11749,7 +11749,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `IU/L`: *IU/L* 
+  - `IU/L`: *IU/L*
 ---
 
 **27.0.** abnormal
@@ -11758,8 +11758,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **28.0.** reportable
@@ -11768,12 +11768,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: FBC**
@@ -11807,7 +11807,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `g/dL`: *g/dL* 
+  - `g/dL`: *g/dL*
 ---
 
 **33.0.** abnormal
@@ -11816,8 +11816,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **34.0.** reportable
@@ -11826,12 +11826,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: WBC**
@@ -11848,7 +11848,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **37.0.** abnormal
@@ -11857,8 +11857,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **38.0.** reportable
@@ -11867,12 +11867,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: NEUTROPHIL**
@@ -11889,7 +11889,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **41.0.** abnormal
@@ -11898,8 +11898,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **42.0.** reportable
@@ -11908,12 +11908,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: PLATELETS**
@@ -11930,7 +11930,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `10^9/L`: *10^9/L* 
+  - `10^9/L`: *10^9/L*
 ---
 
 **45.0.** abnormal
@@ -11939,8 +11939,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **46.0.** reportable
@@ -11949,12 +11949,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Immunology**
@@ -11988,7 +11988,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `cells/mm^3`: *cells/mm^3* 
+  - `cells/mm^3`: *cells/mm^3*
 ---
 
 **51.0.** abnormal
@@ -11997,8 +11997,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **52.0.** reportable
@@ -12007,12 +12007,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Virology**
@@ -12046,7 +12046,7 @@
 * type: CharField
 * length: 10
 * responses:
-  - `copies/mL`: *copies/mL* 
+  - `copies/mL`: *copies/mL*
 ---
 
 **57.0.** abnormal
@@ -12055,8 +12055,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **58.0.** reportable
@@ -12065,12 +12065,12 @@
 * type: CharField
 * length: 25
 * responses:
-  - `N/A`: *Not applicable* 
-  - `3`: *Yes, grade 3* 
-  - `4`: *Yes, grade 4* 
-  - `No`: *Not reportable* 
-  - `Already reported`: *Already reported* 
-  - `present_at_baseline`: *Present at baseline* 
+  - `N/A`: *Not applicable*
+  - `3`: *Yes, grade 3*
+  - `4`: *Yes, grade 4*
+  - `No`: *Not reportable*
+  - `Already reported`: *Already reported*
+  - `present_at_baseline`: *Present at baseline*
 ---
 
 **Section: Conclusion**
@@ -12081,8 +12081,8 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
+  - `Yes`: *Yes*
+  - `No`: *No*
 ---
 
 **60.0.** If any results are abnormal, are results within grade III or above?
@@ -12093,9 +12093,9 @@
 * type: CharField
 * length: 25
 * responses:
-  - `Yes`: *Yes* 
-  - `No`: *No* 
-  - `N/A`: *Not applicable* 
+  - `Yes`: *Yes*
+  - `No`: *No*
+  - `N/A`: *Not applicable*
 ---
 
 **Section: Summary**

@@ -61,7 +61,7 @@ Either generate GPG Keys OR restore the .gnugp folder from you backup
 generate ...
 
 .. code-block:: bash
-  
+
   $ gpg --version
 
   $ gpg --gen-key
@@ -113,7 +113,7 @@ Paste the following into ``.env_variables.conf`` filling in your values:
       --full-if-older-than 7D \
       --log-file $HOME/.duplicity/info.log \
         $BACKUP_DIR $AWS_ENDPOINT/$AWS_BUCKET
-      
+
   unset AWS_ACCESS_KEY_ID
   unset AWS_SECRET_ACCESS_KEY
   unset AWS_ENDPOINT
@@ -160,7 +160,7 @@ A restore file may look like this:
 
 
 check timestamp on last record in admin log, for example::
-  
+
   select * from django_admin_log order by action_time desc LIMIT 1\G;
 
 

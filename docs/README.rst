@@ -11,7 +11,7 @@ Local / Development deploy
 
 On your new droplet log in a root and create a new file ``env-setup`` with these variables.
 The ``env-setup`` file will be deleted once the install is complete.
-Update the values as required, e.g. fill in the correct password for ``MYSQL_USER_PASSWORD``. 
+Update the values as required, e.g. fill in the correct password for ``MYSQL_USER_PASSWORD``.
 
 .. code-block:: bash
 
@@ -38,11 +38,11 @@ Update the values as required, e.g. fill in the correct password for ``MYSQL_USE
 Source the file ``env_setup``.
 
 .. code-block:: bash
-	
+
 	$ source $HOME/env-setup
 	$ echo $APP_FOLDER
-	
-	#output 
+
+	#output
 	app
 
 As root, create the non-root account and setup keys for key-based authentication:
@@ -155,7 +155,7 @@ There is also a sample .env file in the repo. To use that::
 	cp $HOME/$APP_FOLDER/env.sample $HOME/$APP_FOLDER/.env
 
 Edit the ``.env`` file as needed::
-	
+
 	nano ~/app/.env
 
 Set permissions::
@@ -170,15 +170,15 @@ Set permissions::
   >>> urllib.parse.quote('my_password$@')
 
   $ python -c 'from urllib import parse; print(parse.quote("my_password$@"))'
-  
+
   Output::
-	
+
 	'my_password%24%40'
 
   See https://github.com/joke2k/django-environ/blob/develop/README.rst#tips::
 
 Create the export and static folders::
-	
+
 	# check the values
 	echo "DJANGO_ETC_FOLDER=$DJANGO_ETC_FOLDER" \
 	&& echo "DJANGO_EXPORT_FOLDER=$DJANGO_EXPORT_FOLDER" \
@@ -200,7 +200,7 @@ Copy encryption keys into ``DJANGO_KEY_FOLDER`` . These are also not included in
 	echo "scp user* ambition@$APP_HOST:$DJANGO_KEY_FOLDER/"
 
 **Note:** If you are setting up a test environment and you set ``DJANGO_AUTO_CREATE_KEYS=False`` in ``.env`` to create test keys, you need to set it to ``False``.
-	
+
 Check::
 
 	cd ~/app \
@@ -239,7 +239,7 @@ Note, you need to manually copy a randomization list to ``DJANGO_ETC_FOLDER`` wh
 	python manage.py import_randomization_list
 
 Now if you run check again there should not be any errors.::
-	
+
 	python manage.py check
 
 Output::
@@ -271,7 +271,7 @@ Since ``DEBUG=True`` above, some variables from the ``.env`` file were ignored.
 
 Now set ``DEBUG=False`` in the ``.env`` file
 
-With ``DEBUG=False``, the app now looks for the encryption keys in ``DJANGO_KEY_FOLDER``. 
+With ``DEBUG=False``, the app now looks for the encryption keys in ``DJANGO_KEY_FOLDER``.
 
 create ``DJANGO_KEY_FOLDER``::
 
@@ -338,13 +338,13 @@ Use the `.env`` variables to configure a system as a UAT server. Copy the .env f
 	sed -i -e s/DJANGO_RANDOMIZATION_LIST_FILE=randomization_list.csv/DJANGO_RANDOMIZATION_LIST_FILE=test_randomization_list.csv/g .env
 	sed -i -e 's/AWS_LOCATION=ambition\/static/AWS_LOCATION=ambition_uat\/static/g' .env
 	sed -i -e 's/\.ambition\.clinicedc\.org/\.uat\.ambition\.clinicedc\.org/g' .env
-	
+
 Diff::
 
 	diff -y /home/uat/app/.env /home/ambition/app/.env
 
 Check ``DATABASE_URL`` points to ``ambition_uat``::
-	
+
 	cat .env | grep DATABASE_URL
 
 Copy keys from LIVE::

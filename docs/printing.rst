@@ -5,10 +5,10 @@ Installation
 
 Install CUPS Print Server::
 
-	sudo apt-get install 
+	sudo apt-get install
 
 	sudo cp /etc/cups/cupsd.conf /etc/cups/cupsd.conf.original
-	
+
 	sudo chmod a-w /etc/cups/cupsd.conf.original
 
 Edit ``/etc/cups/cupsd.conf`` to listen on the public IP::
@@ -39,7 +39,7 @@ For example::
 	lpadmin -p LOCAL_PRINTER_NAME -E -v ipp://REMOTE_IP_ADDRESS/printers/PRINTER_NAME
 
 
-Add an IP addressable remote printer 
+Add an IP addressable remote printer
 +++++++++++++++++++++++++++++++++++++
 
 ``PRINTER_NAME``: printer as named on the EDC, your server

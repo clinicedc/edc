@@ -134,7 +134,7 @@ Renable each site:
 
 .. code-block:: bash
 
-  $ sudo ln -s /etc/nginx/sites-available/ambition.conf /etc/nginx/sites-enabled  
+  $ sudo ln -s /etc/nginx/sites-available/ambition.conf /etc/nginx/sites-enabled
   $ sudo ln -s /etc/nginx/sites-available/ambition-uat.conf /etc/nginx/sites-enabled
 
 
@@ -148,7 +148,7 @@ Get new certificates and configure for HTTPS:
 Configure for both ``xxx.ambition.clinicedc.org`` and xxx.uat.ambition.clinicedc.org``and selected to redirect all traffic to HTTPS.
 
 Check the files
-  
+
 .. code-block:: bash
 
   $ sudo nginx -t

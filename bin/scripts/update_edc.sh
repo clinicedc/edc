@@ -16,7 +16,7 @@ while true; do
 done
 
 if [ "${update_script}" = "y" ]; then
-  echo "${green}Copying script ... ${reset}" 
+  echo "${green}Copying script ... ${reset}"
   cd ~/app \
   && git checkout docs/forms_reference.md \
   && git checkout master \

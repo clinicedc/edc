@@ -81,7 +81,7 @@ Try accessing:
 
 
 if there are any problems check:
-	
+
 .. code-block:: bash
 
 	$ sudo journalctl -u gunicorn   # etc
@@ -146,7 +146,7 @@ Output::
 Disable the default site, if enabled:
 
 .. code-block:: bash
-	
+
 	$ sudo unlink /etc/nginx/sites-enabled/default
 
 .. code-block:: bash
@@ -168,7 +168,7 @@ Also check cloud firewall to ensure these ports are open
 Certificates and HTTPS configuration
 ====================================
 
-see  https://certbot.eff.org 
+see  https://certbot.eff.org
 
 .. code-block:: bash
 

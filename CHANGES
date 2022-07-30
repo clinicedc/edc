@@ -16,7 +16,7 @@ Changes
 ------
 - add egfr_drop to rft panel (edc-lab-panel)
 - add egfr and egfr_drop to DAIDS and normal range;
-  fix egfr_percent func to return percents 
+  fix egfr_percent func to return percents
   (edc-reportables)
 - add subject_identifier attrs to modelform Meta
   (edc-action-item)
@@ -40,10 +40,10 @@ Changes
 ------
 - add refresh button to subject dashboard, refreshes metadata for
   the current visit (edc-subject-dashbaord)
-- fix date validation against report_datetime failing on inlines 
+- fix date validation against report_datetime failing on inlines
   (edc-model-admin)
 - add method for persistant singletons to predicate collection
-  (edc-metadata) 
+  (edc-metadata)
 
 0.3.95
 ------
@@ -76,7 +76,7 @@ Changes
 - add protocol incident model (edc-protocol-violation)
 - not_applicable_if_true (edc-form-validators)
 - enforce a sensible appt_status on save (edc-appointment)
- 
+
 
 0.3.91
 ------
@@ -99,7 +99,7 @@ Changes
 0.3.86
 ------
 - add migrations (edc-appointment,, edc-protocol-violation)
-- refactor paths in edc_model, fix references in other modules 
+- refactor paths in edc_model, fix references in other modules
 
 0.3.85
 ------
@@ -107,11 +107,11 @@ Changes
 
 0.3.84
 ------
-- refactor paths in edc_model, fix references in other modules 
+- refactor paths in edc_model, fix references in other modules
 
 0.3.83
 ------
-- refactor paths in edc_model, fix references in other modules 
+- refactor paths in edc_model, fix references in other modules
 - add django-multisite-edc to install_requires, remove git+url
 - configure new build for more edc modules
 
@@ -120,7 +120,7 @@ Changes
 - improve context sensitive showing of subject dashboard's unscheduled appt
   button (edc-appointment, edc-subject-dashboard)
 - reorder unscheduled appointments if a deletion breaks the sequence
-  (edc-appointment) 
+  (edc-appointment)
 - cascade changed appointment visit_code_sequence to subject visit and
   crf/requisition metadata (edc-appointment, edc-visit-tracking)
 - declare metadata helper mixin as a model mixin also (edc-metadata)
@@ -166,13 +166,13 @@ Changes
 0.3.70
 ------
 - add date validators relative to report_datetime (edc-form-validators)
-- fix not returning to subject dashboard after CRF delete 
+- fix not returning to subject dashboard after CRF delete
   (edc-model-admin)
 - add form validator mixins for FBG abd OGTT (edc-glucose)
 
 0.3.69
 ------
-- change fasting blood glucode abbreviation from ifg to fbg. 
+- change fasting blood glucode abbreviation from ifg to fbg.
   Affects field names (edc-glucose)
 - add date validator method much like model validator date funcs
   (edc-form-validators)
@@ -193,14 +193,14 @@ Changes
 - move field class factory to edc-lab-panel (edc-blood-result)
 - add additional panels (edc-lab-panel)
 - add additional assertions for tests (edc-form-validator)
-- add model mixins for CRFs with requisitions (edc-lab) 
+- add model mixins for CRFs with requisitions (edc-lab)
 
 0.3.65
 ------
 - correctly handle ranges in FC of eligibility (edc-screening)
 - update site ID from model in update_action_identifier (edc-action-item)
 - add minor (alter) migration (edc-auth, edc-export)
-- consider panel name when validating requisition metadata (edc-metadata)  
+- consider panel name when validating requisition metadata (edc-metadata)
 
 0.3.64
 ------
@@ -262,7 +262,7 @@ Changes
   a new parameter can limit the list of reportable grades. Defaults to
   grade3/4 only. (edc-reportable)
 - fix issue where assigning a role on User `add` raises
-  an ObjectDoesNotExist exception. (edc-auth) 
+  an ObjectDoesNotExist exception. (edc-auth)
 
 0.3.50
 ------
@@ -404,7 +404,7 @@ Changes
 - fix missing attr in AdminSite (edc-action-item)
 - get current schedule objects from current appointment
   (edc-subject-dashboard, edc-subject-model-wrapper)
-- include Roles in AdminSite (edc-auth) 
+- include Roles in AdminSite (edc-auth)
 
 0.3.18
 ------
@@ -424,7 +424,7 @@ Changes
 0.3.15
 ------
 - fix inlines not showing edc custom submit row by making the modified inline
-  change_form.html the default for all forms (edc-model-admin) 
+  change_form.html the default for all forms (edc-model-admin)
 
 0.3.14
 ------
