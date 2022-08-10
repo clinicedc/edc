@@ -9,7 +9,6 @@ pip install mysqlclient
 pip install pyrabbit
 pip install python-dateutil
 pip install python-memcached
-pip install pytz
 pip install reportlab
 pip uninstall sentry_sdk
 pip install tqdm

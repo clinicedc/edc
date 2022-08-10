@@ -11,6 +11,5 @@ django_extensions
 inflect
 mempass
 python-dateutil
-pytz
 reportlab
 tqdm
