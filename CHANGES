@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.4
+-----
+- update more  modeladmin mixins to return tuples
+- add pre-commit to changed modules
+
 0.4.3
 -----
 - expect all modeladmin mixins to return tuples
