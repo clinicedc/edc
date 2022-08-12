@@ -1,10 +1,14 @@
 Changes
 =======
 
+0.4.7
+-----
+- add pre-commit to changed modules, update tests
+
 0.4.6
 -----
 - fix minor issues with date timezone using gettz instead of ZoneInfo
-- enforce base timepoint in schedules, don't floor first timepoint 
+- enforce base timepoint in schedules, don't floor first timepoint
   lower bound date for base visits (edc-visit-schedule)
 - add pre-commit to changed modules
 
