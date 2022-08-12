@@ -178,14 +178,14 @@ Contrib
 -------
 
 ========================== ============================== ==================================
-edc-adherence               |edc-adherence|               |pypi-edc-adherence|
-edc-dx                      |edc-dx|                      |pypi-edc-dx|
-edc-dx-review               |edc-dx-review|               |pypi-edc-dx-review|
-edc-glucose                 |edc-glucose|                 |pypi-edc-glucose|
-edc-mnsi                    |edc-mnsi|                    |pypi-edc-mnsi|
-edc-pharmacy                |edc-pharmacy|                                |pypi-edc-pharmacy|
-edc-pharmacy-dashboard                                    |pypi-edc-pharmacy-dashboard|
-edc-vitals                  |edc-vitals|                  |pypi-edc-vitals|
+edc-adherence_              |edc-adherence|               |pypi-edc-adherence|
+edc-dx_                     |edc-dx|                      |pypi-edc-dx|
+edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
+edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
+edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|
+edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
+edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
+edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
 
 Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-brains|
@@ -232,6 +232,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-locator: https://github.com/clinicedc/edc-locator
 .. _edc-ltfu: https://github.com/clinicedc/edc-ltfu
 .. _edc-metadata: https://github.com/clinicedc/edc-metadata
+.. _edc-mnsi: https://github.com/clinicedc/edc-mnsi
 .. _edc-model: https://github.com/clinicedc/edc-model
 .. _edc-model-admin: https://github.com/clinicedc/edc-model-admin
 .. _edc-model-fields: https://github.com/clinicedc/edc-model-fields
@@ -267,8 +268,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-visit-tracking: https://github.com/clinicedc/edc-visit-tracking
 .. _edc-vitals: https://github.com/clinicedc/edc-vitals
 
-.. |edc-glucose| image:: https://github.com/clinicedc/edc-glucose/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-glucose/actions?query=workflow:build
 .. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-action-item/actions?query=workflow:build
 .. |edc-adherence| image:: https://github.com/clinicedc/edc-adherence/workflows/build/badge.svg?branch=develop
@@ -311,6 +310,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-form-label/actions?query=workflow:build
 .. |edc-form-validators| image:: https://github.com/clinicedc/edc-form-validators/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-form-validators/actions?query=workflow:build
+.. |edc-glucose| image:: https://github.com/clinicedc/edc-glucose/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-glucose/actions?query=workflow:build
 .. |edc-identifier| image:: https://github.com/clinicedc/edc-identifier/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-identifier/actions?query=workflow:build
 .. |edc-lab| image:: https://github.com/clinicedc/edc-lab/workflows/build/badge.svg?branch=develop
