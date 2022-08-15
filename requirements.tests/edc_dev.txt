@@ -16,6 +16,7 @@ https://github.com/clinicedc/edc-device/tarball/develop
 https://github.com/clinicedc/edc-document-status/tarball/develop
 https://github.com/clinicedc/edc-dx/tarball/develop
 https://github.com/clinicedc/edc-dx-review/tarball/develop
+https://github.com/clinicedc/edc-egfr/tarball/develop
 https://github.com/clinicedc/edc-export/tarball/develop
 https://github.com/clinicedc/edc-facility/tarball/develop
 https://github.com/clinicedc/edc-fieldsets/tarball/develop

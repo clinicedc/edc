@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.8
+-----
+- move all eGFR code to edc-egfr module
+  (edc-egfr, edc-lab-results, edc-reportables)
+
 0.4.7
 -----
 - add pre-commit to changed modules, update tests

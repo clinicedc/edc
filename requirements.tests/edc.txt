@@ -16,6 +16,7 @@ edc-device
 edc-document-status
 edc-dx
 edc-dx-review
+edc-egfr
 edc-export
 edc-facility
 edc-fieldsets
