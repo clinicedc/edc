@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.9
+-----
+- bump edc-egfr
+
 0.4.8
 -----
 - move all eGFR code to edc-egfr module
