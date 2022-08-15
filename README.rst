@@ -125,6 +125,7 @@ edc-crf_                    |edc-crf|                     |pypi-edc-crf|
 edc-dashboard_              |edc-dashboard|               |pypi-edc-dashboard|
 edc-data-manager_           |edc-data-manager|            |pypi-edc-data-manager|
 edc-device_                 |edc-device|                  |pypi-edc-device|
+edc-egfr_                   |edc-egfr|                    |pypi-edc-egfr|
 edc-export_                 |edc-export|                  |pypi-edc-export|
 edc-facility_               |edc-facility|                |pypi-edc-facility|
 edc-fieldsets_              |edc-fieldsets|               |pypi-edc-fieldsets|
@@ -215,6 +216,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-device: https://github.com/clinicedc/edc-device
 .. _edc-dx: https://github.com/clinicedc/edc-dx
 .. _edc-dx-review: https://github.com/clinicedc/edc-dx-review
+.. _edc-egfr: https://github.com/clinicedc/edc-egfr
 .. _edc-export: https://github.com/clinicedc/edc-export
 .. _edc-facility: https://github.com/clinicedc/edc-facility
 .. _edc-fieldsets: https://github.com/clinicedc/edc-fieldsets
@@ -298,6 +300,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-dx/actions?query=workflow:build
 .. |edc-dx-review| image:: https://github.com/clinicedc/edc-dx-review/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-dx-review/actions?query=workflow:build
+.. |edc-egfr| image:: https://github.com/clinicedc/edc-egfr/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-egfr/actions?query=workflow:build
 .. |edc-export| image:: https://github.com/clinicedc/edc-export/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-export/actions?query=workflow:build
 .. |edc-facility| image:: https://github.com/clinicedc/edc-facility/workflows/build/badge.svg?branch=develop
@@ -429,6 +433,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-dx
 .. |pypi-edc-dx-review| image:: https://img.shields.io/pypi/v/edc-dx-review.svg
     :target: https://pypi.python.org/pypi/edc-dx-review
+.. |pypi-edc-egfr| image:: https://img.shields.io/pypi/v/edc-egfr.svg
+    :target: https://pypi.python.org/pypi/edc-egfr
 .. |pypi-edc-export| image:: https://img.shields.io/pypi/v/edc-export.svg
     :target: https://pypi.python.org/pypi/edc-export
 .. |pypi-edc-facility| image:: https://img.shields.io/pypi/v/edc-facility.svg
