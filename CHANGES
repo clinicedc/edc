@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.4.10
+-----
+- add admin mixin, weight param (edc-egfr)
+- add func to 'get' references name (edc-reportable)
+- minor changes to update imports / lint (edc-data-manager, edc-lab-results,
+  edc-action, edc-timepoint, edc-registration, edc-metadata, edc-crf, edc-action-item)
+
 0.4.9
 -----
 - bump edc-egfr
