@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.4.12
+------
+- add to admin list_display, update imports (edc-auth)
+- carry over required fields from randomizer to importer
+  to verifier (edc-randomization)
+
 0.4.11
 ------
 - refactor randomizer, verify on every import, add assignment description map,
