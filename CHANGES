@@ -1,6 +1,17 @@
 Changes
 =======
 
+0.4.11
+------
+- refactor randomizer, verify on every import, add assignment description map,
+  add system check to validate blinded user list (edc-randomization).
+- remove formatted html from verbose names (edc-glucose)
+- rename get_subject_screening_model_name to get_subject_screening_model
+  (edc-consent)
+- add ActionItemModelAdminMixin to BloodResultsModelAdminMixin (edc-lab-results)
+- update admin templates to have consistent topbar (edc-model-admin)
+- remove coerce to datetime with astype() (edc-pdutil)
+
 0.4.10
 -----
 - add admin mixin, weight param (edc-egfr)
