@@ -1,6 +1,21 @@
 Changes
 =======
 
+0.4.13
+------
+- update breadcrumbs and branding for admin templates (edc-model-admin)
+- update and add fontawesomefree to requirements
+- require "fontawesomefree" in INSTALLED_APPS
+- add theme variables thru "edc_model_admin.context_processors.admin_theme"
+  if added to TEMPLATES context_processor
+- add simple themes configured from settings.EDC_MODEL_ADMIN_CSS_THEME
+- add attr to TemplateModelAdminMixin to override view_on_site and history
+  labels in object-tools
+- add TEST/LIVE badge, site name and number to admin templates
+- improve navigation between admin and edc
+- change topbar on subject dashboard to always show subject identifier
+- register auth models with edc_auth_admin, update urls
+
 0.4.12
 ------
 - add to admin list_display, update imports (edc-auth)
