@@ -24,6 +24,7 @@ edc-form-describer
 edc-form-label
 edc-form-validators
 edc-glucose
+edc-he
 edc-identifier
 edc-lab
 edc-lab-dashboard
@@ -34,6 +35,7 @@ edc-list-data
 edc-locator
 edc-ltfu
 edc-metadata
+edc-mnsi
 edc-model
 edc-model-admin
 edc-model-fields
@@ -49,6 +51,7 @@ edc-pharmacy-dashboard
 edc-prn
 edc-protocol
 edc-protocol-violation
+edc-qol
 edc-randomization
 edc-reference
 edc-refusal
