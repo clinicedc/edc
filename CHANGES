@@ -1,9 +1,10 @@
 Changes
 =======
 
-0.4.16
+0.4.17
 ------
 - fix regression deepcopy/copy (edc_form_validators)
+- add migrations for modules with models that use action_identifier
 
 0.4.15
 ------
