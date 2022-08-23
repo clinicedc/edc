@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.4.15
+------
+- hold back support for Django 4.1 (problems with m2m on admin page)
+- move imports out of root __init__ in edc_model_admin
+- override delete_confirmation.html in admin
+
+0.4.14
+------
+
 0.4.13
 ------
 - update breadcrumbs and branding for admin templates (edc-model-admin)
