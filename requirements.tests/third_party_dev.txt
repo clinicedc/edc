@@ -9,6 +9,7 @@ django-simple-history
 django-storages
 django_extensions
 inflect
+fontawesomefree
 mempass
 python-dateutil
 reportlab
