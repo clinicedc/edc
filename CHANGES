@@ -1,6 +1,19 @@
 Changes
 =======
 
+0.4.18
+------
+- store custom permissions in owner app. default model is now
+  <app_label>.edcpermissions. Move away from storing all custom
+  permissions in edc-dashboard and edc-navbar. clean up auths
+  modules (most modules)
+- update references to perms in templates and navbars
+- add context-processors for apps that own constants
+  (edc-appointment, edc-constants, edc-visit-tracking)
+- add dashboard middleware (edc_review_dashboard)
+- add system checks to enforce context processors
+
+
 0.4.17
 ------
 - fix regression deepcopy/copy (edc_form_validators)

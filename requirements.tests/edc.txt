@@ -32,6 +32,7 @@ edc-lab-panel
 edc-lab-results
 edc-label
 edc-list-data
+edc-listboard
 edc-locator
 edc-ltfu
 edc-metadata
