@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.19
+------
+- minor updates (edc-utils, edc-appointment, edc-consent)
+
 0.4.18
 ------
 - store custom permissions in owner app. default model is now
