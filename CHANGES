@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.4.20
+------
+- remove tracking identifier from all modules
+- make action_identifier nullable and blank=True (edc-action-item)
+- update custom tuple
+
 0.4.19
 ------
 - minor updates (edc-utils, edc-appointment, edc-consent)
