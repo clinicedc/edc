@@ -11,7 +11,7 @@ The implementations we have developed are mostly eSource systems rather than the
 
 The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.9 and Django 3.2+ required, see setup.cfg)
+(python 3.9+ and Django 3.2, see setup.cfg)
 
 
 Projects that use the EDC
