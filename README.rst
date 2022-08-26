@@ -111,86 +111,85 @@ Contacts
 
 For further information go to https://github.com/erikvw.
 
-|django| |jet-brains| |lstm|
+|django| |jet-brains|
 
-=========================== ============================= ================================== ==================================
-edc-action-item_            |edc-action-item|             |pypi-edc-action-item|             |codecov-edc-action-item|
-edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|           |codecov-edc-adverse-event|
-edc-appointment_            |edc-appointment|             |pypi-edc-appointment|             |codecov-edc-appointment|
-edc-auth_                   |edc-auth|                    |pypi-edc-auth|                    |codecov-edc-auth|
+=========================== ============================= ==================================
+edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
+edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
+edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
+edc-auth_                   |edc-auth|                    |pypi-edc-auth|
 edc-call-manager_           |edc-call-manager|
-edc-consent_                |edc-consent|                 |pypi-edc-consent|                 |codecov-edc-consent|
-edc-constants_                                            |pypi-edc-constants|               |codecov-edc-constants|
-edc-crf_                    |edc-crf|                     |pypi-edc-crf|                     |codecov-edc-crf|
-edc-dashboard_              |edc-dashboard|               |pypi-edc-dashboard|               |codecov-edc-dashboard|
-edc-data-manager_           |edc-data-manager|            |pypi-edc-data-manager|            |codecov-edc-data-manager|
-edc-device_                 |edc-device|                  |pypi-edc-device|                  |codecov-edc-device|
-edc-egfr_                   |edc-egfr|                    |pypi-edc-egfr|                    |codecov-edc-egfr|
-edc-export_                 |edc-export|                  |pypi-edc-export|                  |codecov-edc-export|
-edc-facility_               |edc-facility|                |pypi-edc-facility|                |codecov-edc-facility|
-edc-fieldsets_              |edc-fieldsets|               |pypi-edc-fieldsets|               |codecov-edc-fieldsets|
-edc-form-describer_         |edc-form-describer|          |pypi-edc-form-describer|          |codecov-edc-form-describer|
-edc-form-label_             |edc-form-label|              |pypi-edc-form-label|              |codecov-edc-form-label|
-edc-form-validators_        |edc-form-validators|         |pypi-edc-form-validators|         |codecov-edc-form-validators|
-edc-identifier_             |edc-identifier|              |pypi-edc-identifier|              |codecov-edc-identifier|
-edc-lab_                    |edc-lab|                     |pypi-edc-lab|                     |codecov-edc-lab|
-edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|               |codecov-edc-lab-panel|
-edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|           |codecov-edc-lab-dashboard|
-edc-lab-results_            |edc-lab-results|               |pypi-edc-lab-panel|             |codecov-edc-lab-panel|
-edc-label_                  |edc-label|                   |pypi-edc-label|                   |codecov-edc-label|
-edc-list-data_              |edc-list-data|               |pypi-edc-list-data|               |codecov-edc-list-data|
-edc-locator_                |edc-locator|                 |pypi-edc-locator|                 |codecov-edc-locator|
-edc-ltfu_                   |edc-ltfu|                    |pypi-edc-ltfu|                    |codecov-edc-ltfu|
-edc-metadata_               |edc-metadata|                |pypi-edc-metadata|                |codecov-edc-metadata|
-edc-model_                  |edc-model|                   |pypi-edc-model|                   |codecov-edc-model|
-edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|             |codecov-edc-model-admin|
-edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|            |codecov-edc-model-fields|
-edc-model-form_             |edc-model-form|              |pypi-edc-model-form|              |codecov-edc-model-form|
-edc-model-wrapper_          |edc-model-wrapper|           |pypi-edc-model-wrapper|           |codecov-edc-model-wrapper|
-edc-navbar_                 |edc-navbar|                  |pypi-edc-navbar|                  |codecov-edc-navbar|
-edc-notification_           |edc-notification|            |pypi-edc-notification|            |codecov-edc-notification|
-edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|                |codecov-edc-offstudy|
-edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|                 |codecov-edc-pdutils|
-edc-prn_                    |edc-prn|                     |pypi-edc-prn|                     |codecov-edc-prn|
-edc-protocol_               |edc-protocol|                |pypi-edc-protocol|                |codecov-edc-protocol|
-edc-protocol-violation_     |edc-protocol-violation|      |pypi-edc-protocol-violation|      |codecov-edc-protocol-violation|
-edc-randomization_          |edc-randomization|           |pypi-edc-randomization|           |codecov-edc-randomization|
-edc-reference_              |edc-reference|               |pypi-edc-reference|               |codecov-edc-reference|
-edc-registration_           |edc-registration|            |pypi-edc-registration|            |codecov-edc-registration|
-edc-reportable_             |edc-reportable|              |pypi-edc-reportable|              |codecov-edc-reportable|
-edc-reports_                |edc-reports|                 |pypi-edc-reports|                 |codecov-edc-reports|
-edc-review-dashboard_       |edc-review-dashboard|        |pypi-edc-review-dashboard|        |codecov-edc-review-dashboard|
-edc-screening_              |edc-screening|               |pypi-edc-screening|               |codecov-edc-screening|
-edc-search_                 |edc-search|                  |pypi-edc-search|                  |codecov-edc-search|
-edc-sites_                  |edc-sites|                   |pypi-edc-sites|                   |codecov-edc-sites|
-edc-subject-dashboard_      |edc-subject-dashboard|       |pypi-edc-subject-dashboard|       |codecov-edc-subject-dashboard|
-edc-subject-model-wrappers_ |edc-subject-model-wrappers|  |pypi-edc-subject-model-wrappers|  |codecov-edc-subject-model-wrappers|
-edc-test-utils_             |edc-test-utils|              |pypi-edc-test-utils|              |codecov-edc-test-utils|
-edc-timepoint_              |edc-timepoint|               |pypi-edc-timepoint|               |codecov-edc-timepoint|
-edc-transfer_               |edc-transfer|                |pypi-edc-transfer|                |codecov-edc-transfer|
-edc-unblinding_             |edc-unblinding|              |pypi-edc-unblinding|              |codecov-edc-unblinding|
-edc-utils_                  |edc-utils|                   |pypi-edc-utils|                   |codecov-edc-utils|
-edc-visit-schedule_         |edc-visit-schedule|          |pypi-edc-visit-schedule|          |codecov-edc-visit-schedule|
-edc-visit-tracking_         |edc-visit-tracking|          |pypi-edc-visit-tracking|          |codecov-edc-visit-tracking|
-=========================== ============================= ================================== ==================================
+edc-consent_                |edc-consent|                 |pypi-edc-consent|
+edc-constants_                                            |pypi-edc-constants|
+edc-crf_                    |edc-crf|                     |pypi-edc-crf|
+edc-dashboard_              |edc-dashboard|               |pypi-edc-dashboard|
+edc-data-manager_           |edc-data-manager|            |pypi-edc-data-manager|
+edc-device_                 |edc-device|                  |pypi-edc-device|
+edc-egfr_                   |edc-egfr|                    |pypi-edc-egfr|
+edc-export_                 |edc-export|                  |pypi-edc-export|
+edc-facility_               |edc-facility|                |pypi-edc-facility|
+edc-fieldsets_              |edc-fieldsets|               |pypi-edc-fieldsets|
+edc-form-describer_         |edc-form-describer|          |pypi-edc-form-describer|
+edc-form-label_             |edc-form-label|              |pypi-edc-form-label|
+edc-form-validators_        |edc-form-validators|         |pypi-edc-form-validators|
+edc-identifier_             |edc-identifier|              |pypi-edc-identifier|
+edc-lab_                    |edc-lab|                     |pypi-edc-lab|
+edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|
+edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
+edc-lab-results_            |edc-lab-results|               |pypi-edc-lab-panel|
+edc-label_                  |edc-label|                   |pypi-edc-label|
+edc-list-data_              |edc-list-data|               |pypi-edc-list-data|
+edc-locator_                |edc-locator|                 |pypi-edc-locator|
+edc-ltfu_                   |edc-ltfu|                    |pypi-edc-ltfu|
+edc-metadata_               |edc-metadata|                |pypi-edc-metadata|
+edc-model_                  |edc-model|                   |pypi-edc-model|
+edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|
+edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|
+edc-model-form_             |edc-model-form|              |pypi-edc-model-form|
+edc-model-wrapper_          |edc-model-wrapper|           |pypi-edc-model-wrapper|
+edc-navbar_                 |edc-navbar|                  |pypi-edc-navbar|
+edc-notification_           |edc-notification|            |pypi-edc-notification|
+edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|
+edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
+edc-prn_                    |edc-prn|                     |pypi-edc-prn|
+edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
+edc-protocol-violation_     |edc-protocol-violation|      |pypi-edc-protocol-violation|
+edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
+edc-reference_              |edc-reference|               |pypi-edc-reference|
+edc-registration_           |edc-registration|            |pypi-edc-registration|
+edc-reportable_             |edc-reportable|              |pypi-edc-reportable|
+edc-reports_                |edc-reports|                 |pypi-edc-reports|
+edc-review-dashboard_       |edc-review-dashboard|        |pypi-edc-review-dashboard|
+edc-screening_              |edc-screening|               |pypi-edc-screening|
+edc-search_                 |edc-search|                  |pypi-edc-search|
+edc-sites_                  |edc-sites|                   |pypi-edc-sites|
+edc-subject-dashboard_      |edc-subject-dashboard|       |pypi-edc-subject-dashboard|
+edc-subject-model-wrappers_ |edc-subject-model-wrappers|  |pypi-edc-subject-model-wrappers|
+edc-test-utils_             |edc-test-utils|              |pypi-edc-test-utils|
+edc-timepoint_              |edc-timepoint|               |pypi-edc-timepoint|
+edc-transfer_               |edc-transfer|                |pypi-edc-transfer|
+edc-unblinding_             |edc-unblinding|              |pypi-edc-unblinding|
+edc-utils_                  |edc-utils|                   |pypi-edc-utils|
+edc-visit-schedule_         |edc-visit-schedule|          |pypi-edc-visit-schedule|
+edc-visit-tracking_         |edc-visit-tracking|          |pypi-edc-visit-tracking|
+=========================== ============================= ==================================
 
 
 Contrib
 -------
 
-========================== ============================== ================================== ==================================
-edc-adherence_              |edc-adherence|               |pypi-edc-adherence|               |codecov-edc-adherence|
-edc-dx_                     |edc-dx|                      |pypi-edc-dx|                      |codecov-edc-dx|
-edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|               |codecov-edc-dx-review|
-edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|                 |codecov-edc-glucose|
-edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|                    |codecov-edc-mnsi|
-edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|                |codecov-edc-pharmacy|
-edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|      |codecov-edc-pharmacy-dashboard|
-edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|                  |codecov-edc-vitals|
-========================== ============================== ================================== ==================================
+========================== ============================== ==================================
+edc-adherence_              |edc-adherence|               |pypi-edc-adherence|
+edc-dx_                     |edc-dx|                      |pypi-edc-dx|
+edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
+edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
+edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|
+edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
+edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
+edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
+========================== ============================== ==================================
 
-
-|jet-brains| Thanks to JetBrains for support with an opensource PyCharm IDE license.
+Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-brains|
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
@@ -201,6 +200,7 @@ edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|     
 .. |django| image:: https://www.djangoproject.com/m/img/badges/djangomade124x25.gif
    :target: http://www.djangoproject.com/
    :alt: Made with Django
+
 
 .. _edc-action-item: https://github.com/clinicedc/edc-action-item
 .. _edc-adherence: https://github.com/clinicedc/edc-adherence
@@ -405,298 +405,137 @@ edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|     
 .. |edc-vitals| image:: https://github.com/clinicedc/edc-vitals/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-vitals/actions?query=workflow:build
 
-
-.. |codecov-edc-action-item| image:: https://codecov.io/gh/clinicedc/edc-action-item/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-action-item
-.. |codecov-edc-adherence| image:: https://codecov.io/gh/clinicedc/edc-adherence/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-adherence
-.. |codecov-edc-adverse-event| image:: https://codecov.io/gh/clinicedc/edc-adverse-event/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-adverse-event
-.. |codecov-edc-appointment| image:: https://codecov.io/gh/clinicedc/edc-appointment/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-appointment
-.. |codecov-edc-auth| image:: https://codecov.io/gh/clinicedc/edc-auth/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-auth
-.. |codecov-edc-blood-results| image:: https://codecov.io/gh/clinicedc/edc-blood-results/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-blood-results
-.. |codecov-edc-consent| image:: https://codecov.io/gh/clinicedc/edc-consent/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-consent
-.. |codecov-edc-constants| image:: https://codecov.io/gh/clinicedc/edc-constants/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-constants
-.. |codecov-edc-crf| image:: https://codecov.io/gh/clinicedc/edc-crf/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-crf
-.. |codecov-edc-dashboard| image:: https://codecov.io/gh/clinicedc/edc-dashboard/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-dashboard
-.. |codecov-edc-data-manager| image:: https://codecov.io/gh/clinicedc/edc-data-manager/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-data-manager
-.. |codecov-edc-device| image:: https://codecov.io/gh/clinicedc/edc-device/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-device
-.. |codecov-edc-dx| image:: https://codecov.io/gh/clinicedc/edc-dx/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-dx
-.. |codecov-edc-dx-review| image:: https://codecov.io/gh/clinicedc/edc-dx-review/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-dx-review
-.. |codecov-edc-egfr| image:: https://codecov.io/gh/clinicedc/edc-egfr/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-egfr
-.. |codecov-edc-export| image:: https://codecov.io/gh/clinicedc/edc-export/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-export
-.. |codecov-edc-facility| image:: https://codecov.io/gh/clinicedc/edc-facility/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-facility
-.. |codecov-edc-fieldsets| image:: https://codecov.io/gh/clinicedc/edc-fieldsets/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-fieldsets
-.. |codecov-edc-form-describer| image:: https://codecov.io/gh/clinicedc/edc-form-describer/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-form-describer
-.. |codecov-edc-form-label| image:: https://codecov.io/gh/clinicedc/edc-form-label/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-form-label
-.. |codecov-edc-form-validators| image:: https://codecov.io/gh/clinicedc/edc-form-validators/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-form-validators
-.. |codecov-edc-glucose| image:: https://codecov.io/gh/clinicedc/edc-glucose/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-glucose
-.. |codecov-edc-identifier| image:: https://codecov.io/gh/clinicedc/edc-identifier/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-identifier
-.. |codecov-edc-lab| image:: https://codecov.io/gh/clinicedc/edc-lab/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-lab
-.. |codecov-edc-lab-panel| image:: https://codecov.io/gh/clinicedc/edc-lab-panel/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-lab-panel
-.. |codecov-edc-lab-dashboard| image:: https://codecov.io/gh/clinicedc/edc-lab-dashboard/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-lab-dashboard
-.. |codecov-edc-label| image:: https://codecov.io/gh/clinicedc/edc-label/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-label
-.. |codecov-edc-list-data| image:: https://codecov.io/gh/clinicedc/edc-list-data/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-list-data
-.. |codecov-edc-locator| image:: https://codecov.io/gh/clinicedc/edc-locator/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-locator
-.. |codecov-edc-ltfu| image:: https://codecov.io/gh/clinicedc/edc-ltfu/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-ltfu
-.. |codecov-edc-metadata| image:: https://codecov.io/gh/clinicedc/edc-metadata/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-metadata
-.. |codecov-edc-mnsi| image:: https://codecov.io/gh/clinicedc/edc-mnsi/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-mnsi
-.. |codecov-edc-model| image:: https://codecov.io/gh/clinicedc/edc-model/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-model
-.. |codecov-edc-model-admin| image:: https://codecov.io/gh/clinicedc/edc-model-admin/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-model-admin
-.. |codecov-edc-model-fields| image:: https://codecov.io/gh/clinicedc/edc-model-fields/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-model-fields
-.. |codecov-edc-model-form| image:: https://codecov.io/gh/clinicedc/edc-model-form/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-model-form
-.. |codecov-edc-model-wrapper| image:: https://codecov.io/gh/clinicedc/edc-model-wrapper/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-model-wrapper
-.. |codecov-edc-navbar| image:: https://codecov.io/gh/clinicedc/edc-navbar/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-navbar
-.. |codecov-edc-notification| image:: https://codecov.io/gh/clinicedc/edc-notification/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-notification
-.. |codecov-edc-offstudy| image:: https://codecov.io/gh/clinicedc/edc-offstudy/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-offstudy
-.. |codecov-edc-pdutils| image:: https://codecov.io/gh/clinicedc/edc-pdutils/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-pdutils
-.. |codecov-edc-pharmacy| image:: https://codecov.io/gh/clinicedc/edc-pharmacy/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-pharmacy
-.. |codecov-edc-pharmacy-dashboard| image:: https://codecov.io/gh/clinicedc/edc-pharmacy-dashboard/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-pharmacy-dashboard
-.. |codecov-edc-prn| image:: https://codecov.io/gh/clinicedc/edc-prn/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-prn
-.. |codecov-edc-protocol| image:: https://codecov.io/gh/clinicedc/edc-protocol/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-protocol
-.. |codecov-edc-protocol-violation| image:: https://codecov.io/gh/clinicedc/edc-protocol-violation/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-protocol-violation
-.. |codecov-edc-randomization| image:: https://codecov.io/gh/clinicedc/edc-randomization/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-randomization
-.. |codecov-edc-reference| image:: https://codecov.io/gh/clinicedc/edc-reference/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-reference
-.. |codecov-edc-registration| image:: https://codecov.io/gh/clinicedc/edc-registration/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-registration
-.. |codecov-edc-reportable| image:: https://codecov.io/gh/clinicedc/edc-reportable/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-reportable
-.. |codecov-edc-reports| image:: https://codecov.io/gh/clinicedc/edc-reports/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-reports
-.. |codecov-edc-review-dashboard| image:: https://codecov.io/gh/clinicedc/edc-review-dashboard/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-review-dashboard
-.. |codecov-edc-screening| image:: https://codecov.io/gh/clinicedc/edc-screening/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-screening
-.. |codecov-edc-search| image:: https://codecov.io/gh/clinicedc/edc-search/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-search
-.. |codecov-edc-sites| image:: https://codecov.io/gh/clinicedc/edc-sites/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-sites
-.. |codecov-edc-subject-dashboard| image:: https://codecov.io/gh/clinicedc/edc-subject-dashboard/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-subject-dashboard
-.. |codecov-edc-subject-model-wrappers| image:: https://codecov.io/gh/clinicedc/edc-subject-model-wrappers/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-subject-model-wrappers
-.. |codecov-edc-test-utils| image:: https://codecov.io/gh/clinicedc/edc-test-utils/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-test-utils
-.. |codecov-edc-timepoint| image:: https://codecov.io/gh/clinicedc/edc-timepoint/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-timepoint
-.. |codecov-edc-transfer| image:: https://codecov.io/gh/clinicedc/edc-transfer/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-transfer
-.. |codecov-edc-unblinding| image:: https://codecov.io/gh/clinicedc/edc-utils/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-unblinding
-.. |codecov-edc-utils| image:: https://codecov.io/gh/clinicedc/edc-utils/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-utils
-.. |codecov-edc-visit-schedule| image:: https://codecov.io/gh/clinicedc/edc-visit-schedule/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-visit-schedule
-.. |codecov-edc-visit-tracking| image:: https://codecov.io/gh/clinicedc/edc-visit-tracking/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-visit-tracking
-.. |codecov-edc-vitals| image:: https://codecov.io/gh/clinicedc/edc-vitals/branch/develop/graph/badge.svg
-  :target: https://codecov.io/gh/clinicedc/edc-vitals
-
-
-
 .. |pypi-edc-action-item| image:: https://img.shields.io/pypi/v/edc-action-item.svg
-  :target: https://pypi.python.org/pypi/edc-action-item
+    :target: https://pypi.python.org/pypi/edc-action-item
 .. |pypi-edc-adherence| image:: https://img.shields.io/pypi/v/edc-adherence.svg
-  :target: https://pypi.python.org/pypi/edc-adherence
+    :target: https://pypi.python.org/pypi/edc-adherence
 .. |pypi-edc-adverse-event| image:: https://img.shields.io/pypi/v/edc-adverse-event.svg
-  :target: https://pypi.python.org/pypi/edc-adverse-event
+    :target: https://pypi.python.org/pypi/edc-adverse-event
 .. |pypi-edc-appointment| image:: https://img.shields.io/pypi/v/edc-appointment.svg
-  :target: https://pypi.python.org/pypi/edc-appointment
+    :target: https://pypi.python.org/pypi/edc-appointment
 .. |pypi-edc-auth| image:: https://img.shields.io/pypi/v/edc-auth.svg
-  :target: https://pypi.python.org/pypi/edc-auth
+    :target: https://pypi.python.org/pypi/edc-auth
 .. |pypi-edc-blood-results| image:: https://img.shields.io/pypi/v/edc-blood-results.svg
-  :target: https://pypi.python.org/pypi/edc-blood-results
+    :target: https://pypi.python.org/pypi/edc-blood-results
 .. |pypi-edc-consent| image:: https://img.shields.io/pypi/v/edc-consent.svg
-  :target: https://pypi.python.org/pypi/edc-consent
+    :target: https://pypi.python.org/pypi/edc-consent
 .. |pypi-edc-constants| image:: https://img.shields.io/pypi/v/edc-constants.svg
-  :target: https://pypi.python.org/pypi/edc-constants
+    :target: https://pypi.python.org/pypi/edc-constants
 .. |pypi-edc-crf| image:: https://img.shields.io/pypi/v/edc-crf.svg
-  :target: https://pypi.python.org/pypi/edc-crf
+    :target: https://pypi.python.org/pypi/edc-crf
 .. |pypi-edc-dashboard| image:: https://img.shields.io/pypi/v/edc-dashboard.svg
-  :target: https://pypi.python.org/pypi/edc-dashboard
+    :target: https://pypi.python.org/pypi/edc-dashboard
 .. |pypi-edc-data-manager| image:: https://img.shields.io/pypi/v/edc-data-manager.svg
-  :target: https://pypi.python.org/pypi/edc-data-manager
+    :target: https://pypi.python.org/pypi/edc-data-manager
 .. |pypi-edc-device| image:: https://img.shields.io/pypi/v/edc-device.svg
-  :target: https://pypi.python.org/pypi/edc-device
+    :target: https://pypi.python.org/pypi/edc-device
 .. |pypi-edc-dx| image:: https://img.shields.io/pypi/v/edc-dx.svg
-  :target: https://pypi.python.org/pypi/edc-dx
+    :target: https://pypi.python.org/pypi/edc-dx
 .. |pypi-edc-dx-review| image:: https://img.shields.io/pypi/v/edc-dx-review.svg
-  :target: https://pypi.python.org/pypi/edc-dx-review
+    :target: https://pypi.python.org/pypi/edc-dx-review
 .. |pypi-edc-egfr| image:: https://img.shields.io/pypi/v/edc-egfr.svg
-  :target: https://pypi.python.org/pypi/edc-egfr
+    :target: https://pypi.python.org/pypi/edc-egfr
 .. |pypi-edc-export| image:: https://img.shields.io/pypi/v/edc-export.svg
-  :target: https://pypi.python.org/pypi/edc-export
+    :target: https://pypi.python.org/pypi/edc-export
 .. |pypi-edc-facility| image:: https://img.shields.io/pypi/v/edc-facility.svg
-  :target: https://pypi.python.org/pypi/edc-facility
+    :target: https://pypi.python.org/pypi/edc-facility
 .. |pypi-edc-fieldsets| image:: https://img.shields.io/pypi/v/edc-fieldsets.svg
-  :target: https://pypi.python.org/pypi/edc-fieldsets
+    :target: https://pypi.python.org/pypi/edc-fieldsets
 .. |pypi-edc-form-describer| image:: https://img.shields.io/pypi/v/edc-form-describer.svg
-  :target: https://pypi.python.org/pypi/edc-form-describer
+    :target: https://pypi.python.org/pypi/edc-form-describer
 .. |pypi-edc-form-label| image:: https://img.shields.io/pypi/v/edc-form-label.svg
-  :target: https://pypi.python.org/pypi/edc-form-label
+    :target: https://pypi.python.org/pypi/edc-form-label
 .. |pypi-edc-form-validators| image:: https://img.shields.io/pypi/v/edc-form-validators.svg
-  :target: https://pypi.python.org/pypi/edc-form-validators
+    :target: https://pypi.python.org/pypi/edc-form-validators
 .. |pypi-edc-glucose| image:: https://img.shields.io/pypi/v/edc-glucose.svg
-  :target: https://pypi.python.org/pypi/edc-glucose
+    :target: https://pypi.python.org/pypi/edc-glucose
 .. |pypi-edc-identifier| image:: https://img.shields.io/pypi/v/edc-identifier.svg
-  :target: https://pypi.python.org/pypi/edc-identifier
+    :target: https://pypi.python.org/pypi/edc-identifier
 .. |pypi-edc-lab| image:: https://img.shields.io/pypi/v/edc-lab.svg
-  :target: https://pypi.python.org/pypi/edc-lab
+    :target: https://pypi.python.org/pypi/edc-lab
 .. |pypi-edc-lab-panel| image:: https://img.shields.io/pypi/v/edc-lab-panel.svg
-  :target: https://pypi.python.org/pypi/edc-lab-panel
+    :target: https://pypi.python.org/pypi/edc-lab-panel
 .. |pypi-edc-lab-dashboard| image:: https://img.shields.io/pypi/v/edc-lab-dashboard.svg
-  :target: https://pypi.python.org/pypi/edc-lab-dashboard
+    :target: https://pypi.python.org/pypi/edc-lab-dashboard
 .. |pypi-edc-label| image:: https://img.shields.io/pypi/v/edc-label.svg
-  :target: https://pypi.python.org/pypi/edc-label
+    :target: https://pypi.python.org/pypi/edc-label
 .. |pypi-edc-list-data| image:: https://img.shields.io/pypi/v/edc-list-data.svg
-  :target: https://pypi.python.org/pypi/edc-list-data
+    :target: https://pypi.python.org/pypi/edc-list-data
 .. |pypi-edc-locator| image:: https://img.shields.io/pypi/v/edc-locator.svg
-  :target: https://pypi.python.org/pypi/edc-locator
+    :target: https://pypi.python.org/pypi/edc-locator
 .. |pypi-edc-ltfu| image:: https://img.shields.io/pypi/v/edc-ltfu.svg
-  :target: https://pypi.python.org/pypi/edc-ltfu
+    :target: https://pypi.python.org/pypi/edc-ltfu
 .. |pypi-edc-metadata| image:: https://img.shields.io/pypi/v/edc-metadata.svg
-  :target: https://pypi.python.org/pypi/edc-metadata
+    :target: https://pypi.python.org/pypi/edc-metadata
 .. |pypi-edc-mnsi| image:: https://img.shields.io/pypi/v/edc-mnsi.svg
-  :target: https://pypi.python.org/pypi/edc-mnsi
+    :target: https://pypi.python.org/pypi/edc-mnsi
 .. |pypi-edc-model| image:: https://img.shields.io/pypi/v/edc-model.svg
-  :target: https://pypi.python.org/pypi/edc-model
+    :target: https://pypi.python.org/pypi/edc-model
 .. |pypi-edc-model-admin| image:: https://img.shields.io/pypi/v/edc-model-admin.svg
-  :target: https://pypi.python.org/pypi/edc-model-admin
+    :target: https://pypi.python.org/pypi/edc-model-admin
 .. |pypi-edc-model-fields| image:: https://img.shields.io/pypi/v/edc-model-fields.svg
-  :target: https://pypi.python.org/pypi/edc-model-fields
+    :target: https://pypi.python.org/pypi/edc-model-fields
 .. |pypi-edc-model-form| image:: https://img.shields.io/pypi/v/edc-model-form.svg
-  :target: https://pypi.python.org/pypi/edc-model-form
+    :target: https://pypi.python.org/pypi/edc-model-form
 .. |pypi-edc-model-wrapper| image:: https://img.shields.io/pypi/v/edc-model-wrapper.svg
-  :target: https://pypi.python.org/pypi/edc-model-wrapper
+    :target: https://pypi.python.org/pypi/edc-model-wrapper
 .. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
-  :target: https://pypi.python.org/pypi/edc-navbar
+    :target: https://pypi.python.org/pypi/edc-navbar
 .. |pypi-edc-notification| image:: https://img.shields.io/pypi/v/edc-notification.svg
-  :target: https://pypi.python.org/pypi/edc-notification
+    :target: https://pypi.python.org/pypi/edc-notification
 .. |pypi-edc-offstudy| image:: https://img.shields.io/pypi/v/edc-offstudy.svg
-  :target: https://pypi.python.org/pypi/edc-offstudy
+    :target: https://pypi.python.org/pypi/edc-offstudy
 .. |pypi-edc-pdutils| image:: https://img.shields.io/pypi/v/edc-pdutils.svg
-  :target: https://pypi.python.org/pypi/edc-pdutils
+    :target: https://pypi.python.org/pypi/edc-pdutils
 .. |pypi-edc-pharmacy| image:: https://img.shields.io/pypi/v/edc-pharmacy.svg
-  :target: https://pypi.python.org/pypi/edc-pharmacy
+    :target: https://pypi.python.org/pypi/edc-pharmacy
 .. |pypi-edc-pharmacy-dashboard| image:: https://img.shields.io/pypi/v/edc-pharmacy-dashboard.svg
-  :target: https://pypi.python.org/pypi/edc-pharmacy-dashboard
+    :target: https://pypi.python.org/pypi/edc-pharmacy-dashboard
 .. |pypi-edc-prn| image:: https://img.shields.io/pypi/v/edc-prn.svg
-  :target: https://pypi.python.org/pypi/edc-prn
+    :target: https://pypi.python.org/pypi/edc-prn
 .. |pypi-edc-protocol| image:: https://img.shields.io/pypi/v/edc-protocol.svg
-  :target: https://pypi.python.org/pypi/edc-protocol
+    :target: https://pypi.python.org/pypi/edc-protocol
 .. |pypi-edc-protocol-violation| image:: https://img.shields.io/pypi/v/edc-protocol-violation.svg
-  :target: https://pypi.python.org/pypi/edc-protocol-violation
+    :target: https://pypi.python.org/pypi/edc-protocol-violation
 .. |pypi-edc-randomization| image:: https://img.shields.io/pypi/v/edc-randomization.svg
-  :target: https://pypi.python.org/pypi/edc-randomization
+    :target: https://pypi.python.org/pypi/edc-randomization
 .. |pypi-edc-reference| image:: https://img.shields.io/pypi/v/edc-reference.svg
-  :target: https://pypi.python.org/pypi/edc-reference
+    :target: https://pypi.python.org/pypi/edc-reference
 .. |pypi-edc-registration| image:: https://img.shields.io/pypi/v/edc-registration.svg
-  :target: https://pypi.python.org/pypi/edc-registration
+    :target: https://pypi.python.org/pypi/edc-registration
 .. |pypi-edc-reportable| image:: https://img.shields.io/pypi/v/edc-reportable.svg
-  :target: https://pypi.python.org/pypi/edc-reportable
+    :target: https://pypi.python.org/pypi/edc-reportable
 .. |pypi-edc-reports| image:: https://img.shields.io/pypi/v/edc-reports.svg
-  :target: https://pypi.python.org/pypi/edc-reports
+    :target: https://pypi.python.org/pypi/edc-reports
 .. |pypi-edc-review-dashboard| image:: https://img.shields.io/pypi/v/edc-review-dashboard.svg
-  :target: https://pypi.python.org/pypi/edc-review-dashboard
+    :target: https://pypi.python.org/pypi/edc-review-dashboard
 .. |pypi-edc-screening| image:: https://img.shields.io/pypi/v/edc-screening.svg
-  :target: https://pypi.python.org/pypi/edc-screening
+    :target: https://pypi.python.org/pypi/edc-screening
 .. |pypi-edc-search| image:: https://img.shields.io/pypi/v/edc-search.svg
-  :target: https://pypi.python.org/pypi/edc-search
+    :target: https://pypi.python.org/pypi/edc-search
 .. |pypi-edc-sites| image:: https://img.shields.io/pypi/v/edc-sites.svg
-  :target: https://pypi.python.org/pypi/edc-sites
+    :target: https://pypi.python.org/pypi/edc-sites
 .. |pypi-edc-subject-dashboard| image:: https://img.shields.io/pypi/v/edc-subject-dashboard.svg
-  :target: https://pypi.python.org/pypi/edc-subject-dashboard
+    :target: https://pypi.python.org/pypi/edc-subject-dashboard
 .. |pypi-edc-subject-model-wrappers| image:: https://img.shields.io/pypi/v/edc-subject-model-wrappers.svg
-  :target: https://pypi.python.org/pypi/edc-subject-model-wrappers
+    :target: https://pypi.python.org/pypi/edc-subject-model-wrappers
 .. |pypi-edc-test-utils| image:: https://img.shields.io/pypi/v/edc-test-utils.svg
-  :target: https://pypi.python.org/pypi/edc-test-utils
+    :target: https://pypi.python.org/pypi/edc-test-utils
 .. |pypi-edc-timepoint| image:: https://img.shields.io/pypi/v/edc-timepoint.svg
-  :target: https://pypi.python.org/pypi/edc-timepoint
+    :target: https://pypi.python.org/pypi/edc-timepoint
 .. |pypi-edc-transfer| image:: https://img.shields.io/pypi/v/edc-transfer.svg
-  :target: https://pypi.python.org/pypi/edc-transfer
+    :target: https://pypi.python.org/pypi/edc-transfer
 .. |pypi-edc-unblinding| image:: https://img.shields.io/pypi/v/edc-utils.svg
-  :target: https://pypi.python.org/pypi/edc-unblinding
+    :target: https://pypi.python.org/pypi/edc-unblinding
 .. |pypi-edc-utils| image:: https://img.shields.io/pypi/v/edc-utils.svg
-  :target: https://pypi.python.org/pypi/edc-utils
+    :target: https://pypi.python.org/pypi/edc-utils
 .. |pypi-edc-visit-schedule| image:: https://img.shields.io/pypi/v/edc-visit-schedule.svg
-  :target: https://pypi.python.org/pypi/edc-visit-schedule
+    :target: https://pypi.python.org/pypi/edc-visit-schedule
 .. |pypi-edc-visit-tracking| image:: https://img.shields.io/pypi/v/edc-visit-tracking.svg
-  :target: https://pypi.python.org/pypi/edc-visit-tracking
+    :target: https://pypi.python.org/pypi/edc-visit-tracking
 .. |pypi-edc-vitals| image:: https://img.shields.io/pypi/v/edc-vitals.svg
-  :target: https://pypi.python.org/pypi/edc-vitals
-
-
+    :target: https://pypi.python.org/pypi/edc-vitals
 .. |jet-brains| image:: https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.png
     :target: https://jb.gg/OpenSource
-    :width: 30
+    :width: 25
     :alt: JetBrains PyCharm
-
-.. |lstm| image:: http://www.lstmed.ac.uk/sites/all/themes/lstm/img/lstmed-ac-uk-logo.png
-    :target: https://www.lstmed.ac.uk
-    :width: 30
-    :alt: Liverpool School of Tropical Medicine
-
-.. |lshtm| image:: http://www.lstmed.ac.uk/sites/all/themes/lstm/img/lstmed-ac-uk-logo.png
-    :target: https://www.lstmed.ac.uk
-    :width: 30
-    :alt: London School of Hygiene Tropical Medicine
-
-.. |ucl| image:: http://www.lstmed.ac.uk/sites/all/themes/lstm/img/lstmed-ac-uk-logo.png
-    :target: https://www.lstmed.ac.uk
-    :width: 30
-    :alt: University College London
-
-.. |bhp| image:: http://www.lstmed.ac.uk/sites/all/themes/lstm/img/lstmed-ac-uk-logo.png
-    :target: https://www.lstmed.ac.uk
-    :width: 30
-    :alt: Botswana-Harvard AIDS Institute Partnership
-
-.. |stgeorge| image:: http://www.lstmed.ac.uk/sites/all/themes/lstm/img/lstmed-ac-uk-logo.png
-    :target: https://www.lstmed.ac.uk
-    :width: 30
-    :alt: Liverpool School of Tropical Medicine
