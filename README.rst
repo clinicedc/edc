@@ -111,7 +111,7 @@ Contacts
 
 For further information go to https://github.com/erikvw.
 
-|django|
+|django| |jet-brains|
 
 =========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
@@ -537,5 +537,5 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-vitals
 .. |jet-brains| image:: https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.png
     :target: https://jb.gg/OpenSource
-    :width: 120
+    :width: 25
     :alt: JetBrains PyCharm
