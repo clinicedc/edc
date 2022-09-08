@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.4.21 - 0.4.22
+0.4.21 - 0.4.23
 ---------------
 - refactor `visit_model_attr` to `related_visit_model_attr`
 - refactor model mixin method `visit` to avoid conflict with same
@@ -15,6 +15,7 @@ Changes
   groups (edc-pharmacy)
 - enforce use of end date for a pharmacy refill. Adjust dates
   if a refill is inserted between scheduled visits (edc-pharmacy)
+- confirm a group exists before adding to a role (edc-auth)
 
 0.4.20
 ------
