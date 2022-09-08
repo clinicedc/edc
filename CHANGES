@@ -1,6 +1,21 @@
 Changes
 =======
 
+0.4.21
+------
+- refactor `visit_model_attr` to `related_visit_model_attr`
+- refactor model mixin method `visit` to avoid conflict with same
+  method name used in edc-visit-schedule. Use `related_visit` to
+  return a visit model instance and `visit` to return a schedule
+  visit object.
+- introduce py3.10 typing style
+- remove visit code/sequence link between study medication reports
+  and pharmacy refills (edc-pharmacy)
+- fix issue with pharmacy codenames not appearing in pharmacy
+  groups (edc-pharmacy)
+- enforce use of end date for a pharmacy refill. Adjust dates
+  if a refill is inserted between scheduled visits (edc-pharmacy)
+
 0.4.20
 ------
 - remove tracking identifier from all modules
