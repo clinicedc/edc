@@ -1,8 +1,8 @@
 Changes
 =======
 
-0.4.21
-------
+0.4.21 - 0.4.22
+---------------
 - refactor `visit_model_attr` to `related_visit_model_attr`
 - refactor model mixin method `visit` to avoid conflict with same
   method name used in edc-visit-schedule. Use `related_visit` to
