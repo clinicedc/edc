@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.4.24
+------
+- add data migrations to remove residual permissions
+  (edc-dashboard, edc-navbar)
+- minor update to group updater handling duplicates (edc-auth)
+
 0.4.21 - 0.4.23
 ---------------
 - refactor `visit_model_attr` to `related_visit_model_attr`
