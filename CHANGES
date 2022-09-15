@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.4.25
+------
+- fix issue where egfr calculator defaults to ethnicity = OTHER
+- change rounding strategy (edc-utils and apps that round up)
+- add plural_name field to list models
+
 0.4.24
 ------
 - add data migrations to remove residual permissions
