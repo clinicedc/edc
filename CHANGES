@@ -1,11 +1,12 @@
 Changes
 =======
 
-0.4.26
+0.4.29
 ------
 - refactor modelform, model, and view mixins to derive subject_identifier, report_datetime,
   related_visit_model_attr, related_visit in a consistent manner. Changes added to  most
   modules.
+- remove ContextMixin from view mixins. Add this to the concrete View.
 - add new typing hints in 3.10 style, convert existing ones to 3.10 style.
 
 0.4.25
