@@ -1,25 +1,28 @@
 Changes
 =======
 
-0.4.29
+0.4.30
 ------
-- refactor modelform, model, and view mixins to derive subject_identifier, report_datetime,
-  related_visit_model_attr, related_visit in a consistent manner. Changes added to  most
+- refactor modelform, model, and view mixins to derive subject_identifier,
+  report_datetime, related_visit_model_attr, related_visit in a consistent
+  manner. Changes added to most modules.
   modules.
 - remove ContextMixin from view mixins. Add this to the concrete View.
 - add new typing hints in 3.10 style, convert existing ones to 3.10 style.
+- add form validation to compare user select grade with evaluated grade
+  (edc-reportable).
 
 0.4.25
 ------
-- fix issue where egfr calculator defaults to ethnicity = OTHER
-- change rounding strategy (edc-utils and apps that round up)
-- add plural_name field to list models
+- fix issue where egfr calculator defaults to ethnicity = OTHER.
+- change rounding strategy (edc-utils and apps that round up).
+- add plural_name field to list models.
 
 0.4.24
 ------
 - add data migrations to remove residual permissions
-  (edc-dashboard, edc-navbar)
-- minor update to group updater handling duplicates (edc-auth)
+  (edc-dashboard, edc-navbar).
+- minor update to group updater handling duplicates (edc-auth).
 
 0.4.21 - 0.4.23
 ---------------
