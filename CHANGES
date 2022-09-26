@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.4.30
+0.4.31
 ------
 - refactor modelform, model, and view mixins to derive subject_identifier,
   report_datetime, related_visit_model_attr, related_visit in a consistent
@@ -11,6 +11,8 @@ Changes
 - add new typing hints in 3.10 style, convert existing ones to 3.10 style.
 - add form validation to compare user select grade with evaluated grade
   (edc-reportable).
+- increase BMI upper bound to 75 (edc-reportable)
+- fix validation on modelform/validator mixin (edc-glucose)
 
 0.4.25
 ------
