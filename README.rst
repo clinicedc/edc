@@ -153,7 +153,7 @@ edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|
 edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
 edc-prn_                    |edc-prn|                     |pypi-edc-prn|
 edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
-edc-protocol-violation_     |edc-protocol-violation|      |pypi-edc-protocol-violation|
+edc-protocol-incident_      |edc-protocol-incident|       |pypi-edc-protocol-incident|
 edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
 edc-reference_              |edc-reference|               |pypi-edc-reference|
 edc-registration_           |edc-registration|            |pypi-edc-registration|
@@ -248,7 +248,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-pharmacy-dashboard: https://github.com/clinicedc/edc-pharmacy-dashboard
 .. _edc-prn: https://github.com/clinicedc/edc-prn
 .. _edc-protocol: https://github.com/clinicedc/edc-protocol
-.. _edc-protocol-violation: https://github.com/clinicedc/edc-protocol-violation
+.. _edc-protocol-incident: https://github.com/clinicedc/edc-protocol-incident
 .. _edc-randomization: https://github.com/clinicedc/edc-randomization
 .. _edc-reference: https://github.com/clinicedc/edc-reference
 .. _edc-refusal: https://github.com/clinicedc/edc-refusal
@@ -364,8 +364,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-prn/actions?query=workflow:build
 .. |edc-protocol| image:: https://github.com/clinicedc/edc-protocol/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-protocol/actions?query=workflow:build
-.. |edc-protocol-violation| image:: https://github.com/clinicedc/edc-protocol-violation/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-protocol-violation/actions?query=workflow:build
+.. |edc-protocol-incident| image:: https://github.com/clinicedc/edc-protocol-incident/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-protocol-incident/actions?query=workflow:build
 .. |edc-randomization| image:: https://github.com/clinicedc/edc-randomization/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-randomization/actions?query=workflow:build
 .. |edc-reference| image:: https://github.com/clinicedc/edc-reference/workflows/build/badge.svg?branch=develop
@@ -495,8 +495,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-prn
 .. |pypi-edc-protocol| image:: https://img.shields.io/pypi/v/edc-protocol.svg
     :target: https://pypi.python.org/pypi/edc-protocol
-.. |pypi-edc-protocol-violation| image:: https://img.shields.io/pypi/v/edc-protocol-violation.svg
-    :target: https://pypi.python.org/pypi/edc-protocol-violation
+.. |pypi-edc-protocol-incident| image:: https://img.shields.io/pypi/v/edc-protocol-incident.svg
+    :target: https://pypi.python.org/pypi/edc-protocol-incident
 .. |pypi-edc-randomization| image:: https://img.shields.io/pypi/v/edc-randomization.svg
     :target: https://pypi.python.org/pypi/edc-randomization
 .. |pypi-edc-reference| image:: https://img.shields.io/pypi/v/edc-reference.svg

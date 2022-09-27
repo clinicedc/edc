@@ -48,7 +48,7 @@ https://github.com/clinicedc/edc-pharmacy/tarball/develop
 https://github.com/clinicedc/edc-pharmacy-dashboard/tarball/develop
 https://github.com/clinicedc/edc-prn/tarball/develop
 https://github.com/clinicedc/edc-protocol/tarball/develop
-https://github.com/clinicedc/edc-protocol-violation/tarball/develop
+https://github.com/clinicedc/edc-protocol-incident/tarball/develop
 https://github.com/clinicedc/edc-randomization/tarball/develop
 https://github.com/clinicedc/edc-reference/tarball/develop
 https://github.com/clinicedc/edc-refusal/tarball/develop
