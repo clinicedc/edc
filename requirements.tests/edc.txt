@@ -51,7 +51,7 @@ edc-pharmacy
 edc-pharmacy-dashboard
 edc-prn
 edc-protocol
-edc-protocol-violation
+edc-protocol-incident
 edc-qol
 edc-randomization
 edc-reference
