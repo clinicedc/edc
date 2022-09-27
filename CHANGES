@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.4.32
+------
+- rename module edc-protocol-deviation to edc-protocol-incident. This
+  requires manually renaming tables to reflect the app name and updating
+  the django_migration table app column with the new app name. Migrations
+  have been squashed for future users (edc-protocol-incident)
+- deprecate path form_validator_mixin for  form_validator_mixins
+  (edc-form-validator)
+
 0.4.31
 ------
 - refactor modelform, model, and view mixins to derive subject_identifier,
