@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.4.33
+0.4.34
 ------
 - rename module edc-protocol-deviation to edc-protocol-incident. This
   requires manually renaming tables to reflect the app name and updating
