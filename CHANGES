@@ -4,6 +4,7 @@ Changes
 0.4.36
 ------
 - add related visit methods to historical model (edc-model)
+- minor fixes to off/on schedule models
 
 0.4.35
 ------
