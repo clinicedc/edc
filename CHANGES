@@ -1,6 +1,20 @@
 Changes
 =======
 
+0.4.37
+------
+- handle a number of regressions
+- consolidate model managers and managers on model mixins
+  to make it easier to predict the _default_manager. Users
+  should add unitests to confirm concrete model classes
+  have the expected _default_manager (all with model mixins)
+- floor sec/microsec on datetimes when comparing in form
+  and form-validator validation (edc-appointment
+  edc-visit-schedule, edc-visit-tracking, edc-crf)
+- remove `SiteModelMixin` from default on/off schedule
+  model mixins. Add this mixin manually to the concrete
+  class.
+
 0.4.36
 ------
 - add related visit methods to historical model (edc-model)
