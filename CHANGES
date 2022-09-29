@@ -1,6 +1,21 @@
 Changes
 =======
 
+0.4.36
+------
+- add related visit methods to historical model (edc-model)
+- minor fixes to off/on schedule models
+
+0.4.35
+------
+- added base method to access offschedule_datetime, typing (edc-crf)
+- removed features/fields that create `next refill` on submission of
+  study medication report (edc-pharmacy)
+- trivial (edc-protocol-incident)
+- fixed issue that incorrectly compares int to str when confirming
+  that the grade from the user matches the grade from the evaluator
+  (edc-reportable)
+
 0.4.34
 ------
 - rename module edc-protocol-deviation to edc-protocol-incident. This
