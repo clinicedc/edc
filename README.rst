@@ -180,6 +180,7 @@ Contrib
 
 ========================== ============================== ==================================
 edc-adherence_              |edc-adherence|               |pypi-edc-adherence|
+edc-csf_                    |edc-csf|                     |pypi-edc-csf|
 edc-dx_                     |edc-dx|                      |pypi-edc-dx|
 edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
 edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
@@ -211,6 +212,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-consent: https://github.com/clinicedc/edc-consent
 .. _edc-constants: https://github.com/clinicedc/edc-constants
 .. _edc-crf: https://github.com/clinicedc/edc-crf
+.. _edc-csf: https://github.com/clinicedc/edc-csf
 .. _edc-dashboard: https://github.com/clinicedc/edc-dashboard
 .. _edc-data-manager: https://github.com/clinicedc/edc-data-manager
 .. _edc-device: https://github.com/clinicedc/edc-device
@@ -290,6 +292,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-consent/actions?query=workflow:build
 .. |edc-crf| image:: https://github.com/clinicedc/edc-crf/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-crf/actions?query=workflow:build
+.. |edc-csf| image:: https://github.com/clinicedc/edc-csf/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-csf/actions?query=workflow:build
 .. |edc-dashboard| image:: https://github.com/clinicedc/edc-dashboard/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-dashboard/actions?query=workflow:build
 .. |edc-data-manager| image:: https://github.com/clinicedc/edc-data-manager/workflows/build/badge.svg?branch=develop
@@ -423,6 +427,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-constants
 .. |pypi-edc-crf| image:: https://img.shields.io/pypi/v/edc-crf.svg
     :target: https://pypi.python.org/pypi/edc-crf
+.. |pypi-edc-csf| image:: https://img.shields.io/pypi/v/edc-csf.svg
+    :target: https://pypi.python.org/pypi/edc-csf
 .. |pypi-edc-dashboard| image:: https://img.shields.io/pypi/v/edc-dashboard.svg
     :target: https://pypi.python.org/pypi/edc-dashboard
 .. |pypi-edc-data-manager| image:: https://img.shields.io/pypi/v/edc-data-manager.svg
