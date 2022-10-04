@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.41
+------
+- add missing migration (edc-appointment)
+- fix import path (edc-glucose)
+
 0.4.40
 ------
 - tighten up date validations across model/form/validators.
