@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.40
+------
+- tighten up date validations across model/form/validators.
+- handle a number of regressions
+
 0.4.39
 ------
 - update tests
