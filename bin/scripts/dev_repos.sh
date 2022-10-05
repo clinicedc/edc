@@ -10,7 +10,6 @@ pip install pyrabbit
 pip install python-dateutil
 pip install python-memcached
 pip install reportlab
-pip uninstall sentry_sdk
 pip install tqdm
 pip install django-environ
 pip install django-redis

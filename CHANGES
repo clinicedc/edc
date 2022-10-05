@@ -1,6 +1,24 @@
 Changes
 =======
 
+0.4.42
+------
+- drop mixin in favor of directly accessing func
+  `estimated_date_from_ago` (edc-dx-review)
+- fix signal attempting to delete unrleated action items
+  (edc-action-item)
+- remove code in AppConfig that auto creates export folders
+  (edc-export, edc-pdutils)
+- slight refactor (edc-timepoint)
+- clarify in exception message that edc-appointment has a reverse
+  relation to the related visit model (edc-appointment)
+- change blood result question prompt for field assay_datetime to
+  "Assay date and time" (edc-lab)
+- move save code to model method for consistency (edc-offstudy)
+- add additional unique_together constraint plus migration
+  (edc-appointment)
+- fix tests, test on py3.10 / DJ 4.1.1 primarily
+
 0.4.41
 ------
 - add missing migration (edc-appointment)
