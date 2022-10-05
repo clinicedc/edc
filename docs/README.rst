@@ -380,8 +380,6 @@ Deploy onto an Ubuntu 18.04 server
 * https://realpython.com/caching-in-django-with-redis/
 * https://realpython.com/caching-in-django-with-redis/
 * https://niwinz.github.io/django-redis/latest/
-* https://micropyramid.com/blog/how-to-monitor-django-application-live-events-with-sentry/
-* https://docs.sentry.io/clients/python/integrations/django/
 
 Misc
 
