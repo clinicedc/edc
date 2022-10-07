@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.44
+------
+- add migration for help_text changes (edc-appointment)
+
 0.4.43
 ------
 - change TabularInlineMixin to insert an inline before a fieldset
