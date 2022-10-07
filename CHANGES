@@ -1,6 +1,22 @@
 Changes
 =======
 
+0.4.43
+------
+- change TabularInlineMixin to insert an inline before a fieldset
+  instead of after a field. Revert to using Django original
+  fieldset.html. Default to insert inlines before the audit
+  fieldset. (edc-model-admin)
+- move edc_protocol vars used in template context to middleware
+  (edc_protocol, edc-auth, edc-dashboard)
+- fix appointment radio widget missing class-radiolist
+- use new 4.1 template block to disable dark mode, update all
+  local admin templates (edc-model-admin)
+- set logout view to use default template. (edc-auth)
+- changes require you to run collectstatic and to clear
+  the cache on the browser to ensure jquery 3.6.0 loads.
+
+
 0.4.42
 ------
 - drop mixin in favor of directly accessing func
