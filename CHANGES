@@ -1,10 +1,16 @@
 Changes
 =======
 
+0.4.46
+------
+- add css hack for wrapping radiolists in admin forms (edc-model-admin)
+- fix func signature (edc-form-describer)
+
 0.4.45
 ------
 - fix regression that dropped linked to jQuery in edc base template
-- update rel.to to related_model
+  (edc-dashboard)
+- update rel.to to related_model for inlines (edc-crf)
 
 0.4.44
 ------
