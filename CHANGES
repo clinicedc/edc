@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.45
+------
+- fix regression that dropped linked to jQuery in edc base template
+- update rel.to to related_model
+
 0.4.44
 ------
 - add migration for help_text changes (edc-appointment)
