@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.4.47
+------
+- never export rando tables, even if user is unblinded (edc-export)
+- refactor blinded/unblined funcs (edc-randomization)
+- take code out of app_config and move to funcs in utils (edc-facility)
+- slight refactor, typing hints (edc-screening)
+
 0.4.46
 ------
 - add css hack for wrapping radiolists in admin forms (edc-model-admin)
