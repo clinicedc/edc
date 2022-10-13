@@ -1,17 +1,30 @@
 |pypi| |downloads|
 
-Clinic EDC
-==========
+clinicedc
+=========
 
-``Clinic EDC`` contains complete code for a set of core modules for clinical trial data management to build a trial EDC. Refer to the specific open projects listed below for example EDC systems built with these modules. The more recent the trial the better the example. The codebase continues to evolve over many years of conducting clinical trials for mostly NIH-funded clinical trials through the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the `Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__ in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__. Almost all trials have been related to HIV/AIDS research. Recent work with the `Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ has expanded into Diabetes (DM), Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the three main chronic conditions -- HIV/DM/HTN.
+Here are a set of python modules that extend Django to empower you to build an EDC / eSource system to handle data
+collection and management for multi-site longitudinal clinical trials.
+
+Refer to the specific open projects listed below for example EDC systems built with these modules.
+The more recent the trial the better the example.
+
+The codebase continues to evolve over many years of conducting clinical trials for mostly NIH-funded clinical trials through
+the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the
+`Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__
+in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__.
+Almost all trials have been related to HIV/AIDS research. Recent work with the
+`Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ has expanded into Diabetes (DM),
+Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the
+three main chronic conditions -- HIV/DM/HTN.
 
 See also https://www.lstmed.ac.uk/RespondAfrica
 
 The implementations we have developed are mostly eSource systems rather than the traditional EDCs.
 
-The ``Clinic EDC`` for each trial consists of a subset of trial-specific modules that reference this module.
+The ``clinicedc`` for each trial consists of a subset of trial-specific modules that reference this module.
 
-(python 3.9+ and Django 3.2, see setup.cfg)
+(python 3.10+ and Django 4.1, see setup.cfg)
 
 
 Projects that use the EDC
