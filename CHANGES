@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.48
+------
+- remove edc-egfr as a dependency
+
 0.4.47
 ------
 - never export rando tables, even if user is unblinded (edc-export)
