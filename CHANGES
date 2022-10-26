@@ -1,5 +1,11 @@
 Changes
 =======
+0.4.49
+------
+- move reason updater to appointment (edc-appointment, edc-visit-tracking)
+- default offschedule action (edc-visit-schedule)
+- add current site to form class (edc-sites)
+- add mixins to query current site on screening form (edc-screening)
 
 0.4.48
 ------
