@@ -1,5 +1,12 @@
 Changes
 =======
+
+0.4.50
+------
+- * move list filter code as base class to edc-model-admin;
+  * ignore validation if appointment is cancelled;
+  * refactor missed appointment handling. (edc-appointment)
+
 0.4.49
 ------
 - move reason updater to appointment (edc-appointment, edc-visit-tracking)
