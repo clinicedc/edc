@@ -1,5 +1,10 @@
 Changes
 =======
+0.4.51
+------
+- fix regressions causing list filter to always return an empty queryset
+  caused by not distinguishing `no date` (null) from filter not selected
+  (edc-model-admin, edc-constants)
 
 0.4.50
 ------
