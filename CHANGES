@@ -1,5 +1,12 @@
 Changes
 =======
+
+0.4.52
+------
+- fix regression in test sites following update to SingleSite init signature (edc-sites)
+- add PrnModelAdminMixin (edc-prn)
+- additional constants (edc-constants)
+
 0.4.51
 ------
 - fix regressions causing list filter to always return an empty queryset
