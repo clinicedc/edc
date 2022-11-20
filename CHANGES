@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.4.53
+------
+- add `get_changelist_url` to default model mixin (edc-model)
+- randomizer may identifier fields other than
+  `subject_identifier` (edc-randomization)
+- may use custom registration model (edc-registration)
+
 0.4.52
 ------
 - fix regression in test sites following update to SingleSite init signature (edc-sites)
