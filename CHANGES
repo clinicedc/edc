@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.54
+------
+- allow to override criteria to select an unallocated registration instance
+  (edc-randomization)
+
 0.4.53
 ------
 - add `get_changelist_url` to default model mixin (edc-model)
