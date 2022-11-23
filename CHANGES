@@ -1,6 +1,14 @@
 Changes
 =======
 
+0.4.55
+------
+- fix missing method call in `get_changelist_url` (edc-model)
+- add new Names model mixin for legal_name, familiar_name (edc-model)
+- update consent to handle legal_name, familiar_name (edc-consent)
+- new attrs for modeladmin to add help and notes to custom changelist
+  (edc-model-admin)
+
 0.4.54
 ------
 - allow to override criteria to select an unallocated registration instance
