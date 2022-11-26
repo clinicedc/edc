@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.56
+------
+- remove editable=False from eligibility model fields to show them as readonly
+  on modeladmin section (edc-screening)
+
 0.4.55
 ------
 - fix missing method call in `get_changelist_url` (edc-model)
