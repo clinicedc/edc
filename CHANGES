@@ -1,5 +1,8 @@
 Changes
 =======
+0.4.57
+------
+- move some respond mixins (edc-dx, edc-dx-review)
 
 0.4.56
 ------
