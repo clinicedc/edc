@@ -198,6 +198,8 @@ edc-dx_                     |edc-dx|                      |pypi-edc-dx|
 edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
 edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
 edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|
+edc-microbiology_           |edc-microbiology|            |pypi-edc-microbiology|
+edc-microscopy_             |edc-microscopy|              |pypi-edc-microscopy|
 edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
 edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
 edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
@@ -250,6 +252,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-ltfu: https://github.com/clinicedc/edc-ltfu
 .. _edc-metadata: https://github.com/clinicedc/edc-metadata
 .. _edc-mnsi: https://github.com/clinicedc/edc-mnsi
+.. _edc-microbiology: https://github.com/clinicedc/edc-microbiology
+.. _edc-microscopy: https://github.com/clinicedc/edc-microscopy
 .. _edc-model: https://github.com/clinicedc/edc-model
 .. _edc-model-admin: https://github.com/clinicedc/edc-model-admin
 .. _edc-model-fields: https://github.com/clinicedc/edc-model-fields
@@ -355,6 +359,10 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-metadata-rules/actions?query=workflow:build
 .. |edc-mnsi| image:: https://github.com/clinicedc/edc-mnsi/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-mnsi/actions?query=workflow:build
+.. |edc-microbiology| image:: https://github.com/clinicedc/edc-microbiology/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-microbiology/actions?query=workflow:build
+.. |edc-microscopy| image:: https://github.com/clinicedc/edc-microscopy/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-microscopy/actions?query=workflow:build
 .. |edc-model| image:: https://github.com/clinicedc/edc-model/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-model/actions?query=workflow:build
 .. |edc-model-admin| image:: https://github.com/clinicedc/edc-model-admin/workflows/build/badge.svg?branch=develop
@@ -488,6 +496,10 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-metadata
 .. |pypi-edc-mnsi| image:: https://img.shields.io/pypi/v/edc-mnsi.svg
     :target: https://pypi.python.org/pypi/edc-mnsi
+.. |pypi-edc-microbiology| image:: https://img.shields.io/pypi/v/edc-microbiology.svg
+    :target: https://pypi.python.org/pypi/edc-microbiology
+.. |pypi-edc-microscopy| image:: https://img.shields.io/pypi/v/edc-microscopy.svg
+    :target: https://pypi.python.org/pypi/edc-microscopy
 .. |pypi-edc-model| image:: https://img.shields.io/pypi/v/edc-model.svg
     :target: https://pypi.python.org/pypi/edc-model
 .. |pypi-edc-model-admin| image:: https://img.shields.io/pypi/v/edc-model-admin.svg
