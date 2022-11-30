@@ -1,5 +1,12 @@
 Changes
 =======
+0.4.59
+------
+- add option to withdraw AE after TMG review on AE followup (edc-adverse-event)
+- add investigator AE classification if not in agreement with initial
+  (edc-adverse-event)
+ - add option to withdraw incident report (edc-protocol-incident)
+
 0.4.58
 ------
 - add `language` to site class, `languages` to site_profile model
