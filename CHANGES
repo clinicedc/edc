@@ -1,5 +1,11 @@
 Changes
 =======
+0.4.58
+------
+- add `language` to site class, `languages` to site_profile model
+  and intercept choices in modeladmin mixin (edc-sites)
+- update verbose_name and help_text on `familiar_name` field (edc-model)
+
 0.4.57
 ------
 - move some respond mixins (edc-dx, edc-dx-review)
