@@ -109,7 +109,7 @@ Note: if on docker localhost will not work so use the docker IP or '%'
 
 confirm new account can login to new DB::
 
-    echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE"
+    echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE" | mysql
 
 Create separate MySQL accounts to log in **from each** remote django host::
 

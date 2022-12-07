@@ -54,7 +54,7 @@ Confirm new account can login to new DB
 
 .. code-block:: bash
 
-    $ echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE"
+    $ echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE" | mysql
 
 Enable ``ufw``, expose 22, 3306
 
