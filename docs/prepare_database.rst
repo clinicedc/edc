@@ -7,9 +7,9 @@ Install dependencies
 
 .. code-block:: bash
 
-	sudo apt-get update
-	sudo apt-get -y upgrade
-	sudo apt-get -y install mysql-server-5.7
+    sudo apt-get update
+    sudo apt-get -y upgrade
+    sudo apt-get -y install mysql-server-5.7
 
 
 Login to MySQL as non-root account
@@ -19,42 +19,42 @@ The next steps use the following environment variables.
 
 .. code-block:: bash
 
-	export MYSQL_DATABASE=ambition_production
-	export MYSQL_USER=edc
-	export MYSQL_USER_PASSWORD=password
-	export HOST=localhost
+    export MYSQL_DATABASE=ambition_production
+    export MYSQL_USER=edc
+    export MYSQL_USER_PASSWORD=password
+    export HOST=localhost
 
 
 Secure MySQL installation
 
 .. code-block:: bash
 
-	$ sudo mysql_secure_installation
+    $ sudo mysql_secure_installation
 
 Load timezones into MySQL
 
 .. code-block:: bash
 
-	$ mysql_tzinfo_to_sql /usr/share/zoneinfo | sudo mysql mysql
+    $ mysql_tzinfo_to_sql /usr/share/zoneinfo | sudo mysql mysql
 
 Create a MySQL database for the app
 
 .. code-block:: bash
 
-	$ echo "CREATE DATABASE $MYSQL_DATABASE CHARACTER SET utf8;" | mysql -u root -p
+    $ echo "CREATE DATABASE $MYSQL_DATABASE CHARACTER SET utf8;" | mysql -u root -p
 
-Create a MySQL account, other than root, to be used by django
+Create a MySQL account, other than root, to be used on MySQL DB server
 
 .. code-block:: bash
 
-	$ echo "CREATE USER '$MYSQL_USER'@'$HOST' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
-	$ echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'$HOST' WITH GRANT OPTION;" | mysql
+    $ echo "CREATE USER '$MYSQL_USER'@'$HOST' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
+    $ echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'$HOST' WITH GRANT OPTION;" | mysql
 
 Confirm new account can login to new DB
 
 .. code-block:: bash
 
-	$ echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE"
+    $ echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE"
 
 Enable ``ufw``, expose 22, 3306
 
@@ -64,21 +64,33 @@ edit mysql.conf to listen on 3306
 
 .. code-block:: bash
 
-	$ sudo nano /etc/mysql/mysql.cnf
+    $ sudo nano /etc/mysql/mysql.cnf
 
-Grant permissions to log in from each remote host. For each ``$REMOTE_HOST``:
+Create MySQL account to log in from each remote django host
+-----------------------------------------------------------
+
+For each ``$REMOTE_HOST``:
 
 .. code-block:: bash
 
-	$ export REMOTE_HOST=some_host
-	$ echo "CREATE USER '$MYSQL_USER'@'$REMOTE_HOST' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
-	$ echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'$REMOTE_HOST' WITH GRANT OPTION;" | mysql
+    $ set +o history  # temporarily disable bash history (so as not to save pw)
+
+    $ export MYSQL_DATABASE=ambition_production
+    $ export REMOTE_MYSQL_USER=edc-ambition-live
+    $ export REMOTE_MYSQL_USER_PASSWORD=p@assw0rd
+    $ export REMOTE_HOST=some_host
+
+    $ echo "CREATE USER '$REMOTE_MYSQL_USER'@'$REMOTE_HOST' IDENTIFIED BY '$REMOTE_MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
+    $ echo "GRANT ALL PRIVILEGES ON \`$MYSQL_DATABASE\`.* TO '$REMOTE_MYSQL_USER'@'$REMOTE_HOST';" | mysql
+
+    $ unset REMOTE_MYSQL_USER_PASSWORD  # delete pw variable
+    $ set -o history  # re-enable bash history
 
 Show users:
 
 .. code-block:: bash
 
-	$ mysql -Bse 'select user, host from user;'
+    $ mysql -Bse 'select user, host from user;'
 
 Confirm edc can log in from each host.
 
@@ -93,37 +105,37 @@ Steps:
 
 .. code-block:: bash
 
-	mysql -u edc -p -Bse 'create database ambition_production character set utf8;'
+    mysql -u edc -p -Bse 'create database ambition_production character set utf8;'
 
 Source .duplicity/.env_variables.conf
 
 .. code-block:: bash
 
 
-	$ source .duplicity/.env_variables.conf
+    $ source .duplicity/.env_variables.conf
 
 Trigger a restore with URL before backup folder
 
 .. code-block:: bash
 
-	$ duplicity --verbosity info --encrypt-sign-key=$GPG_KEY \
-	  --log-file $HOME/.duplicity/info.log \
-	  $AWS_ENDPOINT/$AWS_BUCKET \
-	  $BACKUP_DIR
+    $ duplicity --verbosity info --encrypt-sign-key=$GPG_KEY \
+      --log-file $HOME/.duplicity/info.log \
+      $AWS_ENDPOINT/$AWS_BUCKET \
+      $BACKUP_DIR
 
 
 Restore the DB with the most recent file, for example, if the most recent file is ``ambition_production-20180730184227.sql``:
 
 .. code-block:: bash
 
-	mysql -u edc -p $DB_NAME < $BACKUP_DIR/ambition_production-20180730184227.sql
+    mysql -u edc -p $DB_NAME < $BACKUP_DIR/ambition_production-20180730184227.sql
 
 
 list files
 
 .. code-block:: bash
 
-	duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET
+    duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET
 
 
 restore the entire folder
@@ -152,5 +164,4 @@ verify files
 
 .. code-block:: bash
 
-	duplicity verify -v4 $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR
-
+    duplicity verify -v4 $AWS_ENDPOINT/$AWS_BUCKET $BACKUP_DIR
