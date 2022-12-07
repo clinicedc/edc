@@ -77,7 +77,7 @@ For each ``$REMOTE_HOST``:
 
     $ export MYSQL_DATABASE=ambition_production
     $ export REMOTE_MYSQL_USER=edc-ambition-live
-    $ export REMOTE_MYSQL_USER_PASSWORD=p@assw0rd
+    $ export REMOTE_MYSQL_USER_PASSWORD=different_p@ssw0rd
     $ export REMOTE_HOST=some_host
 
     $ echo "CREATE USER '$REMOTE_MYSQL_USER'@'$REMOTE_HOST' IDENTIFIED BY '$REMOTE_MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
