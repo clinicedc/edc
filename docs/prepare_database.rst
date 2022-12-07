@@ -92,7 +92,7 @@ Show users:
 
     $ mysql -Bse 'select user, host from user;'
 
-Confirm edc can log in from each host.
+Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host.
 
 
 Restore
