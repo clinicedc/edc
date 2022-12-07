@@ -113,9 +113,7 @@ confirm new account can login to new DB::
 
 Create separate MySQL accounts to log in **from each** remote django host
 
-i.e. for each ``$REMOTE_HOST``:
-
-.. code-block:: bash
+i.e. for each ``$REMOTE_HOST``::
 
     $ set +o history  # temporarily disable bash history (so as not to save pw)
 
@@ -130,9 +128,7 @@ i.e. for each ``$REMOTE_HOST``:
     $ unset REMOTE_MYSQL_USER_PASSWORD  # delete pw variable
     $ set -o history  # re-enable bash history
 
-Show users:
-
-.. code-block:: bash
+Show users::
 
     $ mysql -Bse 'select user, host from user;'
 
