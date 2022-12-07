@@ -111,7 +111,7 @@ confirm new account can login to new DB::
 
     echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE" | mysql
 
-Create separate MySQL accounts to log in **from each** remote django host::
+Create separate MySQL accounts to log in **from each** remote django host
 
 i.e. for each ``$REMOTE_HOST``:
 
@@ -136,7 +136,9 @@ Show users:
 
     $ mysql -Bse 'select user, host from user;'
 
-Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host.
+Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host::
+
+    echo "mysql -u $REMOTE_MYSQL_USER -p $MYSQL_DATABASE" | mysql
 
 
 if you delete any user don't forget to FLUSH PRIVILEGES;

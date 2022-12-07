@@ -94,6 +94,10 @@ Show users:
 
 Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host.
 
+.. code-block:: bash
+
+    $ echo "mysql -u $REMOTE_MYSQL_USER -p $MYSQL_DATABASE" | mysql
+
 
 Restore
 =======
