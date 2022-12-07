@@ -101,7 +101,7 @@ Create a MySQL account, other than root, to be used on MySQL DB server::
 
     echo "CREATE USER '$MYSQL_USER'@'localhost' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | sudo mysql
     echo "CREATE USER '$MYSQL_USER'@'localhost' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql -u root -p
-    echo " GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'localhost' WITH GRANT OPTION;" | sudo mysql
+    echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'localhost' WITH GRANT OPTION;" | sudo mysql
     echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'localhost' WITH GRANT OPTION;" | mysql -u root -p
 
 Note: if on docker localhost will not work so use the docker IP or '%'
