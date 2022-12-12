@@ -1,7 +1,7 @@
 Changes
 =======
-unreleased
-----------
+0.4.60
+------
 - add missing migrations (edc-protocol-incident)
 - update docs on creation of MySQL users for connections from remote Django hosts
 
