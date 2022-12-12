@@ -1,5 +1,10 @@
 Changes
 =======
+0.4.60
+------
+- add missing migrations (edc-protocol-incident)
+- update docs on creation of MySQL users for connections from remote Django hosts
+
 0.4.59
 ------
 - add option to withdraw AE after TMG review on AE followup (edc-adverse-event)
