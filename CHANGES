@@ -1,5 +1,12 @@
 Changes
 =======
+
+0.4.61
+------
+- remove 'None' choice from 'cause_of_death_agreed' in Death Report TMG (edc-adverse-event)
+- fix AE TMG Report readonly fields not pulling in ae_description,
+  ae_classification etc. (edc-adverse-event)
+
 0.4.60
 ------
 - add missing migrations (edc-protocol-incident)
