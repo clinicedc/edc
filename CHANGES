@@ -1,6 +1,20 @@
 Changes
 =======
 
+0.4.62
+------
+- change `appointment.appt_type` model field to foreign key and
+  get choices from list_data. (edc-appointment)
+- add settings attributes for default appt_type choices, referenced
+  in list_data, and default value. (edc-appointment)
+- add fields familiar_name, full_name to registered subject
+  (edc-registration)
+- add late lower and upper to visit class (edc-visit-schedule)
+- now can customize name field and identity regex using class attrs
+  on SubjectListboardView (edc-listboard)
+- add option to customize identifier field name for utils and
+  other funcs. (edc-randomization)
+
 0.4.61
 ------
 - remove 'None' choice from 'cause_of_death_agreed' in Death Report TMG (edc-adverse-event)
