@@ -1,6 +1,10 @@
 Changes
 =======
 
+unreleased
+----------
+- add `HeartRateField` and `RespiratoryRateField` (edc-vitals)
+
 0.4.63
 ------
 - add constants (edc-constants)
