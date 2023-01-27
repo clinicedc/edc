@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.63
+------
+- add constants (edc-constants)
+- fix mispelled attr (edc-dx-review)
+
 0.4.62
 ------
 - change `appointment.appt_type` model field to foreign key and
