@@ -1,8 +1,13 @@
 Changes
 =======
 
-unreleased
-----------
+0.4.65
+------
+- ignore metadata rule if source model not in the current visits crfs
+  (edc-metadata)
+
+0.4.64
+------
 - add `HeartRateField` and `RespiratoryRateField` (edc-vitals)
 
 0.4.63
