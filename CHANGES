@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.4.66
+------
+- modeladmin mixin that selects the Form class conditionally by
+  user permission. Custom Form class removes all validation but
+  could be any Form class. (edc-model-admin)
+
 0.4.65
 ------
 - ignore metadata rule if source model not in the current visits crfs
