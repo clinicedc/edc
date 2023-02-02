@@ -1,11 +1,14 @@
 Changes
 =======
 
-0.4.66
+0.4.67
 ------
 - modeladmin mixin that selects the Form class conditionally by
   user permission. Custom Form class removes all validation but
   could be any Form class. (edc-model-admin)
+- add DATA_MANAGER_SUPER group, add codename tuple used by
+  modeladmin to select Form class by inspecting user perms.
+  (edc-data-manager)
 
 0.4.65
 ------
