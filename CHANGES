@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.69
+------
+- fix missing codename in DATA_MANAGER_SUPER group, on migrate (edc-data-manager)
+
 0.4.68
 ------
 - modeladmin mixin that selects the Form class conditionally by
