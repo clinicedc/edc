@@ -7,8 +7,6 @@ Changes
   Consent version and timing is verified in the modelform (edc-crf)
 - move model code to mixin (edc-data-manager)
 - trivial (edc-sites)
-- add Python 3.11 support
-- drop Python 3.9 support
 
 0.4.69
 ------
