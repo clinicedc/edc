@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.4.70
+------
+- remove subject_consent_form_validator mixin from crf_form_validator.
+  Consent version and timing is verified in the modelform (edc-crf)
+- move model code to mixin (edc-data-manager)
+- trivial (edc-sites)
+
 0.4.69
 ------
 - fix missing codename in DATA_MANAGER_SUPER group, on migrate (edc-data-manager)
