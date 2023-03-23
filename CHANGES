@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.71
+------
+- update neutrophil and lymphocyte model mixin settings (edc-lab-results)
+- trivial (edc-model-form)
+
 0.4.70
 ------
 - remove subject_consent_form_validator mixin from crf_form_validator.
