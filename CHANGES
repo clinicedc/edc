@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.75
+------
+- additional features to export data (edc-pdutils)
+
 0.4.74
 ------
 - add human readable identifier (edc-identifier)
