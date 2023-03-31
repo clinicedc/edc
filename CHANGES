@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.74
+------
+- add human readable identifier (edc-identifier)
+
 0.4.73
 ----------
 - add more validation to ClinicalReviewFollowupFormValidatorMixin (edc-dx-review)
