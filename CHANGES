@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.78
+------
+- bump to django-crypto-fields 0.3.5
+
 0.4.77
 ------
 - require edc-rx
