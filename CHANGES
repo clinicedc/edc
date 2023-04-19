@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.4.80
+------
+- export by model (edc-pdutils)
+- other minor fixes (edc-dx-review, edc-form-validtors)
+
 0.4.79
 ------
 - bump to edc-dx-review 0.1.33
