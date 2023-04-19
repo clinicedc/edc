@@ -59,6 +59,7 @@ edc-refusal
 edc-registration
 edc-reportable
 edc-review-dashboard
+edc-rx
 edc-screening
 edc-search
 edc-sites
