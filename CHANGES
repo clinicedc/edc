@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.82
+------
+- compare rx_init_date to report_datetime (edc-dx-review)
+
 0.4.81
 ------
 - add additional fields and form logic to clinical review
