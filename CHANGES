@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.4.81
+------
+- add additional fields and form logic to clinical review
+  baseline (edc-dx-review)
+- clean up unused test tags
+- setup configs
+
 0.4.80
 ------
 - export by model (edc-pdutils)
