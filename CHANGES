@@ -1,6 +1,15 @@
 Changes
 =======
 
+0.4.83
+------
+- limit export of sensitive data to members of EXPORT_PII group. Only allow
+  users specified in settings to be added to EXPORT_PII group.
+  (edc-pdutils, edc-export)
+- add fieldset tuple to work with glucose model mixins (edc-glucose)
+- add NA option to rx_init (edc-dx-review)
+- fix validation issues with field `return_in_days` (edc-rx)
+
 0.4.82
 ------
 - compare rx_init_date to report_datetime (edc-dx-review)
