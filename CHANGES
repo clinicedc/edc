@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.4.84
+------
+- add ICECAP-A version 2 (edc-qol)
+
 0.4.83
 ------
 - limit export of sensitive data to members of EXPORT_PII group. Only allow
