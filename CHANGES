@@ -1,13 +1,10 @@
 Changes
 =======
 
-unreleased
-----------
-- add additional disease constants (edc-constants)
-
 0.4.84
 ------
 - add ICECAP-A version 2 (edc-qol)
+- add additional disease constants (edc-constants)
 
 0.4.83
 ------
