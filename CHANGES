@@ -1,5 +1,5 @@
 Changes
-=======
+-------
 
 0.4.85
 ------
@@ -12,6 +12,7 @@ Changes
 0.4.84
 ------
 - add ICECAP-A version 2 (edc-qol)
+- add additional disease constants (edc-constants)
 
 0.4.83
 ------
@@ -78,11 +79,7 @@ Changes
 ------
 - update neutrophil and lymphocyte model mixin settings (edc-lab-results)
 - trivial (edc-model-form)
-=======
-0.4.71
-------
 - add management command for CSV and STATA dataset export (edc-pdutils)
->>>>>>> Stashed changes
 
 0.4.70
 ------
