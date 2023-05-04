@@ -1,5 +1,18 @@
 Changes
-=======
+-------
+
+0.4.85
+------
+- fix comparison of db datetime with milliseconds vs django datetime without
+  (edc-appointment, edc-visit-schedule)
+- add new block to template for demographics title (edc-subject-dashboard)
+- render to response and just buffer (edc-pdf-report)
+- handle null identifier (edc-identifier)
+
+0.4.84
+------
+- add ICECAP-A version 2 (edc-qol)
+- add additional disease constants (edc-constants)
 
 0.4.83
 ------
@@ -66,11 +79,7 @@ Changes
 ------
 - update neutrophil and lymphocyte model mixin settings (edc-lab-results)
 - trivial (edc-model-form)
-=======
-0.4.71
-------
 - add management command for CSV and STATA dataset export (edc-pdutils)
->>>>>>> Stashed changes
 
 0.4.70
 ------
