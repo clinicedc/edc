@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.86
+------
+- add NA option th choices (edc-lab)
+
 0.4.85
 ------
 - accept site_id if known when creating identifiers. Useful
