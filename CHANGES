@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.4.87
+------
+- add func to get appointment by datetime (edc-appointment)
+- move icecapa fields to model_mixin (edc-qol)
+
 0.4.86
 ------
 - add NA option th choices (edc-lab)
