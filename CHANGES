@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.88
+------
+- fix applicable_if_diagnosed validator (edc-dx)
+
 0.4.87
 ------
 - add func to get appointment by datetime (edc-appointment)
@@ -49,7 +53,7 @@ Changes
 0.4.80
 ------
 - export by model (edc-pdutils)
-- other minor fixes (edc-dx-review, edc-form-validtors)
+- other minor fixes (edc-dx-review, edc-form-validators)
 
 0.4.79
 ------
@@ -68,7 +72,7 @@ Changes
 - simplify clinical baseline review, change initial review fields to be more
   consistent. Use factories for model mixins. (edc-dx-review)
 - fix tests (edc-dx)
-- detect list models using ListuuidModelMixin (edc-pdutils)
+- detect list models using ListUuidModelMixin (edc-pdutils)
 
 0.4.75
 ------
