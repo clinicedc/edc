@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.4.89
+------
+- add button to refresh appointments (edc-subject-dashboard)
+- delete actionitems and recreate if multiple objects
+  exist (edc-locator)
+
 0.4.88
 ------
 - fix applicable_if_diagnosed validator (edc-dx)
