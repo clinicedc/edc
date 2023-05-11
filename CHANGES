@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.90
+------
+- add block to add buttons to top_bar (edc-subject-dashboard)
+
 0.4.89
 ------
 - add button to refresh appointments (edc-subject-dashboard)
