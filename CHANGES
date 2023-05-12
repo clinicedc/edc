@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.92
+------
+- override methods for url and message in validator (edc-screening)
+
 0.4.91
 ------
 - add attr for custom identity fields in search (edc-listboard)
