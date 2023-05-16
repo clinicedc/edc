@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.93
+------
+- minor refactoring to increase use of constants (edc-adverse-event)
+
 0.4.92
 ------
 - override methods for url and message in validator (edc-screening)
