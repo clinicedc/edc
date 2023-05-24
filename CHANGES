@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.95
+------
+- add model admin mixins (edc-qol)
+
 0.4.94
 ------
 - add mixins for new HE crf (edc-he)
