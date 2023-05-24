@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.4.94
+------
+- add mixins for new HE crf (edc-he)
+
 0.4.93
 ------
 - update precommit config, setup python_requires = >=3.10,
@@ -9,7 +13,6 @@ Changes
   field name for fasting, get fieldset from func (edc-glucose)
 - minor refactoring to increase use of constants (edc-adverse-event)
 - fix form validator (edc_dx)
-- add mixins for new HE crf (edc-he)
 
 0.4.92
 ------
