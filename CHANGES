@@ -1,6 +1,16 @@
 Changes
 -------
 
+0.4.93
+------
+- update precommit config, setup python_requires = >=3.10,
+  gh-actions for 3.10, 3.11, dj4.1, dj4.2 (all edc modules)
+- use factory for model_mixin, RESULT_QUANTIFIER_NA, optional
+  field name for fasting, get fieldset from func (edc-glucose)
+- use AE constants in code (edc-adverse-event)
+- fix form validator (edc_dx)
+- add mixins for new HE crf (edc-he)
+
 0.4.92
 ------
 - override methods for url and message in validator (edc-screening)
