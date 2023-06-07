@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.4.96
+------
+- minor fix access id via lookup sep instead of '.' in get_display_appt_type
+  (edc-appointment)
+- use local fields instead of across lookups on admin (edc-subject_visit)
+- add new code for revised HE crf (edc-he)
+- add new code for new QoL CRF (edc-qol)
+
 0.4.95
 ------
 - add model admin mixins (edc-qol)
