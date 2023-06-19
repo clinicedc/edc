@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.4.97
+------
+- raise incorrectly skipped exception in form validator (edc-dx-review)
+- specify action type when querying death report actions
+  by parent action item (edc-adverse-event)
+
 0.4.96
 ------
 - minor fix access id via lookup sep instead of '.' in get_display_appt_type
