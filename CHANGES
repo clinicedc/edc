@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.4.98
+------
+- allow fbg date to be 'on or after' report date instead of only after (edc-glucose)
+- minor fix in date_is_after_or_raise validation message when using
+  inclusive=True (edc-form-validators)
+
 0.4.97
 ------
 - raise incorrectly skipped exception in form validator (edc-dx-review)
