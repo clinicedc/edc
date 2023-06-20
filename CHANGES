@@ -1,6 +1,11 @@
 Changes
 -------
 
+[unreleased]
+------------
+- fix rounding issue with md section numbers, allow opt out of timestamp on
+  every form rendered (edc-form-describer)
+
 0.4.98
 ------
 - allow fbg date to be 'on or after' report date instead of only after (edc-glucose)
