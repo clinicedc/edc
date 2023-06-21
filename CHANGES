@@ -1,8 +1,8 @@
 Changes
 -------
 
-[unreleased]
-------------
+0.4.99
+------
 - fix rounding issue with md section numbers, allow opt out of timestamp on
   every form rendered (edc-form-describer)
 
