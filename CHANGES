@@ -1,6 +1,15 @@
 Changes
 -------
 
+0.5.0
+------
+- add additonal validation to check screening identifier and the screening
+  eligibility boolean. (edc-cosent)
+- add mixin to redirect all forms to a selected changelist (edc-model-admin)
+- improve redirect on delete (edc-model-admin)
+
+
+
 0.4.99
 ------
 - fix rounding issue with md section numbers, allow opt out of timestamp on
