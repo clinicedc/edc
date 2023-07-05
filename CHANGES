@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.3
+-----
+- accept FieldError on get_queryset if using SiteModelAdminMixin for model
+  without field `site`. (edc-sites)
+
 0.5.2
 -----
 - force all models to use `objects` as default manager (edc-model)
