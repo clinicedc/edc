@@ -1,7 +1,15 @@
 Changes
 -------
 
-0.5.0
+0.5.2
+-----
+- force all models to use `objects` as default manager (edc-model)
+- add new mixins to handle redirects, delete button (edc-model-admin)
+- update admin mixin to handle fks/m2ms in modelform (edc-site)
+- move managers from fields mixin to screening_model_mixin (edc-screening)
+
+
+0.5.1
 ------
 - add additonal validation to check screening identifier and the screening
   eligibility boolean. (edc-cosent)
