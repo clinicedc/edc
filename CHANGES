@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+-----
+- Add 'By country' list filter and group permitted sites by country (edc-auth)
+
 0.5.3
 -----
 - accept FieldError on get_queryset if using SiteModelAdminMixin for model
