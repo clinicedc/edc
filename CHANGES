@@ -1,6 +1,32 @@
 Changes
 -------
 
+0.5.4
+-----
+- Add 'By country' list filter and group permitted sites by country
+  (edc-auth)
+- set default manager to `objects` using BaseUuidModel (edc-model)
+- add additional validation to protect site id on models and other
+  actions (edc-site)
+- validate site when creating actions (edc-action)
+- validate site when creating appointments (edc-appointment)
+- add attrs to allow lower bound to extend with gap days
+  (edc-appointment)
+- refactor MetadataRefresher, MetadateGetter and management command;
+  Add custom modeladmin classes and forms; change naming to
+  "Data collection status" (edc-metadata)
+- hide delete button on condition; refactor dashboard button method;
+  show/hide history object tool;custom change form title.
+  (edc-model-admin)
+ - link changelist to subject_dashboard; refactor ReferenceGetter to
+   respect site. Customize ModelAdmin class. (edc-reference)
+ - add link to edc_metadata from dashboard (edc-subject-dashboard)
+
+0.5.3
+-----
+- accept FieldError on get_queryset if using SiteModelAdminMixin for model
+  without field `site`. (edc-sites)
+
 0.5.2
 -----
 - force all models to use `objects` as default manager (edc-model)
@@ -11,8 +37,8 @@ Changes
 
 0.5.1
 ------
-- add additonal validation to check screening identifier and the screening
-  eligibility boolean. (edc-cosent)
+- add additional validation to check screening identifier and the screening
+  eligibility boolean. (edc-consent)
 - add mixin to redirect all forms to a selected changelist (edc-model-admin)
 - improve redirect on delete (edc-model-admin)
 
