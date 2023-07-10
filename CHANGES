@@ -21,6 +21,7 @@ Changes
  - link changelist to subject_dashboard; refactor ReferenceGetter to
    respect site. Customize ModelAdmin class. (edc-reference)
  - add link to edc_metadata from dashboard (edc-subject-dashboard)
+ - remove unique constraint on legal_name (edc-model)
 
 0.5.3
 -----
