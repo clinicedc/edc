@@ -1,9 +1,26 @@
 Changes
 -------
 
-unreleased
+0.5.4
 -----
-- Add 'By country' list filter and group permitted sites by country (edc-auth)
+- Add 'By country' list filter and group permitted sites by country
+  (edc-auth)
+- set default manager to `objects` using BaseUuidModel (edc-model)
+- add additional validation to protect site id on models and other
+  actions (edc-site)
+- validate site when creating actions (edc-action)
+- validate site when creating appointments (edc-appointment)
+- add attrs to allow lower bound to extend with gap days
+  (edc-appointment)
+- refactor MetadataRefresher, MetadateGetter and management command;
+  Add custom modeladmin classes and forms; change naming to
+  "Data collection status" (edc-metadata)
+- hide delete button on condition; refactor dashboard button method;
+  show/hide history object tool;custom change form title.
+  (edc-model-admin)
+ - link changelist to subject_dashboard; refactor ReferenceGetter to
+   respect site. Customize ModelAdmin class. (edc-reference)
+ - add link to edc_metadata from dashboard (edc-subject-dashboard)
 
 0.5.3
 -----
