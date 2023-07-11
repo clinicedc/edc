@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.5
+-----
+- refactor options for get and create; wrap create in transaction
+  (edc-reference)
+- wrap site lookup in transaction (edc-sites)
+- fix sidebar template metadata panel href (edc-subject-dashboard)
+
 0.5.4
 -----
 - Add 'By country' list filter and group permitted sites by country
