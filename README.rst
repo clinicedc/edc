@@ -29,7 +29,7 @@ The ``clinicedc`` for each trial consists of a subset of trial-specific modules 
 
 Projects that use the EDC
 -------------------------
-Recent examples of EDC's using this codebase:
+Recent examples of ``clinicedc``applications using this codebase:
 
 INTECOMM
 --------
