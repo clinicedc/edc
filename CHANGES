@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.7
+-----
+- change field `return_in_days` to `rx_days` (edc-rx)
+
 0.5.6
 -----
 - major refactor; eliminated use of TargetHandler classes; removed
