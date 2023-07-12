@@ -27,9 +27,9 @@ The ``clinicedc`` for each trial consists of a subset of trial-specific modules 
 (python 3.11, Django 4.2, MySQL 8+, see setup.cfg)
 
 
-Projects that use the EDC
--------------------------
-Recent examples of EDC's using this codebase:
+Projects that use ``clinicedc``
+-------------------------------
+Recent examples of ``clinicedc`` applications using this codebase:
 
 INTECOMM
 --------
