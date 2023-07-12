@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.6
+-----
+- major refactor; eliminated use of TargetHandler classes; removed
+  post processing validation checks no longer necessary with
+  these fixes (edc-metadata)
+- raise addition exception if field not on source model (edc-reference)
+
 0.5.5
 -----
 - refactor options for get and create; wrap create in transaction
