@@ -1,8 +1,12 @@
 Changes
 -------
 
+0.5.10
+------
+- 0.5.9 has wrong verion of django-crypto-fields, bump to  0.3.7
+
 0.5.9
------
+------
 - limit data export to the sites listed in userprofile; use protocol
   name for zip archive `base_dir`; update modeladmin classes
   (edc-export)
@@ -18,7 +22,6 @@ Changes
 - add unregister method for site_prn_forms (edc-prn)
 - use `get_locator_model` instead of hardcoded locator model
   (edc-subject-dashboard, edc-subject-model-wrappers)
-
 
 0.5.8
 -----
