@@ -1,6 +1,25 @@
 Changes
 -------
 
+0.5.9
+-----
+- limit data export to the sites listed in userprofile; use protocol
+  name for zip archive `base_dir`; update modeladmin classes
+  (edc-export)
+- add func to get all sites for user (edc-sites)
+- filter data by site using sites param (edc-pdutils)
+- add unregister method for site_action_items (edc-action-item)
+- add verbose_name_plural; move ModelAdmin functionality to
+  SubjectLocatorModelAdminMixin (edc-locator)
+- add ModelAdmin mixin to remove PII/encrypted fields from changelist
+  and search for users not in PII/PII_VIEW permission groups;
+  move dashboard functionality to ModelAdminDashboardMixin.
+  (edc-model-admin)
+- add unregister method for site_prn_forms (edc-prn)
+- use `get_locator_model` instead of hardcoded locator model
+  (edc-subject-dashboard, edc-subject-model-wrappers)
+
+
 0.5.8
 -----
 - use SQLAlchemy to prepare sql text for pandas, upgrade pandas
