@@ -43,6 +43,7 @@ edc-model-fields
 edc-model-form
 edc-model-wrapper
 edc-navbar
+edc-next-appointment
 edc-notification
 edc-offstudy
 edc-pdf-reports
