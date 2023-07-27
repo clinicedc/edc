@@ -161,6 +161,7 @@ edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields
 edc-model-form_             |edc-model-form|              |pypi-edc-model-form|
 edc-model-wrapper_          |edc-model-wrapper|           |pypi-edc-model-wrapper|
 edc-navbar_                 |edc-navbar|                  |pypi-edc-navbar|
+edc-next-appointment_       |edc-next-appointment|        |pypi-edc-next-appointment|
 edc-notification_           |edc-notification|            |pypi-edc-notification|
 edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|
 edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
@@ -260,6 +261,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-model-form: https://github.com/clinicedc/edc-model-form
 .. _edc-model-wrapper: https://github.com/clinicedc/edc-model-wrapper
 .. _edc-navbar: https://github.com/clinicedc/edc-navbar
+.. _edc-next-appointment: https://github.com/clinicedc/edc-next-appointment
 .. _edc-notification: https://github.com/clinicedc/edc-notification
 .. _edc-offstudy: https://github.com/clinicedc/edc-offstudy
 .. _edc-pdutils: https://github.com/clinicedc/edc-pdutils
@@ -375,6 +377,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-model-wrapper/actions?query=workflow:build
 .. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-navbar/actions?query=workflow:build
+.. |edc-next-appointment| image:: https://github.com/clinicedc/edc-next-appointment/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-next-appointment/actions?query=workflow:build
 .. |edc-notification| image:: https://github.com/clinicedc/edc-notification/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-notification/actions?query=workflow:build
 .. |edc-offstudy| image:: https://github.com/clinicedc/edc-offstudy/workflows/build/badge.svg?branch=develop
@@ -512,6 +516,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-model-wrapper
 .. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
     :target: https://pypi.python.org/pypi/edc-navbar
+.. |pypi-edc-next-appointment| image:: https://img.shields.io/pypi/v/edc-next-appointment.svg
+    :target: https://pypi.python.org/pypi/edc-next-appointment
 .. |pypi-edc-notification| image:: https://img.shields.io/pypi/v/edc-notification.svg
     :target: https://pypi.python.org/pypi/edc-notification
 .. |pypi-edc-offstudy| image:: https://img.shields.io/pypi/v/edc-offstudy.svg
