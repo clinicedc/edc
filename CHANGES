@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.13
+------
+- 0.5.12 has wrong verion of edc-facility, bump to  0.3.16
+
 0.5.12
 ------
 - add missing edc-next-appointment
