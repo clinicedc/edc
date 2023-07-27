@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.12
+------
+- add missing edc-next-appointment
+
 0.5.11
 ------
 - add HealthFacility model/form/admin (edc-facility)
