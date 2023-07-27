@@ -1,6 +1,18 @@
 Changes
 -------
 
+0.5.11
+------
+- add HealthFacility model/form/admin (edc-facility)
+- rename func get_clinic_codenames to get_app_codenames,
+  deprecate get_clinic_codenames (edc-auth)
+- fix issue where unable to read selected models from the
+  post/session (edc-export)
+- improve SubjectLocator changelist (edc-locator)
+- Add additional date filters to custom ListFilter class, yes_no_coloring
+  templatetag (edc-model-admin)
+- new module with mixins for NextAppointment CRF (edc-next-appointment)
+
 0.5.10
 ------
 - 0.5.9 has wrong verion of django-crypto-fields, bump to  0.3.7
