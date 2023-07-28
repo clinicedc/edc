@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.14
+------
+- raise of locator model in settings does not match visit schedule
+  (edc-locator, edc-visit-schedule)
+
 0.5.13
 ------
 - 0.5.12 has wrong verion of edc-facility, bump to  0.3.16
