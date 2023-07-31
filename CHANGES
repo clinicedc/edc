@@ -1,6 +1,11 @@
 Changes
 -------
 
+unreleased
+------
+- minor updates to email subject and body for new/changed user accounts (edc-auth)
+- update backup docs (edc)
+
 0.5.14
 ------
 - raise if locator model in settings does not match visit schedule
@@ -8,7 +13,7 @@ Changes
 
 0.5.13
 ------
-- 0.5.12 has wrong verion of edc-facility, bump to  0.3.16
+- 0.5.12 has wrong version of edc-facility, bump to  0.3.16
 
 0.5.12
 ------
