@@ -453,7 +453,7 @@ The following assumes a restore for database, Ambition, defined in ``.env_variab
   # note will fail if file exists
   duplicity --verbosity info \
    --encrypt-sign-key=$GPG_KEY \
-   --log-file $HOME/.duplicity/info.log \
+   --log-file $HOME/.duplicity/duplicity_restore.log \
    --file-to-restore $FILE_TO_RESTORE \
    $AWS_ENDPOINT/$AWS_BUCKET_AMBITION \
    $HOME/$FILE_TO_RESTORE
