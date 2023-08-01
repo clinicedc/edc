@@ -1,7 +1,7 @@
 Changes
 -------
 
-unreleased
+0.5.15
 ------
 - minor updates to email subject and body for new/changed user
   accounts (edc-auth)
