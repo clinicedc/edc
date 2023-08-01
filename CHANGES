@@ -3,8 +3,25 @@ Changes
 
 unreleased
 ------
-- minor updates to email subject and body for new/changed user accounts (edc-auth)
+- minor updates to email subject and body for new/changed user
+  accounts (edc-auth)
 - update backup docs (edc)
+- add SubjectVisit concrete model/admin; raise exception if related
+  visit model, or SubjectVisit, is a proxy model; deprecate
+  func get_subject_visit_model_cls (edc-visit-tracking)
+- raise exception if attempting to get an invalid visit_code from
+  the visit schedule (edc-visit-schedule)
+- add related_visit_model to RuleGroups to allow related visit model
+  to be from an outside app; fix issue where Rule runner relied on
+  related visit model for the app_label to get rules from site global
+  (edc-metadata)
+- use `get_appointment_model_cls` instead of directly importing
+  Appointment model; add tests for admin class (edc-appointment)
+- add missing mixins to QueryRule admin class (edc-data-manager)
+- add checks to form validator (edc-facility)
+- update tests to use SubjectVisit from edc-visit-tracking (all)
+- add more typing hints (all)
+
 
 0.5.14
 ------
