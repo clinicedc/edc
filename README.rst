@@ -33,6 +33,7 @@ Recent examples of ``clinicedc`` applications using this codebase:
 
 INTECOMM
 --------
+Controlling chronic diseases in Africa: Development and evaluation of an integrated community-based management model for HIV, Diabetes and Hypertension in Tanzania and Uganda
 
 https://github.com/intecomm-trial/intecomm-edc (2022- )
 
