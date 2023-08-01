@@ -545,6 +545,21 @@ for example
   select * from django_admin_log order by action_time desc LIMIT 1\G;
 
 
+Disaster recovery preparation
++++++++++++++++++++++++++++++
+
+**IMPORTANT**
+
+  Now that the backup has been configured/tested, it is **ESSENTIAL** that the steps detailed in the the `disaster recovery guide`_ have been completed on a separate host/machine.
+
+  Once a disaster has occurred (e.g. the database server has failed/become
+  permanently unavailable, the GPG keys required to decrypt the backups will be
+  lost forever (as will the contents of the backups!)
+
+  Do this **NOW**.
+
+.. _disaster recovery guide: disaster_recovery.rst
+
 References
 ++++++++++
 

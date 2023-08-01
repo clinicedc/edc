@@ -14,7 +14,7 @@ Prepare (in advance)
   It's **ESSENTIAL** that these `Prepare (in advance)`_ steps are completed **NOW**.
 
   Once a disaster has occurred (e.g. the database server has failed/become
-  permanently unavailable, the GPG keys used to decrypt the backups will be
+  permanently unavailable, the GPG keys required to decrypt the backups will be
   lost forever (as will the contents of the backups!)
 
 This guide assumes the steps in the `backup guide`_ have been followed.
