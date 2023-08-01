@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- add disaster recovery (from backup) docs (edc)
+
 0.5.15
 ------
 - minor updates to email subject and body for new/changed user
