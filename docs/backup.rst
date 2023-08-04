@@ -3,7 +3,7 @@
    :depth: 3
    :backlinks: top
 
-Backup using Duplicity
+Backup using duplicity
 ######################
 
 Backing up the backups
@@ -30,7 +30,7 @@ Configure database backups
 
 Install prerequisites
 ---------------------
-Install ``Duplicity``
+Install ``duplicity``
 
 (assumes already configured MySQL DB server)
 
@@ -62,18 +62,18 @@ To backup to an externally mounted disk:
 
 .. code-block:: bash
 
-  # create local backup, cache and logs dirs on external mount point,
+  # Create local backup, cache and logs dirs on external mount point,
   # and link them to local profile
   $ mkdir -p /path/to/mount/mysql_backup/{_cache/duplicity,_logs}
   $ ln -s /path/to/mount/mysql_backup ~/mysql_backup
 
-  # move duplicity cache onto mount
+  # Move duplicity cache onto mount
   # (so if it grows too big, which it eventually will, it doesn't bring down
   # the entire server)
   $ mkdir -p ~/.cache/
   $ ln -s /path/to/mount/mysql_backup/_cache/duplicity ~/.cache/duplicity
 
-  # set permissions if required (from account with sudo)
+  # Set permissions if required (from account with sudo)
   $ chmod 700 ~/.cache/
   $ chmod 700 /path/to/mount/mysql_backup/
   $ sudo chown edc:edc /path/to/mount/mysql_backup/{_cache,_cache/duplicity,_logs}
@@ -83,7 +83,7 @@ Alternatively, to backup to local folders:
 
 .. code-block:: bash
 
-  # create local backup/logs dirs
+  # Create local backup/logs dirs
   $ mkdir -p ~/mysql_backup/_logs
 
 
@@ -94,12 +94,12 @@ Setup MySQL backup/service account
 
 .. code-block:: bash
 
-  # login to mysql as user with permissions to create users
+  # Login to mysql as user with permissions to create users
   $ mysql
 
 .. code-block:: sql
 
-  # create backup user with permissions to backup ALL databases on server
+  # Create backup user with permissions to backup ALL databases on server
   mysql> CREATE USER 'edc-backup'@'localhost' IDENTIFIED BY 'some_password';
   mysql> GRANT SELECT, SHOW VIEW, TRIGGER, LOCK TABLES, PROCESS ON *.* TO 'edc-backup'@'localhost';
   mysql> FLUSH PRIVILEGES;
@@ -120,9 +120,9 @@ and paste
   PASS=some_password
 
 
-Configure Duplicity/backup scripts dir
+Configure duplicity/backup scripts dir
 --------------------------------------
-To setup a *new* script/configuration folder for ``Duplicity``:
+To setup a *new* script/configuration folder for ``duplicity``:
 
 .. code-block:: bash
 
@@ -134,7 +134,7 @@ To setup a *new* script/configuration folder for ``Duplicity``:
 
     rsync -chavzP --stats user@source.host:/path/to/remote/.duplicity/ ~/.duplicity/
 
-    # if using an external mount point for logs
+    # If using an external mount point for logs
     rm ~/.duplicity/logs
     ln -s /path/to/mount/mysql_backup/_logs ~/.duplicity/logs
 
@@ -148,7 +148,7 @@ Regardless of method to create/restore the .duplicity folder
 
 .. code-block:: bash
 
-  # set permissions to only edc user
+  # Set permissions to only edc user
   $ chmod 700 ~/.duplicity
 
 
@@ -171,11 +171,11 @@ Either generate new keys
 
 .. code-block:: bash
 
-  # to export keys from elsewhere
+  # To export keys from elsewhere
   $ gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
   $ gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
 
-  # to import on 'new' server, copy over and ...
+  # To import on 'new' server, copy over and ...
   $ gpg --pinentry-mode=loopback --import /path/to/dup.gpg.priv
 
 Take note of ``your-GPG-public-key-id``
@@ -247,10 +247,10 @@ individual database variable names where appropriate:
 
 .. code-block:: bash
 
-  # set permissions on conf files
+  # Set permissions on conf files
   $ chmod 0600 ~/.duplicity/{.env_variables.conf,.unset_env_variables.conf}
 
-  # create the backup script, and set permissions
+  # Create the backup script, and set permissions
   $ touch ~/.duplicity/.backup.sh
   $ chmod 0700 ~/.duplicity/.backup.sh
 
@@ -450,7 +450,7 @@ The following assumes a restore for database, Ambition, defined in ``.env_variab
 
   . "$HOME/.duplicity/.env_variables.conf"
 
-  # note will fail if file exists
+  # Note will fail if file exists
   duplicity --verbosity info \
    --encrypt-sign-key=$GPG_KEY \
    --log-file $HOME/.duplicity/duplicity_restore.log \
@@ -467,7 +467,7 @@ To restore file ``ambition_production-20180806160001.sql`` from backup
 
 .. code-block:: bash
 
-  # set $FILE_TO_RESTORE
+  # Set $FILE_TO_RESTORE
   $ export FILE_TO_RESTORE=ambition_production-20180806160001.sql
 
 To restore file:
@@ -496,7 +496,7 @@ A restore file may look like this:
 
   . "$HOME/.duplicity/.env_variables.conf"
 
-  # note will fail if backup folder exists
+  # Note will fail if backup folder exists
   duplicity --verbosity info \
    --encrypt-sign-key=$GPG_KEY \
    --log-file $HOME/.duplicity/logs/duplicity_restore.log \
@@ -507,7 +507,7 @@ A restore file may look like this:
 
 .. code-block:: bash
 
-  # set $TARGET_DIR
+  # Set $TARGET_DIR
   $ export TARGET_DIR=$HOME/restored_files
   $ mkdir -p "$TARGET_DIR"
 
@@ -544,6 +544,21 @@ for example
 
   select * from django_admin_log order by action_time desc LIMIT 1\G;
 
+
+Disaster recovery preparation
++++++++++++++++++++++++++++++
+
+**IMPORTANT**
+
+  Now that the backup has been configured/tested, it is **ESSENTIAL** that the steps detailed in the the `disaster recovery guide`_ have been completed on a separate host/machine.
+
+  Once a disaster has occurred (e.g. the database server has failed/become
+  permanently unavailable, the GPG keys required to decrypt the backups will be
+  lost forever (as will the contents of the backups!)
+
+  Do this **NOW**.
+
+.. _disaster recovery guide: disaster_recovery.rst
 
 References
 ++++++++++

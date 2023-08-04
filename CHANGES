@@ -1,6 +1,16 @@
 Changes
 -------
 
+0.5.16
+------
+- move model, admin, form, etc from intecomm to edc-he (edc-he)
+- add extra_value column to ListModelMixin to inspect in
+  admin class (edc-list-data)
+- set instance attr in get() instead of get_context_data()
+  (edc-listboard, edc-appointment, edc-registration)
+- add disaster recovery (from backup) docs (edc)
+- minor updates to backup docs (edc)
+
 0.5.15
 ------
 - minor updates to email subject and body for new/changed user
@@ -21,7 +31,6 @@ Changes
 - add checks to form validator (edc-facility)
 - update tests to use SubjectVisit from edc-visit-tracking (all)
 - add more typing hints (all)
-
 
 0.5.14
 ------
