@@ -8,6 +8,8 @@ Changes
   admin class (edc-list-data)
 - set instance attr in get() instead of get_context_data()
   (edc-listboard, edc-appointment, edc-registration)
+- add disaster recovery (from backup) docs (edc)
+- minor updates to backup docs (edc)
 
 0.5.15
 ------
