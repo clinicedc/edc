@@ -1,6 +1,16 @@
 Changes
 -------
 
+0.5.17
+------
+- add Meta option to declare PredicateCollection on a RuleGroup;
+  update README (edc-metadata)
+- add models and other classes (edc-he)
+- and method `get_models` to list all models associated with a visit
+  (edc-visit-schedule)
+- add model_mixin method `update_references_on_save` to update ALL
+  references on save (edc-reference)
+
 0.5.16
 ------
 - move model, admin, form, etc from intecomm to edc-he (edc-he)
@@ -53,19 +63,21 @@ Changes
 - fix issue where unable to read selected models from the
   post/session (edc-export)
 - improve SubjectLocator changelist (edc-locator)
-- Add additional date filters to custom ListFilter class, yes_no_coloring
-  templatetag (edc-model-admin)
-- new module with mixins for NextAppointment CRF (edc-next-appointment)
+- Add additional date filters to custom ListFilter class,
+  yes_no_coloring templatetag (edc-model-admin)
+- new module with mixins for NextAppointment CRF
+  (edc-next-appointment)
 
 0.5.10
 ------
-- 0.5.9 has wrong verion of django-crypto-fields, bump to  0.3.7
+- 0.5.9 has wrong verion of django-crypto-fields,
+  bump to 0.3.7
 
 0.5.9
 ------
-- limit data export to the sites listed in userprofile; use protocol
-  name for zip archive `base_dir`; update modeladmin classes
-  (edc-export)
+- limit data export to the sites listed in userprofile; use
+  protocol name for zip archive `base_dir`; update modeladmin
+  classes (edc-export)
 - add func to get all sites for user (edc-sites)
 - filter data by site using sites param (edc-pdutils)
 - add unregister method for site_action_items (edc-action-item)
@@ -96,7 +108,8 @@ Changes
 - major refactor; eliminated use of TargetHandler classes; removed
   post processing validation checks no longer necessary with
   these fixes (edc-metadata)
-- raise addition exception if field not on source model (edc-reference)
+- raise addition exception if field not on source model
+  (edc-reference)
 
 0.5.5
 -----
@@ -129,34 +142,34 @@ Changes
 
 0.5.3
 -----
-- accept FieldError on get_queryset if using SiteModelAdminMixin for model
-  without field `site`. (edc-sites)
+- accept FieldError on get_queryset if using SiteModelAdminMixin for
+  model without field `site`. (edc-sites)
 
 0.5.2
 -----
 - force all models to use `objects` as default manager (edc-model)
 - add new mixins to handle redirects, delete button (edc-model-admin)
 - update admin mixin to handle fks/m2ms in modelform (edc-site)
-- move managers from fields mixin to screening_model_mixin (edc-screening)
-
+- move managers from fields mixin to screening_model_mixin
+  (edc-screening)
 
 0.5.1
 ------
-- add additional validation to check screening identifier and the screening
-  eligibility boolean. (edc-consent)
-- add mixin to redirect all forms to a selected changelist (edc-model-admin)
+- add additional validation to check screening identifier and the
+  screening eligibility boolean. (edc-consent)
+- add mixin to redirect all forms to a selected changelist
+  (edc-model-admin)
 - improve redirect on delete (edc-model-admin)
-
-
 
 0.4.99
 ------
-- fix rounding issue with md section numbers, allow opt out of timestamp on
-  every form rendered (edc-form-describer)
+- fix rounding issue with md section numbers, allow opt out of
+  timestamp on every form rendered (edc-form-describer)
 
 0.4.98
 ------
-- allow fbg date to be 'on or after' report date instead of only after (edc-glucose)
+- allow fbg date to be 'on or after' report date instead of only after
+  (edc-glucose)
 - minor fix in date_is_after_or_raise validation message when using
   inclusive=True (edc-form-validators)
 
