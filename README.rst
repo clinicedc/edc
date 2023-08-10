@@ -1,4 +1,4 @@
-|pypi| |downloads|
+|pypi| |downloads| |black|
 
 clinicedc
 =========
@@ -577,3 +577,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://jb.gg/OpenSource
     :width: 25
     :alt: JetBrains PyCharm
+
+.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
