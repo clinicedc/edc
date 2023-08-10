@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.18
+------
+- modify metadata rules to update the CrfMetadata of previous
+  timpoints if HE forms are filled in over more than one timepoint;
+  fix minor validation issues; improve test coverage (edc-he)
+- add `time-machine` to testing dependencies
+
 0.5.17
 ------
 - add Meta option to declare PredicateCollection on a RuleGroup;
