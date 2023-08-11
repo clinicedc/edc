@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.19
+------
+- use related visit attr for singleton model mixin lookup
+  (edc-crf)
+- fix spelling error in constant (edc-he)
+
 0.5.18
 ------
 - modify metadata rules to update the CrfMetadata of previous
