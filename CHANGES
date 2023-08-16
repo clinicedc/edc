@@ -1,6 +1,23 @@
 Changes
 -------
 
+0.5.22
+------
+- edc-adverse-event
+  - check for pdf report class on model class as well as on view mixin;
+  - rename reports as `AePdfReport` and `DeathPdfReport`;
+  - Check for "susar" model instance field attribute in `signal` before
+    updating.
+  - add hospitalization codenames for auth
+  - use get_edc_adverse_event_app_label() (edc-transfer)
+  - add migration; update tests (edc-he)
+
+0.5.21
+------
+- access ADVERSE_EVENT_APP_LABEL settings attr through function
+  get_adverse_event_app_label; add mixins for hospitalization model/
+  form/admin/action (edc-adverse-event)
+
 0.5.20
 ------
 - remove default contact date from subject visit missed
