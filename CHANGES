@@ -1,5 +1,11 @@
 Changes
 -------
+0.5.24
+------
+- ICECAP-A sw translation (edc-qol)
+- add translation funcs, sw translation (edc-visit-tracking
+  and others)
+- slight refactor PiiModelAdminMixin (edc-model-admin)
 
 0.5.23
 ------
