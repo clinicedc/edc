@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.23
+------
+- fix filter_fieldsets_for_pii_permissions (edc-consent)
+
 0.5.22
 ------
 - setup apps for translation, add partially updated po files for
