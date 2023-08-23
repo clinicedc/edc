@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.5.22
+------
+- setup apps for translation, add partially updated po files for
+  locale sw.
+- add set language template (edc-navbar)
+- expect default settings of USE_I18N and USE_L10N to be `True`
+  on main project apps
+
 0.5.21
 ------
 - edc-adverse-event
