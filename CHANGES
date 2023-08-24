@@ -1,5 +1,14 @@
 Changes
 -------
+
+0.5.25
+------
+- include django.mo file in MANIFEST.IN for modules with
+  locale messages (django-audit-fields, edc-adverse-event,
+  edc-constants, edc-crf, edc-dashboard, edc-he, edc-model-admin,
+  edc-protocol, edc-qol, edc-review-dashboard, edc-subject-dashboard,
+  edc-visit-tracking)
+
 0.5.24
 ------
 - ICECAP-A sw translation (edc-qol)
