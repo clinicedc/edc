@@ -1,6 +1,20 @@
 Changes
 -------
 
+unreleased
+----------
+- change from 'confirm' to 'transcribe' (edc-adherence)
+- add proxy_models to list of models to be used by consent
+  object (edc-consent)
+- removed `PiiModelAdminMixin` (edc-consent)
+- use getters for some class attributes (changelist_url,
+  post_full_url_on_delete,  post_url_on_delete_name) to make
+  it easier to override and to access request object
+  (edc-model-admin)
+- add `country` templatetag; change signature for
+  `get_current_country` to accept both `site` and `request`
+  (edc-sites)
+
 0.5.25
 ------
 - include django.mo file in MANIFEST.IN for modules with
