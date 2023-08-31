@@ -1,8 +1,14 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.27
+------
+- add constants (edc-constants)
+- use django_apps to get model to prevent circular
+  import in tests (edc-sites)
+
+0.5.26
+------
 - change from 'confirm' to 'transcribe' (edc-adherence)
 - add proxy_models to list of models to be used by consent
   object (edc-consent)
