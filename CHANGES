@@ -2,8 +2,12 @@ Changes
 -------
 
 unreleased
-------
+----------
 - fix import and minor typos (edc-crf)
+- reset migrations. You need to drop the `edc_visit_tracking`
+  models and delete any migrations under django_migrations
+  where app="edc_visit_tracking" before running
+  `migrate`. (edc_visit_tracking)
 
 0.5.27
 ------
