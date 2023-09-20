@@ -75,10 +75,11 @@ http://www.isrctn.com/ISRCTN71437522
 
 INTE Africa Trial
 ~~~~~~~~~~~~~~~~~
+Evaluating the integration of health services for chronic diseases in Africa
 
 (32 sites in Uganda and Tanzania)
 
-https://github.com/inte-africa-trial/inte-edc (2020- )
+https://github.com/inte-africa-trial/inte-edc (2020-2022)
 
 https://inteafrica.org
 
@@ -86,6 +87,7 @@ http://www.isrctn.com/ISRCTN43896688
 
 META Trial (Phase II)
 ~~~~~~~~~~~~~~~~~~~~~
+A randomised placebo-controlled double-blind phase II trial to determine the effects of metformin versus placebo on the incidence of diabetes in HIV-infected persons with pre-diabetes in Tanzania.
 
 (3 sites in Tanzania)
 
@@ -96,6 +98,8 @@ http://www.isrctn.com/ISRCTN76157257
 
 The Ambition Trial
 ~~~~~~~~~~~~~~~~~~
+
+High dose AMBISOME on a fluconazole backbone for cryptococcal meningitis induction therapy in sub-Saharan Africa
 
 (7 sites in Botswana, Malawi, South Africa, Uganda, Zimbabwe)
 

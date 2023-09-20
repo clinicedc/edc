@@ -3,11 +3,20 @@ Changes
 
 unreleased
 ----------
-- fix import and minor typos (edc-crf)
 - reset migrations. You need to drop the `edc_visit_tracking`
   models and delete any migrations under django_migrations
   where app="edc_visit_tracking" before running
   `migrate`. (edc_visit_tracking)
+
+0.5.28
+------
+- fix import and minor typos (edc-crf)
+- add custom language internationalization constants (edc-constants)
+- refactor SingleSite interface to accept list of `language_codes`
+  instead of a dict of `languages` (edc-sites)
+    - NOTE: this is a "breaking" change.  Protocol specific sites.py
+      modules that already declare `languages` will need to be
+      updated use 'language_codes' instead.
 
 0.5.27
 ------
@@ -83,7 +92,7 @@ unreleased
 0.5.18
 ------
 - modify metadata rules to update the CrfMetadata of previous
-  timpoints if HE forms are filled in over more than one timepoint;
+  timepoints if HE forms are filled in over more than one timepoint;
   fix minor validation issues; improve test coverage (edc-he)
 - add `time-machine` to testing dependencies
 
@@ -156,7 +165,7 @@ unreleased
 
 0.5.10
 ------
-- 0.5.9 has wrong verion of django-crypto-fields,
+- 0.5.9 has wrong version of django-crypto-fields,
   bump to 0.3.7
 
 0.5.9
