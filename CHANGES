@@ -1,7 +1,7 @@
 Changes
 -------
 
-unreleased
+0.5.28
 ------
 - fix import and minor typos (edc-crf)
 - add custom language internationalization constants (edc-constants)
