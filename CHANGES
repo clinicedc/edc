@@ -1,6 +1,31 @@
 Changes
 -------
 
+unreleased
+----------
+- refactor update_skipped_appointments management command
+  (edc-appointment)
+
+0.5.30
+------
+- fix issues when setting appointments as skipped, reseting
+  appointments (edc-appointment, edc-next-appointment)
+- (edc-visit-tracking)
+    - use Django's get_model_related to determine `related_visit` and
+      other similar properties.
+    - enforce qppointment sequence when saving CRFs in model save.
+
+0.5.29
+------
+- reset migrations. You need to drop the `edc_visit_tracking`
+  models and delete any migrations under django_migrations
+  where app="edc_visit_tracking" before running
+  `migrate`. (edc_visit_tracking)
+- add SKIPPED_APPT appointment status; update admin, form classes;
+  Add settings.EDC_APPOINTMENT_ALLOW_SKIPPED_APPT_USING.
+  (edc-appointment, edc-next-appointment, edc-visit-tracking)
+- minor change to admin (edc-he)
+
 0.5.28
 ------
 - fix import and minor typos (edc-crf)
