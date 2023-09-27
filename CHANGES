@@ -8,12 +8,12 @@ unreleased
 
 0.5.30
 ------
-- fix issues when setting appointments as skipped, reseting
+- fix issues when setting appointments as skipped, resetting
   appointments (edc-appointment, edc-next-appointment)
 - (edc-visit-tracking)
     - use Django's get_model_related to determine `related_visit` and
       other similar properties.
-    - enforce qppointment sequence when saving CRFs in model save.
+    - enforce appointment sequence when saving CRFs in model save.
 
 0.5.29
 ------
