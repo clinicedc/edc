@@ -1,6 +1,11 @@
 Changes
 -------
 
+unreleased
+----------
+- refactor update_skipped_appointments management command
+  (edc-appointment)
+
 0.5.30
 ------
 - fix issues when setting appointments as skipped, reseting
