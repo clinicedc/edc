@@ -5,6 +5,7 @@ unreleased
 ----------
 - refactor update_skipped_appointments management command
   (edc-appointment)
+- add SiteModelAdminMixin to SubjectRefusalAdmin to filter by site (edc-refusal)
 
 0.5.30
 ------
