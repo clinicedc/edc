@@ -1,14 +1,24 @@
 Changes
 -------
 
+0.5.31
+------
+- refactor update_skipped_appointments management command
+  (edc-appointment)
+- add SiteModelAdminMixin to SubjectRefusalAdmin to filter by site
+  (edc-refusal)
+- change to use non-ISO numbering (edc-facility)
+- fix administration page template failing if app_list is None.
+  (edc-model-admin)
+
 0.5.30
 ------
-- fix issues when setting appointments as skipped, reseting
+- fix issues when setting appointments as skipped, resetting
   appointments (edc-appointment, edc-next-appointment)
 - (edc-visit-tracking)
     - use Django's get_model_related to determine `related_visit` and
       other similar properties.
-    - enforce qppointment sequence when saving CRFs in model save.
+    - enforce appointment sequence when saving CRFs in model save.
 
 0.5.29
 ------
