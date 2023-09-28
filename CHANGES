@@ -8,6 +8,8 @@ Changes
 - add SiteModelAdminMixin to SubjectRefusalAdmin to filter by site
   (edc-refusal)
 - change to use non-ISO numbering (edc-facility)
+- fix administration page template failing if app_list is None.
+  (edc-model-admin)
 
 0.5.30
 ------
