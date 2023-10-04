@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- use title case for "Data Collection Status" app name (edc-metadata)
+
 0.5.31
 ------
 - refactor update_skipped_appointments management command
