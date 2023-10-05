@@ -1,6 +1,20 @@
 Changes
 -------
 
+0.5.32
+------
+- add site to SubjectScheduleHistory model (edc-visit-schedule)
+- change signature on UnscheduledAppointmentCreator; allow signal
+  to create unscheduled/interim appointment when using next
+  appointment CRF based on `allow_create_interim` field value.
+  (edc-appointment)
+- update mixins with `allow_create_interim` field.
+  (edc-next-appointment)
+- allow proxy models but use the proxy_for_model model name to
+  update and get references (edc-reference).
+- add data manager to receipients list (edc-data-manager)
+- use title case for "Data Collection Status" app name (edc-metadata)
+
 0.5.31
 ------
 - refactor update_skipped_appointments management command
