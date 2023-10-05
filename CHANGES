@@ -13,6 +13,7 @@ Changes
 - allow proxy models but use the proxy_for_model model name to
   update and get references (edc-reference).
 - add data manager to receipients list (edc-data-manager)
+- use title case for "Data Collection Status" app name (edc-metadata)
 
 0.5.31
 ------
