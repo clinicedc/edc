@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.5.33
+------
+- merge edc-next-appointment into edc-appointment.
+  edc-next-appointment is now deprecated.
+- refactor mixin paths (edc-appointment)
+- update modules to reflect path changes in edc-appointment
+  (edc-crf, edc-timepoint, edc-visit-tracking, edc-facility)
+
 0.5.32
 ------
 - add site to SubjectScheduleHistory model (edc-visit-schedule)
