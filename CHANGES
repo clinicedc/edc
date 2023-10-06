@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.34
+------
+- add import path for ScreeningManager to model_mixins (edc-screening)
+
 0.5.33
 ------
 - merge edc-next-appointment into edc-appointment.
@@ -20,7 +24,7 @@ Changes
   (edc-next-appointment)
 - allow proxy models but use the proxy_for_model model name to
   update and get references (edc-reference).
-- add data manager to receipients list (edc-data-manager)
+- add data manager to recipients list (edc-data-manager)
 - use title case for "Data Collection Status" app name (edc-metadata)
 
 0.5.31
