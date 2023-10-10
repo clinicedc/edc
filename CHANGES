@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.36
+------
+- add missing migrations (edc-data-manager)
+
 0.5.35
 ------
 - remove imports from base constructor (edc-visit-schedule)
