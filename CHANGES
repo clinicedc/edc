@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.34
+------
+- remove imports from base constructor (edc-visit-schedule)
+- update imports for changes to edc-visit-schedule
+  and drop 3.10/DJ4.1 (all)
+
 0.5.33
 ------
 - merge edc-next-appointment into edc-appointment.
