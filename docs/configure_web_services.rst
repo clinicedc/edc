@@ -173,9 +173,37 @@ Restart Nginx service:
 Firewall
 ========
 
-Check ``ufw`` to open ``openSSH``, ``http``, ``https``, ``631``
+On application/web-server, check ``ufw`` to open ``openSSH``, ``http``, ``https``
+
+e.g.
+
+.. code-block:: bash
+
+	# review ports opened by application firewall rules
+	$ sudo ufw app info 'OpenSSH'
+	$ sudo ufw app info 'Nginx Full'
+
+	# configure application firewall rules
+	$ sudo ufw allow 'OpenSSH'
+	$ sudo ufw allow 'Nginx Full'
+
+	# review ports opened by application firewall rule
+	$ sudo ufw app info 'Nginx Full'
+
+	# enable the firewall, and check
+	$ sudo ufw enable
+	$ sudo ufw status
+
 
 Also check cloud firewall to ensure these ports are open
+
+If not already done, on DB server, ensure application server has access to ``3306`` from it's private IP
+
+e.g.
+
+.. code-block:: bash
+
+	$ sudo ufw allow from <app.server.private.ip> to any port 3306
 
 
 Certificates and HTTPS configuration
