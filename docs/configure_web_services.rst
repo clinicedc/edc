@@ -209,11 +209,35 @@ e.g.
 Certificates and HTTPS configuration
 ====================================
 
-see  https://certbot.eff.org
+see https://certbot.eff.org or more specifically `Certbot Instructions for Nginx on Ubuntu 20 <https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal&tab=standard/>`_ (or later)
+
+Remove certbot-auto and any Certbot OS packages:
+
+.. code-block:: bash
+
+	$ sudo apt-get remove certbot
+
+Install certbot and prepare command:
+
+.. code-block:: bash
+
+	$ sudo snap install --classic certbot
+	$ sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+
+Get and install certificates:
 
 .. code-block:: bash
 
 	$ sudo certbot --nginx
+
+Test automatic certificate renewal
+
+.. code-block:: bash
+
+	$ sudo certbot renew --dry-run
+
+Confirm Nginx config still valid:
 
 .. code-block:: bash
 
