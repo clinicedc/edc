@@ -132,16 +132,18 @@ Enable each site:
 
 	$ sudo ln -s /etc/nginx/sites-available/ambition.conf /etc/nginx/sites-enabled
 
+Inspect:
 
-Inspect::
+.. code-block:: bash
 
 	$ ls -la /etc/nginx/sites-enabled
 
-Output::
+Output:
+
+.. code-block:: bash
 
 	ambition-uat.conf -> /etc/nginx/sites-available/ambition-uat.conf
 	ambition.conf -> /etc/nginx/sites-available/ambition.conf
-
 
 Disable the default site, if enabled:
 
@@ -149,9 +151,20 @@ Disable the default site, if enabled:
 
 	$ sudo unlink /etc/nginx/sites-enabled/default
 
+Test the new configuration:
+
 .. code-block:: bash
 
 	$ sudo nginx -t
+
+Output:
+
+.. code-block:: bash
+
+	nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+	nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+Restart Nginx service:
 
 .. code-block:: bash
 
@@ -188,4 +201,3 @@ Now check that the DB server will allow access
 * check mysql user for this account (edc@privateIP)
 
 See document ``prepare_database``
-
