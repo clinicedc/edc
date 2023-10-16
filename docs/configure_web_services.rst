@@ -113,7 +113,7 @@ Copy the configurations to ``/etc/nginx/sites-available``
 
 .. code-block:: bash
 
-	$ sudo cp -R ~/app/bin/nginx/* /etc/nginx/sites-available/
+	$ sudo cp -R ~/app/bin/nginx/conf/* /etc/nginx/sites-available/
 
 
 Replace town referred to in server name

@@ -1,37 +1,25 @@
 
-Setting up the project landing page
------------------------------------
+Setting up the project landing page(s)
+--------------------------------------
 
+
+First, ensure that Nginx has been installed and configured as detailed in the `Configure Web Services`_ guide.
+
+.. _Configure Web Services: configure_web_services.rst
 
 Clone the repo, if required:
 
 .. code-block:: bash
 
-	$ git clone https://github.com/ambition-trial/ambition-edc.git
+	$ git clone -b main https://github.com/ambition-trial/ambition-edc.git ~/app
+
+Copy static html files over:
 
 .. code-block:: bash
 
-	cd $REPO
+	$ sudo cp -r ~/app/bin/nginx/www/* /var/www/html/
 
-	$ sudo cp bin/index.html /var/www/html
-
-	$ sudo cp bin/nginx/ambition-sites.conf /etc/nginx/sites-available/ambition-sites.conf
-
-(if no longer required, delete the repo)
-
-Unlink default
-
-.. code-block:: bash
-
-	$ sudo unlink /etc/nginx/sites-enabled/default
-
-Enable ``ambition-sites``:
-
-.. code-block:: bash
-
-	$ sudo ln -s /etc/nginx/sites-available/ambition-sites.conf /etc/nginx/sites-enabled
-
-Test and reload
+Test and reload:
 
 .. code-block:: bash
 
@@ -39,7 +27,7 @@ Test and reload
 
 	$ sudo systemctl restart nginx
 
-Check
+Check:
 
 .. code-block:: bash
 
