@@ -113,7 +113,7 @@ Copy the configurations to ``/etc/nginx/sites-available``
 
 .. code-block:: bash
 
-	$ sudo cp -R ~/app/bin/nginx/* /etc/nginx/sites-available/
+	$ sudo cp -R ~/app/bin/nginx/conf/* /etc/nginx/sites-available/
 
 
 Replace town referred to in server name
@@ -132,16 +132,18 @@ Enable each site:
 
 	$ sudo ln -s /etc/nginx/sites-available/ambition.conf /etc/nginx/sites-enabled
 
+Inspect:
 
-Inspect::
+.. code-block:: bash
 
 	$ ls -la /etc/nginx/sites-enabled
 
-Output::
+Output:
+
+.. code-block:: bash
 
 	ambition-uat.conf -> /etc/nginx/sites-available/ambition-uat.conf
 	ambition.conf -> /etc/nginx/sites-available/ambition.conf
-
 
 Disable the default site, if enabled:
 
@@ -149,9 +151,20 @@ Disable the default site, if enabled:
 
 	$ sudo unlink /etc/nginx/sites-enabled/default
 
+Test the new configuration:
+
 .. code-block:: bash
 
 	$ sudo nginx -t
+
+Output:
+
+.. code-block:: bash
+
+	nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+	nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+Restart Nginx service:
 
 .. code-block:: bash
 
@@ -160,19 +173,71 @@ Disable the default site, if enabled:
 Firewall
 ========
 
-Check ``ufw`` to open ``openSSH``, ``http``, ``https``, ``631``
+On application/web-server, check ``ufw`` to open ``openSSH``, ``http``, ``https``
+
+e.g.
+
+.. code-block:: bash
+
+	# review ports opened by application firewall rules
+	$ sudo ufw app info 'OpenSSH'
+	$ sudo ufw app info 'Nginx Full'
+
+	# configure application firewall rules
+	$ sudo ufw allow 'OpenSSH'
+	$ sudo ufw allow 'Nginx Full'
+
+	# review ports opened by application firewall rule
+	$ sudo ufw app info 'Nginx Full'
+
+	# enable the firewall, and check
+	$ sudo ufw enable
+	$ sudo ufw status
+
 
 Also check cloud firewall to ensure these ports are open
+
+If not already done, on DB server, ensure application server has access to ``3306`` from it's private IP
+
+e.g.
+
+.. code-block:: bash
+
+	$ sudo ufw allow from <app.server.private.ip> to any port 3306
 
 
 Certificates and HTTPS configuration
 ====================================
 
-see  https://certbot.eff.org
+see https://certbot.eff.org or more specifically `Certbot Instructions for Nginx on Ubuntu 20 <https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal&tab=standard/>`_ (or later)
+
+Remove certbot-auto and any Certbot OS packages:
+
+.. code-block:: bash
+
+	$ sudo apt-get remove certbot
+
+Install certbot and prepare command:
+
+.. code-block:: bash
+
+	$ sudo snap install --classic certbot
+	$ sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+
+Get and install certificates:
 
 .. code-block:: bash
 
 	$ sudo certbot --nginx
+
+Test automatic certificate renewal
+
+.. code-block:: bash
+
+	$ sudo certbot renew --dry-run
+
+Confirm Nginx config still valid:
 
 .. code-block:: bash
 
@@ -188,4 +253,3 @@ Now check that the DB server will allow access
 * check mysql user for this account (edc@privateIP)
 
 See document ``prepare_database``
-

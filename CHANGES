@@ -14,6 +14,7 @@ Changes
   `site_reference_configs` are no longer required. You may remove any
   reference to `edc-reference` and the file `reference_model_configs`
   from you app.
+- add missing migrations (edc-data-manager)
 
 0.5.35
 ------
