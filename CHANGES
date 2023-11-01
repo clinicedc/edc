@@ -1,19 +1,23 @@
 Changes
 -------
 
-0.5.36
+0.5.37
 ------
-- remove dependency `edc_reference`. `edc-reference` maintained a single table,
-  "edc_reference.Reference", with values needed for metadata-rules. The table
-  was updated on a `post_save` signal for CRF/Requisition and other models using
-  the `ReferenceModelMixin`. By removing `edc_reference`, `edc-metadata` now
+- remove dependency `edc_reference`. `edc-reference` maintained a
+  single table, "edc_reference.Reference", with values needed for
+  metadata-rules. The table was updated on a `post_save` signal
+  for CRF/Requisition and other models using the
+  `ReferenceModelMixin`. By removing `edc_reference`, `edc-metadata` now
   directly queries CRF/Requisition models instead of querying model
   "edc_reference.Reference". This change has bumped most edc modules. The
-  dependency was required for module itself or, as in most cases, just for
+  dependency was required for a few modules or, as in most cases, just for
   tests. The model mixin `ReferenceModelMixin` and the site controller
-  `site_reference_configs` are no longer required. You may remove any
-  reference to `edc-reference` and the file `reference_model_configs`
-  from you app.
+  `site_reference_configs` are no longer required. You may remove from
+  your app any reference to `edc-reference` and the file
+  `reference_model_configs`.
+
+0.5.36
+------
 - add missing migrations (edc-data-manager)
 
 0.5.35
