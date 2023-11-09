@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- fix minor typos in fieldsets (edc-lab-results)
+
 0.5.38
 ------
 - add further validation to death report model and form validation
