@@ -78,6 +78,12 @@ To backup to an externally mounted disk:
   $ chmod 700 /path/to/mount/mysql_backup/
   $ sudo chown edc:edc /path/to/mount/mysql_backup/{_cache,_cache/duplicity,_logs}
 
+  # To allow specific users access to the MySQL backup dumps
+  $ sudo addgroup mysql-backup-access
+  $ sudo adduser <user_name> mysql-backup-access
+  $ sudo chmod 710 /path/to/mount/mysql_backup/
+  $ sudo chown edc:mysql-backup-access /path/to/mount/mysql_backup/
+
 
 Alternatively, to backup to local folders:
 

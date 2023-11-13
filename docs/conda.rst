@@ -1,37 +1,46 @@
+Install Miniconda3 (Conda)
+==========================
 
-Install Miniconda3
+To silently install the latest Miniconda3
 
 .. code-block:: bash
 
-	mkdir ~/tmp
+    $ mkdir -p ~/miniconda3 \
+      && wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh \
+      && bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 \
+      && rm -rf ~/miniconda3/miniconda.sh \
+      && conda config --set auto_activate_base false
 
-	cd ~/tmp
+    # adapted from: https://docs.conda.io/projects/miniconda/en/latest/
 
-	curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+..or to manually install the latest Miniconda3
 
-	sha256sum Miniconda3-latest-Linux-x86_64.sh
+.. code-block:: bash
 
-	sh Miniconda3-latest-Linux-x86_64.sh
-
-	conda config --set auto_activate_base false
+    $ mkdir ~/miniconda3
+    $ cd ~/miniconda3
+    $ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    $ sha256sum Miniconda3-latest-Linux-x86_64.sh
+    $ sh Miniconda3-latest-Linux-x86_64.sh
+    $ conda config --set auto_activate_base false
 
 
 M1/Apple Silicon Notes
 
 .. code-block:: bash
 
-	conda config --add channels conda-forge
-	conda config --set channel_priority strict
+    $ conda config --add channels conda-forge
+    $ conda config --set channel_priority strict
 
 
 Restart the shell and create a new env named `edc`
 
 .. code-block:: bash
 
-	conda create -n edc python=3.9
+    $ conda create -n edc python=3.11
 
 Activate the env
 
 .. code-block:: bash
 
-	conda activate edc
+    $ conda activate edc

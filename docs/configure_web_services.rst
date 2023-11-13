@@ -97,9 +97,9 @@ If needed to reset ...
 
 .. code-block:: bash
 
-	$ sudo systemctl stop gunicorn.socket \
-		&& sudo systemctl stop gunicorn \
-		&& sudo systemctl disable gunicorn.socket
+	$ sudo systemctl stop gunicorn-live.socket \
+		&& sudo systemctl stop gunicorn-live \
+		&& sudo systemctl disable gunicorn-live.socket
 
 	$ sudo systemctl stop gunicorn-uat.socket \
 		&& sudo systemctl stop gunicorn-uat \
@@ -230,6 +230,13 @@ Get and install certificates:
 .. code-block:: bash
 
 	$ sudo certbot --nginx
+
+    Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+    Which names would you like to activate HTTPS for?
+    We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # select blank for all
 
 Test automatic certificate renewal
 

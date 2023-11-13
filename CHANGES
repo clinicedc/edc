@@ -1,6 +1,19 @@
 Changes
 -------
 
+0.5.39
+------
+- fix minor typos in fieldsets (edc-lab-results)
+- catch exception into form when unscheduled appointment not allowed
+  (edc-appointment)
+- remove additional refs to edc_reference in tests
+
+0.5.38
+------
+- add further validation to death report model and form validation
+  mixins (edc-adverse-event)
+- minor doc updates
+
 0.5.37
 ------
 - remove dependency `edc_reference`. `edc-reference` maintained a
