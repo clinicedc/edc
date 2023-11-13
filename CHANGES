@@ -1,9 +1,12 @@
 Changes
 -------
 
-unreleased
+0.5.39
 ------
 - fix minor typos in fieldsets (edc-lab-results)
+- catch exception into form when unscheduled appointment not allowed
+  (edc-appointment)
+- remove additional refs to edc_reference in tests
 
 0.5.38
 ------
