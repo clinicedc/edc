@@ -55,7 +55,6 @@ edc-protocol
 edc-protocol-incident
 edc-qol
 edc-randomization
-edc-reference
 edc-refusal
 edc-registration
 edc-reportable

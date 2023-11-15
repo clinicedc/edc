@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.40
+------
+- remove `edc_reference` from setup.cfg
+- fix additional exceptions not caught in modelform
+  (edc-appointment, edc-visit-tracking)
+
 0.5.39
 ------
 - fix minor typos in fieldsets (edc-lab-results)
