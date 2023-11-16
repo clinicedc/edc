@@ -6,6 +6,8 @@ Changes
 - remove `edc_reference` from setup.cfg
 - fix additional exceptions not caught in modelform
   (edc-appointment, edc-visit-tracking)
+- fix prn metadata not updating (edc-metadata)
+- refactor form collections in visit class (edc-visit-tracking)
 
 0.5.39
 ------
