@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.41
+------
+- docs (edc)
+- add 'appt_status' property to form validation, trivial (edc-appointment)
+
 0.5.40
 ------
 - remove `edc_reference` from setup.cfg
