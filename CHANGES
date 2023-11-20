@@ -1,5 +1,10 @@
 Changes
 -------
+0.5.42
+------
+- fix where scheduled crf collection incorrectly combines
+  crfs_unscheduled + crfs_prn instead of crfs + crfs_prn
+  (edc-metadata)
 
 0.5.41
 ------
