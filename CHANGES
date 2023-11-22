@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.44
+------
+- fix issue where appointment creator may lose the site id
+  for funcs run from the django console on a multisite
+  installation (edc-appointment, edc-visit-schedule, edc-sites)
+
 0.5.43
 ------
 - method to calculated relative previous appt with a subject visit
@@ -15,7 +21,8 @@ Changes
 0.5.41
 ------
 - docs (edc)
-- add 'appt_status' property to form validation, trivial (edc-appointment)
+- add 'appt_status' property to form validation, trivial
+  (edc-appointment)
 
 0.5.40
 ------
