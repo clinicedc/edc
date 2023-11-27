@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.5.45
+------
+- updates to HE 'PropertyModelMixin' (edc-he)
+    - add 'calculated_land_surface_area' field (standardised to m2)
+    - add additional units: Decimals (1/100th of Acre), Sq. feet
+    - convert 'land_surface_area' to decimal field
+- minor, remove additional refs to edc_reference in tests (edc-utils)
+
 0.5.44
 ------
 - fix issue where appointment creator may lose the site id
