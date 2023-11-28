@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.46
+------
+- minor, updates translation files (edc-he)
+
 0.5.45
 ------
 - updates to HE 'PropertyModelMixin' (edc-he)
