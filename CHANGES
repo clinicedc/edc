@@ -5,13 +5,15 @@ Changes
 ------
 - require module `edc_form_runners`
 - fix missing model name in breadcrumbs (edc-model-admin)
-- use self.subject_identifier from base class when looking up action_cls
-  in `ActionItemModelFormMixin` (edc-action-item)
+- use self.subject_identifier from base class when looking up
+  ``action_cls`` in `ActionItemModelFormMixin` (edc-action-item)
 - add custom form_runner (edc_appointment)
-- use proxy model to make custom admin class for edc_form_runner.Issue
-  (edc-data-manager)
-- add links to edc_data_manager.Issue changelist from subject dashboard
-  (edc-subject-dashboard, edc-subject-model-wrappers)
+- use proxy model to make custom admin class for edc_form_runner
+  Issue model (edc-data-manager)
+- add link to edc_data_manager.Issue changelist from subject
+  dashboard and issue badge with hover text on subject dashboard
+  CRF/Requisitions (edc-subject-dashboard,
+  edc-subject-model-wrappers)
 
 0.5.46
 ------
