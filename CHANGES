@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.48
+------
+- remove invalid permissions codename (edc-data-manager)
+
 0.5.47
 ------
 - require module `edc_form_runners`
