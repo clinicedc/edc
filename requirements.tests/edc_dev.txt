@@ -22,6 +22,7 @@ https://github.com/clinicedc/edc-facility/tarball/develop
 https://github.com/clinicedc/edc-fieldsets/tarball/develop
 https://github.com/clinicedc/edc-form-describer/tarball/develop
 https://github.com/clinicedc/edc-form-label/tarball/develop
+https://github.com/clinicedc/edc-form-runners/tarball/develop
 https://github.com/clinicedc/edc-form-validators/tarball/develop
 https://github.com/clinicedc/edc-glucose/tarball/develop
 https://github.com/clinicedc/edc-identifier/tarball/develop
