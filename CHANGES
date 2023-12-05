@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.5.49
+------
+- bump django-audit-fields, django-crypto-fields
+- track locale on model instance add/change (django-audit-fields)
+- convert Meta.unique_together to new Meta.constraints
+- review index inheritance and fix where not working
+- add indexes to improve performance (edc-metadata, edc-action-item)
+
 0.5.48
 ------
 - remove invalid permissions codename (edc-data-manager)
