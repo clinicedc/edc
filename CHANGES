@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.50
+------
+- bump django-audit-fields
+
 0.5.49
 ------
 - bump django-audit-fields, django-crypto-fields
