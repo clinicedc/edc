@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- add inclusive option to report_datetime validators (edc-form-validators)
+
 0.5.50
 ------
 - bump django-audit-fields
