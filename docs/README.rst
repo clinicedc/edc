@@ -68,7 +68,7 @@ Login as non-root account ``ambition`` and install dependencies.
     sudo apt-get update
     sudo apt-get -y upgrade
     sudo apt-get -y install mysql-server-5.7 # if needed
-    sudo apt-get -y install mysql-client-5.7 libmysqlclient-dev libcups2-dev ipython3 python3-pip python3-dev python3-venv python3-cups python3-venv redis-server nginx curl
+    sudo apt-get -y install mysql-client-5.7 libmysqlclient-dev libcups2-dev ipython3 python3-pip python3-dev python3-venv python3-cups python3-venv redis-server nginx curl wbritish
 
 
 As of Feb 2019 ``ambition`` and ``edc`` modules are tested on python versions 3.7 and above. Ubuntu 18.04 LTS uses python 3.6.7.
