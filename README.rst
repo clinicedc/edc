@@ -136,7 +136,6 @@ edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
 edc-auth_                   |edc-auth|                    |pypi-edc-auth|
-edc-call-manager_           |edc-call-manager|
 edc-consent_                |edc-consent|                 |pypi-edc-consent|
 edc-constants_                                            |pypi-edc-constants|
 edc-crf_                    |edc-crf|                     |pypi-edc-crf|
@@ -229,7 +228,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-adverse-event: https://github.com/clinicedc/edc-adverse-event
 .. _edc-appointment: https://github.com/clinicedc/edc-appointment
 .. _edc-auth: https://github.com/clinicedc/edc-auth
-.. _edc-call-manager: https://github.com/clinicedc/edc-call-manager
 .. _edc-consent: https://github.com/clinicedc/edc-consent
 .. _edc-constants: https://github.com/clinicedc/edc-constants
 .. _edc-crf: https://github.com/clinicedc/edc-crf
@@ -308,8 +306,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
 .. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-lab-results/actions?query=workflow:build
-.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-call-manager/actions?query=workflow:build
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop
   :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
