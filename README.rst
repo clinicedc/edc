@@ -13,12 +13,14 @@ The codebase continues to evolve over many years of conducting clinical trials f
 the `Harvard T Chan School of Public Health <https://aids.harvard.edu>`__, the
 `Botswana-Harvard AIDS Institute Partnership <https://aids.harvard.edu/research/bhp>`__
 in Gaborone, Botswana and the `London School of Hygiene and Tropical Medicine <https://lshtm.ac.uk>`__.
-Almost all trials were originally related to HIV/AIDS research. More recent work with the `RESPOND Africa Group <https://www.lstmed.ac.uk/RespondAfrica>`__ at both the
-`Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ and the `University College London Institute for Global Health <https://www.ucl.ac.uk/global-health/>`__ has expanded into Diabetes (DM),
+Almost all trials were originally related to HIV/AIDS research.
+
+More recent work with the `RESPOND Africa Group <https://www.ucl.ac.uk/global-health/respond-africa>`__ formerly at the
+`Liverpool School of Tropical Medicine <https://lstm.ac.uk>`__ and now with the `University College London Institute for Global Health <https://www.ucl.ac.uk/global-health/>`__ has expanded into Diabetes (DM),
 Hypertension (HTN) and models of integrating care in Africa (https://inteafrica.org) for the
 three main chronic conditions -- HIV/DM/HTN.
 
-See also https://www.lstmed.ac.uk/RespondAfrica
+See also https://www.ucl.ac.uk/global-health/respond-africa
 
 The implementations we have developed are mostly eSource systems rather than the traditional EDCs.
 
