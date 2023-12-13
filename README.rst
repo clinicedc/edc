@@ -296,148 +296,148 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-visit-tracking: https://github.com/clinicedc/edc-visit-tracking
 .. _edc-vitals: https://github.com/clinicedc/edc-vitals
 
-.. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-action-item/actions?query=workflow:build
-.. |edc-adherence| image:: https://github.com/clinicedc/edc-adherence/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-adherence/actions?query=workflow:build
-.. |edc-adverse-event| image:: https://github.com/clinicedc/edc-adverse-event/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-adverse-event/actions?query=workflow:build
-.. |edc-appointment| image:: https://github.com/clinicedc/edc-appointment/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-appointment/actions?query=workflow:build
-.. |edc-auth| image:: https://github.com/clinicedc/edc-auth/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-auth/actions?query=workflow:build
-.. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-lab-results/actions?query=workflow:build
-.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-call-manager/actions?query=workflow:build
-.. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-clinic/actions?query=workflow:build
-.. |edc-consent| image:: https://github.com/clinicedc/edc-consent/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-consent/actions?query=workflow:build
-.. |edc-crf| image:: https://github.com/clinicedc/edc-crf/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-crf/actions?query=workflow:build
-.. |edc-csf| image:: https://github.com/clinicedc/edc-csf/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-csf/actions?query=workflow:build
-.. |edc-dashboard| image:: https://github.com/clinicedc/edc-dashboard/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-dashboard/actions?query=workflow:build
-.. |edc-data-manager| image:: https://github.com/clinicedc/edc-data-manager/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-data-manager/actions?query=workflow:build
-.. |edc-device| image:: https://github.com/clinicedc/edc-device/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-device/actions?query=workflow:build
-.. |edc-dx| image:: https://github.com/clinicedc/edc-dx/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-dx/actions?query=workflow:build
-.. |edc-dx-review| image:: https://github.com/clinicedc/edc-dx-review/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-dx-review/actions?query=workflow:build
-.. |edc-egfr| image:: https://github.com/clinicedc/edc-egfr/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-egfr/actions?query=workflow:build
-.. |edc-export| image:: https://github.com/clinicedc/edc-export/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-export/actions?query=workflow:build
-.. |edc-facility| image:: https://github.com/clinicedc/edc-facility/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-facility/actions?query=workflow:build
-.. |edc-fieldsets| image:: https://github.com/clinicedc/edc-fieldsets/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-fieldsets/actions?query=workflow:build
-.. |edc-form-describer| image:: https://github.com/clinicedc/edc-form-describer/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-form-describer/actions?query=workflow:build
-.. |edc-form-label| image:: https://github.com/clinicedc/edc-form-label/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-form-label/actions?query=workflow:build
-.. |edc-form-validators| image:: https://github.com/clinicedc/edc-form-validators/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-form-validators/actions?query=workflow:build
-.. |edc-glucose| image:: https://github.com/clinicedc/edc-glucose/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-glucose/actions?query=workflow:build
-.. |edc-identifier| image:: https://github.com/clinicedc/edc-identifier/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-identifier/actions?query=workflow:build
-.. |edc-lab| image:: https://github.com/clinicedc/edc-lab/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-lab/actions?query=workflow:build
-.. |edc-lab-panel| image:: https://github.com/clinicedc/edc-lab-panel/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-lab-panel/actions?query=workflow:build
-.. |edc-lab-dashboard| image:: https://github.com/clinicedc/edc-lab-dashboard/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-lab-dashboard/actions?query=workflow:build
-.. |edc-label| image:: https://github.com/clinicedc/edc-label/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-label/actions?query=workflow:build
-.. |edc-list-data| image:: https://github.com/clinicedc/edc-list-data/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-list-data/actions?query=workflow:build
-.. |edc-locator| image:: https://github.com/clinicedc/edc-locator/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-locator/actions?query=workflow:build
-.. |edc-ltfu| image:: https://github.com/clinicedc/edc-ltfu/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-ltfu/actions?query=workflow:build
-.. |edc-metadata| image:: https://github.com/clinicedc/edc-metadata/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-metadata/actions?query=workflow:build
-.. |edc-metadata-rules| image:: https://github.com/clinicedc/edc-metadata-rules/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-metadata-rules/actions?query=workflow:build
-.. |edc-mnsi| image:: https://github.com/clinicedc/edc-mnsi/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-mnsi/actions?query=workflow:build
-.. |edc-microbiology| image:: https://github.com/clinicedc/edc-microbiology/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-microbiology/actions?query=workflow:build
-.. |edc-microscopy| image:: https://github.com/clinicedc/edc-microscopy/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-microscopy/actions?query=workflow:build
-.. |edc-model| image:: https://github.com/clinicedc/edc-model/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-model/actions?query=workflow:build
-.. |edc-model-admin| image:: https://github.com/clinicedc/edc-model-admin/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-model-admin/actions?query=workflow:build
-.. |edc-model-fields| image:: https://github.com/clinicedc/edc-model-fields/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-model-fields/actions?query=workflow:build
-.. |edc-model-form| image:: https://github.com/clinicedc/edc-model-form/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-model-form/actions?query=workflow:build
-.. |edc-model-wrapper| image:: https://github.com/clinicedc/edc-model-wrapper/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-model-wrapper/actions?query=workflow:build
-.. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-navbar/actions?query=workflow:build
-.. |edc-next-appointment| image:: https://github.com/clinicedc/edc-next-appointment/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-next-appointment/actions?query=workflow:build
-.. |edc-notification| image:: https://github.com/clinicedc/edc-notification/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-notification/actions?query=workflow:build
-.. |edc-offstudy| image:: https://github.com/clinicedc/edc-offstudy/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-offstudy/actions?query=workflow:build
-.. |edc-pdutils| image:: https://github.com/clinicedc/edc-pdutils/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-pdutils/actions?query=workflow:build
-.. |edc-pharmacy| image:: https://github.com/clinicedc/edc-pharmacy/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-pharmacy/actions?query=workflow:build
-.. |edc-pharmacy-dashboard| image:: https://github.com/clinicedc/edc-pharmacy-dashboard/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-pharmacy-dashboard/actions?query=workflow:build
-.. |edc-prn| image:: https://github.com/clinicedc/edc-prn/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-prn/actions?query=workflow:build
-.. |edc-protocol| image:: https://github.com/clinicedc/edc-protocol/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-protocol/actions?query=workflow:build
-.. |edc-protocol-incident| image:: https://github.com/clinicedc/edc-protocol-incident/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-protocol-incident/actions?query=workflow:build
-.. |edc-randomization| image:: https://github.com/clinicedc/edc-randomization/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-randomization/actions?query=workflow:build
-.. |edc-reference| image:: https://github.com/clinicedc/edc-reference/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-reference/actions?query=workflow:build
-.. |edc-registration| image:: https://github.com/clinicedc/edc-registration/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-registration/actions?query=workflow:build
-.. |edc-reportable| image:: https://github.com/clinicedc/edc-reportable/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-reportable/actions?query=workflow:build
-.. |edc-reports| image:: https://github.com/clinicedc/edc-reports/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-reports/actions?query=workflow:build
-.. |edc-review-dashboard| image:: https://github.com/clinicedc/edc-review-dashboard/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-review-dashboard/actions?query=workflow:build
-.. |edc-screening| image:: https://github.com/clinicedc/edc-screening/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-screening/actions?query=workflow:build
-.. |edc-search| image:: https://github.com/clinicedc/edc-search/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-search/actions?query=workflow:build
-.. |edc-sites| image:: https://github.com/clinicedc/edc-sites/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-sites/actions?query=workflow:build
-.. |edc-subject-dashboard| image:: https://github.com/clinicedc/edc-subject-dashboard/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-subject-dashboard/actions?query=workflow:build
-.. |edc-subject-model-wrappers| image:: https://github.com/clinicedc/edc-subject-model-wrappers/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-subject-model-wrappers/actions?query=workflow:build
-.. |edc-test-utils| image:: https://github.com/clinicedc/edc-test-utils/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-test-utils/actions?query=workflow:build
-.. |edc-timepoint| image:: https://github.com/clinicedc/edc-timepoint/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-timepoint/actions?query=workflow:build
-.. |edc-transfer| image:: https://github.com/clinicedc/edc-transfer/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-transfer/actions?query=workflow:build
-.. |edc-unblinding| image:: https://github.com/clinicedc/edc-unblinding/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-unblinding/actions?query=workflow:build
-.. |edc-utils| image:: https://github.com/clinicedc/edc-utils/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-utils/actions?query=workflow:build
-.. |edc-visit-schedule| image:: https://github.com/clinicedc/edc-visit-schedule/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-visit-schedule/actions?query=workflow:build
-.. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-visit-tracking/actions?query=workflow:build
-.. |edc-vitals| image:: https://github.com/clinicedc/edc-vitals/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-vitals/actions?query=workflow:build
+.. |edc-action-item| image:: https://github.com/clinicedc/edc-action-item/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-action-item/actions/workflows/build.yml
+.. |edc-adherence| image:: https://github.com/clinicedc/edc-adherence/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-adherence/actions/workflows/build.yml
+.. |edc-adverse-event| image:: https://github.com/clinicedc/edc-adverse-event/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-adverse-event/actions/workflows/build.yml
+.. |edc-appointment| image:: https://github.com/clinicedc/edc-appointment/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-appointment/actions/workflows/build.yml
+.. |edc-auth| image:: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml
+.. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml
+.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-call-manager/actions/workflows/build.yml
+.. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml
+.. |edc-consent| image:: https://github.com/clinicedc/edc-consent/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-consent/actions/workflows/build.yml
+.. |edc-crf| image:: https://github.com/clinicedc/edc-crf/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-crf/actions/workflows/build.yml
+.. |edc-csf| image:: https://github.com/clinicedc/edc-csf/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-csf/actions/workflows/build.yml
+.. |edc-dashboard| image:: https://github.com/clinicedc/edc-dashboard/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-dashboard/actions/workflows/build.yml
+.. |edc-data-manager| image:: https://github.com/clinicedc/edc-data-manager/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-data-manager/actions/workflows/build.yml
+.. |edc-device| image:: https://github.com/clinicedc/edc-device/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-device/actions/workflows/build.yml
+.. |edc-dx| image:: https://github.com/clinicedc/edc-dx/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-dx/actions/workflows/build.yml
+.. |edc-dx-review| image:: https://github.com/clinicedc/edc-dx-review/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-dx-review/actions/workflows/build.yml
+.. |edc-egfr| image:: https://github.com/clinicedc/edc-egfr/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-egfr/actions/workflows/build.yml
+.. |edc-export| image:: https://github.com/clinicedc/edc-export/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-export/actions/workflows/build.yml
+.. |edc-facility| image:: https://github.com/clinicedc/edc-facility/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-facility/actions/workflows/build.yml
+.. |edc-fieldsets| image:: https://github.com/clinicedc/edc-fieldsets/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-fieldsets/actions/workflows/build.yml
+.. |edc-form-describer| image:: https://github.com/clinicedc/edc-form-describer/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-form-describer/actions/workflows/build.yml
+.. |edc-form-label| image:: https://github.com/clinicedc/edc-form-label/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-form-label/actions/workflows/build.yml
+.. |edc-form-validators| image:: https://github.com/clinicedc/edc-form-validators/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-form-validators/actions/workflows/build.yml
+.. |edc-glucose| image:: https://github.com/clinicedc/edc-glucose/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-glucose/actions/workflows/build.yml
+.. |edc-identifier| image:: https://github.com/clinicedc/edc-identifier/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-identifier/actions/workflows/build.yml
+.. |edc-lab| image:: https://github.com/clinicedc/edc-lab/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab/actions/workflows/build.yml
+.. |edc-lab-panel| image:: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml
+.. |edc-lab-dashboard| image:: https://github.com/clinicedc/edc-lab-dashboard/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab-dashboard/actions/workflows/build.yml
+.. |edc-label| image:: https://github.com/clinicedc/edc-label/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-label/actions/workflows/build.yml
+.. |edc-list-data| image:: https://github.com/clinicedc/edc-list-data/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-list-data/actions/workflows/build.yml
+.. |edc-locator| image:: https://github.com/clinicedc/edc-locator/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-locator/actions/workflows/build.yml
+.. |edc-ltfu| image:: https://github.com/clinicedc/edc-ltfu/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-ltfu/actions/workflows/build.yml
+.. |edc-metadata| image:: https://github.com/clinicedc/edc-metadata/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-metadata/actions/workflows/build.yml
+.. |edc-metadata-rules| image:: https://github.com/clinicedc/edc-metadata-rules/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-metadata-rules/actions/workflows/build.yml
+.. |edc-mnsi| image:: https://github.com/clinicedc/edc-mnsi/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-mnsi/actions/workflows/build.yml
+.. |edc-microbiology| image:: https://github.com/clinicedc/edc-microbiology/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-microbiology/actions/workflows/build.yml
+.. |edc-microscopy| image:: https://github.com/clinicedc/edc-microscopy/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-microscopy/actions/workflows/build.yml
+.. |edc-model| image:: https://github.com/clinicedc/edc-model/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model/actions/workflows/build.yml
+.. |edc-model-admin| image:: https://github.com/clinicedc/edc-model-admin/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model-admin/actions/workflows/build.yml
+.. |edc-model-fields| image:: https://github.com/clinicedc/edc-model-fields/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model-fields/actions/workflows/build.yml
+.. |edc-model-form| image:: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml
+.. |edc-model-wrapper| image:: https://github.com/clinicedc/edc-model-wrapper/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model-wrapper/actions/workflows/build.yml
+.. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml
+.. |edc-next-appointment| image:: https://github.com/clinicedc/edc-next-appointment/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-next-appointment/actions/workflows/build.yml
+.. |edc-notification| image:: https://github.com/clinicedc/edc-notification/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-notification/actions/workflows/build.yml
+.. |edc-offstudy| image:: https://github.com/clinicedc/edc-offstudy/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-offstudy/actions/workflows/build.yml
+.. |edc-pdutils| image:: https://github.com/clinicedc/edc-pdutils/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-pdutils/actions/workflows/build.yml
+.. |edc-pharmacy| image:: https://github.com/clinicedc/edc-pharmacy/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-pharmacy/actions/workflows/build.yml
+.. |edc-pharmacy-dashboard| image:: https://github.com/clinicedc/edc-pharmacy-dashboard/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-pharmacy-dashboard/actions/workflows/build.yml
+.. |edc-prn| image:: https://github.com/clinicedc/edc-prn/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-prn/actions/workflows/build.yml
+.. |edc-protocol| image:: https://github.com/clinicedc/edc-protocol/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-protocol/actions/workflows/build.yml
+.. |edc-protocol-incident| image:: https://github.com/clinicedc/edc-protocol-incident/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-protocol-incident/actions/workflows/build.yml
+.. |edc-randomization| image:: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml
+.. |edc-reference| image:: https://github.com/clinicedc/edc-reference/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-reference/actions/workflows/build.yml
+.. |edc-registration| image:: https://github.com/clinicedc/edc-registration/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-registration/actions/workflows/build.yml
+.. |edc-reportable| image:: https://github.com/clinicedc/edc-reportable/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-reportable/actions/workflows/build.yml
+.. |edc-reports| image:: https://github.com/clinicedc/edc-reports/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-reports/actions/workflows/build.yml
+.. |edc-review-dashboard| image:: https://github.com/clinicedc/edc-review-dashboard/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-review-dashboard/actions/workflows/build.yml
+.. |edc-screening| image:: https://github.com/clinicedc/edc-screening/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-screening/actions/workflows/build.yml
+.. |edc-search| image:: https://github.com/clinicedc/edc-search/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-search/actions/workflows/build.yml
+.. |edc-sites| image:: https://github.com/clinicedc/edc-sites/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-sites/actions/workflows/build.yml
+.. |edc-subject-dashboard| image:: https://github.com/clinicedc/edc-subject-dashboard/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-subject-dashboard/actions/workflows/build.yml
+.. |edc-subject-model-wrappers| image:: https://github.com/clinicedc/edc-subject-model-wrappers/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-subject-model-wrappers/actions/workflows/build.yml
+.. |edc-test-utils| image:: https://github.com/clinicedc/edc-test-utils/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-test-utils/actions/workflows/build.yml
+.. |edc-timepoint| image:: https://github.com/clinicedc/edc-timepoint/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-timepoint/actions/workflows/build.yml
+.. |edc-transfer| image:: https://github.com/clinicedc/edc-transfer/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-transfer/actions/workflows/build.yml
+.. |edc-unblinding| image:: https://github.com/clinicedc/edc-unblinding/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-unblinding/actions/workflows/build.yml
+.. |edc-utils| image:: https://github.com/clinicedc/edc-utils/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-utils/actions/workflows/build.yml
+.. |edc-visit-schedule| image:: https://github.com/clinicedc/edc-visit-schedule/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-visit-schedule/actions/workflows/build.yml
+.. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-visit-tracking/actions/workflows/build.yml
+.. |edc-vitals| image:: https://github.com/clinicedc/edc-vitals/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-vitals/actions/workflows/build.yml
 
 .. |pypi-edc-action-item| image:: https://img.shields.io/pypi/v/edc-action-item.svg
     :target: https://pypi.python.org/pypi/edc-action-item
