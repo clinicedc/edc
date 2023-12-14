@@ -4,6 +4,19 @@ Changes
 unreleased
 ----------
 - add inclusive option to report_datetime validators (edc-form-validators)
+- major refactor of edc_sites:
+    - register sites from sites.py. sites must be registered
+      with the new sites global. ``sites`` uses autodiscover
+      to find ``sites.py`` in root of an app.
+    - move most functionality related to sites onto the
+      `sites`` global instance.
+    - add funcs to allow a configuration where an auditor type
+      user, with view only access, is able to view data from
+      other sites while logged into the current site.
+- update dashboard apps to accomodate expanded auditor type
+  role using funcs from edc_sites (edc-dashboard, edc-listboard,
+  edc-subject-dashboard, edc-review-dashboard)
+- add DJ50 to testing matrix, drop DJ41.
 
 0.5.51
 ------
