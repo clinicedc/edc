@@ -1,12 +1,42 @@
 Changes
 -------
 
+0.5.51
+------
+- reset migrations. may need to review existing migrations before
+  updating (edc-form-runners)
+- split index migrations to avoid mem issues during migrations.
+  may need to review existing migrations before updating
+  (edc-data-manager)
+- fix decimal_places==0 treated as falsy (edc-lab-panel)
+- pass current site and locale into form_validator (edc-form-validators)
+- SodiumModelMixin (edc-lab-results)
+- add inclusive option to report_datetime validators (edc-form-validators)
+- major refactor of edc_sites:
+    - register sites from sites.py. sites must be registered
+      with the new sites global. ``sites`` uses autodiscover
+      to find ``sites.py`` in root of an app.
+    - move most functionality related to sites onto the
+      `sites`` global instance.
+    - add funcs to allow a configuration where an auditor type
+      user, with view only access, is able to view data from
+      other sites while logged into the current site.
+    - set current site and locale from request object in get_forms
+- update dashboard apps to accomodate expanded auditor type
+  role using funcs from edc_sites (edc-dashboard, edc-listboard,
+  edc-subject-dashboard, edc-review-dashboard)
+- update tests to either register a default site or add sites.py
+  to the test setup (most modules)
+- add DJ50 to testing matrix, drop DJ41.
+
 0.5.50
 ------
+  ** skip this release, goto 0.5.51
 - bump django-audit-fields
 
 0.5.49
 ------
+  ** skip this release, goto 0.5.51
 - bump django-audit-fields, django-crypto-fields
 - track locale on model instance add/change (django-audit-fields)
 - convert Meta.unique_together to new Meta.constraints
@@ -19,6 +49,7 @@ Changes
 
 0.5.47
 ------
+  ** skip this release, goto 0.5.48
 - require module `edc_form_runners`
 - fix missing model name in breadcrumbs (edc-model-admin)
 - use self.subject_identifier from base class when looking up
