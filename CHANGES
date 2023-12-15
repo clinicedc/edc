@@ -1,8 +1,16 @@
 Changes
 -------
 
-0.5.52
+0.5.51
 ------
+- reset migrations. may need to review existing migrations before
+  updating (edc-form-runners)
+- split index migrations to avoid mem issues during migrations.
+  may need to review existing migrations before updating
+  (edc-data-manager)
+- fix decimal_places==0 treated as falsy (edc-lab-panel)
+- pass current site and locale into form_validator (edc-form-validators)
+- SodiumModelMixin (edc-lab-results)
 - add inclusive option to report_datetime validators (edc-form-validators)
 - major refactor of edc_sites:
     - register sites from sites.py. sites must be registered
@@ -13,25 +21,13 @@ Changes
     - add funcs to allow a configuration where an auditor type
       user, with view only access, is able to view data from
       other sites while logged into the current site.
+    - set current site and locale from request object in get_forms
 - update dashboard apps to accomodate expanded auditor type
   role using funcs from edc_sites (edc-dashboard, edc-listboard,
   edc-subject-dashboard, edc-review-dashboard)
 - update tests to either register a default site or add sites.py
   to the test setup (most modules)
 - add DJ50 to testing matrix, drop DJ41.
-
-0.5.51
-------
-- reset migrations.
-  may need to review existing migrations before updating
-  (edc-form-runners)
-- split index migrations to avoid mem issues during migrations.
-  may need to review existing migrations before updating
-  (edc-data-manager)
-- fix decimal_places==0 treated as falsy (edc-lab-panel)
-- pass current site and locale into form_validator (edc-form-validators)
-- set current site and locale from request object in get_forms (edc-sites)
-- SodiumModelMixin (edc-lab-results)
 
 0.5.50
 ------
