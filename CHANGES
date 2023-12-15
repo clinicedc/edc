@@ -1,8 +1,8 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.52
+------
 - add inclusive option to report_datetime validators (edc-form-validators)
 - major refactor of edc_sites:
     - register sites from sites.py. sites must be registered
