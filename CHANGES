@@ -16,6 +16,8 @@ unreleased
 - update dashboard apps to accomodate expanded auditor type
   role using funcs from edc_sites (edc-dashboard, edc-listboard,
   edc-subject-dashboard, edc-review-dashboard)
+- update tests to either register a default site or add sites.py
+  to the test setup (most modules)
 - add DJ50 to testing matrix, drop DJ41.
 
 0.5.51
