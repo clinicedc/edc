@@ -1,6 +1,22 @@
 Changes
 -------
 
+0.5.52
+------
+- refactor edc-consent
+- AE PDF reports for changes in edc_pdf_reports:
+    - set `pdf_report_cls` on AE models (death report, AE initial)
+    - update modeladmin changelist (death report, AE initial)
+    - add urls from edc_pdf_reports
+    - See edc_pdf_reports README
+- user is now redirected to effect_ae changelists instead of AE
+  listboards. Remove effect_ae from administraion section.
+  (changes from edc-adverse-event)
+- migrations for indexes triggered from other modules e.g.
+  edc-list-data, edc-model, etc
+- remove redundant edc-sites post-migrate signal
+- update edc_sites import paths
+
 0.5.51
 ------
 - reset migrations. may need to review existing migrations before
