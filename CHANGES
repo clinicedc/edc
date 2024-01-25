@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.54
+------
+- refactor to remove modelwrappers and other listboard and
+  dashboard improvements
+- refactor TMG listboard
+- refactor subject dasboard, screening and subject listboards
+
 0.5.53
 ------
 - refactor edc-consent
