@@ -5,6 +5,7 @@ django-revision
 edc-action-item
 edc-adherence
 edc-adverse-event
+edc-appconfig
 edc-appointment
 edc-auth
 edc-consent
