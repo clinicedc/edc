@@ -1,8 +1,25 @@
 Changes
 -------
 
-0.5.54
+0.5.55
 ------
+- add new app edc_appconfigs
+  - call all site global autodiscover() in ready
+  - register system checks that access site globals in ready
+  - register post-migrate signals that access site globals in ready
+- move NavbarItem class validation to system_checks. Rename
+  NavbarItem.append_item method to register (edc-navbar)
+- refactor edc_protocol, rename class to ResearchProtocolConfig
+  (edc-protocol)
+- minor changes to subject dashboard template (edc-subject-dashboard)
+- require consent definition as class attr on screening models
+  (edc-screening)
+- refactor notification, raise exception any entries, referred to
+  by Action classes, are missing from EMAIL_CONTACTS
+- wrap search form in button div (edc-listboard)
+
+0.5.54 yanked
+-------------
 - refactor to remove modelwrappers and other listboard and
   dashboard improvements
 - refactor TMG listboard

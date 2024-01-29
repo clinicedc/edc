@@ -136,6 +136,7 @@ For further information go to https://github.com/erikvw.
 =========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
+edc-appconfig_              |edc-appconfig|               |pypi-edc-appconfig|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
 edc-auth_                   |edc-auth|                    |pypi-edc-auth|
 edc-consent_                |edc-consent|                 |pypi-edc-consent|
@@ -229,6 +230,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-adherence: https://github.com/clinicedc/edc-adherence
 .. _edc-adverse-event: https://github.com/clinicedc/edc-adverse-event
 .. _edc-appointment: https://github.com/clinicedc/edc-appointment
+.. _edc-appconfig: https://github.com/clinicedc/edc-appconfig
 .. _edc-auth: https://github.com/clinicedc/edc-auth
 .. _edc-consent: https://github.com/clinicedc/edc-consent
 .. _edc-constants: https://github.com/clinicedc/edc-constants
@@ -304,6 +306,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-adverse-event/actions/workflows/build.yml
 .. |edc-appointment| image:: https://github.com/clinicedc/edc-appointment/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-appointment/actions/workflows/build.yml
+.. |edc-appconfig| image:: https://github.com/clinicedc/edc-appconfig/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-appconfig/actions/workflows/build.yml
 .. |edc-auth| image:: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml
 .. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml/badge.svg
@@ -447,6 +451,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-adverse-event
 .. |pypi-edc-appointment| image:: https://img.shields.io/pypi/v/edc-appointment.svg
     :target: https://pypi.python.org/pypi/edc-appointment
+.. |pypi-edc-appconfig| image:: https://img.shields.io/pypi/v/edc-appconfig.svg
+    :target: https://pypi.python.org/pypi/edc-appconfig
 .. |pypi-edc-auth| image:: https://img.shields.io/pypi/v/edc-auth.svg
     :target: https://pypi.python.org/pypi/edc-auth
 .. |pypi-edc-blood-results| image:: https://img.shields.io/pypi/v/edc-blood-results.svg

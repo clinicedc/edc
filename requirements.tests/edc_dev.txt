@@ -7,6 +7,7 @@ https://github.com/clinicedc/edc-adherence/tarball/develop
 https://github.com/clinicedc/edc-adverse-event/tarball/develop
 https://github.com/clinicedc/edc-appointment/tarball/develop
 https://github.com/clinicedc/edc-auth/tarball/develop
+https://github.com/clinicedc/edc-appconfig/tarball/develop
 https://github.com/clinicedc/edc-consent/tarball/develop
 https://github.com/clinicedc/edc-constants/tarball/develop
 https://github.com/clinicedc/edc-crf/tarball/develop
