@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.60
+------
+- fix regression on updating missed appointments in signal
+  (edc-appointment)
+- fix query on userprofile.role raising exception
+  (edc-auth)
+
 0.5.59
 ------
 - use get_locator_model to access SUBJECT_LOCATOR_MODEL
