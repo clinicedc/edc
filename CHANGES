@@ -1,6 +1,23 @@
 Changes
 -------
 
+0.5.57
+------
+- add `is_multisite_viewer` boolean to UserProfile model. This field
+  value replaces the use of a special codename for multisite data
+  view (edc-auth)
+- redirect to screening_listboard if not a registered subject in
+  view_on_site (edc-model-admin)
+- move refresh_appointments to utils, check appt_datetime is not
+  before previous appt (edc-appointment)
+- change DeathReportTmgSecond mixin to be used with a proxy of death
+  report tmg (edc-adverse-event)
+- Add subject consent buttons for listboards and subject-dashboards
+  (edc-subject-dashboard)
+- Rework resequencing when visit code sequences and dates not
+  correctly ordered (edc-appointment)
+- add schedule button to review listboard (edc-review-listboard)
+
 0.5.56
 ------
 - add new app edc_appconfigs
