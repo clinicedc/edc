@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.61
+------
+- add related_visit_model_cls attr to form validator mixin
+  (edc-visit-tracking)
+-
 0.5.60
 ------
 - fix regression on updating missed appointments in signal
