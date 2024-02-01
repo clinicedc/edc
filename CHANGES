@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.58
+------
+- disabled refresh appointments and refresh data collection schedule
+  if multisite viewer or auditor (edc-subject-dashboard)
+
 0.5.57
 ------
 - add `is_multisite_viewer` boolean to UserProfile model. This field
