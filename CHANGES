@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.62
+------
+- add checks to confirm reference_model matches (edc-action_item)
+- skip admin classes without custom modelform classes
+  (edc-form-runner)
+- fix modelform not finding site for PRN forms (edc-site)
+
 0.5.61
 ------
 - add related_visit_model_cls attr to form validator mixin
