@@ -1,6 +1,17 @@
 Changes
 -------
 
+0.5.63
+------
+- minor fixes to templates (edc-dashboard, edc-subject-dashbaord,
+  edc-navbar)
+- add system check against SubjectScheduleHistory and the OnSchedule
+  model. (edc-visit-schedule, edc-appconfig)
+- management command to delete invalid onschedule instances
+  (edc-visit-schedule)
+- fix issue where form runner fails on PRN forms that do not
+  have visit schedule fields (edc-form-runners)
+
 0.5.62
 ------
 - add checks to confirm reference_model matches (edc-action_item)
