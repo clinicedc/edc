@@ -40,7 +40,6 @@ https://github.com/clinicedc/edc-model/tarball/develop
 https://github.com/clinicedc/edc-model-admin/tarball/develop
 https://github.com/clinicedc/edc-model-fields/tarball/develop
 https://github.com/clinicedc/edc-model-form/tarball/develop
-https://github.com/clinicedc/edc-model-wrapper/tarball/develop
 https://github.com/clinicedc/edc-navbar/tarball/develop
 https://github.com/clinicedc/edc-notification/tarball/develop
 https://github.com/clinicedc/edc-offstudy/tarball/develop
@@ -60,7 +59,6 @@ https://github.com/clinicedc/edc-screening/tarball/develop
 https://github.com/clinicedc/edc-search/tarball/develop
 https://github.com/clinicedc/edc-sites/tarball/develop
 https://github.com/clinicedc/edc-subject-dashboard/tarball/develop
-https://github.com/clinicedc/edc-subject-model-wrappers/tarball/develop
 https://github.com/clinicedc/edc-timepoint/tarball/develop
 https://github.com/clinicedc/edc-transfer/tarball/develop
 https://github.com/clinicedc/edc-unblinding/tarball/develop

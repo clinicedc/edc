@@ -1,6 +1,25 @@
 Changes
 -------
 
+0.5.64
+------
+- remove redundant check from Holiday model (edc-facility)
+- fix render TmgButton when reference_obj is None by passing
+  subject_identifier (edc-adverse-event)
+- remove edc-model-wrapper, edc-subject-model-wrapper from
+  requirements
+- fix issue where missing CRF/Requisition metadata is not
+  created using subject dashboard's refresh button
+  (edc-mdetadata)
+- rework TMG dashboard, add navigation for TMG Role members
+  to navigate to new, open, closed TMG summaries from subject
+  dashboard and subject review dashboard (edc-adverse-event,
+  edc-subject-dashboard, edc-review-dashboard)
+- add Choices class and custom fields to accept standardized field
+  names and standardized categorical field values in choices as
+  metadata when building model classes for standardized forms.
+  (edc-model-fields)
+
 0.5.63
 ------
 - minor fixes to templates (edc-dashboard, edc-subject-dashbaord,
