@@ -43,7 +43,6 @@ edc-model
 edc-model-admin
 edc-model-fields
 edc-model-form
-edc-model-wrapper
 edc-navbar
 edc-next-appointment
 edc-notification
@@ -66,7 +65,6 @@ edc-screening
 edc-search
 edc-sites
 edc-subject-dashboard
-edc-subject-model-wrappers
 edc-timepoint
 edc-transfer
 edc-unblinding
