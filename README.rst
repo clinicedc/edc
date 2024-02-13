@@ -154,8 +154,8 @@ edc-form-label_             |edc-form-label|              |pypi-edc-form-label|
 edc-form-validators_        |edc-form-validators|         |pypi-edc-form-validators|
 edc-identifier_             |edc-identifier|              |pypi-edc-identifier|
 edc-lab_                    |edc-lab|                     |pypi-edc-lab|
-edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|
 edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
+edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|
 edc-lab-results_            |edc-lab-results|               |pypi-edc-lab-panel|
 edc-label_                  |edc-label|                   |pypi-edc-label|
 edc-list-data_              |edc-list-data|               |pypi-edc-list-data|
@@ -166,7 +166,6 @@ edc-model_                  |edc-model|                   |pypi-edc-model|
 edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|
 edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|
 edc-model-form_             |edc-model-form|              |pypi-edc-model-form|
-edc-model-wrapper_          |edc-model-wrapper|           |pypi-edc-model-wrapper|
 edc-navbar_                 |edc-navbar|                  |pypi-edc-navbar|
 edc-next-appointment_       |edc-next-appointment|        |pypi-edc-next-appointment|
 edc-notification_           |edc-notification|            |pypi-edc-notification|
@@ -177,7 +176,6 @@ edc-prn_                    |edc-prn|                     |pypi-edc-prn|
 edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
 edc-protocol-incident_      |edc-protocol-incident|       |pypi-edc-protocol-incident|
 edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
-edc-reference_              |edc-reference|               |pypi-edc-reference|
 edc-registration_           |edc-registration|            |pypi-edc-registration|
 edc-reportable_             |edc-reportable|              |pypi-edc-reportable|
 edc-review-dashboard_       |edc-review-dashboard|        |pypi-edc-review-dashboard|
@@ -185,7 +183,6 @@ edc-screening_              |edc-screening|               |pypi-edc-screening|
 edc-search_                 |edc-search|                  |pypi-edc-search|
 edc-sites_                  |edc-sites|                   |pypi-edc-sites|
 edc-subject-dashboard_      |edc-subject-dashboard|       |pypi-edc-subject-dashboard|
-edc-subject-model-wrappers_ |edc-subject-model-wrappers|  |pypi-edc-subject-model-wrappers|
 edc-test-utils_             |edc-test-utils|              |pypi-edc-test-utils|
 edc-timepoint_              |edc-timepoint|               |pypi-edc-timepoint|
 edc-transfer_               |edc-transfer|                |pypi-edc-transfer|
@@ -266,7 +263,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-model-admin: https://github.com/clinicedc/edc-model-admin
 .. _edc-model-fields: https://github.com/clinicedc/edc-model-fields
 .. _edc-model-form: https://github.com/clinicedc/edc-model-form
-.. _edc-model-wrapper: https://github.com/clinicedc/edc-model-wrapper
 .. _edc-navbar: https://github.com/clinicedc/edc-navbar
 .. _edc-next-appointment: https://github.com/clinicedc/edc-next-appointment
 .. _edc-notification: https://github.com/clinicedc/edc-notification
@@ -278,7 +274,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-protocol: https://github.com/clinicedc/edc-protocol
 .. _edc-protocol-incident: https://github.com/clinicedc/edc-protocol-incident
 .. _edc-randomization: https://github.com/clinicedc/edc-randomization
-.. _edc-reference: https://github.com/clinicedc/edc-reference
 .. _edc-refusal: https://github.com/clinicedc/edc-refusal
 .. _edc-registration: https://github.com/clinicedc/edc-registration
 .. _edc-reportable: https://github.com/clinicedc/edc-reportable
@@ -288,7 +283,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-search: https://github.com/clinicedc/edc-search
 .. _edc-sites: https://github.com/clinicedc/edc-sites
 .. _edc-subject-dashboard: https://github.com/clinicedc/edc-subject-dashboard
-.. _edc-subject-model-wrappers: https://github.com/clinicedc/edc-subject-model-wrappers
 .. _edc-test-utils: https://github.com/clinicedc/edc-test-utils
 .. _edc-timepoint: https://github.com/clinicedc/edc-timepoint
 .. _edc-transfer: https://github.com/clinicedc/edc-transfer
@@ -312,8 +306,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml
 .. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml
-.. |edc-call-manager| image:: https://github.com/clinicedc/edc-call-manager/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-call-manager/actions/workflows/build.yml
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/actions/workflows/build.yml/badge.svg
@@ -382,8 +374,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-model-fields/actions/workflows/build.yml
 .. |edc-model-form| image:: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml
-.. |edc-model-wrapper| image:: https://github.com/clinicedc/edc-model-wrapper/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-model-wrapper/actions/workflows/build.yml
 .. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml
 .. |edc-next-appointment| image:: https://github.com/clinicedc/edc-next-appointment/actions/workflows/build.yml/badge.svg
@@ -406,8 +396,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-protocol-incident/actions/workflows/build.yml
 .. |edc-randomization| image:: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml
-.. |edc-reference| image:: https://github.com/clinicedc/edc-reference/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-reference/actions/workflows/build.yml
 .. |edc-registration| image:: https://github.com/clinicedc/edc-registration/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-registration/actions/workflows/build.yml
 .. |edc-reportable| image:: https://github.com/clinicedc/edc-reportable/actions/workflows/build.yml/badge.svg
@@ -424,8 +412,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-sites/actions/workflows/build.yml
 .. |edc-subject-dashboard| image:: https://github.com/clinicedc/edc-subject-dashboard/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-subject-dashboard/actions/workflows/build.yml
-.. |edc-subject-model-wrappers| image:: https://github.com/clinicedc/edc-subject-model-wrappers/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-subject-model-wrappers/actions/workflows/build.yml
 .. |edc-test-utils| image:: https://github.com/clinicedc/edc-test-utils/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-test-utils/actions/workflows/build.yml
 .. |edc-timepoint| image:: https://github.com/clinicedc/edc-timepoint/actions/workflows/build.yml/badge.svg
@@ -523,8 +509,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-model-fields
 .. |pypi-edc-model-form| image:: https://img.shields.io/pypi/v/edc-model-form.svg
     :target: https://pypi.python.org/pypi/edc-model-form
-.. |pypi-edc-model-wrapper| image:: https://img.shields.io/pypi/v/edc-model-wrapper.svg
-    :target: https://pypi.python.org/pypi/edc-model-wrapper
 .. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
     :target: https://pypi.python.org/pypi/edc-navbar
 .. |pypi-edc-next-appointment| image:: https://img.shields.io/pypi/v/edc-next-appointment.svg
@@ -547,8 +531,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-protocol-incident
 .. |pypi-edc-randomization| image:: https://img.shields.io/pypi/v/edc-randomization.svg
     :target: https://pypi.python.org/pypi/edc-randomization
-.. |pypi-edc-reference| image:: https://img.shields.io/pypi/v/edc-reference.svg
-    :target: https://pypi.python.org/pypi/edc-reference
 .. |pypi-edc-registration| image:: https://img.shields.io/pypi/v/edc-registration.svg
     :target: https://pypi.python.org/pypi/edc-registration
 .. |pypi-edc-reportable| image:: https://img.shields.io/pypi/v/edc-reportable.svg
@@ -565,8 +547,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-sites
 .. |pypi-edc-subject-dashboard| image:: https://img.shields.io/pypi/v/edc-subject-dashboard.svg
     :target: https://pypi.python.org/pypi/edc-subject-dashboard
-.. |pypi-edc-subject-model-wrappers| image:: https://img.shields.io/pypi/v/edc-subject-model-wrappers.svg
-    :target: https://pypi.python.org/pypi/edc-subject-model-wrappers
 .. |pypi-edc-test-utils| image:: https://img.shields.io/pypi/v/edc-test-utils.svg
     :target: https://pypi.python.org/pypi/edc-test-utils
 .. |pypi-edc-timepoint| image:: https://img.shields.io/pypi/v/edc-timepoint.svg
@@ -590,4 +570,3 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
-
