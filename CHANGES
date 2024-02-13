@@ -1,6 +1,16 @@
 Changes
 -------
 
+0.5.65
+------
+- remove fields reference_model and related_reference_model from ActionItem.
+  Fields already appear on ActionType. (edc-action_item)
+- display window period boundaries on changelist (edc-appointment)
+- skip system check if migrating (edc-sites)
+- fix run_form_runners command incorrrectly including skipped models
+  (edc-form-runners)
+- bump to Django 4.2.10
+
 0.5.64
 ------
 - remove redundant check from Holiday model (edc-facility)
