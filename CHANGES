@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.66
+------
+- minor changes to system checks
+- update pre-commit config
+- force metadata_handler to create missing metadata,
+  allow_create=True (edc-metadata)
+
 0.5.65
 ------
 - remove fields reference_model and related_reference_model from ActionItem.
