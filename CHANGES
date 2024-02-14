@@ -14,7 +14,7 @@ Changes
   Fields already appear on ActionType. (edc-action_item)
 - display window period boundaries on changelist (edc-appointment)
 - skip system check if migrating (edc-sites)
-- fix run_form_runners command incorrrectly including skipped models
+- fix run_form_runners command incorrectly including skipped models
   (edc-form-runners)
 - bump to Django 4.2.10
 
@@ -27,7 +27,7 @@ Changes
   requirements
 - fix issue where missing CRF/Requisition metadata is not
   created using subject dashboard's refresh button
-  (edc-mdetadata)
+  (edc-metadata)
 - rework TMG dashboard, add navigation for TMG Role members
   to navigate to new, open, closed TMG summaries from subject
   dashboard and subject review dashboard (edc-adverse-event,
@@ -39,7 +39,7 @@ Changes
 
 0.5.63
 ------
-- minor fixes to templates (edc-dashboard, edc-subject-dashbaord,
+- minor fixes to templates (edc-dashboard, edc-subject-dashboard,
   edc-navbar)
 - add system check against SubjectScheduleHistory and the OnSchedule
   model. (edc-visit-schedule, edc-appconfig)
@@ -119,7 +119,7 @@ Changes
 - refactor to remove modelwrappers and other listboard and
   dashboard improvements
 - refactor TMG listboard
-- refactor subject dasboard, screening and subject listboards
+- refactor subject dashboard, screening and subject listboards
 
 0.5.53
 ------
@@ -130,7 +130,7 @@ Changes
     - add urls from edc_pdf_reports
     - See edc_pdf_reports README
 - user is now redirected to effect_ae changelists instead of AE
-  listboards. Remove effect_ae from administraion section.
+  listboards. Remove effect_ae from administration section.
   (changes from edc-adverse-event)
 - migrations for indexes triggered from other modules e.g.
   edc-list-data, edc-model, etc
@@ -158,7 +158,7 @@ Changes
       user, with view only access, is able to view data from
       other sites while logged into the current site.
     - set current site and locale from request object in get_forms
-- update dashboard apps to accomodate expanded auditor type
+- update dashboard apps to accommodate expanded auditor type
   role using funcs from edc_sites (edc-dashboard, edc-listboard,
   edc-subject-dashboard, edc-review-dashboard)
 - update tests to either register a default site or add sites.py
