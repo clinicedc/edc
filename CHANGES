@@ -7,6 +7,9 @@ Changes
 - update pre-commit config
 - force metadata_handler to create missing metadata,
   allow_create=True (edc-metadata)
+- fix regression where visit_code and visit_code sequence are
+  incorrectly saved as booleans on the Issues model
+  (edc-form-runners)
 
 0.5.65
 ------
