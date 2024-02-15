@@ -10,6 +10,9 @@ Changes
 - fix regression where visit_code and visit_code sequence are
   incorrectly saved as booleans on the Issues model
   (edc-form-runners)
+- fix timezone setting on to_local, to_utc (edc-utils)
+- check value of creatinine before calculating drop (edc-egfr)
+- fix how refill_end_datetime is set (edc-pharmacy)
 
 0.5.65
 ------
