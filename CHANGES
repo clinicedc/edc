@@ -1,6 +1,15 @@
 Changes
 -------
 
+0.5.67
+------
+- add `is_required_by_date` method to allow a metadata_rule user to
+  hardcode a date before which the rule always returns not_required.
+  (edc-he)
+- fix issue where the action item popover template incorrectly gets
+  the color style from the Action instance instead of the Action
+  class (edc-action-item)
+
 0.5.66
 ------
 - minor changes to system checks
