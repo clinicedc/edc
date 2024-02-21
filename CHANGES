@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.69
+------
+- fix timeuntil on aefollowup "description" template
+  (edc-adverse-event)
+
 0.5.68
 ------
 - add missing action_identifier to extra kwargs coming from popover
