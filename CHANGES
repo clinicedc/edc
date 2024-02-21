@@ -1,10 +1,30 @@
 Changes
 -------
 
+0.5.68
+------
+- add missing action_identifier to extra kwargs coming from popover
+  (edc-action-item)
+- fix issue where runner fails if no fieldset defined in ModelAdmin.
+  Check get_related_visit_model_attr has value before calling.
+  (edc-form-runners)
+- check creatinine has value before attempting to calculate eGFR drop
+  (edc-egfr)
+- fix signature on get_next_related_visit to include
+  `include_interim=True` (edc-pharmacy, edc-visit-tracking)
+- change form validation error to use message from
+  ScheduledVisitWindowError when date is outside window period
+  (edc-appointment)
+- skip some form validation until report_datetime has valueq
+  (edc-visit-schedule)
+- get ConsentDefinition from Screening model if not enough
+  data to get from schedule.get_consent_definition
+  (edc-consent)
+
 0.5.67
 ------
 - add `is_required_by_date` method to allow a metadata_rule user to
-  hardcode a date before which the rule always returns not_required.
+  hardcode a date before which the rule always returns not_required
   (edc-he)
 - fix issue where the action item popover template incorrectly gets
   the color style from the Action instance instead of the Action
@@ -57,7 +77,7 @@ Changes
 - minor fixes to templates (edc-dashboard, edc-subject-dashboard,
   edc-navbar)
 - add system check against SubjectScheduleHistory and the OnSchedule
-  model. (edc-visit-schedule, edc-appconfig)
+  model (edc-visit-schedule, edc-appconfig)
 - management command to delete invalid onschedule instances
   (edc-visit-schedule)
 - fix issue where form runner fails on PRN forms that do not
