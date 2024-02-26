@@ -1,6 +1,19 @@
 Changes
 -------
 
+0.5.70
+------
+- show field_cls.metadata in reference document (edc-form-describer)
+- use 'custom_name' to capture 3rd element of tuple in list_data,
+  if it exists. Add ListModelMixin2 and class to convert a choices
+  tuple to something the list_data loader can handle
+  (edc-list-data)
+- add iter to custom Choices class (edc-model-field)
+- change precision for ALP to 2 places, ALT to 2 places, magnesium to
+  2 places (edc-lab-results)
+- update precision on equalities for magnsium, uric acid, neutrophils
+  (edc-reportable)
+
 0.5.69
 ------
 - fix timeuntil on aefollowup "description" template
