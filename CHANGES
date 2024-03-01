@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.72 (unreleased)
+------
+- add missing migrations (edc-visit-tracking)
+
 0.5.71
 ------
 - refactor to handle multiple versions of consents and consents that
