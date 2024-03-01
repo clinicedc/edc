@@ -1,6 +1,15 @@
 Changes
 -------
 
+0.5.71
+------
+- refactor to handle multiple versions of consents and consents that
+  update previous versions (edc-consent)
+- query consent attr thru consent definition (edc-crf, edc-screening,
+  edc-visit-schedule)
+- use RequiresConsentModelAdminMixin for modeladmin classes that
+  require consent (edc-model-admin)
+
 0.5.70
 ------
 - show field_cls.metadata in reference document (edc-form-describer)
@@ -33,7 +42,7 @@ Changes
 - change form validation error to use message from
   ScheduledVisitWindowError when date is outside window period
   (edc-appointment)
-- skip some form validation until report_datetime has valueq
+- skip some form validation until report_datetime has value
   (edc-visit-schedule)
 - get ConsentDefinition from Screening model if not enough
   data to get from schedule.get_consent_definition
