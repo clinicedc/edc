@@ -3,7 +3,7 @@ Changes
 
 0.5.72 (unreleased)
 ------
-- add missing migrations (edc-visit-tracking)
+- add missing migrations (edc-locator, edc-visit-tracking)
 
 0.5.71
 ------
