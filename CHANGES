@@ -1,6 +1,19 @@
 Changes
 -------
 
+0.5.72
+------
+- add missing migrations (edc-locator, edc-visit-tracking)
+- replace deprecated dataframe manipulation for pandas v2.2. Add
+  ValueError exception if remove_illegal_characters() operates
+  on a non-str Series (edc-pdutils)
+- rename data dictionary field from "default" to "default_value"
+  (edc-data-dictionary)
+- change site_consent system checks that look for duration overlap
+  from errors to warnings (edc-consent)
+ - get consent definition directly from site_consents on PRN
+   models that do not have access to a schedule (edc-prn)
+
 0.5.71
 ------
 - refactor to handle multiple versions of consents and consents that
