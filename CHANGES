@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.73
+------
+- Move fieldsets to modeladmin mixin (edc-adherence)
+- Django 4.2.11
+
 0.5.72
 ------
 - add missing migrations (edc-locator, edc-visit-tracking)
