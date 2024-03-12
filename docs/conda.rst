@@ -13,6 +13,12 @@ To silently install the latest Miniconda3
       && ~/miniconda3/bin/conda config --set auto_activate_base false
 
     # adapted from: https://docs.conda.io/projects/miniconda/en/latest/
+    #
+    # args used:
+    # -b           run install in batch mode (without manual intervention),
+    #              it is expected the license terms (if any) are agreed upon
+    # -u           update an existing installation
+    # -p PREFIX    install prefix, defaults to $PREFIX, must not contain spaces.
 
 ..or to manually install the latest Miniconda3
 
