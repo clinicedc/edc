@@ -2,3 +2,4 @@ pre-commit
 django-mock-queries
 git+https://github.com/clinicedc/edc-test-utils@develop
 time-machine
+git+https://github.com/clinicedc/edc-test-settingss@develop

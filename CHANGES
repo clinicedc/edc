@@ -1,6 +1,20 @@
 Changes
 -------
 
+unreleased
+----------
+- fix export_model management command incorrectly enumerating model
+  names (edc-pdutils)
+- prefix regex strings with 'r' (edc-identifier, edc-lab)
+- bump django-crypto-fields 0.4.0, major refactor,
+  use cache framework for encryption keys (django-crypto-fields)
+- (edc-consent)
+  - remove 'updates_by' from ConsentDefinition init and instead set
+    when registering the ConsentDefinition with site_consents.register.
+  - change 'updates' to only accept a ConsentDefinition
+  - update system checks that warn of duplicate versions
+    and period overlap when using the same proxy_for_model.
+
 0.5.73
 ------
 - Move fieldsets to modeladmin mixin (edc-adherence)
