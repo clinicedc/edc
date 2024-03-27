@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.5.74
+0.5.75
 ------
 - fix export_model management command incorrectly enumerating model
   names (edc-pdutils)
@@ -25,6 +25,10 @@ Changes
      multisite post-migrate signal NOT be registered by multisite2
  - connect multisite2 post-migrate signal AFTER edc-site post migrate
    signal (edc-appconfig)
+
+0.5.74
+------
+yanked because of edc-consent
 
 0.5.73
 ------
