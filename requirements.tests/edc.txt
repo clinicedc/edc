@@ -1,7 +1,9 @@
-canned-views
+django-logentry-admin
+django-simple-history
 django-audit-fields
 django-crypto-fields
 django-revision
+django-multisite2
 edc-action-item
 edc-adherence
 edc-adverse-event

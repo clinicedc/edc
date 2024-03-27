@@ -1,19 +1,30 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.74
+------
 - fix export_model management command incorrectly enumerating model
   names (edc-pdutils)
 - prefix regex strings with 'r' (edc-identifier, edc-lab)
-- bump django-crypto-fields 0.4.0, major refactor,
-  use cache framework for encryption keys (django-crypto-fields)
+- (django-crypto-fields) 0.4.1
+  - major refactor
+  - use cache framework for encryption keys
 - (edc-consent)
   - remove 'updates_by' from ConsentDefinition init and instead set
     when registering the ConsentDefinition with site_consents.register.
   - change 'updates' to only accept a ConsentDefinition
   - update system checks that warn of duplicate versions
     and period overlap when using the same proxy_for_model.
+ - (django-multisite2)
+   - switch to django-multisite2
+   - major refactor
+   - add MULTISITE_REGISTER_POST_MIGRATE_SYNC_ALIAS settings attr
+ - (edc-sites)
+   - require --settings when running migrate
+   - require MULTISITE_REGISTER_POST_MIGRATE_SYNC_ALIAS = False so
+     multisite post-migrate signal NOT be registered by multisite2
+ - connect multisite2 post-migrate signal AFTER edc-site post migrate
+   signal (edc-appconfig)
 
 0.5.73
 ------
