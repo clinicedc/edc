@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.76
+------
+- fix regression where dynamic site middleware incorrectly tried to
+  determine site after calling get_response in __call__.
+  (django-multisite2)
+
 0.5.75
 ------
 - fix export_model management command incorrectly enumerating model
