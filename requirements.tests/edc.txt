@@ -1,3 +1,8 @@
+django-environ
+django-storages
+fontawesomefree
+bs4
+mysqlclient
 django-logentry-admin
 django-simple-history
 django-audit-fields
