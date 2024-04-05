@@ -1,6 +1,14 @@
 Changes
 -------
 
+unreleased
+----------
+- fix outdated call in view mixin to site_consents from
+  'get_consent_or_raise' to 'get_consents'. (edc-consent)
+- (edc-action-item)
+  - fix search field list not finding subject_idenifier;
+  - check for action_identifier before looking up reference_obj.
+
 0.5.76
 ------
 - fix regression where dynamic site middleware incorrectly tried to
