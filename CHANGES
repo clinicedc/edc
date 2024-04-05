@@ -1,14 +1,18 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.77
+------
 - fix outdated call in view mixin to site_consents from
   'get_consent_or_raise' to 'get_consents'. (edc-consent)
 - (edc-action-item)
   - fix search field list not finding subject_idenifier;
   - check for action_identifier before looking up reference_obj.
 - bump to django-audit-fields 0.3.17
+- bump to django-multisite2 2.0.1
+- add management command `sync_sites` to manually sync and review
+  site related models from edc_sites, django_sites and multisite.
+  Also review ALLOWED_HOSTS for current settings file. (edc-sites)
 
 0.5.76
 ------
