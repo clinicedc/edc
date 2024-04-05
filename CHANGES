@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.5.77
+0.5.78
 ------
 - fix outdated call in view mixin to site_consents from
   'get_consent_or_raise' to 'get_consents'. (edc-consent)
