@@ -8,6 +8,7 @@ unreleased
 - (edc-action-item)
   - fix search field list not finding subject_idenifier;
   - check for action_identifier before looking up reference_obj.
+- bump to django-audit-fields 0.3.17
 
 0.5.76
 ------
