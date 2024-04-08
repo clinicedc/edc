@@ -1,12 +1,16 @@
 Changes
 -------
 
+0.5.79
+------
+- minor, separate age from dob on subject dashboard (edc-subject-dashboard)
+
 0.5.78
 ------
 - fix outdated call in view mixin to site_consents from
   'get_consent_or_raise' to 'get_consents'. (edc-consent)
 - (edc-action-item)
-  - fix search field list not finding subject_idenifier;
+  - fix search field list not finding subject_identifier;
   - check for action_identifier before looking up reference_obj.
 - bump to django-audit-fields 0.3.17
 - bump to django-multisite2 2.0.1
