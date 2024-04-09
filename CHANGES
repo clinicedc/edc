@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.80
+------
+- fix issue where requisition rule group incorrectly tries to run rules
+  when appointment is missed. (edc-metadata)
+
 0.5.79
 ------
 - minor, separate age from dob on subject dashboard (edc-subject-dashboard)
