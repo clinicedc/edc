@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.82
+-----
+ - allow action_identifier to be passed when creating an ActionItem
+   (edc-action-item)
+ - also skip get_site_on_create() if self.site_id (edc-sites)
+
 0.5.81
 ------
 - add `site` to signatures for get_consent_or_raise, etc
