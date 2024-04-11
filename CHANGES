@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.81
+------
+- add `site` to signatures for get_consent_or_raise, etc
+  (edc-consent, edc-appointment, edc-crf)
+
 0.5.80
 ------
 - fix issue where requisition rule group incorrectly tries to run rules
