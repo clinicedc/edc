@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.83
+-----
+- improve consent definition validity period comparisons (edc-consent)
+
 0.5.82
 -----
  - allow action_identifier to be passed when creating an ActionItem
