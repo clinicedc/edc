@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.84
+------
+- add gettext wrappers to field validator messages. (edc-model)
+- minor, allow import of show_urls from root __init__. (edc-utils)
+- remove edc-next-appointment as a default module
+
 0.5.83
 -----
 - improve consent definition validity period comparisons (edc-consent)
