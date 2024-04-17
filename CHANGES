@@ -1,17 +1,21 @@
 Changes
 -------
 
-0.5.82
+0.5.84
 ------
-- accept manually set `action_identifier` when creating new instance.
-  (edc-action-item)
-- refine use of floor/ceil when comparing start and end dates with
-  report_datetime. (edc-consent)
 - add gettext wrappers to field validator messages. (edc-model)
-- through model mixin, only fetch site instance on create if both
-  self.site and self.site_id are not set. (edc-site)
 - minor, allow import of show_urls from root __init__. (edc-utils)
 - remove edc-next-appointment as a default module
+
+0.5.83
+-----
+- improve consent definition validity period comparisons (edc-consent)
+
+0.5.82
+-----
+ - allow action_identifier to be passed when creating an ActionItem
+   (edc-action-item)
+ - also skip get_site_on_create() if self.site_id (edc-sites)
 
 0.5.81
 ------
