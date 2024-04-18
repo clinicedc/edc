@@ -1,6 +1,21 @@
 Changes
 -------
 
+unreleased
+----------
+- fix regression in site_consents where consent definitions were not
+  filtered by site before querying for consent model instances. This
+  resulted in irrelevant links to consents showing on the subject
+  dashboard. (edc-consent)
+- fix syntax error in popover templates.
+  (edc-prn, edc-subject-dashboard)
+- fix regression where action item button was not passing parent
+  reference model instance id to new form. For example, given the
+  sequence aeinitial->aefolllowup->aefollowup, the last aefollowup
+  action item pop over list item link was not passing the aeinitial
+  id to the add form for AeFollowup. (edc-action-item)
+
+
 0.5.84
 ------
 - add gettext wrappers to field validator messages. (edc-model)
