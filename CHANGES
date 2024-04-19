@@ -1,8 +1,8 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.84
+------
 - fix regression in site_consents where consent definitions were not
   filtered by site before querying for consent model instances. This
   resulted in irrelevant links to consents showing on the subject
