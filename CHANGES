@@ -1,8 +1,16 @@
 Changes
 -------
 
-unreleased
-----------
+0.5.86
+------
+- refresh medata on each render of subject dashboard is current.
+  Performance penalty is negligible (edc-metadata)
+- catch ObjectDoesNotExist and pass when validating ae_initial
+  outcome date if AeInitial relation does not exist.
+  (edc-adverse-event)
+
+0.5.85
+------
 - fix regression in site_consents where consent definitions were not
   filtered by site before querying for consent model instances. This
   resulted in irrelevant links to consents showing on the subject
@@ -14,7 +22,6 @@ unreleased
   sequence aeinitial->aefolllowup->aefollowup, the last aefollowup
   action item pop over list item link was not passing the aeinitial
   id to the add form for AeFollowup. (edc-action-item)
-
 
 0.5.84
 ------
