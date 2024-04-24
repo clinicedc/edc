@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.88
+------
+- (edc-consent)
+  - enforce consent definitions must be in UTC
+  - convert report_datetime to utc when getting consents
+  - always add consents to dashboard
+
 0.5.87
 ------
 - fix issue to prevent appointment creator from resetting appointment
