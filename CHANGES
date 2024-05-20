@@ -9,6 +9,8 @@ Changes
 - add type hints, return obj from validation check (edc-dx-review)
 - update fasting factory field fasting_duration_minutes to
   fasting_duration_delta calc delta on model save (edc-glucose)
+- add model validators to screening report_datetime (edc-screening)
+- add MySQL roles and read only users docs (edc)
 
 0.5.88
 ------
