@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.5.89
+0.5.90
 ------
 - add func duration_hm_to_timedelta (edc-model)
 - remove indexes=[] from Meta on mixin (edc-crf)
@@ -9,6 +9,9 @@ Changes
 - add type hints, return obj from validation check (edc-dx-review)
 - update fasting factory field fasting_duration_minutes to
   fasting_duration_delta calc delta on model save (edc-glucose)
+
+0.5.89
+------
 - add model validators to screening report_datetime (edc-screening)
 - add MySQL roles and read only users docs (edc)
 
