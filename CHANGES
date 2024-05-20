@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.89 (unreleased)
+------
+- add MySQL roles and read only users docs (edc)
+
 0.5.88
 ------
 - (edc-consent)
