@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.5.89 (unreleased)
+0.5.89
 ------
 - add model validators to screening report_datetime (edc-screening)
 - add MySQL roles and read only users docs (edc)
