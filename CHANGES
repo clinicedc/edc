@@ -1,6 +1,16 @@
 Changes
 -------
 
+0.5.91
+------
+- add ListFilters to filter changelists on subject's schedule
+  status, e.g. ON schedule, OFF schedule. (edc-visit-schedule)
+- add ListFilter to filter number of days appointment overdue.
+  Add 'Attended' category to 'Status' ListFilter. Add
+  ScheduleStatusListFilter and AppointmentOverdueListFilter to
+  default AppointmentAdmin class. (edc-appointment)
+- bump django-simple-history to 3.7.0
+
 0.5.90
 ------
 - add func duration_hm_to_timedelta (edc-model)
