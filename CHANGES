@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.93
+------
+- add new module, edc-qareports
+- fix missing link to app_index on Admin template (edc-model-admin)
+- add link to model's changelist from data dictionary
+  (edc-data-manager)
+
 0.5.92
 ------
 - add ListFilter to filter number of days appointment overdue
