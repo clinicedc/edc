@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.5.94
+------
+- add QA REPORTS AUDIT group and role (edc-qareports)
+- fix minor issue in list_filter (edc-sites)
+- add attribute `user_may_view_other_sites` to bypass
+  site filter at the admin class if set to False
+  (edc-sites)
+
 0.5.93
 ------
 - add new module, edc-qareports

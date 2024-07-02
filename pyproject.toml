@@ -3,3 +3,6 @@ requires = ["setuptools>=60", "setuptools-scm>=8.0"]
 
 [tool.setuptools_scm]
 version_file="_version.py"
+
+[tool.black]
+line-length = 95
