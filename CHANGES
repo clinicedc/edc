@@ -3,6 +3,7 @@ Changes
 
 unreleased
 ------
+- minor README/docstring fixes (edc-qareports)
 - add edc-qareports status badges to edc README
 
 0.5.94
