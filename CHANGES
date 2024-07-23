@@ -3,6 +3,8 @@ Changes
 
 unreleased
 ------
+- fix issue where 'nav_' codenames omitted from view only
+  codenames (edc-auth)
 - minor README/docstring fixes (edc-qareports)
 - add edc-qareports status badges to edc README
 
