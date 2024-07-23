@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- add edc-qareports status badges to edc README
+
 0.5.94
 ------
 - add QA REPORTS AUDIT group and role (edc-qareports)
