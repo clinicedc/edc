@@ -1,7 +1,7 @@
 Changes
 -------
 
-unreleased
+0.5.95
 ------
 - fix issue where 'nav_' codenames omitted from view only
   codenames (edc-auth)
