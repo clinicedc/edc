@@ -178,6 +178,7 @@ edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
 edc-prn_                    |edc-prn|                     |pypi-edc-prn|
 edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
 edc-protocol-incident_      |edc-protocol-incident|       |pypi-edc-protocol-incident|
+edc-qareports_              |edc-qareports|               |pypi-edc-qareports|
 edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
 edc-refusal_                |edc-refusal|                 |pypi-edc-refusal|
 edc-registration_           |edc-registration|            |pypi-edc-registration|
@@ -284,6 +285,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-prn: https://github.com/clinicedc/edc-prn
 .. _edc-protocol: https://github.com/clinicedc/edc-protocol
 .. _edc-protocol-incident: https://github.com/clinicedc/edc-protocol-incident
+.. _edc-qareports: https://github.com/clinicedc/edc-qareports
 .. _edc-qol: https://github.com/clinicedc/edc-qol
 .. _edc-randomization: https://github.com/clinicedc/edc-randomization
 .. _edc-refusal: https://github.com/clinicedc/edc-refusal
@@ -425,6 +427,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-reportable/actions/workflows/build.yml
 .. |edc-pdf-reports| image:: https://github.com/clinicedc/edc-pdf-reports/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-pdf-reports/actions/workflows/build.yml
+.. |edc-qareports| image:: https://github.com/clinicedc/edc-qareports/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-qareports/actions/workflows/build.yml
 .. |edc-qol| image:: https://github.com/clinicedc/edc-qol/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-qol/actions/workflows/build.yml
 .. |edc-review-dashboard| image:: https://github.com/clinicedc/edc-review-dashboard/actions/workflows/build.yml/badge.svg
@@ -576,6 +580,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-reportable
 .. |pypi-edc-pdf-reports| image:: https://img.shields.io/pypi/v/edc-pdf-reports.svg
     :target: https://pypi.python.org/pypi/edc-pdf-reports
+.. |pypi-edc-qareports| image:: https://img.shields.io/pypi/v/edc-qareports.svg
+    :target: https://pypi.python.org/pypi/edc-qareports
 .. |pypi-edc-review-dashboard| image:: https://img.shields.io/pypi/v/edc-review-dashboard.svg
     :target: https://pypi.python.org/pypi/edc-review-dashboard
 .. |pypi-edc-rx| image:: https://img.shields.io/pypi/v/edc-rx.svg

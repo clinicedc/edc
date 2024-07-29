@@ -1,6 +1,18 @@
 Changes
 -------
 
+0.5.96
+------
+- add new funcs when using pandas dataframes, e.g get_crf,
+  get_subject_visit (edc-pdutils)
+
+0.5.95
+------
+- fix issue where 'nav_' codenames omitted from view only
+  codenames (edc-auth)
+- minor README/docstring fixes (edc-qareports)
+- add edc-qareports status badges to edc README
+
 0.5.94
 ------
 - add QA REPORTS AUDIT group and role (edc-qareports)
