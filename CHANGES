@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.95
+------
+- add new funcs when using pandas dataframes, e.g get_crf,
+  get_subject_visit (edc-pdutils)
+
 0.5.94
 ------
 - add QA REPORTS AUDIT group and role (edc-qareports)
