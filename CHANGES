@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.97
+-----
+- add edc-analytics
+
 0.5.96
 ------
 - add new funcs when using pandas dataframes, e.g get_crf,
