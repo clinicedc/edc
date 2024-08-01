@@ -61,6 +61,7 @@ edc-pharmacy-dashboard
 edc-prn
 edc-protocol
 edc-protocol-incident
+edc-qareports
 edc-qol
 edc-randomization
 edc-refusal
