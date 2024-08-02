@@ -29,6 +29,14 @@ The ``clinicedc`` for each trial consists of a subset of trial-specific modules 
 (python 3.11, Django 4.2, MySQL 8+, see setup.cfg)
 
 
+How we describe the EDC in our protocol documents
+-------------------------------------------------
+
+Here is a simple example of a data management section for a study protocol document: `data_management_section`_
+
+.. _data_management_section: https://github.com/clinicedc/edc/blob/main/docs/protocol_data_management_section.rst
+
+
 Projects that use ``clinicedc``
 -------------------------------
 Recent examples of ``clinicedc`` applications using this codebase:
