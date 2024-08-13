@@ -1,6 +1,11 @@
 Changes
 -------
 
+unreleased
+-----
+- fix issue where braces in AE descriptions broke the AE reports
+  admin pages (edc-adverse-event)
+
 0.5.97
 -----
 - add edc-analytics
