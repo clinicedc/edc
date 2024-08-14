@@ -6,7 +6,7 @@ unreleased
 - fix issue where braces in AE descriptions broke the AE reports
   admin pages (edc-adverse-event)
 - add postgres to the gh-action matrix for updated edc modules
-  (this will be as modules are updated)
+  (this will be done for other modules are they are updated)
 - skip checks and postmigrate signals for apps not found in
   INSTALLED_APPS (edc-appconfig)
 - add option to prevent Django from creating the default
@@ -17,12 +17,19 @@ unreleased
 - add django_db_views to requirements.
 - update to use django_db_views and add view scripts for
   mysql, postgres and sqlite3 (edc-qareports)
-- recognize `viewallsites` codename. ALlows administrator to
-  allocate permissions to see instances from all sites in a
-  changelist by model. Limit unmanaged models using
-  QAReportsModelMixin to "view, viewallsites, export" codenames.
-  (edc-sites, edc-qareports)
-- add support for postgres. (django-crypto-fields)
+- recognize `viewallsites` codename. The new codename allows
+  administrator to allocate permissions to a user to see instances
+  from all sites in a changelist by model. Limit unmanaged models
+  using QAReportsModelMixin to "view, viewallsites, export"
+  codenames. (edc-sites, edc-qareports)
+- tighten up handling of str/bytes data and typing of signatures for
+  methods receiving str and/or bytes data. Add support for postgres.
+  Add field classes for additional datatypes:
+    - EncryptedIntegerField
+    - EncryptedDecimalField
+    - EncryptedDateField
+    - EncryptedDateTimeField
+  (django-crypto-fields)
 - in test setup for updated edc modules, import `DefaultSettings`
   from `edc-test-settings` where `test_settings.py` is in the test
   folder and the `DJANGO_SETTINGS_MODULE` is set in `runtests.py`
