@@ -5,6 +5,29 @@ unreleased
 -----
 - fix issue where braces in AE descriptions broke the AE reports
   admin pages (edc-adverse-event)
+- add postgres to the gh-action matrix for updated edc modules
+  (this will be as modules are updated)
+- skip checks and postmigrate signals for apps not found in
+  INSTALLED_APPS (edc-appconfig)
+- add option to prevent Django from creating the default
+  "example.com" site using settings.EDC_SITES_CREATE_DEFAULT.
+  The default is still to create the default site. Deleting the
+  default site raises an Operational error for unmanaged "sql view"
+  models that have a FK to Site. (edc-appconfig, edc-sites)
+- add django_db_views to requirements.
+- update to use django_db_views and add view scripts for
+  mysql, postgres and sqlite3 (edc-qareports)
+- recognize `viewallsites` codename. ALlows administrator to
+  allocate permissions to see instances from all sites in a
+  changelist by model. Limit unmanaged models using
+  QAReportsModelMixin to "view, viewallsites, export" codenames.
+  (edc-sites, edc-qareports)
+- add support for postgres. (django-crypto-fields)
+- in test setup for updated edc modules, import `DefaultSettings`
+  from `edc-test-settings` where `test_settings.py` is in the test
+  folder and the `DJANGO_SETTINGS_MODULE` is set in `runtests.py`
+  using `func_main2`. For an example, see edc_appconfig.
+  (edc-test-settings)
 
 0.5.97
 -----
