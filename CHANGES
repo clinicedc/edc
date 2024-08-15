@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.5.98
+------
+- add django-pandas to requirements
+
 0.5.97
 ------
 - fix issue where braces in AE descriptions broke the AE reports
