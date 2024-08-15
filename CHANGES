@@ -1,8 +1,8 @@
 Changes
 -------
 
-unreleased
------
+0.5.98
+------
 - fix issue where braces in AE descriptions broke the AE reports
   admin pages (edc-adverse-event)
 - add escape_braces text function (edc-utils)
@@ -38,7 +38,7 @@ unreleased
   (edc-test-settings)
 
 0.5.97
------
+------
 - add edc-analytics
 
 0.5.96
