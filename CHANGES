@@ -1,6 +1,15 @@
 Changes
 -------
 
+0.5.99
+------
+- when building list of codenames with get_app_codenames, use
+  default_permissions on model Meta class. Note: default permissions
+  are customized for models using BaseUuidModel and models using
+  model mixins in edc-qareports. (edc-auth, edc-qareports)
+- deprecate `get_qareports_codenames`, add viewallsites to
+  default Note model. (edc-qareports)
+
 0.5.98
 ------
 - add django-pandas to requirements
