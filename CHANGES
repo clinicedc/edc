@@ -1,6 +1,13 @@
 Changes
 -------
 
+unreleased
+----------
+- when building list of codenames, use default_permissions on model
+  Meta class. Currently default permissions are customized in
+  edc-model's BaseUuidModel and model mixins in edc-qareports. (edc-auth)
+- deprecate `get_qareports_codenames` (edc-qareports)
+
 0.5.97
 ------
 - fix issue where braces in AE descriptions broke the AE reports
