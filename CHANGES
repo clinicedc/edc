@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.5.98
+0.5.97
 ------
 - fix issue where braces in AE descriptions broke the AE reports
   admin pages (edc-adverse-event)
@@ -38,9 +38,6 @@ Changes
   folder and the `DJANGO_SETTINGS_MODULE` is set in `runtests.py`
   using `func_main2`. For an example, see edc_appconfig.
   (edc-test-settings)
-
-0.5.97
-------
 - add edc-analytics
 
 0.5.96
