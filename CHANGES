@@ -23,6 +23,8 @@ Changes
   from all sites in a changelist by model. Limit unmanaged models
   using QAReportsModelMixin to "view, viewallsites, export"
   codenames. (edc-sites, edc-qareports)
+- refactor of QaReports and related Notes to facilitate
+  overriding (edc-qareports)
 - tighten up handling of str/bytes data and typing of signatures for
   methods receiving str and/or bytes data. Add support for postgres.
   Add field classes for additional datatypes:
