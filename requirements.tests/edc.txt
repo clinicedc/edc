@@ -9,6 +9,7 @@ django-audit-fields
 django-crypto-fields
 django-revision
 django-multisite2
+django_db_views
 edc-action-item
 edc-adherence
 edc-adverse-event
@@ -61,6 +62,7 @@ edc-pharmacy-dashboard
 edc-prn
 edc-protocol
 edc-protocol-incident
+edc-qareports
 edc-qol
 edc-randomization
 edc-refusal

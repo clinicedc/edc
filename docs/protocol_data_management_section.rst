@@ -10,7 +10,7 @@ All data will be treated as strictly confidential and will in no circumstances b
 available.
 
 Data Transfer and Sharing
--------------------------  
+-------------------------
 Data transfer or sharing will following the requirements of a signed Data Transfer Agreement (DTA).
 For data sharing, summary tables, continuous progress reports or presentations during various
 meetings will be provided and accessed securely by authorized/authenticated officers online
@@ -34,8 +34,8 @@ to user support and an issue tracking system.
 
 Data management staff will provide on-going user support, communicate any ``EDC`` issues they
 are unable to resolve to developer staff, monitor the completeness of submitted data for each
-participant, and report on trial progress to the study team. 
-  
+participant, and report on trial progress to the study team.
+
 Select analytical staff, granted access to the raw dataset, will report on more complex data-related issues by conducting
 interim mock statistical analyses.
 
@@ -65,7 +65,7 @@ encryption, etc). With this approach, sensitive information is rendered unusable
 indecipherable to unauthorized individuals for “data in use” (e.g. data being analyzed by
 statisticians), “data in motion” (e.g. data being transferred between data entry and storage
 points) and “data at rest” (e.g. data in storage in the database).
-  
+
 Backup and disaster recovery includes 4-hourly data archiving, encrypted archives stored in multiple locations, daily server
 snapshots, active system error detection, notification and reporting, and frequent mock
 restorations.
