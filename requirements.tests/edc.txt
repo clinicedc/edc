@@ -1,4 +1,5 @@
 django-environ
+django-pandas
 django-storages
 fontawesomefree
 bs4
