@@ -6,6 +6,7 @@ Changes
 - remove preoperty user_may_view_other_sites incorrectly overriding
   method on QaReportLogSummaryAdmin (edc-qareports)
 - convert DurationField class values to pd.TimeDelta (edc-pdutils)
+- bump django-crypto-fields 0.4.2
 
 0.5.99
 ------
