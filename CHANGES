@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.60
+------
+- remove preoperty user_may_view_other_sites incorrectly overriding
+  method on QaReportLogSummaryAdmin (edc-qareports)
+- convert DurationField class values to pd.TimeDelta (edc-pdutils)
+
 0.5.99
 ------
 - when building list of codenames with get_app_codenames, use
