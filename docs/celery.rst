@@ -1,235 +1,71 @@
 
-RabbitMQ
-========
-
-Services
-++++++++
-
-.. code-block:: bash
-
-	$ sudo rabbitmqctl add_user myuser mypassword
-
-	$ sudo rabbitmqctl add_vhost myvhost
-
-	$ sudo rabbitmqctl set_user_tags myuser mytag
-
-	$ sudo rabbitmqctl set_permissions -p myvhost myuser ".*" ".*" ".*"
-
-
 Celery
 ======
 
-Settings
-++++++++
+Set up celery to start using systemd
 
-Add the following to settings.py. When ready, set ``CELERY_ENABLED`` = True.
+See docs at https://docs.celeryq.dev/en/stable/userguide/daemonizing.html#usage-systemd
 
-.. code-block:: bash
+Also, See folder bin for sample systemd service files
 
-	# settings.py
+1. create a celery app per instance (live, uat, debug) in folder ``celery`` under your project edc folder, such as ``meta_edc.celery``.
 
-	...
+.. code-block:: text
 
-	# CELERY STUFF
-	CELERY_BROKER_USER=<user>
-	CELERY_BROKER_PASSWORD=<password>
-	CELERY_BROKER_HOST=<mq host>
-	CELERY_BROKER_PORT=5672
-	CELERY_ENABLED=False
-
-	...
+    meta_edc
+        |--- celery
+               |---debug.py
+               |---live.py
+               |---uat.py
 
 
-Daemonizing with systemd
-++++++++++++++++++++++++
-
-See http://docs.celeryproject.org/en/latest/userguide/daemonizing.html#usage-systemd
-
-Celery User
-+++++++++++
-
-Create a user ``celery``
+You need to create a systemd EnvironmentFile. Again using ``meta-edc`` project as an example:
 
 .. code-block:: bash
 
-	sudo adduser celery
+    # celery.live.conf
 
+    # Name of nodes to start
+    CELERYD_NODES="w1 w2"
 
-Celery Folders
-++++++++++++++
+    # Absolute or relative path to the 'celery' command:
+    CELERY_BIN="/home/live/miniconda3/envs/edc/bin/celery"
 
-Create working folders under the home folder:
+    # App instance to use
+    CELERY_APP="meta_edc.celery.live:app"
 
-.. code-block:: bash
+    # Where to chdir at start.
+    CELERYD_CHDIR="/home/live/app/"
 
-	sudo su - celery
-	mkdir -p working/uat && \
-	mkdir log/ && \
-	mkdir pid/
+    # How to call manage.py
+    CELERYD_MULTI="multi"
 
-Create ``/etc/celery``
+    # Extra command-line arguments to the worker
+    CELERYD_OPTS="--time-limit=300 --concurrency=8"
 
-.. code-block:: bash
+    # - %n will be replaced with the first part of the nodename.
+    # - %I will be replaced with the current child process index
+    #   and is important when using the prefork pool to avoid race conditions.
+    CELERYD_PID_FILE="/opt/celery/%n.live.pid"
+    CELERYD_LOG_FILE="/var/log/celery/%n%I.live.log"
+    CELERYD_LOG_LEVEL="INFO"
 
-	sudo mkdir /etc/celery
+    CELERYD_USER="celery"
+    CELERYD_GROUP="celery"
 
+The user account celery.
 
-Celery Configuration
-++++++++++++++++++++
+1. Add ``celery`` account to "live" and "uat" groups
+2. for logging or workers, create ``/var/log/celery`` (0755 celery celery)
+3. for the PID file, create ``/opts/celery`` (0755 celery celery)
 
-Create ``/etc/celery/celery.conf``
+In settings or your .env file, set ``CELERY_ENABLED=True``.
 
-.. code-block:: bash
-
-	CELERYD_NODES="w1"
-
-	CELERY_BIN="/home/ambition/.venvs/ambition/bin/celery"
-
-	CELERY_APP="ambition_edc"
-
-	CELERYD_MULTI="multi"
-
-	CELERYD_OPTS="--time-limit=300 --concurrency=8"
-
-	CELERYD_PID_FILE="/home/celery/pid/%n.pid"
-	CELERYD_LOG_FILE="/home/celery/log/%n%I.log"
-	CELERYD_LOG_LEVEL="INFO"
-
-	CELERYBEAT_PID_FILE="/home/celery/pid/beat.pid"
-	CELERYBEAT_LOG_FILE="/home/celery/log/beat.log"
-
-
-Create ``/etc/celery/celery_uat.conf``
+Install ``celery`` into your env.
 
 .. code-block:: bash
 
-	CELERYD_NODES="w1"
-
-	CELERY_BIN="/home/uat/.venvs/ambition/bin/celery"
-
-	CELERY_APP="ambition_edc"
-
-	CELERYD_MULTI="multi"
-
-	CELERYD_OPTS="--time-limit=300 --concurrency=8"
-
-	CELERYD_PID_FILE="/home/celery/pid/%n.uat.pid"
-	CELERYD_LOG_FILE="/home/celery/log/%n%I.uat.log"
-	CELERYD_LOG_LEVEL="INFO"
-
-	CELERYBEAT_PID_FILE="/home/celery/pid/beat.uat.pid"
-	CELERYBEAT_LOG_FILE="/home/celery/log/beat.uat.log"
-
-Celery systemd services
-+++++++++++++++++++++++
-
-Copy service file to ``/etc/systemd/system/celery.service``
-
-.. code-block:: bash
-
-	# see https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#daemon-systemd-generic
-
-	[Unit]
-	Description=Celery Service
-	After=network.target
-
-	[Service]
-	Type=forking
-	User=celery
-	Group=celery
-	EnvironmentFile=/etc/celery/celery.conf
-	WorkingDirectory=/home/celery/working
-	ExecStart=/bin/sh -c '${CELERY_BIN} multi start ${CELERYD_NODES} \
-	  -A ${CELERY_APP} --pidfile=${CELERYD_PID_FILE} \
-	  --logfile=${CELERYD_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL} ${CELERYD_OPTS}'
-	ExecStop=/bin/sh -c '${CELERY_BIN} multi stopwait ${CELERYD_NODES} \
-	  --pidfile=${CELERYD_PID_FILE}'
-	ExecReload=/bin/sh -c '${CELERY_BIN} multi restart ${CELERYD_NODES} \
-	  -A ${CELERY_APP} --pidfile=${CELERYD_PID_FILE} \
-	  --logfile=${CELERYD_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL} ${CELERYD_OPTS}'
-
-	[Install]
-	WantedBy=multi-user.target
-
-
-Copy service file to ``/etc/systemd/system/celery-uat.service``
-
-.. code-block:: bash
-
-	# see https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#daemon-systemd-generic
-
-	[Unit]
-	Description=Celery Service (UAT)
-	After=network.target
-
-	[Service]
-	Type=forking
-	User=celery
-	Group=celery
-	EnvironmentFile=/etc/celery/celery_uat.conf
-	WorkingDirectory=/home/celery/working/uat
-	ExecStart=/bin/sh -c '${CELERY_BIN} multi start ${CELERYD_NODES} \
-	  -A ${CELERY_APP} --pidfile=${CELERYD_PID_FILE} \
-	  --logfile=${CELERYD_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL} ${CELERYD_OPTS}'
-	ExecStop=/bin/sh -c '${CELERY_BIN} multi stopwait ${CELERYD_NODES} \
-	  --pidfile=${CELERYD_PID_FILE}'
-	ExecReload=/bin/sh -c '${CELERY_BIN} multi restart ${CELERYD_NODES} \
-	  -A ${CELERY_APP} --pidfile=${CELERYD_PID_FILE} \
-	  --logfile=${CELERYD_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL} ${CELERYD_OPTS}'
-
-	[Install]
-	WantedBy=multi-user.target
-
-CeleryBeat Services
-+++++++++++++++++++
-
-Copy service file ``/etc/systemd/system/celerybeat.service``
-
-.. code-block:: bash
-
-	# see https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#daemon-systemd-generic
-
-	[Unit]
-	Description=Celery Beat Service
-	After=network.target
-
-	[Service]
-	Type=simple
-	User=celery
-	Group=celery
-	EnvironmentFile=/etc/celery/celery.conf
-	WorkingDirectory=/home/celery/working
-	ExecStart=/bin/sh -c '${CELERY_BIN} beat  \
-	  -A ${CELERY_APP} --pidfile=${CELERYBEAT_PID_FILE} \
-	  --logfile=${CELERYBEAT_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL}'
-
-	[Install]
-	WantedBy=multi-user.target
-
-
-Copy service file ``/etc/systemd/system/celerybeat-uat.service``
-
-.. code-block:: bash
-
-	# see https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#daemon-systemd-generic
-
-	[Unit]
-	Description=Celery Beat Service
-	After=network.target
-
-	[Service]
-	Type=simple
-	User=celery
-	Group=celery
-	EnvironmentFile=/etc/celery/celery_uat.conf
-	WorkingDirectory=/home/celery/working/uat
-	ExecStart=/bin/sh -c '${CELERY_BIN} beat  \
-	  -A ${CELERY_APP} --pidfile=${CELERYBEAT_PID_FILE} \
-	  --logfile=${CELERYBEAT_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL}'
-
-	[Install]
-	WantedBy=multi-user.target
-
+    pip install -U celery[redis]
 
 Load services
 +++++++++++++
@@ -237,9 +73,7 @@ Load services
 .. code-block:: bash
 
 	sudo systemctl daemon-reload
-
-	sudo systemctl restart celery-uat.service
-	sudo systemctl restart celery.service
-
-	sudo systemctl restart celerybeat-uat.service
-	sudo systemctl restart celerybeat.service
+	sudo systemctl enable celery.uat.service
+	sudo systemctl enable celery.live.service
+	sudo systemctl start celery.uat.service
+	sudo systemctl start celery.live.service
