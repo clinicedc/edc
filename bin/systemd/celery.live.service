@@ -1,0 +1,15 @@
+[Unit]
+Description=Celery Service
+After=network.target
+
+[Service]
+Type=forking
+User=celery
+Group=celery
+EnvironmentFile=/etc/conf.d/celery.live.conf
+WorkingDirectory=/home/live/app/
+ExecStart=/bin/sh -c '${CELERY_BIN} -A ${CELERY_APP} multi start ${CELERYD_NODES} --pidfile=${CELERYD_PID_FILE} --logfile=${CELERYD_LOG_FILE} --loglevel=INFO ${CELERYD_OPTS}'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
