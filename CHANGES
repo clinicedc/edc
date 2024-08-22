@@ -3,6 +3,12 @@ Changes
 
 0.5.62
 ------
+- refactor get_crf (edc-pdutils)
+- add method to safely render change list note (edc-model-admin)
+- exclude listfilter of nbote column not used (edc-qareports)
+
+0.5.62
+------
 - add fbg and ogtt list filters (edc-glucose)
 - check for empty column before using .dt accessor (edc-pdutils)
 
