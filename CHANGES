@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.5.62
+------
+- add fbg and ogtt list filters (edc-glucose)
+- check for empty column before using .dt accessor (edc-pdutils)
+
 0.5.61
 ------
 - add default index to QAReportsModelMixn (edc-qareports)
