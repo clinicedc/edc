@@ -1,6 +1,13 @@
 Changes
 -------
 
+0.5.64
+------
+- remove deprecated linked-based navbar logout item in favor
+  of logout form (edc-navbar)
+- remove deprecated linked-based logout on admin template
+  logout button in favor of a logout form (edc-model-admin)
+
 0.5.63
 ------
 - move NoteModelAdmin code to a modeladmin mixin (edc-qareports)
