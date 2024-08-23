@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.63
+------
+- move NoteModelAdmin code to a modeladmin mixin (edc-qareports)
+- use get_status_display to render status column correctly in
+  Admin (edc-qareports)
+
 0.5.62
 ------
 - refactor get_crf (edc-pdutils)
