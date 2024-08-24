@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.5.65
+------
+- add classes/funcs to generate SQL for view_definitions.
+  Add model/admin mixins for OnStudyMissingValues report
+  (edc-qareports)
+
 0.5.64
 ------
 - remove deprecated linked-based navbar logout item in favor
