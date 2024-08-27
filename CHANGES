@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.6.7
+-----
+- use class QaCase instead of dict (edc-qareports)
+
+0.5.66 - 0.6.6
+--------------
+- imporvements to edc-qareports
+
 0.5.65
 ------
 - add classes/funcs to generate SQL for view_definitions.
