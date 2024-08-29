@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.6.10
+------
+- fix list_display type when concatenating for column order
+  (edc-sites)
+
 0.6.9
 -----
 - bump edc-lab-panel
@@ -22,7 +27,7 @@ Changes
 
 0.5.66 - 0.6.6
 --------------
-- imporvements to edc-qareports
+- improvements to edc-qareports
 
 0.5.65
 ------
