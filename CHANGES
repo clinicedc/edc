@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.6.9
+-----
+- bump edc-lab-panel
+
 0.6.8
 -----
 - include site in list filter and list display if viewallsites
