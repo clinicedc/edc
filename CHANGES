@@ -1,6 +1,17 @@
 Changes
 -------
 
+0.6.8
+-----
+- include site in list filter and list display if viewallsites
+  perms (edc-sites)
+- add custom attr to set site column insert pos (edc-sites)
+- use constants for UTEST ids (edc-lab-panel)
+- rename attr for blood results lipid to blood results lipids
+  (edc-lab-results)
+- expand signature for get_eos (edc-pdutils)
+- refactor QaCase into CrfCase and RequisitionCase (edc-qareports)
+
 0.6.7
 -----
 - use class QaCase instead of dict (edc-qareports)
