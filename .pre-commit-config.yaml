@@ -30,17 +30,17 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
-      - id: requirements-txt-fixer
-        files: requirements/.*\.txt$
-      - id: trailing-whitespace
       - id: check-added-large-files
-      - id: fix-byte-order-marker
       - id: check-docstring-first
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
       - id: check-toml
       - id: debug-statements
       - id: detect-private-key
+      - id: fix-byte-order-marker
+      - id: requirements-txt-fixer
+        files: requirements/.*\.txt$
+      - id: trailing-whitespace
 
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.35.1
