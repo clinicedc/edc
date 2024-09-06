@@ -3,20 +3,20 @@ exclude: tests/etc/user-*
 
 repos:
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.8
+    rev: 1.7.9
     hooks:
       - id: bandit
         args:
           - "-x *test*.py"
 
   - repo: https://github.com/psf/black
-    rev: 24.2.0
+    rev: 24.8.0
     hooks:
       - id: black
         language_version: python3.12
 
   - repo: https://github.com/pycqa/flake8
-    rev: 7.0.0
+    rev: 7.1.1
     hooks:
       - id: flake8
         args:
@@ -28,21 +28,22 @@ repos:
       - id: isort
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
-      - id: requirements-txt-fixer
-        files: requirements/.*\.txt$
-      - id: trailing-whitespace
       - id: check-added-large-files
-      - id: fix-byte-order-marker
       - id: check-docstring-first
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
+      - id: check-toml
       - id: debug-statements
       - id: detect-private-key
+      - id: fix-byte-order-marker
+      - id: requirements-txt-fixer
+        files: requirements/.*\.txt$
+      - id: trailing-whitespace
 
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.34.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
         args:
