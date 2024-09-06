@@ -5,6 +5,27 @@ M2M Pivot Table in SQL
 Here is an example of how to pivot a CRF on a ManyToMany column. M2M uses an interim table to join the main table with the reference table. In our case
 the main table is a ``CRF``, the reference table is a ``List`` table.
 
+Our model class has two M2M fields:
+
+.. code-block:: python
+
+   abnormal_obs_left_foot = models.ManyToManyField(
+      "edc_mnsi.abnormalfootappearanceobservations",
+         related_name="+",
+         verbose_name=f"If NO, check all that apply to LEFT foot?",
+         blank=True,
+     )
+
+   abnormal_obs_right_foot = models.ManyToManyField(
+      "edc_mnsi.abnormalfootappearanceobservations",
+         related_name="+",
+         verbose_name=f"If NO, check all that apply to RIGHT foot?",
+         blank=True,
+     )
+
+
+An example of the complete model class may be found here: meta_subject_mnsi_. See also edc_mnsi_.
+
 The tables involved are:
 
 * meta_subject_mnsi (CRF)
@@ -72,12 +93,20 @@ In the case below, ``your_table`` is temp table created from a sub-query.
     DEALLOCATE PREPARE stmt;
     DROP table tmp_data;
 
-The result is output pivoted on ``obs_name``.
+The result is pivoted on ``obs_name``.
 
 .. code-block:: text
 
    | subject_identifier  visit_code  visit_code_sequence  callous_formation  deformity_amputation |
    +------------------+-----------+---------------------+------------------+----------------------+
-   | 105-20-0021-1     |  1000     |  0                  |  2               | 1                   |
+   | 105-20-0021-1    |  1000     |  0                  |  2               | 1                    |
+   +------------------+-----------+---------------------+------------------+----------------------+
+   | 105-20-0022-4    |  1000     |  0                  |  1               | 0                    |
+   +------------------+-----------+---------------------+------------------+----------------------+
+   | 105-20-0023-2    |  1000     |  0                  |  0               | 0                    |
    +------------------+-----------+---------------------+------------------+----------------------+
     etc ...
+
+
+.. _meta_subject_mnsi: https://github.com/meta-trial/meta-edc/blob/develop/meta_subject/models/mnsi.py
+.. _edc_mnsi: https://github.com/clinicedc/edc-mnsi
