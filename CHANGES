@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.6.11
+------
+- update change_button template (edc-qareports)
+- add index to Rx model (edc-pharmacy)
+
 0.6.10
 ------
 - fix list_display type when concatenating for column order
