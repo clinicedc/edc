@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.6.12
+------
+- add requisition_id_field attr to RequisitionCase (edc-qareports)
+
 0.6.11
 ------
 - update change_button template (edc-qareports)
