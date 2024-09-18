@@ -1,6 +1,10 @@
 Changes
 -------
 
+unreleased
+------
+- minor refactor, update exception text (edc-consent)
+
 0.6.12
 ------
 - add requisition_id_field attr to RequisitionCase (edc-qareports)
