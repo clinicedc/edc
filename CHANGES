@@ -4,6 +4,9 @@ Changes
 unreleased
 ------
 - minor refactor, update exception text (edc-consent)
+- fix CRP units/normal ranges (edc-lab-results, edc-reportable)
+- fix sodium normal ranges (edc-reportable)
+- NOTE: edc-reportable pinned @ 2c8ad372
 
 0.6.12
 ------
