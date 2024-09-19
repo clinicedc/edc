@@ -1,7 +1,7 @@
 Changes
 -------
 
-unreleased
+0.6.13
 ------
 - minor refactor, update exception text (edc-consent)
 - fix CRP units/normal ranges (edc-lab-results, edc-reportable)
