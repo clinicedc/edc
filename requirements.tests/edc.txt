@@ -68,7 +68,7 @@ edc-qol
 edc-randomization
 edc-refusal
 edc-registration
-edc-reportable
+edc-reportable @ git+https://github.com/clinicedc/edc-reportable@2c8ad372bb2296262d026c9527141da2768dfc87
 edc-review-dashboard
 edc-rx
 edc-screening
