@@ -1,6 +1,22 @@
 Changes
 -------
 
+0.6.14
+------
+- improve date handling in dataframes (edc-pdutils, edc-analytics)
+- add model method to manually recreate views for unmanaged model
+  using DBView mixin (edc-qareports)
+
+0.6.13
+------
+- minor refactor, update exception text (edc-consent)
+- fix CRP units/normal ranges (edc-lab-results, edc-reportable)
+- fix sodium normal ranges (edc-reportable)
+
+0.6.12
+------
+- add requisition_id_field attr to RequisitionCase (edc-qareports)
+
 0.6.11
 ------
 - update change_button template (edc-qareports)
