@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.6.14
+------
+- improve date handling in dataframes (edc-pdutils, edc-analytics)
+- add model method to manually recreate views for unmanaged model
+  using DBView mixin (edc-qareports)
+
 0.6.13
 ------
 - minor refactor, update exception text (edc-consent)
