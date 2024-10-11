@@ -144,6 +144,7 @@ For further information go to https://github.com/erikvw.
 =========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
+edc-analytics_                                            |pypi-edc-analytics|
 edc-appconfig_              |edc-appconfig|               |pypi-edc-appconfig|
 edc-appointment_            |edc-appointment|             |pypi-edc-appointment|
 edc-auth_                   |edc-auth|                    |pypi-edc-auth|
@@ -242,6 +243,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-action-item: https://github.com/clinicedc/edc-action-item
 .. _edc-adherence: https://github.com/clinicedc/edc-adherence
 .. _edc-adverse-event: https://github.com/clinicedc/edc-adverse-event
+.. _edc-analytics: https://github.com/clinicedc/edc-analytics
 .. _edc-appointment: https://github.com/clinicedc/edc-appointment
 .. _edc-appconfig: https://github.com/clinicedc/edc-appconfig
 .. _edc-auth: https://github.com/clinicedc/edc-auth
@@ -474,6 +476,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-adherence
 .. |pypi-edc-adverse-event| image:: https://img.shields.io/pypi/v/edc-adverse-event.svg
     :target: https://pypi.python.org/pypi/edc-adverse-event
+.. |pypi-edc-analytics| image:: https://img.shields.io/pypi/v/edc-analytics.svg
+    :target: https://pypi.python.org/pypi/edc-analytics
 .. |pypi-edc-appointment| image:: https://img.shields.io/pypi/v/edc-appointment.svg
     :target: https://pypi.python.org/pypi/edc-appointment
 .. |pypi-edc-appconfig| image:: https://img.shields.io/pypi/v/edc-appconfig.svg
