@@ -1,6 +1,14 @@
 Changes
 -------
 
+unreleased
+----------
+- require `edc-pylabels` as an app that integrates django-pylabels
+  into the edc (edc)
+- refactor and add new stock management models and functionality
+  (edc-pharmacy)
+- remove from administration page (edc-crf, edc-offstudy)
+
 0.6.14
 ------
 - improve date handling in dataframes (edc-pdutils, edc-analytics)
