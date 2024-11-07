@@ -1,4 +1,3 @@
-arrow
 celery
 django-celery-beat
 django-celery-results
@@ -9,9 +8,7 @@ django-simple-history
 django-storages
 django_extensions
 django_db_views
-inflect
 fontawesomefree
-mempass
 python-dateutil
 reportlab
 tqdm

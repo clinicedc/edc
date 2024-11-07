@@ -1,10 +1,8 @@
 # install editable repos
 pip install argon2-cffi
-pip install arrow
 pip install boto3
 pip install celery
 pip install gunicorn
-pip install inflect
 pip install mysqlclient
 pip install pyrabbit
 pip install python-dateutil
