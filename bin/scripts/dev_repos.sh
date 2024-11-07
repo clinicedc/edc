@@ -12,8 +12,6 @@ pip install tqdm
 pip install django-environ
 pip install django-redis
 pip install django-audit-fields
-pip install django-celery-beat
-pip install django-celery-results
 pip install django-crypto-fields
 pip install django-defender
 pip install django-extensions

@@ -1,6 +1,4 @@
 celery
-django-celery-beat
-django-celery-results
 django-defender
 django-logentry-admin
 django-multisite2
