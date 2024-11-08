@@ -1,3 +1,4 @@
+# Third party packages
 django-environ
 django-pandas
 django-storages
@@ -6,11 +7,15 @@ bs4
 mysqlclient
 django-logentry-admin
 django-simple-history
+django_db_views
+
+# https://github.com/erikvw packages
 django-audit-fields
 django-crypto-fields
-django-revision
 django-multisite2
-django_db_views
+django-revision
+
+# https://github.com/clinicedc/ packages
 edc-action-item
 edc-adherence
 edc-adverse-event
