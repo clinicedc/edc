@@ -1,13 +1,17 @@
-https://github.com/erikvw/canned-views/tarball/develop
+# Packages from: https://github.com/erikvw
 https://github.com/erikvw/django-audit-fields/tarball/develop
 https://github.com/erikvw/django-crypto-fields/tarball/develop
+https://github.com/erikvw/django-multisite2/tarball/develop
+https://github.com/erikvw/django-pylabels/tarball/develop
 https://github.com/erikvw/django-revision/tarball/develop
+
+# Packages from: https://github.com/clinicedc
 https://github.com/clinicedc/edc-action-item/tarball/develop
 https://github.com/clinicedc/edc-adherence/tarball/develop
 https://github.com/clinicedc/edc-adverse-event/tarball/develop
+https://github.com/clinicedc/edc-appconfig/tarball/develop
 https://github.com/clinicedc/edc-appointment/tarball/develop
 https://github.com/clinicedc/edc-auth/tarball/develop
-https://github.com/clinicedc/edc-appconfig/tarball/develop
 https://github.com/clinicedc/edc-consent/tarball/develop
 https://github.com/clinicedc/edc-constants/tarball/develop
 https://github.com/clinicedc/edc-crf/tarball/develop
