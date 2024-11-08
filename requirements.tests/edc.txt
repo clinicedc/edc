@@ -13,12 +13,14 @@ django_db_views
 django-audit-fields
 django-crypto-fields
 django-multisite2
+django-pylabels
 django-revision
 
 # https://github.com/clinicedc/ packages
 edc-action-item
 edc-adherence
 edc-adverse-event
+edc-analytics
 edc-appconfig
 edc-appointment
 edc-auth
