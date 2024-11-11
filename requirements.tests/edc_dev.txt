@@ -2,7 +2,6 @@
 https://github.com/erikvw/django-audit-fields/tarball/develop
 https://github.com/erikvw/django-crypto-fields/tarball/develop
 https://github.com/erikvw/django-multisite2/tarball/develop
-https://github.com/erikvw/django-pylabels/tarball/develop
 https://github.com/erikvw/django-revision/tarball/develop
 
 # Packages from: https://github.com/clinicedc
@@ -59,7 +58,6 @@ https://github.com/clinicedc/edc-pharmacy-dashboard/tarball/develop
 https://github.com/clinicedc/edc-prn/tarball/develop
 https://github.com/clinicedc/edc-protocol/tarball/develop
 https://github.com/clinicedc/edc-protocol-incident/tarball/develop
-https://github.com/clinicedc/edc-pylabels/tarball/develop
 https://github.com/clinicedc/edc-qareports/tarball/develop
 https://github.com/clinicedc/edc-qol/tarball/develop
 https://github.com/clinicedc/edc-randomization/tarball/develop
@@ -79,3 +77,8 @@ https://github.com/clinicedc/edc-utils/tarball/develop
 https://github.com/clinicedc/edc-visit-schedule/tarball/develop
 https://github.com/clinicedc/edc-visit-tracking/tarball/develop
 https://github.com/clinicedc/edc-vitals/tarball/develop
+
+# Packages from: https://github.com/clinicedc (contrib)
+https://github.com/clinicedc/edc-csf/tarball/develop
+https://github.com/clinicedc/edc-microbiology/tarball/develop
+https://github.com/clinicedc/edc-microscopy/tarball/develop

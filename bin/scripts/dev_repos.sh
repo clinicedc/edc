@@ -5,7 +5,6 @@ pip install -r https://raw.githubusercontent.com/clinicedc/edc/develop/requireme
 pip install -e ../django-audit-fields
 pip install -e ../django-crypto-fields
 pip install -e ../django-multisite2
-pip install -e ../django-pylabels
 pip install -e ../django-revision
 
 # Install packages from: https://github.com/clinicedc as editable
@@ -62,7 +61,6 @@ pip install -e ../edc-pharmacy-dashboard
 pip install -e ../edc-prn
 pip install -e ../edc-protocol
 pip install -e ../edc-protocol-incident
-pip install -e ../edc-pylabels
 pip install -e ../edc-qareports
 pip install -e ../edc-qol
 pip install -e ../edc-randomization
@@ -82,3 +80,8 @@ pip install -e ../edc-utils
 pip install -e ../edc-visit-schedule
 pip install -e ../edc-visit-tracking
 pip install -e ../edc-vitals
+
+# Install packages from: https://github.com/clinicedc (contrib) as editable
+pip install -e ../edc-csf
+pip install -e ../edc-microbiology
+pip install -e ../edc-microscopy
