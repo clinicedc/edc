@@ -1,19 +1,17 @@
-django-environ
-django-pandas
-django-storages
-fontawesomefree
-bs4
-mysqlclient
-django-logentry-admin
-django-simple-history
+# Third party packages
+-r ./third_party_dev.txt
+
+# Packages from: https://github.com/erikvw
 django-audit-fields
 django-crypto-fields
-django-revision
 django-multisite2
-django_db_views
+django-revision
+
+# Packages from: https://github.com/clinicedc
 edc-action-item
 edc-adherence
 edc-adverse-event
+edc-analytics
 edc-appconfig
 edc-appointment
 edc-auth
@@ -63,7 +61,6 @@ edc-pharmacy-dashboard
 edc-prn
 edc-protocol
 edc-protocol-incident
-edc-pylabels
 edc-qareports
 edc-qol
 edc-randomization
