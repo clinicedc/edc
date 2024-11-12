@@ -2,11 +2,9 @@
 argon2-cffi
 beautifulsoup4
 boto3
-celery
 django-db-views
 django-defender
 django-environ
-django-extensions
 django-logentry-admin
 django-pandas
 django-redis
@@ -15,10 +13,5 @@ django-storages
 djangorestframework
 fontawesomefree
 gunicorn
-mysqlclient
-pycups
 pyrabbit
-python-dateutil
 python-memcached
-reportlab
-tqdm
