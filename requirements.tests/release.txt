@@ -1,0 +1,5 @@
+# Packages required to cut releases
+build
+setuptools
+setuptools_scm
+twine

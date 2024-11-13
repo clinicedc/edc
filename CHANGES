@@ -8,6 +8,7 @@ unreleased
 - refactor and add new stock management models and functionality
   (edc-pharmacy)
 - remove from administration page (edc-crf, edc-offstudy)
+- add release.txt requirements file
 
 0.6.14
 ------
