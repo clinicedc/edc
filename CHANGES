@@ -12,7 +12,8 @@ unreleased
     - align requirements.tests (and dev_repos.sh) files with setup.cfg
     - add script update_reqs_from_setup.py to align files in future
     - add release.txt requirements file
-    - add third party package dependencies (edc-pdf-reports)
+    - add third party package dependencies
+      (edc-form-runners, edc-pdf-reports)
 
 0.6.14
 ------
