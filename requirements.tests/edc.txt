@@ -80,6 +80,7 @@ edc-timepoint
 edc-transfer
 edc-unblinding
 edc-utils
+edc-view-utils
 edc-visit-schedule
 edc-visit-tracking
 edc-vitals
