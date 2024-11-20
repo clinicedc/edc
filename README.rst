@@ -212,6 +212,7 @@ edc-timepoint_              |edc-timepoint|               |pypi-edc-timepoint|
 edc-transfer_               |edc-transfer|                |pypi-edc-transfer|
 edc-unblinding_             |edc-unblinding|              |pypi-edc-unblinding|
 edc-utils_                  |edc-utils|                   |pypi-edc-utils|
+edc-view-utils_             |edc-view-utils|              |pypi-edc-view-utils|
 edc-visit-schedule_         |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking_         |edc-visit-tracking|          |pypi-edc-visit-tracking|
 edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
@@ -313,6 +314,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-transfer: https://github.com/clinicedc/edc-transfer
 .. _edc-unblinding: https://github.com/clinicedc/edc-unblinding
 .. _edc-utils: https://github.com/clinicedc/edc-utils
+.. _edc-view-utils: https://github.com/clinicedc/edc-view-utils
 .. _edc-visit-schedule: https://github.com/clinicedc/edc-visit-schedule
 .. _edc-visit-tracking: https://github.com/clinicedc/edc-visit-tracking
 .. _edc-vitals: https://github.com/clinicedc/edc-vitals
@@ -463,6 +465,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-unblinding/actions/workflows/build.yml
 .. |edc-utils| image:: https://github.com/clinicedc/edc-utils/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-utils/actions/workflows/build.yml
+.. |edc-view-utils| image:: https://github.com/clinicedc/edc-view-utils/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-view-utils/actions/workflows/build.yml
 .. |edc-visit-schedule| image:: https://github.com/clinicedc/edc-visit-schedule/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-visit-schedule/actions/workflows/build.yml
 .. |edc-visit-tracking| image:: https://github.com/clinicedc/edc-visit-tracking/actions/workflows/build.yml/badge.svg
@@ -616,6 +620,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-unblinding
 .. |pypi-edc-utils| image:: https://img.shields.io/pypi/v/edc-utils.svg
     :target: https://pypi.python.org/pypi/edc-utils
+.. |pypi-edc-view-utils| image:: https://img.shields.io/pypi/v/edc-view-utils.svg
+    :target: https://pypi.python.org/pypi/edc-view-utils
 .. |pypi-edc-visit-schedule| image:: https://img.shields.io/pypi/v/edc-visit-schedule.svg
     :target: https://pypi.python.org/pypi/edc-visit-schedule
 .. |pypi-edc-visit-tracking| image:: https://img.shields.io/pypi/v/edc-visit-tracking.svg
