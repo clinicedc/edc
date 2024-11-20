@@ -77,6 +77,7 @@ pip install -e ../edc-timepoint
 pip install -e ../edc-transfer
 pip install -e ../edc-unblinding
 pip install -e ../edc-utils
+pip install -e ../edc-view-utils
 pip install -e ../edc-visit-schedule
 pip install -e ../edc-visit-tracking
 pip install -e ../edc-vitals
