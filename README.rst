@@ -616,7 +616,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-timepoint
 .. |pypi-edc-transfer| image:: https://img.shields.io/pypi/v/edc-transfer.svg
     :target: https://pypi.python.org/pypi/edc-transfer
-.. |pypi-edc-unblinding| image:: https://img.shields.io/pypi/v/edc-utils.svg
+.. |pypi-edc-unblinding| image:: https://img.shields.io/pypi/v/edc-unblinding.svg
     :target: https://pypi.python.org/pypi/edc-unblinding
 .. |pypi-edc-utils| image:: https://img.shields.io/pypi/v/edc-utils.svg
     :target: https://pypi.python.org/pypi/edc-utils
