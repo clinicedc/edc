@@ -1,13 +1,17 @@
-https://github.com/erikvw/canned-views/tarball/develop
+# Packages from: https://github.com/erikvw
 https://github.com/erikvw/django-audit-fields/tarball/develop
 https://github.com/erikvw/django-crypto-fields/tarball/develop
+https://github.com/erikvw/django-multisite2/tarball/develop
 https://github.com/erikvw/django-revision/tarball/develop
+
+# Packages from: https://github.com/clinicedc
 https://github.com/clinicedc/edc-action-item/tarball/develop
 https://github.com/clinicedc/edc-adherence/tarball/develop
 https://github.com/clinicedc/edc-adverse-event/tarball/develop
+https://github.com/clinicedc/edc-analytics/tarball/develop
+https://github.com/clinicedc/edc-appconfig/tarball/develop
 https://github.com/clinicedc/edc-appointment/tarball/develop
 https://github.com/clinicedc/edc-auth/tarball/develop
-https://github.com/clinicedc/edc-appconfig/tarball/develop
 https://github.com/clinicedc/edc-consent/tarball/develop
 https://github.com/clinicedc/edc-constants/tarball/develop
 https://github.com/clinicedc/edc-crf/tarball/develop
@@ -26,6 +30,7 @@ https://github.com/clinicedc/edc-form-label/tarball/develop
 https://github.com/clinicedc/edc-form-runners/tarball/develop
 https://github.com/clinicedc/edc-form-validators/tarball/develop
 https://github.com/clinicedc/edc-glucose/tarball/develop
+https://github.com/clinicedc/edc-he/tarball/develop
 https://github.com/clinicedc/edc-identifier/tarball/develop
 https://github.com/clinicedc/edc-lab/tarball/develop
 https://github.com/clinicedc/edc-lab-dashboard/tarball/develop
@@ -33,14 +38,17 @@ https://github.com/clinicedc/edc-lab-panel/tarball/develop
 https://github.com/clinicedc/edc-lab-results/tarball/develop
 https://github.com/clinicedc/edc-label/tarball/develop
 https://github.com/clinicedc/edc-list-data/tarball/develop
+https://github.com/clinicedc/edc-listboard/tarball/develop
 https://github.com/clinicedc/edc-locator/tarball/develop
 https://github.com/clinicedc/edc-ltfu/tarball/develop
 https://github.com/clinicedc/edc-metadata/tarball/develop
+https://github.com/clinicedc/edc-mnsi/tarball/develop
 https://github.com/clinicedc/edc-model/tarball/develop
 https://github.com/clinicedc/edc-model-admin/tarball/develop
 https://github.com/clinicedc/edc-model-fields/tarball/develop
 https://github.com/clinicedc/edc-model-form/tarball/develop
 https://github.com/clinicedc/edc-navbar/tarball/develop
+https://github.com/clinicedc/edc-next-appointment/tarball/develop
 https://github.com/clinicedc/edc-notification/tarball/develop
 https://github.com/clinicedc/edc-offstudy/tarball/develop
 https://github.com/clinicedc/edc-pdf-reports/tarball/develop
@@ -50,11 +58,14 @@ https://github.com/clinicedc/edc-pharmacy-dashboard/tarball/develop
 https://github.com/clinicedc/edc-prn/tarball/develop
 https://github.com/clinicedc/edc-protocol/tarball/develop
 https://github.com/clinicedc/edc-protocol-incident/tarball/develop
+https://github.com/clinicedc/edc-qareports/tarball/develop
+https://github.com/clinicedc/edc-qol/tarball/develop
 https://github.com/clinicedc/edc-randomization/tarball/develop
 https://github.com/clinicedc/edc-refusal/tarball/develop
 https://github.com/clinicedc/edc-registration/tarball/develop
 https://github.com/clinicedc/edc-reportable/tarball/develop
 https://github.com/clinicedc/edc-review-dashboard/tarball/develop
+https://github.com/clinicedc/edc-rx/tarball/develop
 https://github.com/clinicedc/edc-screening/tarball/develop
 https://github.com/clinicedc/edc-search/tarball/develop
 https://github.com/clinicedc/edc-sites/tarball/develop
@@ -63,6 +74,12 @@ https://github.com/clinicedc/edc-timepoint/tarball/develop
 https://github.com/clinicedc/edc-transfer/tarball/develop
 https://github.com/clinicedc/edc-unblinding/tarball/develop
 https://github.com/clinicedc/edc-utils/tarball/develop
+https://github.com/clinicedc/edc-view-utils/tarball/develop
 https://github.com/clinicedc/edc-visit-schedule/tarball/develop
 https://github.com/clinicedc/edc-visit-tracking/tarball/develop
 https://github.com/clinicedc/edc-vitals/tarball/develop
+
+# Packages from: https://github.com/clinicedc (contrib)
+https://github.com/clinicedc/edc-csf/tarball/develop
+https://github.com/clinicedc/edc-microbiology/tarball/develop
+https://github.com/clinicedc/edc-microscopy/tarball/develop
