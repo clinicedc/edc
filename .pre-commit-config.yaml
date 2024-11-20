@@ -35,8 +35,10 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
       - id: check-toml
+      - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
+      - id: end-of-file-fixer
       - id: fix-byte-order-marker
       - id: requirements-txt-fixer
         files: requirements/.*\.txt$

@@ -47,4 +47,3 @@ Add an IP addressable remote printer
 ``REMOTE_IP_ADDRESS``: IP of remote printer
 
 	lpadmin -p PRINTER_NAME -E -v ipp://REMOTE_IP_ADDRESS/ipp/print -m everywhere
-

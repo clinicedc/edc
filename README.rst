@@ -143,6 +143,7 @@ For further information go to https://github.com/erikvw.
 
 =========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
+edc-adherence_              |edc-adherence|               |pypi-edc-adherence|
 edc-adverse-event_          |edc-adverse-event|           |pypi-edc-adverse-event|
 edc-analytics_                                            |pypi-edc-analytics|
 edc-appconfig_              |edc-appconfig|               |pypi-edc-appconfig|
@@ -155,6 +156,8 @@ edc-dashboard_              |edc-dashboard|               |pypi-edc-dashboard|
 edc-data-manager_           |edc-data-manager|            |pypi-edc-data-manager|
 edc-device_                 |edc-device|                  |pypi-edc-device|
 edc-document-status_        |edc-document-status|         |pypi-edc-document-status|
+edc-dx_                     |edc-dx|                      |pypi-edc-dx|
+edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
 edc-egfr_                   |edc-egfr|                    |pypi-edc-egfr|
 edc-export_                 |edc-export|                  |pypi-edc-export|
 edc-facility_               |edc-facility|                |pypi-edc-facility|
@@ -163,6 +166,8 @@ edc-form-describer_         |edc-form-describer|          |pypi-edc-form-describ
 edc-form-label_             |edc-form-label|              |pypi-edc-form-label|
 edc-form-runners_           |edc-form-runners|            |pypi-edc-form-runners|
 edc-form-validators_        |edc-form-validators|         |pypi-edc-form-validators|
+edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
+edc-he_                     |edc-he|                      |pypi-edc-he|
 edc-identifier_             |edc-identifier|              |pypi-edc-identifier|
 edc-lab_                    |edc-lab|                     |pypi-edc-lab|
 edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
@@ -174,6 +179,7 @@ edc-listboard_              |edc-listboard|               |pypi-edc-listboard|
 edc-locator_                |edc-locator|                 |pypi-edc-locator|
 edc-ltfu_                   |edc-ltfu|                    |pypi-edc-ltfu|
 edc-metadata_               |edc-metadata|                |pypi-edc-metadata|
+edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|
 edc-model_                  |edc-model|                   |pypi-edc-model|
 edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|
 edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|
@@ -184,15 +190,19 @@ edc-notification_           |edc-notification|            |pypi-edc-notification
 edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|
 edc-pdf-reports_            |edc-pdf-reports|             |pypi-edc-pdf-reports|
 edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
+edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
+edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
 edc-prn_                    |edc-prn|                     |pypi-edc-prn|
 edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
 edc-protocol-incident_      |edc-protocol-incident|       |pypi-edc-protocol-incident|
 edc-qareports_              |edc-qareports|               |pypi-edc-qareports|
+edc-qol_                    |edc-qol|                     |pypi-edc-qol|
 edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
 edc-refusal_                |edc-refusal|                 |pypi-edc-refusal|
 edc-registration_           |edc-registration|            |pypi-edc-registration|
 edc-reportable_             |edc-reportable|              |pypi-edc-reportable|
 edc-review-dashboard_       |edc-review-dashboard|        |pypi-edc-review-dashboard|
+edc-rx_                     |edc-rx|                      |pypi-edc-rx|
 edc-screening_              |edc-screening|               |pypi-edc-screening|
 edc-search_                 |edc-search|                  |pypi-edc-search|
 edc-sites_                  |edc-sites|                   |pypi-edc-sites|
@@ -204,6 +214,7 @@ edc-unblinding_             |edc-unblinding|              |pypi-edc-unblinding|
 edc-utils_                  |edc-utils|                   |pypi-edc-utils|
 edc-visit-schedule_         |edc-visit-schedule|          |pypi-edc-visit-schedule|
 edc-visit-tracking_         |edc-visit-tracking|          |pypi-edc-visit-tracking|
+edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
 =========================== ============================= ==================================
 
 
@@ -211,20 +222,9 @@ Contrib
 -------
 
 ========================== ============================== ==================================
-edc-adherence_              |edc-adherence|               |pypi-edc-adherence|
 edc-csf_                    |edc-csf|                     |pypi-edc-csf|
-edc-dx_                     |edc-dx|                      |pypi-edc-dx|
-edc-dx-review_              |edc-dx-review|               |pypi-edc-dx-review|
-edc-glucose_                |edc-glucose|                 |pypi-edc-glucose|
-edc-he_                     |edc-he|                      |pypi-edc-he|
-edc-mnsi_                   |edc-mnsi|                    |pypi-edc-mnsi|
 edc-microbiology_           |edc-microbiology|            |pypi-edc-microbiology|
 edc-microscopy_             |edc-microscopy|              |pypi-edc-microscopy|
-edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
-edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
-edc-qol_                    |edc-qol|                     |pypi-edc-qol|
-edc-rx_                     |edc-rx|                      |pypi-edc-rx|
-edc-vitals_                 |edc-vitals|                  |pypi-edc-vitals|
 ========================== ============================== ==================================
 
 Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-brains|
