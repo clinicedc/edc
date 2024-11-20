@@ -191,10 +191,10 @@ edc-offstudy_               |edc-offstudy|                |pypi-edc-offstudy|
 edc-pdf-reports_            |edc-pdf-reports|             |pypi-edc-pdf-reports|
 edc-pdutils_                |edc-pdutils|                 |pypi-edc-pdutils|
 edc-pharmacy_               |edc-pharmacy|                |pypi-edc-pharmacy|
-edc-pharmacy-dashboard_     |edc-pharmacy-dashboard|      |pypi-edc-pharmacy-dashboard|
 edc-prn_                    |edc-prn|                     |pypi-edc-prn|
 edc-protocol_               |edc-protocol|                |pypi-edc-protocol|
 edc-protocol-incident_      |edc-protocol-incident|       |pypi-edc-protocol-incident|
+edc-pylabels_               |edc-pylabels|                |pypi-edc-pylabels|
 edc-qareports_              |edc-qareports|               |pypi-edc-qareports|
 edc-qol_                    |edc-qol|                     |pypi-edc-qol|
 edc-randomization_          |edc-randomization|           |pypi-edc-randomization|
@@ -292,10 +292,10 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-offstudy: https://github.com/clinicedc/edc-offstudy
 .. _edc-pdutils: https://github.com/clinicedc/edc-pdutils
 .. _edc-pharmacy: https://github.com/clinicedc/edc-pharmacy
-.. _edc-pharmacy-dashboard: https://github.com/clinicedc/edc-pharmacy-dashboard
 .. _edc-prn: https://github.com/clinicedc/edc-prn
 .. _edc-protocol: https://github.com/clinicedc/edc-protocol
 .. _edc-protocol-incident: https://github.com/clinicedc/edc-protocol-incident
+.. _edc-pylabels: https://github.com/clinicedc/edc-pylabels
 .. _edc-qareports: https://github.com/clinicedc/edc-qareports
 .. _edc-qol: https://github.com/clinicedc/edc-qol
 .. _edc-randomization: https://github.com/clinicedc/edc-randomization
@@ -421,14 +421,14 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-pdutils/actions/workflows/build.yml
 .. |edc-pharmacy| image:: https://github.com/clinicedc/edc-pharmacy/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-pharmacy/actions/workflows/build.yml
-.. |edc-pharmacy-dashboard| image:: https://github.com/clinicedc/edc-pharmacy-dashboard/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-pharmacy-dashboard/actions/workflows/build.yml
 .. |edc-prn| image:: https://github.com/clinicedc/edc-prn/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-prn/actions/workflows/build.yml
 .. |edc-protocol| image:: https://github.com/clinicedc/edc-protocol/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-protocol/actions/workflows/build.yml
 .. |edc-protocol-incident| image:: https://github.com/clinicedc/edc-protocol-incident/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-protocol-incident/actions/workflows/build.yml
+.. |edc-pylabels| image:: https://github.com/clinicedc/edc-pylabels/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-pylabels/actions/workflows/build.yml
 .. |edc-randomization| image:: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-randomization/actions/workflows/build.yml
 .. |edc-refusal| image:: https://github.com/clinicedc/edc-refusal/actions/workflows/build.yml/badge.svg
@@ -584,6 +584,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-protocol
 .. |pypi-edc-protocol-incident| image:: https://img.shields.io/pypi/v/edc-protocol-incident.svg
     :target: https://pypi.python.org/pypi/edc-protocol-incident
+.. |pypi-edc-pylabels| image:: https://img.shields.io/pypi/v/edc-pylabels.svg
+    :target: https://pypi.python.org/pypi/edc-pylabels
 .. |pypi-edc-qol| image:: https://img.shields.io/pypi/v/edc-qol.svg
     :target: https://pypi.python.org/pypi/edc-qol
 .. |pypi-edc-randomization| image:: https://img.shields.io/pypi/v/edc-randomization.svg

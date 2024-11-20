@@ -1,14 +1,20 @@
 Changes
 -------
 
-unreleased
-----------
+0.6.15
+------
 - require `edc-pylabels` as an app that integrates django-pylabels
   into the edc (edc)
-- refactor and add new stock management models and functionality
+- refactor and add new stock management models, label printing,
+  document printing and functionality to follow chain-of-custody from
+  original IMP order to dispensing at site. This is a major update.
   (edc-pharmacy)
 - remove from administration page (edc-crf, edc-offstudy)
 - allow pad value to be passed as arg to to_file() (edc-form-describer)
+- move ModelButton dataclasses to edc-view-utils (edc-view-utils)
+- change screening_model attr on ConsentDefinition to accept a list
+  of model names for when screening uses proxy models
+  (edc-consent)
 - requirements:
     - align requirements.tests (and dev_repos.sh) files with setup.cfg
     - add script update_reqs_from_setup.py to align files in future
