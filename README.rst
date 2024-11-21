@@ -3,7 +3,7 @@
 clinicedc
 =========
 
-Here are a set of python modules that extend Django to empower you to build an EDC / eSource system to handle data
+`Here are a set of python modules that extend Django <https://github.com/clinicedc/edc>`__ to empower you to build an EDC / eSource system to handle data
 collection and management for multi-site longitudinal clinical trials.
 
 Refer to the specific open projects listed below for example EDC systems built with these modules.
