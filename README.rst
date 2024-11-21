@@ -576,8 +576,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-pdutils
 .. |pypi-edc-pharmacy| image:: https://img.shields.io/pypi/v/edc-pharmacy.svg
     :target: https://pypi.python.org/pypi/edc-pharmacy
-.. |pypi-edc-pharmacy-dashboard| image:: https://img.shields.io/pypi/v/edc-pharmacy-dashboard.svg
-    :target: https://pypi.python.org/pypi/edc-pharmacy-dashboard
 .. |pypi-edc-prn| image:: https://img.shields.io/pypi/v/edc-prn.svg
     :target: https://pypi.python.org/pypi/edc-prn
 .. |pypi-edc-protocol| image:: https://img.shields.io/pypi/v/edc-protocol.svg
