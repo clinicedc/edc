@@ -54,7 +54,6 @@ https://github.com/clinicedc/edc-offstudy/tarball/develop
 https://github.com/clinicedc/edc-pdf-reports/tarball/develop
 https://github.com/clinicedc/edc-pdutils/tarball/develop
 https://github.com/clinicedc/edc-pharmacy/tarball/develop
-https://github.com/clinicedc/edc-pharmacy-dashboard/tarball/develop
 https://github.com/clinicedc/edc-prn/tarball/develop
 https://github.com/clinicedc/edc-protocol/tarball/develop
 https://github.com/clinicedc/edc-protocol-incident/tarball/develop

@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.6.16
+------
+- separate site/central perms (edc-pharmacy)
+- add exception if raised when checking celery (edc-utils)
+
 0.6.15
 ------
 - require `edc-pylabels` as an app that integrates django-pylabels
