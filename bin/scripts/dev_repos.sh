@@ -60,6 +60,7 @@ pip install -e ../edc-pharmacy
 pip install -e ../edc-prn
 pip install -e ../edc-protocol
 pip install -e ../edc-protocol-incident
+pip install -e ../edc-pylabels
 pip install -e ../edc-qareports
 pip install -e ../edc-qol
 pip install -e ../edc-randomization
