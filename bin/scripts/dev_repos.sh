@@ -57,7 +57,6 @@ pip install -e ../edc-offstudy
 pip install -e ../edc-pdf-reports
 pip install -e ../edc-pdutils
 pip install -e ../edc-pharmacy
-pip install -e ../edc-pharmacy-dashboard
 pip install -e ../edc-prn
 pip install -e ../edc-protocol
 pip install -e ../edc-protocol-incident
