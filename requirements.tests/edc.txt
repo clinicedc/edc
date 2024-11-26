@@ -60,6 +60,7 @@ edc-pharmacy
 edc-prn
 edc-protocol
 edc-protocol-incident
+edc-pylabels
 edc-qareports
 edc-qol
 edc-randomization
