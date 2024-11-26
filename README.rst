@@ -24,9 +24,9 @@ three main chronic conditions -- HIV/DM/HTN.
 
 See also https://www.ucl.ac.uk/global-health/respond-africa
 
-The implementations we have developed are mostly eSource systems rather than the traditional EDCs.
+The implementations we develop with this framework are mostly eSource systems rather than the traditional EDCs.
 
-The ``clinicedc`` for each trial consists of a subset of trial-specific modules that reference this module.
+The ``clinicedc's`` listed below consist of a subset of trial-specific modules that make heavy use of modules in this framework.
 
 (python 3.12, Django 5.1.3, MySQL 8+, see setup.cfg)
 
