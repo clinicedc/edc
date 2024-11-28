@@ -1,6 +1,18 @@
 Changes
 -------
 
+0.6.19
+------
+- fix regression with pdf_report not having a default NumberedCanvas
+  (edc-pdf-report)
+- call func to get vars for get_context_data - easier to override in
+  tests (edc-sites)
+- update test settings (edc-device)
+
+0.6.18
+------
+- split perms in roles (edc-pharmacy)
+
 0.6.17
 ------
 - fix perms on pharmacy navbar in admin templates (edc-model-admin)
