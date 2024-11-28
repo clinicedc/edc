@@ -6,6 +6,9 @@ Changes
 - fix perms on pharmacy navbar in admin templates (edc-model-admin)
 - remove get_boostrap_ver for templates (edc-dashboard, edc-navbar)
 - add missing migrations (edc-pharmacy)
+- update test settings (edc-appointment, edc-adherence,
+  edc-appconfig, edc-dashboard, edc-navbar)
+
 
 0.6.16
 ------
