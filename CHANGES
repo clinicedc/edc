@@ -1,6 +1,11 @@
 Changes
 -------
 
+unreleased
+------
+- standardise new line insertion around docstrings and fix trailing
+  whitespace (edc-form-describer)
+
 0.6.19
 ------
 - fix regression with pdf_report not having a default NumberedCanvas
