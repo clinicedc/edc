@@ -1,7 +1,7 @@
 Changes
 -------
 
-unreleased
+0.6.20
 ------
 - standardise new line insertion around docstrings and fix trailing
   whitespace (edc-form-describer)
