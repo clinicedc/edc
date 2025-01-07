@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.6.21
+------
+- move truncate_string() to edc-utils (edc-utils, edc-qareports)
+
 0.6.20
 ------
 - standardise new line insertion around docstrings and fix trailing
