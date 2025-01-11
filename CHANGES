@@ -1,6 +1,23 @@
 Changes
 -------
 
+0.6.22
+------
+- add ConsentDefinitionExtension (edc-consent)
+- update to truncate subjects visit schedule based on consent
+  extension. (edc-appointment, edc-visit-schedule,
+  edc-visit-tracking, edc-metadata)
+
+0.6.21
+------
+- move truncate_string() to edc-utils (edc-utils, edc-qareports)
+
+0.6.20
+------
+- standardise new line insertion around docstrings and fix trailing
+  whitespace (edc-form-describer)
+- prevent 'Add/Change CRF' button wrapping on whitespace (edc-qareports)
+
 0.6.19
 ------
 - fix regression with pdf_report not having a default NumberedCanvas
