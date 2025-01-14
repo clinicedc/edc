@@ -1,6 +1,14 @@
 Changes
 -------
 
+0.6.24
+------
+- fix issue to ensure create appointments uses explicitly
+  passed site_id instead of current site_id
+  (edc_appointment, edc_visit_schedule, edc_sites,
+  edc-action-item)
+- fix tests
+
 0.6.23
 ------
 - fix tests (edc-metadata, edc-action-item)
