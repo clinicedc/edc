@@ -1,6 +1,11 @@
 Changes
 -------
 
+0.6.25
+------
+- move ReviewQuestions form clean field methods to mixin (edc-consent)
+- add missing migration (edc-visit-schedule)
+)
 0.6.24
 ------
 - fix issue to ensure create appointments uses explicitly
