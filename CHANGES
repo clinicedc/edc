@@ -1,6 +1,10 @@
 Changes
 -------
 
+0.6.26
+------
+- pass same params for site to create next action (edc-action-item)
+
 0.6.25
 ------
 - move ReviewQuestions form clean field methods to mixin (edc-consent)
