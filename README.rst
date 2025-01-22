@@ -1,4 +1,4 @@
-|pypi| |downloads| |black|
+|pypi| |downloads| |black| |django_packages|
 
 clinicedc -  A clinical trials data management framework
 ========================================================
@@ -637,3 +637,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
+
+.. |django_packages| image:: https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26
+    :target: https://djangopackages.org/packages/p/clinicedc/
