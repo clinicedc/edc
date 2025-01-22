@@ -1,6 +1,13 @@
 Changes
 -------
 
+1.0.0
+-----
+- update use of format_html for DJ6 (most modules)
+- remove all references in templates to `bootstrap3` folders
+  (most modules)
+- update test settings in modules still using old func_main
+
 0.6.26
 ------
 - pass same params for site to create next action (edc-action-item)
@@ -9,7 +16,7 @@ Changes
 ------
 - move ReviewQuestions form clean field methods to mixin (edc-consent)
 - add missing migration (edc-visit-schedule)
-)
+
 0.6.24
 ------
 - fix issue to ensure create appointments uses explicitly
