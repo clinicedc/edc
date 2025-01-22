@@ -28,7 +28,7 @@ The implementations we develop with this framework are mostly eSource systems ra
 
 The ``clinicedc's`` listed below consist of a subset of trial-specific modules that make heavy use of modules in this framework.
 
-(python 3.12, Django 5.1.5, MySQL 8+, see setup.cfg)
+(python 3.12, Django 5.1.3, MySQL 8+, see setup.cfg)
 
 
 How we describe the EDC in our protocol documents
