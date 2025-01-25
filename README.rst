@@ -1,4 +1,4 @@
-|pypi| |downloads| |black|
+|pypi| |downloads| |black| |django_packages|
 
 clinicedc -  A clinical trials data management framework
 ========================================================
@@ -174,7 +174,7 @@ edc-identifier_             |edc-identifier|              |pypi-edc-identifier|
 edc-lab_                    |edc-lab|                     |pypi-edc-lab|
 edc-lab-dashboard_          |edc-lab-dashboard|           |pypi-edc-lab-dashboard|
 edc-lab-panel_              |edc-lab-panel|               |pypi-edc-lab-panel|
-edc-lab-results_            |edc-lab-results|             |pypi-edc-lab-panel|
+edc-lab-results_            |edc-lab-results|             |pypi-edc-lab-results|
 edc-label_                  |edc-label|                   |pypi-edc-label|
 edc-list-data_              |edc-list-data|               |pypi-edc-list-data|
 edc-listboard_              |edc-listboard|               |pypi-edc-listboard|
@@ -333,8 +333,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-appconfig/actions/workflows/build.yml
 .. |edc-auth| image:: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-auth/actions/workflows/build.yml
-.. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml
 .. |edc-clinic| image:: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-clinic/actions/workflows/build.yml
 .. |edc-consent| image:: https://github.com/clinicedc/edc-consent/actions/workflows/build.yml/badge.svg
@@ -379,10 +377,12 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-identifier/actions/workflows/build.yml
 .. |edc-lab| image:: https://github.com/clinicedc/edc-lab/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-lab/actions/workflows/build.yml
-.. |edc-lab-panel| image:: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml/badge.svg
-  :target: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml
 .. |edc-lab-dashboard| image:: https://github.com/clinicedc/edc-lab-dashboard/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-lab-dashboard/actions/workflows/build.yml
+.. |edc-lab-panel| image:: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab-panel/actions/workflows/build.yml
+.. |edc-lab-results| image:: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-lab-results/actions/workflows/build.yml
 .. |edc-label| image:: https://github.com/clinicedc/edc-label/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-label/actions/workflows/build.yml
 .. |edc-list-data| image:: https://github.com/clinicedc/edc-list-data/actions/workflows/build.yml/badge.svg
@@ -536,10 +536,12 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-identifier
 .. |pypi-edc-lab| image:: https://img.shields.io/pypi/v/edc-lab.svg
     :target: https://pypi.python.org/pypi/edc-lab
-.. |pypi-edc-lab-panel| image:: https://img.shields.io/pypi/v/edc-lab-panel.svg
-    :target: https://pypi.python.org/pypi/edc-lab-panel
 .. |pypi-edc-lab-dashboard| image:: https://img.shields.io/pypi/v/edc-lab-dashboard.svg
     :target: https://pypi.python.org/pypi/edc-lab-dashboard
+.. |pypi-edc-lab-panel| image:: https://img.shields.io/pypi/v/edc-lab-panel.svg
+    :target: https://pypi.python.org/pypi/edc-lab-panel
+.. |pypi-edc-lab-results| image:: https://img.shields.io/pypi/v/edc-lab-results.svg
+    :target: https://pypi.python.org/pypi/edc-lab-results
 .. |pypi-edc-label| image:: https://img.shields.io/pypi/v/edc-label.svg
     :target: https://pypi.python.org/pypi/edc-label
 .. |pypi-edc-list-data| image:: https://img.shields.io/pypi/v/edc-list-data.svg
@@ -637,3 +639,6 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
+
+.. |django_packages| image:: https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26
+    :target: https://djangopackages.org/packages/p/clinicedc/

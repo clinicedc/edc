@@ -43,9 +43,9 @@ Independent monitoring will be conducted to maximise quality of data and adheren
 procedures. Monitors are granted access to the ``EDC`` by adding their personal ``EDC`` user account to the ``AUDITOR`` role. An
 auditor has view-only access to each subject's records and audit trail.
 
-For multi-site trials, the ``EDC`` will be configured to limit a user's access to data to that from their site only.
+For multi-site trials, the ``EDC`` will be configured to limit a user's access to data of the current site they are logged into. Users may be granted access to more than one research site but still can only see data for the current site. 
 
-The monitoring will adhere to Good Clinical Practice Guidelines (based on ``ICH`` guidelines). The
+Monitoring will adhere to Good Clinical Practice Guidelines (based on ``ICH`` guidelines). The
 following data should be verifiable from source documents: all signed consent forms; dates of
 visits including laboratory results; eligibility and baseline values for all study subjects; all clinical
 endpoints; all serious / severe adverse events; routine patient clinical and laboratory data;
@@ -59,6 +59,7 @@ user facing components is restricted to authorized users and permissions within 
 granted as needed per user account through groups and roles. All data are submitted and
 received over encrypted channels where sensitive data values are individually encrypted prior
 to submission and storage and decrypted only for use by the ``EDC``’s user facing components.
+
 Trial data are stored on cloud servers controlled by XXX, deployed with industry standard
 security (Firewall, private network access to the database, drive encryption, field-level database
 encryption, etc). With this approach, sensitive information is rendered unusable, unreadable, or

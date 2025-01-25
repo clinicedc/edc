@@ -1,6 +1,11 @@
 Changes
 -------
 
+1.0.1
+-----
+- fix issue with unscheduled appointments and visit code sequence
+  (edc_appointment)
+
 1.0.0
 -----
 - update use of format_html for DJ6 (most modules)
