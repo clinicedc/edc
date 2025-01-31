@@ -50,6 +50,7 @@ edc-model
 edc-model-admin
 edc-model-fields
 edc-model-form
+edc-model-to-dataframe
 edc-navbar
 edc-next-appointment
 edc-notification

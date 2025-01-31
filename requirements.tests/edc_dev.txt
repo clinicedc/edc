@@ -47,6 +47,7 @@ https://github.com/clinicedc/edc-model/tarball/develop
 https://github.com/clinicedc/edc-model-admin/tarball/develop
 https://github.com/clinicedc/edc-model-fields/tarball/develop
 https://github.com/clinicedc/edc-model-form/tarball/develop
+https://github.com/clinicedc/edc-model-to-dataframe/tarball/develop
 https://github.com/clinicedc/edc-navbar/tarball/develop
 https://github.com/clinicedc/edc-next-appointment/tarball/develop
 https://github.com/clinicedc/edc-notification/tarball/develop
