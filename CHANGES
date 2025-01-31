@@ -10,6 +10,11 @@ unreleased
   `edc_pdutils` to `edc-model-to-dataframe`.
   (edc-pdutils, edc-model-to-dataframe)
 
+1.0.3
+-----
+- add (optional) output to reset_visit_code_sequence_or_pass and enable
+  on management command (edc_appointment)
+
 1.0.2
 -----
 - remove reset_visit_code_sequence_for_subject from view mixin
