@@ -50,6 +50,7 @@ pip install -e ../edc-model
 pip install -e ../edc-model-admin
 pip install -e ../edc-model-fields
 pip install -e ../edc-model-form
+pip install -e ../edc-model-to-dataframe
 pip install -e ../edc-navbar
 pip install -e ../edc-next-appointment
 pip install -e ../edc-notification
