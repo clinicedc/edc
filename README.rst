@@ -186,6 +186,7 @@ edc-model_                  |edc-model|                   |pypi-edc-model|
 edc-model-admin_            |edc-model-admin|             |pypi-edc-model-admin|
 edc-model-fields_           |edc-model-fields|            |pypi-edc-model-fields|
 edc-model-form_             |edc-model-form|              |pypi-edc-model-form|
+edc-model-to-dataframe_     |edc-model-to-dataframe|      |pypi-edc-model-to-dataframe|
 edc-navbar_                 |edc-navbar|                  |pypi-edc-navbar|
 edc-next-appointment_       |edc-next-appointment|        |pypi-edc-next-appointment|
 edc-notification_           |edc-notification|            |pypi-edc-notification|
@@ -288,6 +289,7 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. _edc-model-admin: https://github.com/clinicedc/edc-model-admin
 .. _edc-model-fields: https://github.com/clinicedc/edc-model-fields
 .. _edc-model-form: https://github.com/clinicedc/edc-model-form
+.. _edc-model-to-dataframe: https://github.com/clinicedc/edc-model-to-dataframe
 .. _edc-navbar: https://github.com/clinicedc/edc-navbar
 .. _edc-next-appointment: https://github.com/clinicedc/edc-next-appointment
 .. _edc-notification: https://github.com/clinicedc/edc-notification
@@ -411,6 +413,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
   :target: https://github.com/clinicedc/edc-model-fields/actions/workflows/build.yml
 .. |edc-model-form| image:: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-model-form/actions/workflows/build.yml
+.. |edc-model-to-dataframe| image:: https://github.com/clinicedc/edc-model-to-dataframe/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-model-to-dataframe/actions/workflows/build.yml
 .. |edc-navbar| image:: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml/badge.svg
   :target: https://github.com/clinicedc/edc-navbar/actions/workflows/build.yml
 .. |edc-next-appointment| image:: https://github.com/clinicedc/edc-next-appointment/actions/workflows/build.yml/badge.svg
@@ -568,6 +572,8 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
     :target: https://pypi.python.org/pypi/edc-model-fields
 .. |pypi-edc-model-form| image:: https://img.shields.io/pypi/v/edc-model-form.svg
     :target: https://pypi.python.org/pypi/edc-model-form
+.. |pypi-edc-model-to-dataframe| image:: https://img.shields.io/pypi/v/edc-model-to-dataframe.svg
+    :target: https://pypi.python.org/pypi/edc-model-to-dataframe
 .. |pypi-edc-navbar| image:: https://img.shields.io/pypi/v/edc-navbar.svg
     :target: https://pypi.python.org/pypi/edc-navbar
 .. |pypi-edc-next-appointment| image:: https://img.shields.io/pypi/v/edc-next-appointment.svg

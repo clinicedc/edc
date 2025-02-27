@@ -1,6 +1,23 @@
 Changes
 -------
 
+1.0.4
+-----
+- fix pagination in subject review dashboard (edc-dashboard)
+- fix missing TMG/TMG2 Death report "Add" panel on TMG dashboard
+  (edc-adverse-event)
+- refactor ModelToDataframe to improve performance. move from
+  `edc_pdutils` to `edc-model-to-dataframe`.
+  (edc-pdutils, edc-model-to-dataframe)
+- update Next appointment CRF model mixin and tests, dataframe utils
+  (edc-appiointment)
+- minor changes to pharmacy models and admin (edc-pharmacy)
+
+1.0.3
+-----
+- add (optional) output to reset_visit_code_sequence_or_pass and enable
+  on management command (edc_appointment)
+
 1.0.2
 -----
 - remove reset_visit_code_sequence_for_subject from view mixin

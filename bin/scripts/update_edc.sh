@@ -1,8 +1,7 @@
 migrate=""
-update_permissions=""
 update_ubuntu=""
-green=`tput setaf 2`
-reset=`tput sgr0`
+green=$(tput setaf 2)
+reset=$(tput sgr0)
 
 eval "$(conda shell.bash hook)"
 
@@ -71,7 +70,7 @@ cd ~/app \
   && git pull \
   && conda activate edc \
   && pip install -U pip \
-  && pip install --no-cache-dir --upgrade-strategy eager --upgrade -r requirements/stable-v${version}.txt \
+  && pip install --no-cache-dir --upgrade-strategy eager --upgrade -r requirements/stable-v"${version}".txt \
   && pip install -e . --no-cache-dir --upgrade-strategy eager --upgrade
 
 if [ "${migrate}" = "y" ]; then
