@@ -1,7 +1,11 @@
 Changes
 -------
 
-1.0.4
+1.0.5
+-----
+- bump edc-dashboard, edc-randomization
+
+1.0.4 (skip to 1.0.5)
 -----
 - fix pagination in subject review dashboard (edc-dashboard)
 - fix missing TMG/TMG2 Death report "Add" panel on TMG dashboard
