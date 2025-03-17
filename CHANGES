@@ -1,7 +1,12 @@
 Changes
 -------
 
-unreleased
+1.0.8
+----------
+- bump Django 5.1.7
+- update edc-pharmacy, edc-pdf-reports
+
+1.0.7
 ----------
 - add django-admin-rangefilter as requirement
 
