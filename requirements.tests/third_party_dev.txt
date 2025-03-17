@@ -14,3 +14,4 @@ fontawesomefree
 gunicorn
 pyrabbit
 python-memcached
+django-admin-rangefilter
