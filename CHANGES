@@ -1,6 +1,11 @@
 Changes
 -------
 
+unreleased
+----------
+
+- add django-admin-rangefilter as requirement
+
 1.0.5
 -----
 - bump edc-dashboard, edc-randomization
