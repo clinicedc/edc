@@ -3,8 +3,11 @@ Changes
 
 unreleased
 ----------
-
 - add django-admin-rangefilter as requirement
+
+1.0.6
+-----
+- minor, refactor imports (edc-appointment)
 
 1.0.5
 -----
@@ -19,7 +22,7 @@ unreleased
   `edc_pdutils` to `edc-model-to-dataframe`.
   (edc-pdutils, edc-model-to-dataframe)
 - update Next appointment CRF model mixin and tests, dataframe utils
-  (edc-appiointment)
+  (edc-appointment)
 - minor changes to pharmacy models and admin (edc-pharmacy)
 
 1.0.3
