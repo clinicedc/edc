@@ -1,6 +1,10 @@
 Changes
 -------
 
+1.0.9
+-----
+- remove refs to tracking_identifier field (edc-egfr, edc-ltfu)
+
 1.0.8
 ----------
 - bump Django 5.1.7
