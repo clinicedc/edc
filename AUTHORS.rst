@@ -1,6 +1,6 @@
 Maintainers
 ===========
-- Erik van Widenfelt (`erikvw <https://github.com/erikvw>`_)
+- Erik van Widenfelt (`erikvw <https://github.com/erikvw>`__)
 
 Authors
 =======
