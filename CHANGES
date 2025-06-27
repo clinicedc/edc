@@ -1,6 +1,19 @@
 Changes
 -------
 
+1.1.1
+-----
+- add rangefilters to admins (edc-pharmacy)
+- convert stock out report to show stock availability with
+  links to stock items and storage bins (edc-pharmacy)
+- fix issues where refresh appointments ignoring offschedule datetime (edc-visit-schedule)
+
+1.1.0
+-----
+- fix issue where stock requests incorrectly see dispensed stock as "in stock" (edc-pharmacy)
+- update list filters on Stock admin  (edc-pharmacy)
+-
+
 1.0.9
 -----
 - remove refs to tracking_identifier field (edc-egfr, edc-ltfu)
