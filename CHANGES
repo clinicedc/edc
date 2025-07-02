@@ -1,18 +1,24 @@
 Changes
 -------
 
+1.1.2
+-----
+- add hba1c dummy grading ref (edc-reportable)
+- default allow_create to True when metadata is missing (edc-metadata)
+- bump edc-pharmacy 1.1.5. Fixes issues with unit_qty_in and adds
+  transaction protection to long updates (edc-pharmacy)
+- remove DESC indexes (edc-export)
+- bump DJ 5.2.3
+
 1.1.1
 -----
-- add rangefilters to admins (edc-pharmacy)
-- convert stock out report to show stock availability with
-  links to stock items and storage bins (edc-pharmacy)
 - fix issues where refresh appointments ignoring offschedule datetime (edc-visit-schedule)
 
 1.1.0
 -----
 - fix issue where stock requests incorrectly see dispensed stock as "in stock" (edc-pharmacy)
 - update list filters on Stock admin  (edc-pharmacy)
--
+- bump DJ 5.2
 
 1.0.9
 -----
@@ -38,7 +44,10 @@ Changes
 1.0.4 (skip to 1.0.5)
 -----
 - fix pagination in subject review dashboard (edc-dashboard)
-- fix missing TMG/TMG2 Death report "Add" panel on TMG dashboard
+- fix missing TMG/TMG2 - add rangefilters to admins (edc-pharmacy)
+- convert stock out report to show stock availability with
+  links to stock items and storage bins (edc-pharmacy)
+Death report "Add" panel on TMG dashboard
   (edc-adverse-event)
 - refactor ModelToDataframe to improve performance. move from
   `edc_pdutils` to `edc-model-to-dataframe`.
