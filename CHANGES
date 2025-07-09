@@ -1,6 +1,13 @@
 Changes
 -------
 
+1.1.5
+-----
+- fix regression in confirm_stock when creating Confirmation
+  model instance (edc-pharmacy)
+- if site fk set do not call get_current_site when creating
+  new instances (edc-site)
+
 1.1.4
 -----
 - bump edc-pharmacy 1.2.1
@@ -20,11 +27,13 @@ Changes
 
 1.1.1
 -----
-- fix issues where refresh appointments ignoring offschedule datetime (edc-visit-schedule)
+- fix issues where refresh appointments ignoring offschedule datetime
+  (edc-visit-schedule)
 
 1.1.0
 -----
-- fix issue where stock requests incorrectly see dispensed stock as "in stock" (edc-pharmacy)
+- fix issue where stock requests incorrectly see dispensed stock as "in stock"
+  (edc-pharmacy)
 - update list filters on Stock admin  (edc-pharmacy)
 - bump DJ 5.2
 
