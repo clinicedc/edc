@@ -1,6 +1,10 @@
 Changes
 -------
 
+1.1.6
+-----
+- fix edc-sites version
+
 1.1.5
 -----
 - fix regression in confirm_stock when creating Confirmation
