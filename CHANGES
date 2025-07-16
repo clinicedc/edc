@@ -1,6 +1,12 @@
 Changes
 -------
 
+1.1.8
+-----
+- remove reference to subject dashboard for Notes admin (edc-qareports)
+- add logging filter to ignore specific host (edc-utils)
+- add date range filters to CRF and Requisition admins (edc-metadata)
+
 1.1.7
 -----
 - bump edc-pharmacy 1.2.3
