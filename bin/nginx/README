@@ -1,0 +1,15 @@
+
+You may wish to add this directive to NGINX conf to suppress logging of the raw IP.
+Change the IP to the current server IP and the certbot paths to yours.
+
+    server {
+        listen 443 ssl;
+        server_name <MY SERVER IP>;
+
+        ssl_certificate /etc/my_path/fullchain.pem; # managed by Certbot
+        ssl_certificate_key /etc/my_path/privkey.pem; # managed by Certbot
+        include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+        ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+        return 444;  # Silently drop the request
+    }
