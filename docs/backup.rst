@@ -173,16 +173,14 @@ Either generate new keys
   $ gpg --gen-key
 
 
-*OR* import keys exported from elsewhere
-
-.. code-block:: bash
+*OR* import keys exported from elsewhere::
 
   # To export keys from elsewhere
-  $ gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
-  $ gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
+  gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
+  gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
 
   # To import on 'new' server, copy over and ...
-  $ gpg --pinentry-mode=loopback --import /path/to/dup.gpg.priv
+  gpg --pinentry-mode=loopback --import /path/to/dup.gpg.priv
 
 Take note of ``your-GPG-public-key-id``
 
@@ -254,11 +252,11 @@ individual database variable names where appropriate:
 .. code-block:: bash
 
   # Set permissions on conf files
-  $ chmod 0600 ~/.duplicity/{.env_variables.conf,.unset_env_variables.conf}
+  chmod 0600 ~/.duplicity/{.env_variables.conf,.unset_env_variables.conf}
 
   # Create the backup script, and set permissions
-  $ touch ~/.duplicity/.backup.sh
-  $ chmod 0700 ~/.duplicity/.backup.sh
+  touch ~/.duplicity/.backup.sh
+  chmod 0700 ~/.duplicity/.backup.sh
 
 
 Run the backup for a single database
@@ -294,8 +292,8 @@ To run backup
 
 .. code-block:: bash
 
-  $ su edc
-  $ ${HOME}/.duplicity/.backup.sh
+  su edc
+  ${HOME}/.duplicity/.backup.sh
 
 
 Run the backup for multiple databases
@@ -310,7 +308,7 @@ A more advanced setup to backup multiple databases (``AMBITION``, ``XXX``,
 
 .. code-block:: bash
 
-  $ nano ~/.duplicity/.backup.sh
+  nano ~/.duplicity/.backup.sh
 
 .. code-block:: bash
 
@@ -360,8 +358,8 @@ To run backup
 
 .. code-block:: bash
 
-  $ su edc
-  $ ${HOME}/.duplicity/.backup.sh
+  su edc
+  ${HOME}/.duplicity/.backup.sh
 
 
 Schedule the backup
@@ -371,7 +369,7 @@ Run
 
 .. code-block:: bash
 
-  $ crontab -e
+  crontab -e
 
 To schedule the backup to run every 4 hours, logging output to ``edc_backup.log`` add the following (modifying paths if required):
 
@@ -386,12 +384,10 @@ Rotate backup log files
 .. code-block:: bash
 
   # Create config file, e.g.
-  $ sudo vi /etc/logrotate.d/duplicity-backup
+  sudo vi /etc/logrotate.d/duplicity-backup
 
 To rotate logs once a week, and keep up to 52 weeks of logs, add following
-(modifying path if required):
-
-.. code-block:: bash
+(modifying path if required)::
 
   /home/edc/.duplicity/logs/*.log {
     weekly
@@ -408,14 +404,14 @@ To test/validate log rotation config:
 
 .. code-block:: bash
 
-  $ sudo logrotate -d /etc/logrotate.d/duplicity-backup
+  sudo logrotate -d /etc/logrotate.d/duplicity-backup
 
 To force rotation of the log files now (even if specified criteria for rotation
 not met):
 
 .. code-block:: bash
 
-  $ sudo logrotate --force /etc/logrotate.d/duplicity-backup
+  sudo logrotate --force /etc/logrotate.d/duplicity-backup
 
 
 Reviewing backups (cloud/remote)
@@ -426,14 +422,14 @@ Reviewing backups (cloud/remote)
   . "$HOME/.duplicity/.env_variables.conf"
 
   # Basic check to see details of remote duplicity backups for database, Ambition
-  $ duplicity collection-status $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity collection-status $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   # List files available to restore from most recent backup
   # (ensures we can decrypt - requires gpg keys to have been imported)
-  $ duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   # List files available to restore from backup on or before specified --time
-  $ duplicity list-current-files --time=2023-07-27 $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity list-current-files --time=2023-07-27 $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   . "$HOME/.duplicity/.unset_env_variables.conf"
 
@@ -448,9 +444,9 @@ The following assumes a restore for database, Ambition, defined in ``.env_variab
 
 .. code-block:: bash
 
-  $ touch ~/.duplicity/.restore_file.sh
-  $ chmod 0700 ~/.duplicity/.restore_file.sh
-  $ nano ~/.duplicity/.restore_file.sh
+  touch ~/.duplicity/.restore_file.sh
+  chmod 0700 ~/.duplicity/.restore_file.sh
+  nano ~/.duplicity/.restore_file.sh
 
 .. code-block:: bash
 
@@ -474,14 +470,14 @@ To restore file ``ambition_production-20180806160001.sql`` from backup
 .. code-block:: bash
 
   # Set $FILE_TO_RESTORE
-  $ export FILE_TO_RESTORE=ambition_production-20180806160001.sql
+  export FILE_TO_RESTORE=ambition_production-20180806160001.sql
 
 To restore file:
 
 .. code-block:: bash
 
-  $ su edc
-  $ ${HOME}/.duplicity/restore_file.sh
+  su edc
+  ${HOME}/.duplicity/restore_file.sh
 
 
 Restore an entire backup directory
@@ -492,9 +488,9 @@ defined in ``.env_variables.conf``
 
 .. code-block:: bash
 
-  $ touch ~/.duplicity/.restore.sh
-  $ chmod 0700 ~/.duplicity/.restore.sh
-  $ nano ~/.duplicity/.restore.sh
+  touch ~/.duplicity/.restore.sh
+  chmod 0700 ~/.duplicity/.restore.sh
+  nano ~/.duplicity/.restore.sh
 
 A restore file may look like this:
 
@@ -514,34 +510,32 @@ A restore file may look like this:
 .. code-block:: bash
 
   # Set $TARGET_DIR
-  $ export TARGET_DIR=$HOME/restored_files
-  $ mkdir -p "$TARGET_DIR"
+  export TARGET_DIR=$HOME/restored_files
+  mkdir -p "$TARGET_DIR"
 
 To restore directory:
 
 .. code-block:: bash
 
-  $ su edc
-  $ ${HOME}/.duplicity/restore.sh
+  su edc
+  ${HOME}/.duplicity/restore.sh
 
 
 Smoke test restored file
 ------------------------
 
-To "smoke test" a restored file, first restore the database somewhere
+To "smoke test" a restored file, first restore the database somewhere::
 
-.. code-block:: bash
-
-  $ export db_name=<schema_name_for_restored_db>
-  $ export sql_dump=$HOME/<restored_file_name>.sql
-  $ mysql -Bse "create database $db_name character set utf8;"
-  $ mysql -u root -p $db_name < "$sql_dump"
+  export db_name=<schema_name_for_restored_db>
+  export sql_dump=$HOME/<restored_file_name>.sql
+  mysql -Bse "create database $db_name character set utf8;"
+  mysql -u root -p $db_name < "$sql_dump"
 
 Open the database
 
 .. code-block:: bash
 
-  $ mysql $db_name
+  mysql $db_name
 
 Check the timestamp on last record in the admin log,
 for example

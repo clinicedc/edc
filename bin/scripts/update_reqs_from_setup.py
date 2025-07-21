@@ -134,7 +134,8 @@ def update_edc_requirements():
             f.write(f"pip install -e ../{pkg}\n")
 
         f.write(
-            "\n# Install packages from: https://github.com/clinicedc (contrib) as editable\n"
+            "\n# Install packages from: https://github.com/clinicedc "
+            "(contrib) as editable\n"
         )
         for pkg in contrib_packages:
             f.write(f"pip install -e ../{pkg}\n")

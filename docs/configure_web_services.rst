@@ -42,13 +42,13 @@ If you wish, you can check the status of each:
 
 	$ sudo systemctl status gunicorn
 
-``Output, inactive (first time)``
-
+``Output, inactive (first time)``::
 
 	● gunicorn.service - gunicorn daemon
 	   Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
 	   Active: inactive (dead) since Mon 2018-07-23 17:57:25 UTC; 2min 56s ago
 	 Main PID: 22953 (code=exited, status=0/SUCCESS)
+
 
 Try accessing:
 
@@ -56,9 +56,7 @@ Try accessing:
 
 	curl --unix-socket /run/gunicorn.sock localhost
 
-``Output now shows active``
-
-.. code-block:: bash
+``Output now shows active``::
 
 	● gunicorn.service - gunicorn daemon
 	   Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)

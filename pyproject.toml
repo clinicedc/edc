@@ -1,5 +1,6 @@
 [build-system]
-requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
 version_file="_version.py"
@@ -31,6 +32,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Clinical Trials"
 ]
 license = "GPL-3.0-or-later"
 license-files = ["LICEN[CS]E*"]
@@ -52,10 +54,10 @@ dependencies = [
     "gunicorn",
     "pyrabbit",
     "python-memcached",
-    "django-audit-fields==0.3.17",
-    "django-crypto-fields==1.0.0",
-    "django-multisite2==2.0.1",
-    "django-revision==0.3.7",
+    "django-audit-fields==1.0.3",
+    "django-crypto-fields==1.0.1",
+    "django-multisite2==2.1.0",
+    "django-revision==1.0.0",
     "edc-action-item==1.0.3",
     "edc-adherence==1.0.1",
     "edc-adverse-event==1.0.3",
@@ -142,23 +144,4 @@ Repository = "https://github.com/clinicedc/edc.git"
 Changelog = "https://github.com/clinicedc/edc/blob/main/CHANGES"
 
 [tool.black]
-line-length = 95
-
-[tool.flake8]
-ignore = ['E226','W503','E203','W605']
-per-file-ignores = [
-    '__init__.py:F401',
-]
-max-line-length = 95
-max-complexity = 10
-count = true
-exclude = [
-    '*/migrations/*',
-    '.tox',
-    '.git',
-    '__pycache__',
-    'build',
-    'dist',
-    '.eggs',
-    '.egg-info'
-]
+line-length = 88

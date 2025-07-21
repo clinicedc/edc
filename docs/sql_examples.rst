@@ -36,9 +36,7 @@ The interim table is created by ``Django``.
 
 The SQL pattern:
 
-
 .. code-block:: sql
-   :linenos:
 
     SET @sql = NULL;
     SELECT GROUP_CONCAT(logic)
@@ -55,7 +53,6 @@ The SQL pattern:
 In the case below, ``your_table`` is temp table created from a sub-query.
 
 .. code-block:: sql
-   :linenos:
 
     SET @sql = NULL;
 

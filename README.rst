@@ -1,9 +1,9 @@
-|pypi| |downloads| |black| |django_packages|
+|pypi| |downloads| |black| |django-packages|
 
-clinicedc -  A clinical trials data management framework
-========================================================
+clinicedc -  A clinical trials data management framework built on Django
+========================================================================
 
-A data management framework for multisite randomized longitudinal clinical trials.
+A data management framework built on Django for multisite randomized longitudinal clinical trials.
 
 `Here are a set of python modules that extend Django <https://github.com/clinicedc/edc>`__ to empower you to build an EDC / eSource system to handle data
 collection and management for multi-site longitudinal clinical trials.
@@ -28,7 +28,7 @@ The implementations we develop with this framework are mostly eSource systems ra
 
 The ``clinicedc's`` listed below consist of a subset of trial-specific modules that make heavy use of modules in this framework.
 
-(python 3.12, Django 5.1.3, MySQL 8+, see setup.cfg)
+(python 3.12+, Django 5.2+, MySQL 8+, see setup.cfg)
 
 
 How we describe the EDC in our protocol documents
@@ -142,6 +142,8 @@ Contacts
 For further information go to https://github.com/erikvw.
 
 |django| |jet-brains|
+
+
 
 =========================== ============================= ==================================
 edc-action-item_            |edc-action-item|             |pypi-edc-action-item|
@@ -646,5 +648,5 @@ Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-bra
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
 
-.. |django_packages| image:: https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26
+.. |django-packages| image:: https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26
     :target: https://djangopackages.org/packages/p/clinicedc/

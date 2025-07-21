@@ -23,20 +23,18 @@ This guide assumes the steps in the `backup guide`_ have been followed.
 
 
 Export-backup-import GPG keys
-----------------------
+-----------------------------
 
-On database server configured with backups
+On database server configured with backups::
 
-.. code-block:: bash
-
-  $ su edc
+  su edc
 
   # List installed GPG keys and their IDs
-  $ gpg --list-secret-keys --keyid-format=long
+  gpg --list-secret-keys --keyid-format=long
 
   # Export key
-  $ gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
-  $ gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
+  gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
+  gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
 
   # See: https://hashnode.com/@adityaprakash2811
   #    & https://techblog.geekyants.com/a-guide-to-duplicity-part-2
@@ -47,21 +45,21 @@ Copy keys to local (disaster recovery) instance, and import
 
 .. code-block:: bash
 
-  $ mkdir -p ${HOME}/duplicity_gpg
-  $ rsync -chavzP --stats --include 'dup.gpg.p*' --exclude '*' edc@source.host:~/ ${HOME}/duplicity_gpg/
+  mkdir -p ${HOME}/duplicity_gpg
+  rsync -chavzP --stats --include 'dup.gpg.p*' --exclude '*' edc@source.host:~/ ${HOME}/duplicity_gpg/
 
   # Import private key (Ubuntu)
-  $ gpg --pinentry-mode=loopback --import ${HOME}/duplicity_gpg/dup.gpg.priv
+  gpg --pinentry-mode=loopback --import ${HOME}/duplicity_gpg/dup.gpg.priv
 
   # Import private key (Mac)
-  $ gpg --import ${HOME}/duplicity_gpg/dup.gpg.priv
+  gpg --import ${HOME}/duplicity_gpg/dup.gpg.priv
 
 Remove exported keys on original database server
 
 .. code-block:: bash
 
-  $ su edc
-  $ rm ${HOME}/dup.gpg.p{ub,riv}
+  su edc
+  rm ${HOME}/dup.gpg.p{ub,riv}
 
 
 Backup the backup config
@@ -72,8 +70,8 @@ that has been configured with backups
 
 .. code-block:: bash
 
-  $ mkdir -p ${HOME}/.duplicity
-  $ rsync -chavzP --stats edc@source.host:~/.duplicity/ ${HOME}/.duplicity/
+  mkdir -p ${HOME}/.duplicity
+  rsync -chavzP --stats edc@source.host:~/.duplicity/ ${HOME}/.duplicity/
 
 
 Configure disaster recovery target
@@ -94,10 +92,10 @@ If you haven't already, import the duplicity GPG private key on the machine to r
 .. code-block:: bash
 
   # Import private key (Ubuntu)
-  $ gpg --pinentry-mode=loopback --import /path/to/dup.gpg.priv
+  gpg --pinentry-mode=loopback --import /path/to/dup.gpg.priv
 
   # Import private key (Mac)
-  $ gpg --import /path/to/dup.gpg.priv
+  gpg --import /path/to/dup.gpg.priv
 
 
 Install duplicity
@@ -107,8 +105,8 @@ On Ubuntu
 
 .. code-block:: bash
 
-  $ sudo apt-get update
-  $ sudo apt-get install duplicity haveged python3-boto
+  sudo apt-get update
+  sudo apt-get install duplicity haveged python3-boto
 
 
 On a Mac
@@ -141,14 +139,14 @@ Ambition, defined in ``.env_variables.conf``
   . "$HOME/.duplicity/.env_variables.conf"
 
   # Basic check to see details of remote duplicity backups for database, Ambition
-  $ duplicity collection-status $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity collection-status $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   # List files available to restore from most recent backup
   # (ensures we can decrypt - requires gpg keys to have been imported)
-  $ duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity list-current-files $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   # List files available to restore from backup on or before specified --time
-  $ duplicity list-current-files --time=2023-07-27 $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
+  duplicity list-current-files --time=2023-07-27 $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
 
   . "$HOME/.duplicity/.unset_env_variables.conf"
 
@@ -173,23 +171,23 @@ To restore MySQL dump from most recent duplicity backup:
 
 .. code-block:: bash
 
-  $ cd ${HOME}/.duplicity
+  cd ${HOME}/.duplicity
 
   # Load defined env variables
-  $ source .env_variables.conf
+  source .env_variables.conf
 
   # Increase max files that can be opened
-  $ ulimit -n 1024
+  ulimit -n 1024
 
   # Define file to restore
-  $ export FILE_TO_RESTORE=ambition_production-20230731160001.sql
+  export FILE_TO_RESTORE=ambition_production-20230731160001.sql
 
   # Restore $FILE_TO_RESTORE
   #    from most recent backup
   #    from $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
   #      to $HOME/$FILE_TO_RESTORE
   # (note will fail if file exists)
-  $ duplicity --verbosity info \
+  duplicity --verbosity info \
     --encrypt-sign-key=$GPG_KEY \
     --log-file $HOME/.duplicity/duplicity_restore.log \
     --file-to-restore $FILE_TO_RESTORE \
@@ -201,36 +199,36 @@ To restore MySQL dump from most recent duplicity backup:
   # (where duplicity fails to set perms to that of remote edc user on restored file)
 
   # Unset defined env variables
-  $ source .unset_env_variables.conf
+  source .unset_env_variables.conf
 
 As a convenience, see also ``${HOME}/.duplicity/restore_file.sh``.  To use:
 
 .. code-block:: bash
 
-  $ cd ${HOME}/.duplicity
+  cd ${HOME}/.duplicity
 
   # Load defined env variables
-  $ source .env_variables.conf
+  source .env_variables.conf
 
   # Increase max files that can be opened
-  $ ulimit -n 1024
+  ulimit -n 1024
 
   # Define file to restore
-  $ export FILE_TO_RESTORE=ambition_production-20230731160001.sql
+  export FILE_TO_RESTORE=ambition_production-20230731160001.sql
 
   # Restore $FILE_TO_RESTORE
   #    from most recent backup
   #    from $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
   #      to $HOME/$FILE_TO_RESTORE
   # (note will fail if file exists)
-  $ ./restore_file.sh "$AWS_ENDPOINT/$AWS_BUCKET_AMBITION" "$FILE_TO_RESTORE"
+  ./restore_file.sh "$AWS_ENDPOINT/$AWS_BUCKET_AMBITION" "$FILE_TO_RESTORE"
 
   # Ignore error:
   > `Error '[Errno 1] Operation not permitted: b'/path/to/$FILE_TO_RESTORE'' processing .`
   # (where duplicity fails to set perms to that of remote edc user on restored file)
 
   # Unset defined env variables
-  $ source .unset_env_variables.conf
+  source .unset_env_variables.conf
 
 Restore file from previous backup
 .................................
@@ -239,24 +237,24 @@ To restore MySQL dump only available on a previous duplicity backup:
 
 .. code-block:: bash
 
-  $ cd ${HOME}/.duplicity
+  cd ${HOME}/.duplicity
 
   # Load defined env variables
-  $ source .env_variables.conf
+  source .env_variables.conf
 
   # Increase max files that can be opened
-  $ ulimit -n 1024
+  ulimit -n 1024
 
   # Define file to restore and backup date/time to restore from
-  $ export FILE_TO_RESTORE=ambition_production-20230725200001.sql
-  $ export TIME_TO_RESTORE=2023-07-26  # must be >= backup file date
+  export FILE_TO_RESTORE=ambition_production-20230725200001.sql
+  export TIME_TO_RESTORE=2023-07-26  # must be >= backup file date
 
   # Restore $FILE_TO_RESTORE
   #    from backup on $TIME_TO_RESTORE (see 'man duplicity' for acceptable values)
   #    from $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
   #      to $HOME/$FILE_TO_RESTORE
   # (note will fail if file exists)
-  $ duplicity --verbosity info \
+  duplicity --verbosity info \
     --encrypt-sign-key=$GPG_KEY \
     --log-file $HOME/.duplicity/duplicity_restore.log \
     --file-to-restore $FILE_TO_RESTORE \
@@ -269,37 +267,37 @@ To restore MySQL dump only available on a previous duplicity backup:
   # (where duplicity fails to set perms to that of remote edc user on restored file)
 
   # Unset defined env variables
-  $ source .unset_env_variables.conf
+  source .unset_env_variables.conf
 
 As a convenience, see also ``${HOME}/.duplicity/restore_file.sh``.  To use:
 
 .. code-block:: bash
 
-  $ cd ${HOME}/.duplicity
+  cd ${HOME}/.duplicity
 
   # Load defined env variables
-  $ source .env_variables.conf
+  source .env_variables.conf
 
   # Increase max files that can be opened
-  $ ulimit -n 1024
+  ulimit -n 1024
 
   # Define file to restore and backup date/time to restore from
-  $ export FILE_TO_RESTORE=ambition_production-20230725200001.sql
-  $ export TIME_TO_RESTORE=2023-07-26  # must be >= backup file date
+  export FILE_TO_RESTORE=ambition_production-20230725200001.sql
+  export TIME_TO_RESTORE=2023-07-26  # must be >= backup file date
 
   # Restore $FILE_TO_RESTORE
   #    from backup on $TIME_TO_RESTORE (see 'man duplicity' for acceptable values)
   #    from $AWS_ENDPOINT/$AWS_BUCKET_AMBITION
   #      to ${HOME}/${FILE_TO_RESTORE}
   # (note will fail if file exists)
-  $ ./restore_file.sh "$AWS_ENDPOINT/$AWS_BUCKET_AMBITION" "$FILE_TO_RESTORE" "$TIME_TO_RESTORE"
+  ./restore_file.sh "$AWS_ENDPOINT/$AWS_BUCKET_AMBITION" "$FILE_TO_RESTORE" "$TIME_TO_RESTORE"
 
   # Ignore error:
   > `Error '[Errno 1] Operation not permitted: b'/path/to/$FILE_TO_RESTORE'' processing .`
   # (where duplicity fails to set perms to that of remote edc user on restored file)
 
   # Unset defined env variables
-  $ source .unset_env_variables.conf
+  source .unset_env_variables.conf
 
 
 
@@ -307,14 +305,14 @@ Import restored MySQL dump into MySQL
 -------------------------------------
 .. code-block:: bash
 
-  $ export RESTORED_DB_NAME=ambition_restored
-  $ mysql -Bse "create database $RESTORED_DB_NAME character set utf8;"
+  export RESTORED_DB_NAME=ambition_restored
+  mysql -Bse "create database $RESTORED_DB_NAME character set utf8;"
 
   # Import using earlier specified file name
-  $ mysql -u root -p $RESTORED_DB_NAME  <$HOME/$FILE_TO_RESTORE
+  mysql -u root -p $RESTORED_DB_NAME  <$HOME/$FILE_TO_RESTORE
 
   # Alternatively, explicitly define database and dump file path
-  $ mysql -u root -p ambition_restored  <$HOME/ambition_production-20230731160001.sql
+  mysql -u root -p ambition_restored  <$HOME/ambition_production-20230731160001.sql
 
 
 Check restored data
@@ -324,8 +322,8 @@ Ensure most recent entry is as expected.
 
 .. code-block:: bash
 
-  $ export RESTORED_DB_NAME=ambition_restored
-  $ mysql $RESTORED_DB_NAME
+  export RESTORED_DB_NAME=ambition_restored
+  mysql $RESTORED_DB_NAME
 
 
 Check timestamp on last record in admin log

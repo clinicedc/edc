@@ -5,7 +5,7 @@
 
 
 Local / Development deploy
-------------------------
+--------------------------
 
 *deploy using runserver (DEBUG=True)*
 
@@ -84,60 +84,74 @@ To upgrade to python3.7:
 Prepare mysql
 +++++++++++++
 
-secure MySQL installation::
+secure MySQL installation:
+
+.. code-block:: bash
 
     sudo mysql_secure_installation
 
-load timezones into MySQL::
+load timezones into MySQL:
+
+.. code-block:: bash
 
     mysql_tzinfo_to_sql /usr/share/zoneinfo | sudo mysql mysql
 
-create a MySQL database for the app::
+create a MySQL database for the app:
+
+.. code-block:: bash
 
     echo "CREATE DATABASE $MYSQL_DATABASE CHARACTER SET utf8;" | sudo mysql
     echo "CREATE DATABASE $MYSQL_DATABASE CHARACTER SET utf8;" | mysql -u root -p
 
-Create a MySQL account, other than root, to be used on MySQL DB server::
+Create a MySQL account, other than root, to be used on MySQL DB server:
+
+.. code-block:: bash
 
     echo "CREATE USER '$MYSQL_USER'@'localhost' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | sudo mysql
     echo "CREATE USER '$MYSQL_USER'@'localhost' IDENTIFIED BY '$MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql -u root -p
     echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'localhost' WITH GRANT OPTION;" | sudo mysql
     echo "GRANT ALL PRIVILEGES ON *.* TO '$MYSQL_USER'@'localhost' WITH GRANT OPTION;" | mysql -u root -p
 
+
 Note: if on docker localhost will not work so use the docker IP or '%'
 
+confirm new account can login to new DB:
 
-confirm new account can login to new DB::
+.. code-block:: bash
 
     echo "mysql -u $MYSQL_USER -p $MYSQL_DATABASE" | mysql
+
 
 Create **separate** MySQL accounts to log in from **each** remote django host
 
 i.e. for each ``$REMOTE_HOST``::
 
-    $ set +o history  # temporarily disable bash history (so as not to save pw)
+    set +o history  # temporarily disable bash history (so as not to save pw)
+    export MYSQL_DATABASE=db_name
+    export REMOTE_MYSQL_USER=edc-<host-desc>
+    export REMOTE_MYSQL_USER_PASSWORD=different_p@ssw0rd
+    export REMOTE_HOST=some_host
 
-    $ export MYSQL_DATABASE=db_name
-    $ export REMOTE_MYSQL_USER=edc-<host-desc>
-    $ export REMOTE_MYSQL_USER_PASSWORD=different_p@ssw0rd
-    $ export REMOTE_HOST=some_host
+    echo "CREATE USER '$REMOTE_MYSQL_USER'@'$REMOTE_HOST' IDENTIFIED BY '$REMOTE_MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
+    echo "GRANT ALL PRIVILEGES ON \`$MYSQL_DATABASE\`.* TO '$REMOTE_MYSQL_USER'@'$REMOTE_HOST';" | mysql
 
-    $ echo "CREATE USER '$REMOTE_MYSQL_USER'@'$REMOTE_HOST' IDENTIFIED BY '$REMOTE_MYSQL_USER_PASSWORD';FLUSH PRIVILEGES;" | mysql
-    $ echo "GRANT ALL PRIVILEGES ON \`$MYSQL_DATABASE\`.* TO '$REMOTE_MYSQL_USER'@'$REMOTE_HOST';" | mysql
+    unset REMOTE_MYSQL_USER_PASSWORD  # delete pw variable
+    set -o history  # re-enable bash history
 
-    $ unset REMOTE_MYSQL_USER_PASSWORD  # delete pw variable
-    $ set -o history  # re-enable bash history
+Show users:
 
-Show users::
+.. code-block:: bash
 
-    $ mysql -Bse 'select user, host from user;'
+    mysql -Bse 'select user, host from user;'
 
-Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host::
+Confirm each ``REMOTE_MYSQL_USER`` can log in from their respective host:
+
+.. code-block:: bash
 
     echo "mysql -u $REMOTE_MYSQL_USER -p $MYSQL_DATABASE" | mysql
 
 
-if you delete any user don't forget to FLUSH PRIVILEGES;
+if you delete any user don't forget to ``FLUSH PRIVILEGES;``
 
 
 Prepare the app and the virtualenv
@@ -145,65 +159,91 @@ Prepare the app and the virtualenv
 
 login as non-root account ``ambition``
 
-create and source the virtualenv `ambition`::
+create and source the virtualenv `ambition`:
+
+.. code-block:: bash
 
     python3.7 -m venv ~/.venvs/$VENV
 
-activate the environment::
+activate the environment:
+
+.. code-block:: bash
 
     source ~/.venvs/$VENV/bin/activate
 
 **Important:** Confirm you are in your new virtualenv before continuing.
 
-Now ``git pull`` the app::
+Now ``git pull`` the app:
+
+.. code-block:: bash
 
     cd ~/ && git clone $REPO $APP_FOLDER
 
-Install requirements into the virtualenv::
+Install requirements into the virtualenv:
+
+.. code-block:: bash
 
     cd ~/app \
     && pip install --no-cache-dir -r requirements/stable.txt \
     && pip install --no-cache-dir -e .
 
-This seems to not get installed from edc-base, so run it separately::
+This seems to not get installed from edc-base, so run it separately:
+
+.. code-block:: bash
 
     pip install --no-cache-dir django[argon2]
 
 
 Now install the ``.env`` file. The ``.env`` file is not part of the REPO. Open another terminal and copy the apps `.env` file to the app root
-assumed coming from your machine, for example::
+assumed coming from your machine, for example:
+
+.. code-block:: bash
 
     echo "scp ~/source/ambition/.envs/.local $APP_USER@$APP_HOST:~/app/.env"
     scp ~/source/ambition/.envs/.local <app_user>@<app_host>:~/app/.env
 
-There is also a sample .env file in the repo. To use that::
+There is also a sample .env file in the repo. To use that:
+
+.. code-block:: bash
 
     cp $HOME/$APP_FOLDER/env.sample $HOME/$APP_FOLDER/.env
 
-Edit the ``.env`` file as needed::
+Edit the ``.env`` file as needed:
+
+.. code-block:: bash
 
     nano ~/app/.env
 
-Set permissions::
+Set permissions:
+
+.. code-block:: bash
 
     chmod 600 ~/app/.env
 
+
 **IMPORTANT:** inspect the .env variables and edit as required
 
-  **NOTE:** ``DATABASE_URL`` password needs to be escaped if it contains special characters.::
+**NOTE:** ``DATABASE_URL`` password needs to be escaped if it contains special characters.:
 
-  >>> import urllib
-  >>> urllib.parse.quote('my_password$@')
+.. code-block:: python
 
-  $ python -c 'from urllib import parse; print(parse.quote("my_password$@"))'
+    import urllib
 
-  Output::
+    urllib.parse.quote('my_password$@')
 
-    'my_password%24%40'
 
-  See https://github.com/joke2k/django-environ/blob/develop/README.rst#tips::
+.. code-block:: bash
 
-Create the export and static folders::
+    python -c 'from urllib import parse; print(parse.quote("my_password$@"))'
+
+    # output 'my_password%24%40'
+
+
+See https://github.com/joke2k/django-environ/blob/develop/README.rst#tips
+
+Create the export and static folders:
+
+.. code-block:: bash
 
     # check the values
     echo "DJANGO_ETC_FOLDER=$DJANGO_ETC_FOLDER" \
@@ -211,7 +251,6 @@ Create the export and static folders::
     && echo "DJANGO_KEY_FOLDER=$DJANGO_KEY_FOLDER" \
     && echo "DJANGO_LOG_FOLDER=$DJANGO_LOG_FOLDER" \
     && echo "DJANGO_STATIC_FOLDER=$DJANGO_STATIC_FOLDER"
-
     # create the folders
     mkdir -p $DJANGO_ETC_FOLDER \
     && mkdir -p $DJANGO_EXPORT_FOLDER \
@@ -221,13 +260,17 @@ Create the export and static folders::
 
 
 Copy encryption keys into ``DJANGO_KEY_FOLDER`` . These are also not included in the REPO and are assumed to come from you.
-(or if just testing set ``DJANGO_AUTO_CREATE_KEYS=True``)::
+(or if just testing set ``DJANGO_AUTO_CREATE_KEYS=True``):
+
+.. code-block:: bash
 
     echo "scp user* ambition@$APP_HOST:$DJANGO_KEY_FOLDER/"
 
 **Note:** If you are setting up a test environment and you set ``DJANGO_AUTO_CREATE_KEYS=False`` in ``.env`` to create test keys, you need to set it to ``False``.
 
-Check::
+Check:
+
+.. code-block:: bash
 
     cd ~/app \
     && python manage.py check

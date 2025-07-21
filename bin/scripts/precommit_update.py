@@ -80,7 +80,9 @@ for repo in repos:
         check=True,
     )  # nosec #B607
 
-    subprocess.run(["git", "add", ".pre-commit-config.yaml"], cwd=repo_path)  # nosec #B607
+    subprocess.run(
+        ["git", "add", ".pre-commit-config.yaml"], cwd=repo_path
+    )  # nosec #B607
     subprocess.run(
         ["git", "commit", "-m", "Update pre-commit-config.yaml"], cwd=repo_path
     )  # nosec #B607
