@@ -53,7 +53,7 @@ dependencies = [
     "gunicorn",
     "pyrabbit",
     "python-memcached",
-    "django-audit-fields==1.0.3",
+    "django-audit-fields==1.1.0",
     "django-crypto-fields==1.0.1",
     "django-multisite2==2.1.0",
     "django-revision==1.0.0",
