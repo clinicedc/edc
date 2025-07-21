@@ -1,6 +1,10 @@
 Changes
 -------
 
+1.2.0
+-----
+- fix regression in django-audit-fields
+
 1.1.9
 -----
 - clean up syntax in docs/rst files
