@@ -1,8 +1,147 @@
 [build-system]
-requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
 version_file="_version.py"
 
+[tool.setuptools.packages.find]
+exclude = ["examples*", "tools*", "docs*", "bin*", "image*"]
+namespaces = false  # true by default
+
+[project]
+name = "edc"
+dynamic = ["version"]
+description = "EDC core modules for clinicedc/edc projects"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+keywords = ["django", "clinicedc", "edc", "clinical trials", "research", "data management", "esource"]
+authors = [
+    { name = "Erik van Widenfelt", email = "ew2789@gmail.com" },
+    { name = "Jonathan Willitts", email = "j.willitts@ucl.ac.uk" }
+]
+maintainers = [
+    { name = "Erik van Widenfelt", email = "ew2789@gmail.com" },
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 5.2",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Clinical Trials"
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.12"
+dependencies = [
+    "argon2-cffi",
+    "boto3",
+    "django-db-views",
+    "django-defender",
+    "django-environ",
+    "django-logentry-admin",
+    "django-admin-rangefilter",
+    "django-pandas",
+    "django-redis",
+    "django-simple-history==3.10.1",
+    "django-storages",
+    "djangorestframework",
+    "fontawesomefree",
+    "gunicorn",
+    "pyrabbit",
+    "python-memcached",
+    "django-audit-fields==1.0.3",
+    "django-crypto-fields==1.0.1",
+    "django-multisite2==2.1.0",
+    "django-revision==1.0.0",
+    "edc-action-item==1.0.3",
+    "edc-adherence==1.0.1",
+    "edc-adverse-event==1.0.3",
+    "edc-analytics==0.1.4",
+    "edc-appconfig==1.0.2",
+    "edc-appointment==1.1.1",
+    "edc-auth==1.0.2",
+    "edc-consent==1.0.3",
+    "edc-constants==1.0.1",
+    "edc-crf==1.0.2",
+    "edc-dashboard==1.0.3",
+    "edc-data-manager==1.0.0",
+    "edc-device==1.0.1",
+    "edc-document-status==1.0.0",
+    "edc-dx==1.0.1",
+    "edc-dx-review==1.0.1",
+    "edc-egfr==1.0.2",
+    "edc-export==1.0.4",
+    "edc-facility==1.0.2",
+    "edc-fieldsets==1.0.1",
+    "edc-form-describer==1.0.0",
+    "edc-form-label==1.0.2",
+    "edc-form-runners==1.0.0",
+    "edc-form-validators==1.0.0",
+    "edc-glucose==1.0.3",
+    "edc-he==1.0.2",
+    "edc-identifier==1.0.0",
+    "edc-lab==1.0.5",
+    "edc-lab-dashboard==1.0.2",
+    "edc-lab-panel==1.0.0",
+    "edc-lab-results==1.0.2",
+    "edc-label==1.0.0",
+    "edc-list-data==1.0.0",
+    "edc-listboard==1.0.0",
+    "edc-locator==1.0.2",
+    "edc-ltfu==1.0.1",
+    "edc-metadata==1.0.5",
+    "edc-microbiology==1.0.0",
+    "edc-microscopy==1.0.0",
+    "edc-mnsi==1.0.0",
+    "edc-model==1.0.0",
+    "edc-model-admin==1.0.3",
+    "edc-model-fields==1.0.0",
+    "edc-model-form==1.0.0",
+    "edc-model-to-dataframe==1.0.1",
+    "edc-navbar==1.0.0",
+    "edc-next-appointment==0.3.1",
+    "edc-notification==1.0.1",
+    "edc-offstudy==1.0.1",
+    "edc-pdf-reports==1.0.2",
+    "edc-pdutils==1.0.2",
+    "edc-pharmacy==1.2.3",
+    "edc-prn==1.1.1",
+    "edc-protocol==1.0.1",
+    "edc-protocol-incident==1.0.1",
+    "edc-pylabels==1.0.1",
+    "edc-qareports==1.0.4",
+    "edc-qol==1.0.2",
+    "edc-randomization==1.0.4",
+    "edc-refusal==1.0.1",
+    "edc-registration==1.0.1",
+    "edc-reportable==2.0.2",
+    "edc-review-dashboard==1.0.2",
+    "edc-rx==1.0.1",
+    "edc-screening==1.1.0",
+    "edc-search==1.0.1",
+    "edc-sites==1.1.0",
+    "edc-subject-dashboard==1.0.1",
+    "edc-timepoint==1.0.1",
+    "edc-transfer==1.0.1",
+    "edc-unblinding==1.0.2",
+    "edc-utils==1.1.1",
+    "edc-view-utils==1.0.1",
+    "edc-visit-schedule==4.1.1",
+    "edc-visit-tracking==1.0.2",
+    "edc-vitals==1.1.2",
+    "Django>=5.2.3,<5.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/clinicedc"
+Documentation = "https://github.com/clinicedc/edc/docs"
+Repository = "https://github.com/clinicedc/edc.git"
+Changelog = "https://github.com/clinicedc/edc/blob/main/CHANGES"
+
 [tool.black]
-line-length = 95
+line-length = 88

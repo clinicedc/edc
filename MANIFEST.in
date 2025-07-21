@@ -1,6 +1,4 @@
-include AUTHORS CHANGES LICENSE VERSION
+include AUTHORS CHANGES LICENSE
 include MANIFEST.in
 include *.rst
-include *.txt
 recursive-include docs *.rst
-recursive-include edc/templates *

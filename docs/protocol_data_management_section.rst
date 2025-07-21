@@ -43,7 +43,7 @@ Independent monitoring will be conducted to maximise quality of data and adheren
 procedures. Monitors are granted access to the ``EDC`` by adding their personal ``EDC`` user account to the ``AUDITOR`` role. An
 auditor has view-only access to each subject's records and audit trail.
 
-For multi-site trials, the ``EDC`` will be configured to limit a user's access to data of the current site they are logged into. Users may be granted access to more than one research site but still can only see data for the current site. 
+For multi-site trials, the ``EDC`` will be configured to limit a user's access to data of the current site they are logged into. Users may be granted access to more than one research site but still can only see data for the current site.
 
 Monitoring will adhere to Good Clinical Practice Guidelines (based on ``ICH`` guidelines). The
 following data should be verifiable from source documents: all signed consent forms; dates of
