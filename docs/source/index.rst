@@ -32,19 +32,7 @@ Clinic EDC is open-source and written in python on top of Django
    :caption: Contents:
 
    history
-   disaster_recovery
-   README.rst
-   deploy_new_droplet
-   prepare_database
-   configure_web_services
-   update_deployment
-   landing_page
-   backup
-   conda
-   uv
-   redis
-   celery
-   dump_users
-   mysql_roles_and_read_only_users
-   sql_examples
-   protocol_data_management_section
+   howto
+   backup_recovery_strategies
+   other_technologies
+   articles
