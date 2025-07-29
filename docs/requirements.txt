@@ -1,3 +1,6 @@
 furo==2025.7.19
 # Defining the exact version will make sure things don't break
 Sphinx==8.2.3
+sphinx-copybutton==0.5.2
+sphinx_design==0.6.1
+sphinx_inline_tabs==2023.4.21

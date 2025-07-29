@@ -9,7 +9,7 @@ namespace = false
 
 [project]
 name = "edc"
-version = "1.2.3"
+version = "1.2.4"
 description = "EDC core modules for clinicedc/edc projects"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 keywords = ["django", "clinicedc", "edc", "clinical trials", "research", "data management", "esource"]
