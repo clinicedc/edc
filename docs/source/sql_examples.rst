@@ -1,4 +1,3 @@
-
 M2M Pivot Table in SQL
 ======================
 

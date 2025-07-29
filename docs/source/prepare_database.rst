@@ -1,4 +1,3 @@
-
 Prepare a server for mysql-server
 ==================================
 
