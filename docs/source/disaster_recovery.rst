@@ -1,13 +1,8 @@
-
-.. contents:: Contents
-   :depth: 3
-   :backlinks: top
-
 Disaster recovery procedures
-############################
+============================
 
 Prepare (in advance)
-++++++++++++++++++++
+--------------------
 
 **IMPORTANT**
 
@@ -152,7 +147,7 @@ Ambition, defined in ``.env_variables.conf``
 
 
 Recover
-+++++++
+-------
 
 **IMPORTANT**
 
@@ -165,7 +160,7 @@ Restore MySQL dump from cloud/remote using duplicity
 ----------------------------------------------------
 
 Restore file from latest backup
-...............................
++++++++++++++++++++++++++++++++
 
 To restore MySQL dump from most recent duplicity backup:
 
@@ -231,7 +226,7 @@ As a convenience, see also ``${HOME}/.duplicity/restore_file.sh``.  To use:
   source .unset_env_variables.conf
 
 Restore file from previous backup
-.................................
++++++++++++++++++++++++++++++++++
 
 To restore MySQL dump only available on a previous duplicity backup:
 

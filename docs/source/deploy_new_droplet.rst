@@ -1,8 +1,3 @@
-
-.. contents:: Contents
-   :depth: 2
-   :backlinks: top
-
 Configure droplet from base
 ---------------------------
 
