@@ -235,6 +235,8 @@ edc-microscopy_             |edc-microscopy|              |pypi-edc-microscopy|
 
 Thanks to JetBrains for support with an opensource PyCharm IDE license. |jet-brains|
 
+
+
 .. |pypi| image:: https://img.shields.io/pypi/v/edc.svg
     :target: https://pypi.python.org/pypi/edc
 
