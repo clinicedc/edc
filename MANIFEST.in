@@ -1,4 +1,0 @@
-include AUTHORS CHANGES LICENSE
-include MANIFEST.in
-include *.rst
-recursive-include docs *.rst

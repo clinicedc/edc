@@ -1,8 +1,8 @@
 # Third party packages
 django-mock-queries
-pre-commit
-time-machine
 
 # Packages from: https://github.com/clinicedc
 git+https://github.com/clinicedc/edc-test-settings@develop
 git+https://github.com/clinicedc/edc-test-utils@develop
+pre-commit
+time-machine

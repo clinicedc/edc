@@ -6,15 +6,20 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "ClinicEDC"
-copyright = "2022, erik van widenfelt"
+project = "clinicedc"
+copyright = "2025, erik van widenfelt"
 author = "erik van widenfelt"
-release = "0.4.25"
+release = "1.2.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "sphinx.ext.duration",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.doctest",
+]
 
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
@@ -23,5 +28,31 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "alabaster"
+html_theme = "furo"
+html_title = "Clinic EDC"
 html_static_path = ["_static"]
+
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/navigation.html",
+        "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html",
+    ]
+}
+
+pygments_style = "sphinx"
+
+# EPUB options
+epub_show_urls = "footnote"
+
+
+html_context = {
+    "display_github": True,
+    "github_user": "clinicedc",
+    "github_repo": "edc",
+    "github_version": "main",
+    "conf_py_path": "source/",
+}

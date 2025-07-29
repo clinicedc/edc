@@ -82,5 +82,5 @@ edc-view-utils
 edc-visit-schedule
 edc-visit-tracking
 edc-vitals
-edc_microscopy
 edc_microbiology
+edc_microscopy

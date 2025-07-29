@@ -1,4 +1,6 @@
 
+Dump users
+==========
 
 
 .. code-block:: bash
