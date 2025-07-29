@@ -1,6 +1,11 @@
 Data Management
 ===============
 
+Here is a blurb that describes systems built with the Clinic EDC framework. We use this as a template for descriptions of our approach for grant applications.
+
+
+Overview
+--------
 Data will be collected and managed electronically using a protocol-specific data managment system built on the ``clinicedc`` framework,
 from here referred to as ``the EDC``. The ``EDC`` provides realtime rule-based data collection, query management, reporting and monitoring. It
 emulates Good Clinical Practice Guidelines (based on ``ICH`` guidelines) by tracking the user name,

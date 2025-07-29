@@ -325,4 +325,4 @@ Check timestamp on last record in admin log
 
 .. code-block:: sql
 
-  mysql> select * from django_admin_log order by action_time desc LIMIT 1\G;
+    select * from django_admin_log order by action_time desc LIMIT 1;
