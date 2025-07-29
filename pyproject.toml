@@ -9,7 +9,7 @@ namespace = false
 
 [project]
 name = "edc"
-version = "1.2.4"
+version = "1.2.5"
 description = "EDC core modules for clinicedc/edc projects"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 keywords = ["django", "clinicedc", "edc", "clinical trials", "research", "data management", "esource"]
@@ -218,7 +218,6 @@ Changelog = "https://github.com/clinicedc/edc/blob/main/CHANGES"
 docs = [
     "furo>=2025.7.19",
     "sphinx>=8.2.3",
-    "sphinx-copybutton>=0.5.2",
     "sphinx-design>=0.6.1",
     "sphinx-inline-tabs>=2023.4.21",
 ]
