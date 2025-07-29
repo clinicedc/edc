@@ -227,3 +227,6 @@ lint = [
 
 [tool.black]
 line-length = 88
+
+[tool.rstcheck]
+ignore_directives = ["toctree"]

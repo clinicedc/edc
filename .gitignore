@@ -1,3 +1,4 @@
+docs/build
 .idea/
 _version.py
 dump.rdb

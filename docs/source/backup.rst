@@ -1,8 +1,4 @@
 
-.. contents:: Contents
-   :depth: 3
-   :backlinks: top
-
 Backup using duplicity
 ######################
 
@@ -13,16 +9,18 @@ Backing up the backups
   If using duplicity **BE ABSOLUTELY SURE** you export **AND** backup the
   ``gnupg`` keys somewhere other than the backup server.
 
-  .. code-block:: bash
+To export:
 
-    # To export:
-    $ sudo su <backup user>
-    $ gpg --output $HOME/dup.gpg.pub --armor --export <key_id>
-    $ gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys <key_id>
+.. code-block:: bash
 
-  Best to backup the entire ``~/.gnupg`` folder too.
+    sudo su my_backup_user
+    gpg --output $HOME/dup.gpg.pub --armor --export my_key_id
+    gpg --output $HOME/dup.gpg.priv --armor --pinentry-mode=loopback --export-secret-keys my_key_id
 
-  Once configured, backup the ``~/.duplicity`` folder as well.
+
+Best to backup the entire ``~/.gnupg`` folder too.
+
+Once configured, backup the ``~/.duplicity`` folder as well.
 
 
 Configure database backups
@@ -30,15 +28,16 @@ Configure database backups
 
 Install prerequisites
 ---------------------
+
 Install ``duplicity``
 
 (assumes already configured MySQL DB server)
 
 .. code-block:: bash
 
-  $ sudo apt-get update
+  sudo apt-get update
 
-  $ sudo apt-get install duplicity haveged python3-boto
+  sudo apt-get install duplicity haveged python3-boto
 
 Configure server backup/service account
 ---------------------------------------
@@ -47,9 +46,9 @@ backup related should be done with this account.
 
 .. code-block:: bash
 
-  $ sudo adduser edc
+  sudo adduser edc
 
-  $ su edc
+  su edc
 
 Configure backup destination
 ----------------------------
@@ -64,25 +63,25 @@ To backup to an externally mounted disk:
 
   # Create local backup, cache and logs dirs on external mount point,
   # and link them to local profile
-  $ mkdir -p /path/to/mount/mysql_backup/{_cache/duplicity,_logs}
-  $ ln -s /path/to/mount/mysql_backup ~/mysql_backup
+  mkdir -p /path/to/mount/mysql_backup/{_cache/duplicity,_logs}
+  ln -s /path/to/mount/mysql_backup ~/mysql_backup
 
   # Move duplicity cache onto mount
   # (so if it grows too big, which it eventually will, it doesn't bring down
   # the entire server)
-  $ mkdir -p ~/.cache/
-  $ ln -s /path/to/mount/mysql_backup/_cache/duplicity ~/.cache/duplicity
+  mkdir -p ~/.cache/
+  ln -s /path/to/mount/mysql_backup/_cache/duplicity ~/.cache/duplicity
 
   # Set permissions if required (from account with sudo)
-  $ chmod 700 ~/.cache/
-  $ chmod 700 /path/to/mount/mysql_backup/
-  $ sudo chown edc:edc /path/to/mount/mysql_backup/{_cache,_cache/duplicity,_logs}
+  chmod 700 ~/.cache/
+  chmod 700 /path/to/mount/mysql_backup/
+  sudo chown edc:edc /path/to/mount/mysql_backup/{_cache,_cache/duplicity,_logs}
 
   # To allow specific users access to the MySQL backup dumps
-  $ sudo addgroup mysql-backup-access
-  $ sudo adduser <user_name> mysql-backup-access
-  $ sudo chmod 710 /path/to/mount/mysql_backup/
-  $ sudo chown edc:mysql-backup-access /path/to/mount/mysql_backup/
+  sudo addgroup mysql-backup-access
+  sudo adduser <user_name> mysql-backup-access
+  sudo chmod 710 /path/to/mount/mysql_backup/
+  sudo chown edc:mysql-backup-access /path/to/mount/mysql_backup/
 
 
 Alternatively, to backup to local folders:
@@ -90,7 +89,7 @@ Alternatively, to backup to local folders:
 .. code-block:: bash
 
   # Create local backup/logs dirs
-  $ mkdir -p ~/mysql_backup/_logs
+  mkdir -p ~/mysql_backup/_logs
 
 
 Configure MySQL backup/service account
@@ -101,7 +100,7 @@ Setup MySQL backup/service account
 .. code-block:: bash
 
   # Login to mysql as user with permissions to create users
-  $ mysql
+  mysql
 
 .. code-block:: sql
 
@@ -115,7 +114,7 @@ Configure access to MySQL
 
 .. code-block:: bash
 
-  $ nano ~/.my.cnf
+  nano ~/.my.cnf
 
 and paste
 
@@ -132,7 +131,7 @@ To setup a *new* script/configuration folder for ``duplicity``:
 
 .. code-block:: bash
 
-  $ mkdir ~/.duplicity
+  mkdir ~/.duplicity
 
 *OR* copy an existing ``.duplicity`` config from another host.
 
@@ -155,7 +154,7 @@ Regardless of method to create/restore the .duplicity folder
 .. code-block:: bash
 
   # Set permissions to only edc user
-  $ chmod 700 ~/.duplicity
+  chmod 700 ~/.duplicity
 
 
 Configure encryption/GPG keys
@@ -168,9 +167,9 @@ Either generate new keys
 
 .. code-block:: bash
 
-  $ gpg --version
+  gpg --version
 
-  $ gpg --gen-key
+  gpg --gen-key
 
 
 *OR* import keys exported from elsewhere::
@@ -187,9 +186,10 @@ Take note of ``your-GPG-public-key-id``
 
 Configure the backup
 --------------------
+
 .. code-block:: bash
 
-  $ nano ~/.duplicity/.env_variables.conf
+  nano ~/.duplicity/.env_variables.conf
 
 Paste the following into ``.env_variables.conf`` filling in your values:
 
@@ -223,7 +223,7 @@ as defined in ``$AWS_BUCKET_AMBITION``.
 
 .. code-block:: bash
 
-  $ nano ~/.duplicity/.unset_env_variables.conf
+  nano ~/.duplicity/.unset_env_variables.conf
 
 Paste the following into ``.unset_env_variables.conf`` adding/modifying
 individual database variable names where appropriate:
@@ -269,7 +269,7 @@ A basic setup to backup a single database (``AMBITION``), by:
 
 .. code-block:: bash
 
-  $ nano ~/.duplicity/.backup.sh
+  nano ~/.duplicity/.backup.sh
 
 .. code-block:: bash
 
@@ -542,7 +542,7 @@ for example
 
 .. code-block:: sql
 
-  select * from django_admin_log order by action_time desc LIMIT 1\G;
+    select * from django_admin_log order by action_time desc LIMIT 1
 
 
 Disaster recovery preparation
