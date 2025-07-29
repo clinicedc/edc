@@ -45,5 +45,6 @@ Clinic EDC is open-source and written in python on top of Django
    redis
    celery
    dump_users
+   mysql_roles_and_read_only_users
    sql_examples
    protocol_data_management_section

@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "edc"
+project = "clinicedc"
 copyright = "2025, erik van widenfelt"
 author = "erik van widenfelt"
 release = "1.2.0"
