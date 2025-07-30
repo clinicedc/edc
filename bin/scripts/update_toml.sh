@@ -28,7 +28,7 @@ for dep in $deps; do
     name=$(echo "$dep" | sed 's/[<>=!~].*//')
     if [[ "$name" == edc-* ]]; then
         uv remove "${name}"
-        uv add "${name}" --upgrade-package "${name}" --bounds exact
+        uv add "${name}" --upgrade-package "${name}"
     elif [[ "$name" =~ ^[Dd]jango$ ]]; then
         echo "⚠️ Not updating django"
     else
@@ -39,6 +39,10 @@ done
 
 deps=$(tomlq -r '.project.dependencies[]' pyproject.toml)
 django_dep=$(tomlq -r '.project.dependencies[]' pyproject.toml | grep -E '^[Dd]jango([<>=[:space:]])')
+
+echo " "
+echo "Binding edc packages to exact version"
+sed '/^[[:space:]]*"edc-/ s/>=/==/' pyproject.toml > tmp.toml && mv tmp.toml pyproject.toml
 
 echo " "
 echo "🚀  Django was left as is: ${django_dep}"
