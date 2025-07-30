@@ -6,7 +6,7 @@ The system was first piloted in 2010 for a small trial in Mochudi, Botswana afte
 Our philosophy is that an "EDC" should be customized to meet the complex needs of a trial, embed the strict study procedures, quality assurance, and regulatory compliance into its workflow -- and be easy to use! We have kept this in mind as we resist over generalizing modules. For example, the BCPP project research assistants collected data on their participants in very remote and challenging conditions. As was said back in 2016, "Our RAs have to be good at dealing with people-talking to them about the importance of knowing their HIV status or participating in the study. If we find someone who's good at counseling and dealing with people, we'll make sure that person -- as long as they've got enough fingers to hit the keyboard -- can operate the system."
 
 .. figure:: _static/BCPP_5_1.png
-   :scale: 25 %
+   :scale: 75 %
    :align: center
    :class: with-shadow
    :alt: Field team at work in Shakawe, Botswana
