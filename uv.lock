@@ -1,6 +1,10 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
+resolution-markers = [
+    "python_full_version >= '3.13'",
+    "python_full_version < '3.13'",
+]
 
 [[package]]
 name = "accessible-pygments"
@@ -118,6 +122,39 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/79/fc/ec94a357dfc6683d8c86f8b4cfa5416a4c36b28052ec8260c77aca96a443/amqp-5.3.1.tar.gz", hash = "sha256:cddc00c725449522023bad949f70fff7b48f0b1ade74d170a6f10ab044739432", size = 129013, upload-time = "2024-11-12T19:55:44.051Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/26/99/fc813cd978842c26c82534010ea849eee9ab3a13ea2b74e95cb9c99e747b/amqp-5.3.1-py3-none-any.whl", hash = "sha256:43b3319e1b4e7d1251833a93d672b4af1e40f3d632d479b98661a95f117880a2", size = 50944, upload-time = "2024-11-12T19:55:41.782Z" },
+]
+
+[[package]]
+name = "argon2-cffi"
+version = "25.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "argon2-cffi-bindings" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0e/89/ce5af8a7d472a67cc819d5d998aa8c82c5d860608c4db9f46f1162d7dab9/argon2_cffi-25.1.0.tar.gz", hash = "sha256:694ae5cc8a42f4c4e2bf2ca0e64e51e23a040c6a517a85074683d3959e1346c1", size = 45706, upload-time = "2025-06-03T06:55:32.073Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4f/d3/a8b22fa575b297cd6e3e3b0155c7e25db170edf1c74783d6a31a2490b8d9/argon2_cffi-25.1.0-py3-none-any.whl", hash = "sha256:fdc8b074db390fccb6eb4a3604ae7231f219aa669a2652e0f20e16ba513d5741", size = 14657, upload-time = "2025-06-03T06:55:30.804Z" },
+]
+
+[[package]]
+name = "argon2-cffi-bindings"
+version = "21.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cffi" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b9/e9/184b8ccce6683b0aa2fbb7ba5683ea4b9c5763f1356347f1312c32e3c66e/argon2-cffi-bindings-21.2.0.tar.gz", hash = "sha256:bb89ceffa6c791807d1305ceb77dbfacc5aa499891d2c55661c6459651fc39e3", size = 1779911, upload-time = "2021-12-01T08:52:55.68Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d4/13/838ce2620025e9666aa8f686431f67a29052241692a3dd1ae9d3692a89d3/argon2_cffi_bindings-21.2.0-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:ccb949252cb2ab3a08c02024acb77cfb179492d5701c7cbdbfd776124d4d2367", size = 29658, upload-time = "2021-12-01T09:09:17.016Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/02/f7f7bb6b6af6031edb11037639c697b912e1dea2db94d436e681aea2f495/argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9524464572e12979364b7d600abf96181d3541da11e23ddf565a32e70bd4dc0d", size = 80583, upload-time = "2021-12-01T09:09:19.546Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/f7/378254e6dd7ae6f31fe40c8649eea7d4832a42243acaf0f1fff9083b2bed/argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b746dba803a79238e925d9046a63aa26bf86ab2a2fe74ce6b009a1c3f5c8f2ae", size = 86168, upload-time = "2021-12-01T09:09:21.445Z" },
+    { url = "https://files.pythonhosted.org/packages/74/f6/4a34a37a98311ed73bb80efe422fed95f2ac25a4cacc5ae1d7ae6a144505/argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:58ed19212051f49a523abb1dbe954337dc82d947fb6e5a0da60f7c8471a8476c", size = 82709, upload-time = "2021-12-01T09:09:18.182Z" },
+    { url = "https://files.pythonhosted.org/packages/74/2b/73d767bfdaab25484f7e7901379d5f8793cccbb86c6e0cbc4c1b96f63896/argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:bd46088725ef7f58b5a1ef7ca06647ebaf0eb4baff7d1d0d177c6cc8744abd86", size = 83613, upload-time = "2021-12-01T09:09:22.741Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/fd/37f86deef67ff57c76f137a67181949c2d408077e2e3dd70c6c42912c9bf/argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_i686.whl", hash = "sha256:8cd69c07dd875537a824deec19f978e0f2078fdda07fd5c42ac29668dda5f40f", size = 84583, upload-time = "2021-12-01T09:09:24.177Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/52/5a60085a3dae8fded8327a4f564223029f5f54b0cb0455a31131b5363a01/argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:f1152ac548bd5b8bcecfb0b0371f082037e47128653df2e8ba6e914d384f3c3e", size = 88475, upload-time = "2021-12-01T09:09:26.673Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/95/143cd64feb24a15fa4b189a3e1e7efbaeeb00f39a51e99b26fc62fbacabd/argon2_cffi_bindings-21.2.0-cp36-abi3-win32.whl", hash = "sha256:603ca0aba86b1349b147cab91ae970c63118a0f30444d4bc80355937c950c082", size = 27698, upload-time = "2021-12-01T09:09:27.87Z" },
+    { url = "https://files.pythonhosted.org/packages/37/2c/e34e47c7dee97ba6f01a6203e0383e15b60fb85d78ac9a15cd066f6fe28b/argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl", hash = "sha256:b2ef1c30440dbbcba7a5dc3e319408b59676e2e039e2ae11a8775ecf482b192f", size = 30817, upload-time = "2021-12-01T09:09:30.267Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/e4/bf8034d25edaa495da3c8a3405627d2e35758e44ff6eaa7948092646fdcc/argon2_cffi_bindings-21.2.0-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:e415e3f62c8d124ee16018e491a009937f8cf7ebf5eb430ffc5de21b900dad93", size = 53104, upload-time = "2021-12-01T09:09:31.335Z" },
 ]
 
 [[package]]
@@ -448,17 +485,11 @@ wheels = [
 
 [[package]]
 name = "django-audit-fields"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3a/56/95c1fb408b87977dc81f3aac9ec8e0b1d45830eda5551d2ffc822186cf97/django_audit_fields-1.1.0.tar.gz", hash = "sha256:e01fc56ded65e8eefd45fb8d8584c8636f348d0858e197206c71b08c8892336e", size = 25925, upload-time = "2025-07-21T20:30:56.978Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/fc/a0/78f089f75d153cf1104c2abc80b9b34415bc123a116da9c7440dd32766c9/django_audit_fields-1.1.0-py3-none-any.whl", hash = "sha256:972561a35db17c6e1b6327d99fe41d2f514a2d69cdd4a0264aca3cf11a71bdc2", size = 24108, upload-time = "2025-07-21T20:30:56.052Z" },
-]
+source = { editable = "../django-audit-fields" }
 
 [[package]]
 name = "django-crypto-fields"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../django-crypto-fields" }
 dependencies = [
     { name = "django-audit-fields" },
     { name = "django-extensions" },
@@ -467,10 +498,18 @@ dependencies = [
     { name = "edc-utils" },
     { name = "pycryptodomex" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/05/6d/fd6e95d928d8a406ec33da61f2c691433f3f54a8d520e1a4e244406140fd/django_crypto_fields-1.0.1.tar.gz", hash = "sha256:0814ad1c799f9e037bb12f2b3a22ea8e31295ef51772eed5b93a3786333dfed7", size = 51113, upload-time = "2025-07-17T23:08:48.738Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/e4/fdc4cee538c114ee511b9cac3ef949c68446d87b5b5bdb0babc276a716d0/django_crypto_fields-1.0.1-py3-none-any.whl", hash = "sha256:f4b78f2cd41baa4bca5bcb519872d277a517420d7878a98875a54267c1039407", size = 65470, upload-time = "2025-07-17T23:08:47.721Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "django-audit-fields" },
+    { name = "django-extensions" },
+    { name = "django-revision" },
+    { name = "edc-model-fields" },
+    { name = "edc-test-settings", marker = "extra == 'test'" },
+    { name = "edc-utils" },
+    { name = "pycryptodomex" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "django-db-views"
@@ -522,26 +561,30 @@ wheels = [
 [[package]]
 name = "django-logentry-admin"
 version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../django-logentry-admin" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5e/fe/529328451657a429cf1ea8c8c3789d0001a711d1c39706c9cca09fd742d3/django-logentry-admin-1.1.0.tar.gz", hash = "sha256:d0354f36da6f48204ae8327533128060513c8ef40259cbde1049d07db4e5d95a", size = 5497, upload-time = "2021-05-25T15:48:46.562Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/3f/b0/f8356dd2ad478bedb0a5f991d416aff3f99d8d73750da4459faf27989754/django_logentry_admin-1.1.0-py3-none-any.whl", hash = "sha256:26269ca78cd421c3cc63cb58eae55339c031b0d8a880e5b4404489d4128dd290", size = 5703, upload-time = "2021-05-25T15:48:44.353Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "django", specifier = ">=2.2" }]
 
 [[package]]
 name = "django-multisite2"
-version = "2.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../django-multisite2" }
 dependencies = [
     { name = "tldextract" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c8/c7/b41b822c2c00c585f35070621c0c3527388c9ba85f2c930d82d5917ee28e/django_multisite2-2.1.0.tar.gz", hash = "sha256:aeccb6fba824efb28678c2630b2e8223da2b53fff034c0b3f38e9d304921eb97", size = 89545, upload-time = "2025-07-18T21:16:04.068Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/02/32dda08f37a2955279204a01f3efe8cac69ac0ef298da0eb3eb0c2bfec16/django_multisite2-2.1.0-py3-none-any.whl", hash = "sha256:29b63f9ca6aca0f77199f1ef657b1c2a4ccb133ae574aec4f0db5995cc754824", size = 120810, upload-time = "2025-07-18T21:16:03.023Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "coverage", marker = "extra == 'test'" },
+    { name = "mock", marker = "extra == 'test'" },
+    { name = "pluggy", marker = "extra == 'test'" },
+    { name = "tldextract" },
+    { name = "tox", marker = "extra == 'test'" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "django-pandas"
@@ -585,15 +628,19 @@ wheels = [
 
 [[package]]
 name = "django-revision"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../django-revision" }
 dependencies = [
     { name = "gitpython" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/cb/f9/99ea27172c458ac6f997c5d39482b2ec7b07cdde02239d10df996fec5257/django_revision-1.0.0.tar.gz", hash = "sha256:d57f316cdd10404881fa68fa3be5025d6dd0954f202dce60f4372e548a19bd46", size = 18847, upload-time = "2025-07-21T12:56:22.17Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/fc/0e/75567b9ae1039af36d20f1c8706c44912182a0fa7845ee234fa22fbb57e1/django_revision-1.0.0-py3-none-any.whl", hash = "sha256:b0786777b424209ee4334116785dc2eda0706cb12e361f83cf656a34757655dc", size = 16974, upload-time = "2025-07-21T12:56:21.296Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "coverage", marker = "extra == 'test'" },
+    { name = "edc-test-settings", marker = "extra == 'test'" },
+    { name = "edc-utils", marker = "extra == 'test'" },
+    { name = "gitpython" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "django-sequences"
@@ -609,15 +656,13 @@ wheels = [
 
 [[package]]
 name = "django-simple-history"
-version = "3.10.1"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../django-simple-history" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/2b/8d43eed1f9de32e890e0f5780e6d623a5a7e645e0e77a515edd427029f3c/django_simple_history-3.10.1.tar.gz", hash = "sha256:040f0c2286bed730312aa15f0acee9e7e6f839c4bcd721693251aa7ec5b65d95", size = 233649, upload-time = "2025-06-20T20:22:32.722Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/c3/d4ba265feb7b8bad3cf0730a3a8d82bb40d14551f8c53c88895ec06fa51c/django_simple_history-3.10.1-py3-none-any.whl", hash = "sha256:e12c27abfcd7e801a9d274d94542549ce8c617b0b384ae69afb161b56cd02ba4", size = 78611, upload-time = "2025-06-20T20:22:30.878Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "django", specifier = ">=4.2" }]
 
 [[package]]
 name = "django-storages"
@@ -629,6 +674,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ff/d6/2e50e378fff0408d558f36c4acffc090f9a641fd6e084af9e54d45307efa/django_storages-1.14.6.tar.gz", hash = "sha256:7a25ce8f4214f69ac9c7ce87e2603887f7ae99326c316bc8d2d75375e09341c9", size = 87587, upload-time = "2025-04-02T02:34:55.103Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1f/21/3cedee63417bc5553eed0c204be478071c9ab208e5e259e97287590194f1/django_storages-1.14.6-py3-none-any.whl", hash = "sha256:11b7b6200e1cb5ffcd9962bd3673a39c7d6a6109e8096f0e03d46fab3d3aabd9", size = 33095, upload-time = "2025-04-02T02:34:53.291Z" },
+]
+
+[[package]]
+name = "django-webtest"
+version = "1.9.13"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "webtest" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/93/1f/5bbd6fc47dc82230f03f16eb1ddd6f3aa8865f38b52c4f90964a3001d2c7/django_webtest-1.9.13.tar.gz", hash = "sha256:97b2db843588128332326e4fc0a37bd825cf4d68f1ab0188c8cc00a9710e8279", size = 28901, upload-time = "2025-04-03T10:59:21.686Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/45/57/760a41e283f356a6aedb3b71b91a3ca9991b758482f01d31be9a5129ecd1/django_webtest-1.9.13-py3-none-any.whl", hash = "sha256:1903d35f429cbff54bd89d41ddc42376529d56e3c35bfe7cb83827b17fbf962d", size = 16638, upload-time = "2025-04-03T10:59:19.969Z" },
 ]
 
 [[package]]
@@ -657,27 +714,9 @@ name = "edc"
 version = "1.2.7"
 source = { editable = "." }
 dependencies = [
-    { name = "aiohappyeyeballs" },
-    { name = "aiohttp" },
-    { name = "aiohttp-retry" },
-    { name = "aiosignal" },
-    { name = "amqp" },
-    { name = "arrow" },
-    { name = "asgiref" },
-    { name = "attrs" },
-    { name = "beautifulsoup4" },
-    { name = "billiard" },
+    { name = "argon2-cffi" },
+    { name = "black" },
     { name = "boto3" },
-    { name = "botocore" },
-    { name = "celery" },
-    { name = "certifi" },
-    { name = "cffi" },
-    { name = "charset-normalizer" },
-    { name = "click" },
-    { name = "click-didyoumean" },
-    { name = "click-plugins" },
-    { name = "click-repl" },
-    { name = "cryptography" },
     { name = "django" },
     { name = "django-admin-rangefilter" },
     { name = "django-audit-fields" },
@@ -685,14 +724,11 @@ dependencies = [
     { name = "django-db-views" },
     { name = "django-defender" },
     { name = "django-environ" },
-    { name = "django-extensions" },
     { name = "django-logentry-admin" },
     { name = "django-multisite2" },
     { name = "django-pandas" },
-    { name = "django-pylabels" },
     { name = "django-redis" },
     { name = "django-revision" },
-    { name = "django-sequences" },
     { name = "django-simple-history" },
     { name = "django-storages" },
     { name = "djangorestframework" },
@@ -772,65 +808,109 @@ dependencies = [
     { name = "edc-visit-schedule" },
     { name = "edc-visit-tracking" },
     { name = "edc-vitals" },
-    { name = "filelock" },
     { name = "fontawesomefree" },
-    { name = "frozenlist" },
-    { name = "gitdb" },
-    { name = "gitpython" },
     { name = "gunicorn" },
-    { name = "httplib2" },
-    { name = "idna" },
-    { name = "inflect" },
-    { name = "jmespath" },
-    { name = "kombu" },
-    { name = "mempass" },
-    { name = "more-itertools" },
-    { name = "multidict" },
-    { name = "mysqlclient" },
-    { name = "numpy" },
-    { name = "packaging" },
-    { name = "pandas" },
-    { name = "pillow" },
-    { name = "prompt-toolkit" },
-    { name = "propcache" },
-    { name = "pycparser" },
-    { name = "pycryptodomex" },
-    { name = "pycups" },
-    { name = "pyjwt" },
-    { name = "pylabels2" },
-    { name = "pyparsing" },
-    { name = "pypdf" },
-    { name = "pyrabbit" },
-    { name = "python-dateutil" },
     { name = "python-memcached" },
-    { name = "pytz" },
-    { name = "redis" },
-    { name = "reportlab" },
-    { name = "requests" },
-    { name = "requests-file" },
-    { name = "s3transfer" },
-    { name = "six" },
-    { name = "smmap" },
-    { name = "soupsieve" },
-    { name = "sqlalchemy" },
-    { name = "sqlglot" },
-    { name = "sqlglotrs" },
-    { name = "sqlparse" },
-    { name = "tldextract" },
-    { name = "tqdm" },
-    { name = "twilio" },
-    { name = "typeguard" },
-    { name = "types-python-dateutil" },
-    { name = "typing-extensions" },
-    { name = "tzdata" },
-    { name = "urllib3" },
-    { name = "vine" },
-    { name = "wcwidth" },
-    { name = "yarl" },
-    { name = "zxcvbn" },
 ]
 
 [package.dev-dependencies]
+develop = [
+    { name = "argon2-cffi" },
+    { name = "django-admin-rangefilter" },
+    { name = "django-audit-fields" },
+    { name = "django-crypto-fields" },
+    { name = "django-db-views" },
+    { name = "django-environ" },
+    { name = "django-logentry-admin" },
+    { name = "django-multisite2" },
+    { name = "django-pandas" },
+    { name = "django-revision" },
+    { name = "django-simple-history" },
+    { name = "django-storages" },
+    { name = "edc-action-item" },
+    { name = "edc-adherence" },
+    { name = "edc-adverse-event" },
+    { name = "edc-analytics" },
+    { name = "edc-appconfig" },
+    { name = "edc-appointment" },
+    { name = "edc-auth" },
+    { name = "edc-consent" },
+    { name = "edc-constants" },
+    { name = "edc-crf" },
+    { name = "edc-csf" },
+    { name = "edc-dashboard" },
+    { name = "edc-data-manager" },
+    { name = "edc-device" },
+    { name = "edc-document-status" },
+    { name = "edc-dx" },
+    { name = "edc-dx-review" },
+    { name = "edc-egfr" },
+    { name = "edc-export" },
+    { name = "edc-facility" },
+    { name = "edc-fieldsets" },
+    { name = "edc-form-describer" },
+    { name = "edc-form-label" },
+    { name = "edc-form-runners" },
+    { name = "edc-form-validators" },
+    { name = "edc-glucose" },
+    { name = "edc-he" },
+    { name = "edc-identifier" },
+    { name = "edc-lab" },
+    { name = "edc-lab-dashboard" },
+    { name = "edc-lab-panel" },
+    { name = "edc-lab-results" },
+    { name = "edc-label" },
+    { name = "edc-list-data" },
+    { name = "edc-listboard" },
+    { name = "edc-locator" },
+    { name = "edc-ltfu" },
+    { name = "edc-metadata" },
+    { name = "edc-microbiology" },
+    { name = "edc-microscopy" },
+    { name = "edc-mnsi" },
+    { name = "edc-model" },
+    { name = "edc-model-admin" },
+    { name = "edc-model-fields" },
+    { name = "edc-model-form" },
+    { name = "edc-model-to-dataframe" },
+    { name = "edc-navbar" },
+    { name = "edc-next-appointment" },
+    { name = "edc-notification" },
+    { name = "edc-offstudy" },
+    { name = "edc-pdf-reports" },
+    { name = "edc-pdutils" },
+    { name = "edc-pharmacy" },
+    { name = "edc-pharmacy-dashboard" },
+    { name = "edc-phq9" },
+    { name = "edc-prn" },
+    { name = "edc-protocol" },
+    { name = "edc-protocol-incident" },
+    { name = "edc-pylabels" },
+    { name = "edc-qareports" },
+    { name = "edc-qol" },
+    { name = "edc-randomization" },
+    { name = "edc-refusal" },
+    { name = "edc-registration" },
+    { name = "edc-reportable" },
+    { name = "edc-review-dashboard" },
+    { name = "edc-rx" },
+    { name = "edc-screening" },
+    { name = "edc-search" },
+    { name = "edc-sites" },
+    { name = "edc-subject-dashboard" },
+    { name = "edc-test-settings" },
+    { name = "edc-test-utils" },
+    { name = "edc-timepoint" },
+    { name = "edc-transfer" },
+    { name = "edc-unblinding" },
+    { name = "edc-utils" },
+    { name = "edc-view-utils" },
+    { name = "edc-visit-schedule" },
+    { name = "edc-visit-tracking" },
+    { name = "edc-vitals" },
+    { name = "fontawesomefree" },
+    { name = "python-memcached" },
+]
 docs = [
     { name = "furo" },
     { name = "sphinx" },
@@ -845,180 +925,203 @@ lint = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aiohappyeyeballs", specifier = ">=2.6.1" },
-    { name = "aiohttp", specifier = ">=3.12.15" },
-    { name = "aiohttp-retry", specifier = ">=2.9.1" },
-    { name = "aiosignal", specifier = ">=1.4.0" },
-    { name = "amqp", specifier = ">=5.3.1" },
-    { name = "arrow", specifier = ">=1.3.0" },
-    { name = "asgiref", specifier = ">=3.9.1" },
-    { name = "attrs", specifier = ">=25.3.0" },
-    { name = "beautifulsoup4", specifier = ">=4.13.4" },
-    { name = "billiard", specifier = ">=4.2.1" },
-    { name = "boto3", specifier = ">=1.39.15" },
-    { name = "botocore", specifier = ">=1.39.16" },
-    { name = "celery", specifier = ">=5.5.3" },
-    { name = "certifi", specifier = ">=2025.7.14" },
-    { name = "cffi", specifier = ">=1.17.1" },
-    { name = "charset-normalizer", specifier = ">=3.4.2" },
-    { name = "click", specifier = ">=8.2.1" },
-    { name = "click-didyoumean", specifier = ">=0.3.1" },
-    { name = "click-plugins", specifier = ">=1.1.1.2" },
-    { name = "click-repl", specifier = ">=0.3.0" },
-    { name = "cryptography", specifier = ">=45.0.5" },
-    { name = "django", specifier = "==5.2.4" },
+    { name = "argon2-cffi", specifier = ">=25.1.0" },
+    { name = "black", specifier = ">=25.1.0" },
+    { name = "boto3", specifier = ">=1.39.16" },
+    { name = "django", specifier = ">=5.2.4" },
     { name = "django-admin-rangefilter", specifier = ">=0.13.3" },
-    { name = "django-audit-fields", specifier = ">=1.1.0" },
-    { name = "django-crypto-fields", specifier = ">=1.0.1" },
+    { name = "django-audit-fields", editable = "../django-audit-fields" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
     { name = "django-db-views", specifier = ">=0.1.11" },
     { name = "django-defender", specifier = ">=0.9.8" },
     { name = "django-environ", specifier = ">=0.12.0" },
-    { name = "django-extensions", specifier = ">=4.1" },
-    { name = "django-logentry-admin", specifier = ">=1.1.0" },
-    { name = "django-multisite2", specifier = ">=2.1.0" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
     { name = "django-pandas", specifier = ">=0.6.7" },
-    { name = "django-pylabels", specifier = ">=1.0.1" },
     { name = "django-redis", specifier = ">=6.0.0" },
-    { name = "django-revision", specifier = ">=1.0.0" },
-    { name = "django-sequences", specifier = ">=3.0" },
-    { name = "django-simple-history", specifier = ">=3.10.1" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
     { name = "django-storages", specifier = ">=1.14.6" },
     { name = "djangorestframework", specifier = ">=3.16.0" },
-    { name = "edc-action-item", specifier = "==1.0.3" },
-    { name = "edc-adherence", specifier = "==1.0.1" },
-    { name = "edc-adverse-event", specifier = "==1.0.3" },
-    { name = "edc-analytics", specifier = "==0.1.4" },
-    { name = "edc-appconfig", specifier = "==1.0.2" },
-    { name = "edc-appointment", specifier = "==1.1.1" },
-    { name = "edc-auth", specifier = "==1.0.2" },
-    { name = "edc-consent", specifier = "==1.0.3" },
-    { name = "edc-constants", specifier = "==1.0.1" },
-    { name = "edc-crf", specifier = "==1.0.2" },
-    { name = "edc-dashboard", specifier = "==1.0.3" },
-    { name = "edc-data-manager", specifier = "==1.0.0" },
-    { name = "edc-device", specifier = "==1.0.1" },
-    { name = "edc-document-status", specifier = "==1.0.0" },
-    { name = "edc-dx", specifier = "==1.0.1" },
-    { name = "edc-dx-review", specifier = "==1.0.1" },
-    { name = "edc-egfr", specifier = "==1.0.2" },
-    { name = "edc-export", specifier = "==1.0.4" },
-    { name = "edc-facility", specifier = "==1.0.2" },
-    { name = "edc-fieldsets", specifier = "==1.0.1" },
-    { name = "edc-form-describer", specifier = "==1.0.2" },
-    { name = "edc-form-label", specifier = "==1.0.2" },
-    { name = "edc-form-runners", specifier = "==1.0.0" },
-    { name = "edc-form-validators", specifier = "==1.0.0" },
-    { name = "edc-glucose", specifier = "==1.0.3" },
-    { name = "edc-he", specifier = "==1.0.2" },
-    { name = "edc-identifier", specifier = "==1.0.0" },
-    { name = "edc-lab", specifier = "==1.0.5" },
-    { name = "edc-lab-dashboard", specifier = "==1.0.2" },
-    { name = "edc-lab-panel", specifier = "==1.0.0" },
-    { name = "edc-lab-results", specifier = "==1.0.2" },
-    { name = "edc-label", specifier = "==1.0.0" },
-    { name = "edc-list-data", specifier = "==1.0.0" },
-    { name = "edc-listboard", specifier = "==1.0.0" },
-    { name = "edc-locator", specifier = "==1.0.2" },
-    { name = "edc-ltfu", specifier = "==1.0.1" },
-    { name = "edc-metadata", specifier = "==1.0.5" },
-    { name = "edc-microbiology", specifier = "==1.0.0" },
-    { name = "edc-microscopy", specifier = "==1.0.0" },
-    { name = "edc-mnsi", specifier = "==1.0.0" },
-    { name = "edc-model", specifier = "==1.0.0" },
-    { name = "edc-model-admin", specifier = "==1.0.3" },
-    { name = "edc-model-fields", specifier = "==1.0.0" },
-    { name = "edc-model-form", specifier = "==1.0.0" },
-    { name = "edc-model-to-dataframe", specifier = "==1.0.1" },
-    { name = "edc-navbar", specifier = "==1.0.0" },
-    { name = "edc-next-appointment", specifier = "==0.3.1" },
-    { name = "edc-notification", specifier = "==1.0.1" },
-    { name = "edc-offstudy", specifier = "==1.0.1" },
-    { name = "edc-pdf-reports", specifier = "==1.0.2" },
-    { name = "edc-pdutils", specifier = "==1.0.2" },
-    { name = "edc-pharmacy", specifier = "==1.2.3" },
-    { name = "edc-prn", specifier = "==1.1.1" },
-    { name = "edc-protocol", specifier = "==1.0.1" },
-    { name = "edc-protocol-incident", specifier = "==1.0.1" },
-    { name = "edc-pylabels", specifier = "==1.0.1" },
-    { name = "edc-qareports", specifier = "==1.0.4" },
-    { name = "edc-qol", specifier = "==1.0.2" },
-    { name = "edc-randomization", specifier = "==1.0.4" },
-    { name = "edc-refusal", specifier = "==1.0.1" },
-    { name = "edc-registration", specifier = "==1.0.1" },
-    { name = "edc-reportable", specifier = "==2.0.2" },
-    { name = "edc-review-dashboard", specifier = "==1.0.2" },
-    { name = "edc-rx", specifier = "==1.0.1" },
-    { name = "edc-screening", specifier = "==1.1.0" },
-    { name = "edc-search", specifier = "==1.0.1" },
-    { name = "edc-sites", specifier = "==1.1.0" },
-    { name = "edc-subject-dashboard", specifier = "==1.0.1" },
-    { name = "edc-timepoint", specifier = "==1.0.1" },
-    { name = "edc-transfer", specifier = "==1.0.1" },
-    { name = "edc-unblinding", specifier = "==1.0.2" },
-    { name = "edc-utils", specifier = "==1.1.1" },
-    { name = "edc-view-utils", specifier = "==1.0.1" },
-    { name = "edc-visit-schedule", specifier = "==4.1.1" },
-    { name = "edc-visit-tracking", specifier = "==1.0.2" },
-    { name = "edc-vitals", specifier = "==1.1.2" },
-    { name = "filelock", specifier = ">=3.18.0" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-adherence", editable = "../edc-adherence" },
+    { name = "edc-adverse-event", editable = "../edc-adverse-event" },
+    { name = "edc-analytics", editable = "../edc-analytics" },
+    { name = "edc-appconfig", editable = "../edc-appconfig" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-device", editable = "../edc-device" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-dx", editable = "../edc-dx" },
+    { name = "edc-dx-review", editable = "../edc-dx-review" },
+    { name = "edc-egfr", editable = "../edc-egfr" },
+    { name = "edc-export", editable = "../edc-export" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-form-describer", editable = "../edc-form-describer" },
+    { name = "edc-form-label", editable = "../edc-form-label" },
+    { name = "edc-form-runners", editable = "../edc-form-runners" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-glucose", editable = "../edc-glucose" },
+    { name = "edc-he", editable = "../edc-he" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-lab", editable = "../edc-lab" },
+    { name = "edc-lab-dashboard", editable = "../edc-lab-dashboard" },
+    { name = "edc-lab-panel", editable = "../edc-lab-panel" },
+    { name = "edc-lab-results", editable = "../edc-lab-results" },
+    { name = "edc-label", editable = "../edc-label" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-listboard", editable = "../edc-listboard" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-ltfu", editable = "../edc-ltfu" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-microbiology", editable = "../edc-microbiology" },
+    { name = "edc-microscopy", editable = "../edc-microscopy" },
+    { name = "edc-mnsi", editable = "../edc-mnsi" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-fields", editable = "../edc-model-fields" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-model-to-dataframe", editable = "../edc-model-to-dataframe" },
+    { name = "edc-navbar", editable = "../edc-navbar" },
+    { name = "edc-next-appointment", editable = "../edc-next-appointment" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pdf-reports", editable = "../edc-pdf-reports" },
+    { name = "edc-pdutils", editable = "../edc-pdutils" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-protocol-incident", editable = "../edc-protocol-incident" },
+    { name = "edc-pylabels", editable = "../edc-pylabels" },
+    { name = "edc-qareports", editable = "../edc-qareports" },
+    { name = "edc-qol", editable = "../edc-qol" },
+    { name = "edc-randomization", editable = "../edc-randomization" },
+    { name = "edc-refusal", editable = "../edc-refusal" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-reportable", editable = "../edc-reportable" },
+    { name = "edc-review-dashboard", editable = "../edc-review-dashboard" },
+    { name = "edc-rx", editable = "../edc-rx" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-subject-dashboard", editable = "../edc-subject-dashboard" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-transfer", editable = "../edc-transfer" },
+    { name = "edc-unblinding", editable = "../edc-unblinding" },
+    { name = "edc-utils", editable = "../edc-utils" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "edc-vitals", editable = "../edc-vitals" },
     { name = "fontawesomefree", specifier = ">=6.6.0" },
-    { name = "frozenlist", specifier = ">=1.7.0" },
-    { name = "gitdb", specifier = ">=4.0.12" },
-    { name = "gitpython", specifier = ">=3.1.45" },
     { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "httplib2", specifier = ">=0.22.0" },
-    { name = "idna", specifier = ">=3.10" },
-    { name = "inflect", specifier = ">=7.5.0" },
-    { name = "jmespath", specifier = ">=1.0.1" },
-    { name = "kombu", specifier = ">=5.5.4" },
-    { name = "mempass", specifier = ">=0.1.2" },
-    { name = "more-itertools", specifier = ">=10.7.0" },
-    { name = "multidict", specifier = ">=6.6.3" },
-    { name = "mysqlclient", specifier = ">=2.2.7" },
-    { name = "numpy", specifier = ">=2.3.2" },
-    { name = "packaging", specifier = ">=25.0" },
-    { name = "pandas", specifier = ">=2.3.1" },
-    { name = "pillow", specifier = ">=11.3.0" },
-    { name = "prompt-toolkit", specifier = ">=3.0.51" },
-    { name = "propcache", specifier = ">=0.3.2" },
-    { name = "pycparser", specifier = ">=2.22" },
-    { name = "pycryptodomex", specifier = ">=3.23.0" },
-    { name = "pycups", specifier = ">=2.0.4" },
-    { name = "pyjwt", specifier = ">=2.10.1" },
-    { name = "pylabels2", specifier = ">=1.4.4" },
-    { name = "pyparsing", specifier = ">=3.2.3" },
-    { name = "pypdf", specifier = ">=5.9.0" },
-    { name = "pyrabbit", specifier = ">=1.1.0" },
-    { name = "python-dateutil", specifier = ">=2.9.0.post0" },
     { name = "python-memcached", specifier = ">=1.62" },
-    { name = "pytz", specifier = ">=2025.2" },
-    { name = "redis", specifier = ">=6.2.0" },
-    { name = "reportlab", specifier = ">=4.4.3" },
-    { name = "requests", specifier = ">=2.32.4" },
-    { name = "requests-file", specifier = ">=2.1.0" },
-    { name = "s3transfer", specifier = ">=0.13.1" },
-    { name = "six", specifier = ">=1.17.0" },
-    { name = "smmap", specifier = ">=5.0.2" },
-    { name = "soupsieve", specifier = ">=2.7" },
-    { name = "sqlalchemy", specifier = ">=2.0.42" },
-    { name = "sqlglot", specifier = ">=27.4.1" },
-    { name = "sqlglotrs", specifier = ">=0.6.1" },
-    { name = "sqlparse", specifier = ">=0.5.3" },
-    { name = "tldextract", specifier = ">=5.3.0" },
-    { name = "tqdm", specifier = ">=4.67.1" },
-    { name = "twilio", specifier = ">=9.7.0" },
-    { name = "typeguard", specifier = ">=4.4.4" },
-    { name = "types-python-dateutil", specifier = ">=2.9.0.20250708" },
-    { name = "typing-extensions", specifier = ">=4.14.1" },
-    { name = "tzdata", specifier = ">=2025.2" },
-    { name = "urllib3", specifier = ">=2.5.0" },
-    { name = "vine", specifier = ">=5.1.0" },
-    { name = "wcwidth", specifier = ">=0.2.13" },
-    { name = "yarl", specifier = ">=1.20.1" },
-    { name = "zxcvbn", specifier = ">=4.5.0" },
 ]
 
 [package.metadata.requires-dev]
+develop = [
+    { name = "argon2-cffi" },
+    { name = "django-admin-rangefilter" },
+    { name = "django-audit-fields", editable = "../django-audit-fields" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
+    { name = "django-db-views" },
+    { name = "django-environ" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
+    { name = "django-pandas" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
+    { name = "django-storages" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-adherence", editable = "../edc-adherence" },
+    { name = "edc-adverse-event", editable = "../edc-adverse-event" },
+    { name = "edc-analytics", editable = "../edc-analytics" },
+    { name = "edc-appconfig", editable = "../edc-appconfig" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-csf", editable = "../edc-csf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-device", editable = "../edc-device" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-dx", editable = "../edc-dx" },
+    { name = "edc-dx-review", editable = "../edc-dx-review" },
+    { name = "edc-egfr", editable = "../edc-egfr" },
+    { name = "edc-export", editable = "../edc-export" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-form-describer", editable = "../edc-form-describer" },
+    { name = "edc-form-label", editable = "../edc-form-label" },
+    { name = "edc-form-runners", editable = "../edc-form-runners" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-glucose", editable = "../edc-glucose" },
+    { name = "edc-he", editable = "../edc-he" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-lab", editable = "../edc-lab" },
+    { name = "edc-lab-dashboard", editable = "../edc-lab-dashboard" },
+    { name = "edc-lab-panel", editable = "../edc-lab-panel" },
+    { name = "edc-lab-results", editable = "../edc-lab-results" },
+    { name = "edc-label", editable = "../edc-label" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-listboard", editable = "../edc-listboard" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-ltfu", editable = "../edc-ltfu" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-microbiology", editable = "../edc-microbiology" },
+    { name = "edc-microscopy", editable = "../edc-microscopy" },
+    { name = "edc-mnsi", editable = "../edc-mnsi" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-fields", editable = "../edc-model-fields" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-model-to-dataframe", editable = "../edc-model-to-dataframe" },
+    { name = "edc-navbar", editable = "../edc-navbar" },
+    { name = "edc-next-appointment", editable = "../edc-next-appointment" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pdf-reports", editable = "../edc-pdf-reports" },
+    { name = "edc-pdutils", editable = "../edc-pdutils" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-pharmacy-dashboard", editable = "../edc-pharmacy-dashboard" },
+    { name = "edc-phq9", editable = "../edc-phq9" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-protocol-incident", editable = "../edc-protocol-incident" },
+    { name = "edc-pylabels", editable = "../edc-pylabels" },
+    { name = "edc-qareports", editable = "../edc-qareports" },
+    { name = "edc-qol", editable = "../edc-qol" },
+    { name = "edc-randomization", editable = "../edc-randomization" },
+    { name = "edc-refusal", editable = "../edc-refusal" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-reportable", editable = "../edc-reportable" },
+    { name = "edc-review-dashboard", editable = "../edc-review-dashboard" },
+    { name = "edc-rx", editable = "../edc-rx" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-subject-dashboard", editable = "../edc-subject-dashboard" },
+    { name = "edc-test-settings", editable = "../edc-test-settings" },
+    { name = "edc-test-utils", editable = "../edc-test-utils" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-transfer", editable = "../edc-transfer" },
+    { name = "edc-unblinding", editable = "../edc-unblinding" },
+    { name = "edc-utils", editable = "../edc-utils" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "edc-vitals", editable = "../edc-vitals" },
+    { name = "fontawesomefree" },
+    { name = "python-memcached" },
+]
 docs = [
     { name = "furo", specifier = ">=2025.7.19" },
     { name = "sphinx", specifier = ">=8.2.3" },
@@ -1034,522 +1137,617 @@ lint = [
 [[package]]
 name = "edc-action-item"
 version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/17/6b/27e76da62ebed46a78e640e283f8ca0265e66108489e1db9b9d68c8a57f2/edc_action_item-1.0.3.tar.gz", hash = "sha256:8d5aadaec0fc0aea00a3a22dcdadbc5b175c5df0aeae2f9a639b7aa9a4f91db6", size = 81010, upload-time = "2025-07-09T15:36:37.112Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f2/40/742684f63696d56f14ff7618a2ea92c8de7785ba787aa58594a20ac601b9/edc_action_item-1.0.3-py3-none-any.whl", hash = "sha256:1063fa6685038a03e11865d0c3b82e43540c6ecacb5f9291ca3adbc7abfc82b3", size = 117909, upload-time = "2025-07-09T15:36:35.641Z" },
-]
+source = { editable = "../edc-action-item" }
 
 [[package]]
 name = "edc-adherence"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/1c/e7/52d0496f59e1a110548fa4df8665f782373abeba0e666a2e59c28ecf7d78/edc_adherence-1.0.1.tar.gz", hash = "sha256:2e1fa61717af4223ba7c28fcad091f0ba8dfc074390c988d87e77d8a13087e99", size = 32746, upload-time = "2025-07-02T20:19:06.596Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/26/0a/a69db93a3db3ea9d31dca8ebf630fca9da2ba5d8a27bdb53844601ccff63/edc_adherence-1.0.1-py3-none-any.whl", hash = "sha256:b22aba656cb63fadc14204e7f89d933d4a6bbea3dcd1e7fa39241afab0bf87e8", size = 34890, upload-time = "2025-07-02T20:19:05.72Z" },
+version = "1.2.0"
+source = { editable = "../edc-adherence" }
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+docs = [
+    { name = "furo", specifier = ">=2025.7.19" },
+    { name = "sphinx", specifier = ">=8.2.3" },
+    { name = "sphinx-design", specifier = ">=0.6.1" },
+    { name = "sphinx-inline-tabs", specifier = ">=2023.4.21" },
+]
+lint = [
+    { name = "black", specifier = ">=25.1.0" },
+    { name = "deptry", specifier = ">=0.23.0" },
+    { name = "flake8", specifier = ">=7.3.0" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "ruff", specifier = ">=0.12.5" },
+]
+test = [
+    { name = "coverage", specifier = ">=7.10.1" },
+    { name = "django-admin-rangefilter", specifier = ">=0.13.3" },
+    { name = "django-crypto-fields", specifier = ">=1.0.1" },
+    { name = "django-logentry-admin", specifier = ">=1.1.0" },
+    { name = "django-multisite2", specifier = ">=2.1.0" },
+    { name = "django-pandas", specifier = ">=0.6.7" },
+    { name = "django-revision", specifier = ">=1.0.0" },
+    { name = "django-simple-history", specifier = ">=3.10.1" },
+    { name = "django-webtest", specifier = ">=1.9.13" },
+    { name = "edc-action-item", specifier = ">=1.0.3" },
+    { name = "edc-appointment", specifier = ">=1.1.1" },
+    { name = "edc-auth", specifier = ">=1.0.2" },
+    { name = "edc-consent", specifier = ">=1.0.3" },
+    { name = "edc-constants", specifier = ">=1.0.1" },
+    { name = "edc-crf", specifier = ">=1.0.1" },
+    { name = "edc-dashboard", specifier = ">=1.0.3" },
+    { name = "edc-data-manager", specifier = ">=1.0.0" },
+    { name = "edc-device", specifier = ">=1.0.1" },
+    { name = "edc-document-status", specifier = ">=1.0.0" },
+    { name = "edc-facility", specifier = ">=1.0.2" },
+    { name = "edc-fieldsets", specifier = ">=1.0.1" },
+    { name = "edc-form-validators", specifier = ">=1.0.0" },
+    { name = "edc-identifier", specifier = ">=1.0.0" },
+    { name = "edc-lab", specifier = ">=1.0.5" },
+    { name = "edc-list-data", specifier = ">=1.0.0" },
+    { name = "edc-locator", specifier = ">=1.0.2" },
+    { name = "edc-metadata", specifier = ">=1.0.5" },
+    { name = "edc-model", specifier = ">=1.0.0" },
+    { name = "edc-model-admin", specifier = ">=1.0.3" },
+    { name = "edc-model-form", specifier = ">=1.0.0" },
+    { name = "edc-model-to-dataframe", specifier = ">=1.0.1" },
+    { name = "edc-notification", specifier = ">=1.0.1" },
+    { name = "edc-offstudy", specifier = ">=1.0.1" },
+    { name = "edc-pdf-reports", specifier = ">=1.0.2" },
+    { name = "edc-pharmacy", specifier = ">=1.2.3" },
+    { name = "edc-prn", specifier = ">=1.1.1" },
+    { name = "edc-protocol", specifier = ">=1.0.1" },
+    { name = "edc-randomization", specifier = ">=1.0.4" },
+    { name = "edc-registration", specifier = ">=1.0.1" },
+    { name = "edc-reportable", specifier = ">=2.0.2" },
+    { name = "edc-screening", specifier = ">=1.1.0" },
+    { name = "edc-search", specifier = ">=1.0.1" },
+    { name = "edc-sites", specifier = ">=1.1.0" },
+    { name = "edc-test-settings", specifier = ">=1.1.2" },
+    { name = "edc-timepoint", specifier = ">=1.0.1" },
+    { name = "edc-view-utils", specifier = ">=1.0.1" },
+    { name = "edc-visit-schedule", specifier = ">=4.1.1" },
+    { name = "edc-visit-tracking", specifier = ">=1.0.2" },
+    { name = "faker", specifier = ">=37.4.2" },
+    { name = "model-bakery", specifier = ">=1.20.5" },
+    { name = "time-machine", specifier = ">=2.16.0" },
+    { name = "tox-uv", specifier = ">=1.26.2" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]
 name = "edc-adverse-event"
-version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/db/8f/ae0108ff90644501b6a487a9b3355439b2dd7f4e92bb8ef16c4b526c39ec/edc_adverse_event-1.0.3.tar.gz", hash = "sha256:211a1d6730efed71beadd1f2e1dcddf51e92cb20f90d4de6403f93463cf74498", size = 92410, upload-time = "2025-06-26T11:19:02.151Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/e4/79ef2dde5b7add3835d6cb50e2d6db1dbe2cff79e2929f0547c932cc7910/edc_adverse_event-1.0.3-py3-none-any.whl", hash = "sha256:5212013ffcc5bf3b0074cce8173bf9fcad3359947d07980758d3b499a2849c76", size = 162818, upload-time = "2025-06-26T11:19:00.626Z" },
-]
+version = "1.0.4.dev18+g0ae50b5"
+source = { editable = "../edc-adverse-event" }
 
 [[package]]
 name = "edc-analytics"
-version = "0.1.4"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.1.dev3+g8f18574"
+source = { editable = "../edc-analytics" }
 dependencies = [
     { name = "arrow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d0/0e/0cbdcad57af395af62110ff2859b5dd64fd4f118a901b8f37885756691f3/edc_analytics-0.1.4.tar.gz", hash = "sha256:bc450f42becf58d407b8d47eb3796daaf08b1496ebfca7f0e4c0d72a3e6c1d8a", size = 27453, upload-time = "2024-11-20T22:54:53.679Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/75/4d9c749953bb840afe3ff4ae2c2477c7ae64c75c246ad6af53a2607f9c7e/edc_analytics-0.1.4-py3-none-any.whl", hash = "sha256:ec769c082d2fac7fab159024b174eed56aca4a54d69c3f5d47f2a1906f7e316f", size = 31529, upload-time = "2024-11-20T22:54:52.724Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "arrow" }]
 
 [[package]]
 name = "edc-appconfig"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b9/e9/4dd37da61ee14eb9773b83a4daaef1da955a248047d4650ab3f30f7138f6/edc_appconfig-1.0.2.tar.gz", hash = "sha256:7a7a34eb72215f0573008c9d8c43bd4d48f8c8bca00d7e48dcf5b97dfef153d3", size = 28344, upload-time = "2025-06-26T02:43:21.134Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/78/d5/8a02fa4ec7445ed833afdee3511148a90745278eab26aeebdf63413727b5/edc_appconfig-1.0.2-py3-none-any.whl", hash = "sha256:1b424d043701e9137560b8d143052f529d722cb2305480dd9c70788773e16fff", size = 26937, upload-time = "2025-06-26T02:43:19.973Z" },
-]
+version = "1.0.3.dev3+g104b5af"
+source = { editable = "../edc-appconfig" }
 
 [[package]]
 name = "edc-appointment"
-version = "1.1.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.1.2.dev1+g1397cfc"
+source = { editable = "../edc-appointment" }
 dependencies = [
     { name = "arrow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/60/a5/46475c240f658e1f0feab1b5c57377efe4c6a8cd9a884825e6478097dfe8/edc_appointment-1.1.1.tar.gz", hash = "sha256:58a97a9dc5a7243201944370031b664767bf2606981e7cf93c53a5626b52daf2", size = 117068, upload-time = "2025-06-30T15:43:37.771Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/17/04/c6e7f072054fba905fda70f45d1f72d7726bb1ae8cc36bd4ae8acdada506/edc_appointment-1.1.1-py3-none-any.whl", hash = "sha256:037a439602f3693c5a6123f8aa20a396c9f58ff4c31e488ad13082beb5cd3fc6", size = 176341, upload-time = "2025-06-30T15:43:36.177Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "arrow" }]
 
 [[package]]
 name = "edc-auth"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.3.dev3+gc9f43f8"
+source = { editable = "../edc-auth" }
 dependencies = [
     { name = "mempass" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b8/d1/7f80f32a1ce9f90c5920196c68179c6298ac097eb2bbd1a7ac5a90431e5e/edc_auth-1.0.2.tar.gz", hash = "sha256:142f320cb53b677fbcc7f4d76810dfffa3e1c9187e030d33f82e7235b354e3a4", size = 73530, upload-time = "2025-06-26T03:24:18.766Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/f2/db47efaa41ac53947b5d6e13a2f68c67a67a17272a8f8230c39037acbbb4/edc_auth-1.0.2-py3-none-any.whl", hash = "sha256:d4c12402ec11218a8314abcaa6b0472c70e25c62e82718aa7ec1fcaff64ca539", size = 103321, upload-time = "2025-06-26T03:24:17.198Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "mempass" }]
 
 [[package]]
 name = "edc-consent"
-version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/8f/2a/877952c4f8d5f4748c32a5955929c1b661674ccd3d617f0ecab061a8a11b/edc_consent-1.0.3.tar.gz", hash = "sha256:4893e2eabb2c6dc4f3a3f79e3c435dc808ac2ff4adad428c98ffbb434fb99f17", size = 77968, upload-time = "2025-02-27T12:10:42.73Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/39/e3eea439274c06384ef9f3084b4ef04fe97074d97c8046c528eee3f68eab/edc_consent-1.0.3-py3-none-any.whl", hash = "sha256:67fd60fc7a84741aa2555f1cb248845ab665ba90d9f917bfc3898be02e3b35a8", size = 95174, upload-time = "2025-02-27T12:10:39.936Z" },
-]
+version = "1.0.4.dev9+g7a34210"
+source = { editable = "../edc-consent" }
 
 [[package]]
 name = "edc-constants"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/68/09/6704d252c3ad0f08bef41dfd5728ce1df09e6b476fe2452a40934a88875a/edc_constants-1.0.1.tar.gz", hash = "sha256:a79632ca9e870ac3898195f0146bd7b7f593f9ed84689af0f9c018416bc15d25", size = 27232, upload-time = "2025-06-12T11:33:22.626Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b5/a8/a5e6e4494fef802f0429aca5f4ae653f508b6e25110f563ab589a07731a8/edc_constants-1.0.1-py3-none-any.whl", hash = "sha256:1ca7d172fd7f45ddf0d2cdb66508fcbddc2d55f8f69ab67132a2aaac911a236b", size = 25764, upload-time = "2025-06-12T11:33:21.378Z" },
-]
+version = "1.0.2.dev3+g2fbf4f5"
+source = { editable = "../edc-constants" }
 
 [[package]]
 name = "edc-crf"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/de/03/d9eeeec521cccf9c092e23c44f36299a9af707bfd605fd0227839d67395e/edc_crf-1.0.2.tar.gz", hash = "sha256:ec4b990d459fbda9aa1da709cc1d34d0da9972a3010710e6fb496fee183809ba", size = 43390, upload-time = "2025-06-12T11:38:51.361Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ff/3a/c14bb561ce5172b1d55758a51545418607d71344114984e9863ecbbee0fe/edc_crf-1.0.2-py3-none-any.whl", hash = "sha256:48630ad05adf85956e103bb7c56d9939b6aefdf58156da67a3337987943f7a0e", size = 52068, upload-time = "2025-06-12T11:38:49.912Z" },
-]
+version = "1.0.3.dev3+gdc35ec4"
+source = { editable = "../edc-crf" }
+
+[[package]]
+name = "edc-csf"
+version = "1.0.1.dev9+gbb077da"
+source = { editable = "../edc-csf" }
 
 [[package]]
 name = "edc-dashboard"
 version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0b/4c/9666be62e5b50502498395c6fad297cec9dce2267686d35d1cf4797a525a/edc_dashboard-1.0.3.tar.gz", hash = "sha256:e07ad653452e70f8c465a9da76be93d013dcec2b4ef8602f8756794c58b45ebc", size = 152495, upload-time = "2025-07-09T15:39:00.681Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/8d/0d/8a120bfeeb2f6c3edd713377ac11397ffb303e4831101b5043dc80167217/edc_dashboard-1.0.3-py3-none-any.whl", hash = "sha256:ef2a7ecf6c191af4ff2a03b9bcd6650f77d1d1b74515ae4aff213660c52d11fc", size = 172117, upload-time = "2025-07-09T15:38:59.316Z" },
-]
+source = { editable = "../edc-dashboard" }
+
+[package.metadata]
+requires-dist = [{ name = "arrow", marker = "extra == 'test'" }]
+provides-extras = ["test"]
 
 [[package]]
 name = "edc-data-manager"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.1.dev2+ga856d34"
+source = { editable = "../edc-data-manager" }
 dependencies = [
     { name = "arrow" },
     { name = "celery" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1d/24/23d9f6993c33a4429c76580cdef584609d67f1bf97b9def9d641aa89000e/edc_data_manager-1.0.0.tar.gz", hash = "sha256:8c32bf52eeb5086df5b6ea87b44f91ba81135f480aaa71cee9389456566a8e74", size = 81123, upload-time = "2025-06-26T02:54:27.511Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/4b/15/65bb5335a2a06195935397fee28f8a616158033be63fd539ff911890fdc2/edc_data_manager-1.0.0-py3-none-any.whl", hash = "sha256:25e9324da594a0a4237829471f5231c75b58fc2bda9d144bd4bf1cc4c0716511", size = 115735, upload-time = "2025-06-26T02:54:26.035Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "arrow" },
+    { name = "celery" },
+    { name = "django-webtest", marker = "extra == 'test'" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "edc-device"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/00/df/affaef09f9c28f69f0bdbd5a79b86448be5445ce6264ca812c8c8be0273b/edc_device-1.0.1.tar.gz", hash = "sha256:2b34f770b9a04bdc8457e95ae3bbd3867fc004cd8b3293a84b276656b75c49ce", size = 28883, upload-time = "2025-06-26T02:55:50.736Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1f/f8/f5147eec146f93cfa223162fe5762b2a283bb7992755368aca4543f37ea7/edc_device-1.0.1-py3-none-any.whl", hash = "sha256:17147ce18ecdbf9345221a1c4496a455fe472150bed91315743226b8f5ad812b", size = 29078, upload-time = "2025-06-26T02:55:49.424Z" },
-]
+version = "1.0.2.dev8+g6ccd330.d20250727"
+source = { editable = "../edc-device" }
 
 [[package]]
 name = "edc-document-status"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/37/a6/406ae12652b0dd6212340647346cfa45d3a53519adcedfb0a64e667f9316/edc_document_status-1.0.0.tar.gz", hash = "sha256:c759b8c0ec5020973953d63827eb0d4fe06873b755b0e086b7c3cdfb5445da88", size = 26355, upload-time = "2025-01-21T23:30:07.718Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f4/71/01c0c6a27164431b9d122644ab7605f02992536b0519961c940bdf9fed7c/edc_document_status-1.0.0-py3-none-any.whl", hash = "sha256:c1f401ea96aca58055218c96c993c6c226c124a02c4a9f008f7fcf2c1f93e835", size = 24625, upload-time = "2025-01-21T23:30:06.641Z" },
-]
+version = "1.0.1.dev10+g9674d23"
+source = { editable = "../edc-document-status" }
 
 [[package]]
 name = "edc-dx"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d6/19/eafce02c5bc2523513759436c671a77ee78c736a0c02ccaf884cf7077ebe/edc_dx-1.0.1.tar.gz", hash = "sha256:99f1b20b65574a5ada7a5a7d4ddeee6fc17583749661d296242fe83d57bde950", size = 35016, upload-time = "2025-06-26T02:57:26.945Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/25/56/5757d2d85436d44d002c81833b81c9c6f83165af688ab0c65468ba02eddd/edc_dx-1.0.1-py3-none-any.whl", hash = "sha256:fb2e4c7c63291773447619165c5cd30a4b9e55bbb41b5edc27058cb77c9b1427", size = 35623, upload-time = "2025-06-26T02:57:25.795Z" },
-]
+version = "1.0.2.dev3+ge99193d"
+source = { editable = "../edc-dx" }
 
 [[package]]
 name = "edc-dx-review"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/41/a9/106c7e312454695846d38c5a672f337db3d4a2ae138cbb1b8ba6de6d9479/edc_dx_review-1.0.1.tar.gz", hash = "sha256:47165a62409dc25cb338ee7ea82fdf0b491aaff031d0c0a9d2a3cd30047ae8fc", size = 40055, upload-time = "2025-01-22T01:45:43.17Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/00/a8/58278c7b8a61bfbc8eb38326e8198e1855b738e4c09f01e0d56f050c56a5/edc_dx_review-1.0.1-py3-none-any.whl", hash = "sha256:fe3133e4b9b97052a14924b7693eb647226d7ba92370c85caff4f8ed1c7dc4cd", size = 52898, upload-time = "2025-01-22T01:45:41.034Z" },
-]
+version = "1.0.2.dev9+gb3bae07"
+source = { editable = "../edc-dx-review" }
 
 [[package]]
 name = "edc-egfr"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.3.dev3+gfee69ef"
+source = { editable = "../edc-egfr" }
 dependencies = [
     { name = "arrow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/82/15/85f1a79374b8b95b57a454934f2353ad0f9ba2c6ebf27339f660159ea70c/edc_egfr-1.0.2.tar.gz", hash = "sha256:7f696fd4f389e63016b88f1e273426050fde9752efe6cd6e6f8710936d2020aa", size = 40805, upload-time = "2025-06-26T03:00:54.562Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/00/03/078d659f00bfe9e8c944770e5fae00a23796ecd53b0f5aece32aedb34ed8/edc_egfr-1.0.2-py3-none-any.whl", hash = "sha256:bc54a5d8489417c3dbd62e7f5c17262bed79f2b2392037887ed50e5e0fdff07c", size = 45014, upload-time = "2025-06-26T03:00:52.575Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "arrow" }]
 
 [[package]]
 name = "edc-export"
-version = "1.0.4"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/79/b7/c89fa3aeeffd0036a81b78ab30488d23b3b372e231eefca64e76bebbb6e6/edc_export-1.0.4.tar.gz", hash = "sha256:5f16c7b4089dc2ae2a6a80b314f3e97be37917470e7ab48586659099e50ed0c3", size = 64687, upload-time = "2025-06-27T13:04:19.131Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/4d/b6/f828c7a6cb93bc1d440a0488a17fc0d69018bf988a1f2e6e7ed648fc732e/edc_export-1.0.4-py3-none-any.whl", hash = "sha256:ba0b0e1a0361bae3a0b06606969b3a0ff3c66293a882d2198cbb24dcbe916021", size = 90323, upload-time = "2025-06-27T13:04:17.81Z" },
-]
+version = "1.0.5.dev3+gb08301a"
+source = { editable = "../edc-export" }
 
 [[package]]
 name = "edc-facility"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.3.dev9+gbe21395"
+source = { editable = "../edc-facility" }
 dependencies = [
     { name = "arrow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b4/e7/d9334bb7a72d07acdb13e64c0e14f9a0271d8e5a0afccfd177e3ffaa1015/edc_facility-1.0.2.tar.gz", hash = "sha256:67d02a3449dbdc31886e391d0dcca08b10271f7499271077f2496ad66109f4a4", size = 46208, upload-time = "2025-02-27T12:18:24.445Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ac/30/f8acac70a1c87e29a44906d1a8ec6c08eae5e9c71ecd65d53cb2a977a0d1/edc_facility-1.0.2-py3-none-any.whl", hash = "sha256:8b65bad97b994f3eec3a2df6e9095150548cec194a5a0b084abc88a6c199590f", size = 56530, upload-time = "2025-02-27T12:18:21.381Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "arrow" }]
 
 [[package]]
 name = "edc-fieldsets"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.2.dev9+g2aced65"
+source = { editable = "../edc-fieldsets" }
 dependencies = [
     { name = "arrow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bc/56/c89e9b2a6d6617ba81d92bd766092765fd37ee90ddab521cc7435e8487ad/edc_fieldsets-1.0.1.tar.gz", hash = "sha256:e5b678de2a3be7bd1bec7a42bc95eabcc984a7ddb2d20c30f75e85d6f17523c1", size = 32330, upload-time = "2025-02-27T12:19:35.307Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/72/15/012f4b6a86d72696d2a7bcc63479c1518e68d179864e39a762709cef6dfb/edc_fieldsets-1.0.1-py3-none-any.whl", hash = "sha256:272effb4809a2ec409eeb35e6c259fe8c88aca739f0da0afafa88012e5bb135a", size = 31539, upload-time = "2025-02-27T12:19:33.454Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "arrow" }]
 
 [[package]]
 name = "edc-form-describer"
 version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../edc-form-describer" }
 dependencies = [
     { name = "django" },
     { name = "edc-fieldsets" },
     { name = "edc-model" },
     { name = "edc-visit-schedule" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a0/ad/ccadf33347ae36dcd173b82b35d5dbb361904997204c00fda94697e28c2f/edc_form_describer-1.0.2.tar.gz", hash = "sha256:438ced97c3c1bd6cdced58fcf953ef7d622d3139530fc4f52c7bd6d8a5878d22", size = 27845, upload-time = "2025-07-28T02:45:26.687Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/35/b58c0ea0f44f249b4a4ab263194fe4a9110825fd38995476399233c00b2e/edc_form_describer-1.0.2-py3-none-any.whl", hash = "sha256:3eea53e60faca4c7235fcfaae40e037a07f4bcdb0cb25dd483b390184e18e6bd", size = 25660, upload-time = "2025-07-28T02:45:25.477Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "django", specifier = ">=5.2" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+]
+
+[package.metadata.requires-dev]
+develop = [
+    { name = "django-admin-rangefilter" },
+    { name = "django-audit-fields", editable = "../django-audit-fields" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
+    { name = "django-pandas" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-adherence", editable = "../edc-adherence" },
+    { name = "edc-adverse-event", editable = "../edc-adverse-event" },
+    { name = "edc-analytics", editable = "../edc-analytics" },
+    { name = "edc-appconfig", editable = "../edc-appconfig" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-csf", editable = "../edc-csf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-device", editable = "../edc-device" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-dx", editable = "../edc-dx" },
+    { name = "edc-dx-review", editable = "../edc-dx-review" },
+    { name = "edc-egfr", editable = "../edc-egfr" },
+    { name = "edc-export", editable = "../edc-export" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-form-describer", virtual = "../edc-form-describer" },
+    { name = "edc-form-label", editable = "../edc-form-label" },
+    { name = "edc-form-runners", editable = "../edc-form-runners" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-glucose", editable = "../edc-glucose" },
+    { name = "edc-he", editable = "../edc-he" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-lab", editable = "../edc-lab" },
+    { name = "edc-lab-dashboard", editable = "../edc-lab-dashboard" },
+    { name = "edc-lab-panel", editable = "../edc-lab-panel" },
+    { name = "edc-lab-results", editable = "../edc-lab-results" },
+    { name = "edc-label", editable = "../edc-label" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-listboard", editable = "../edc-listboard" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-ltfu", editable = "../edc-ltfu" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-microbiology", editable = "../edc-microbiology" },
+    { name = "edc-microscopy", editable = "../edc-microscopy" },
+    { name = "edc-mnsi", editable = "../edc-mnsi" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-fields", editable = "../edc-model-fields" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-model-to-dataframe", editable = "../edc-model-to-dataframe" },
+    { name = "edc-navbar", editable = "../edc-navbar" },
+    { name = "edc-next-appointment", editable = "../edc-next-appointment" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pdf-reports", editable = "../edc-pdf-reports" },
+    { name = "edc-pdutils", editable = "../edc-pdutils" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-pharmacy-dashboard", editable = "../edc-pharmacy-dashboard" },
+    { name = "edc-phq9", editable = "../edc-phq9" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-protocol-incident", editable = "../edc-protocol-incident" },
+    { name = "edc-pylabels", editable = "../edc-pylabels" },
+    { name = "edc-qareports", editable = "../edc-qareports" },
+    { name = "edc-qol", editable = "../edc-qol" },
+    { name = "edc-randomization", editable = "../edc-randomization" },
+    { name = "edc-refusal", editable = "../edc-refusal" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-reportable", editable = "../edc-reportable" },
+    { name = "edc-review-dashboard", editable = "../edc-review-dashboard" },
+    { name = "edc-rx", editable = "../edc-rx" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-subject-dashboard", editable = "../edc-subject-dashboard" },
+    { name = "edc-test-settings", editable = "../edc-test-settings" },
+    { name = "edc-test-utils", editable = "../edc-test-utils" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-transfer", editable = "../edc-transfer" },
+    { name = "edc-unblinding", editable = "../edc-unblinding" },
+    { name = "edc-utils", editable = "../edc-utils" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "edc-vitals", editable = "../edc-vitals" },
+]
+lint = [
+    { name = "black", specifier = ">=25.1.0" },
+    { name = "deptry", specifier = ">=0.23.0" },
+    { name = "flake8", specifier = ">=7.3.0" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "ruff", specifier = ">=0.12.5" },
+]
+test = [
+    { name = "coverage", specifier = ">=7.10.1" },
+    { name = "django-admin-rangefilter", specifier = ">=0.13.3" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
+    { name = "django-pandas", specifier = ">=0.6.7" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
+    { name = "django-webtest", specifier = ">=1.9.13" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-test-settings", editable = "../edc-test-settings" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "faker", specifier = ">=37.4.2" },
+    { name = "model-bakery", specifier = ">=1.20.5" },
+    { name = "time-machine", specifier = ">=2.16.0" },
+    { name = "tox-uv", specifier = ">=1.26.2" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]
 name = "edc-form-label"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/2f/16/9e51493cc12520e36520b3121416ba516c96367854287af79399ec1b35a0/edc_form_label-1.0.2.tar.gz", hash = "sha256:44ab4ba73fef40ed235c767878f70c8535e51772376f6e0b5d8760cf05f0be23", size = 30900, upload-time = "2025-01-22T01:48:05.888Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/0f/5d/5a105df0bc01110a2570808153d91f98e20a3a2ac5f6be3f4d85c16e961e/edc_form_label-1.0.2-py3-none-any.whl", hash = "sha256:e007ca5774c0c19a4a5f0d93e4101f9faa64d59ff9f9c9c8d03fd46b28585e78", size = 30453, upload-time = "2025-01-22T01:48:03.713Z" },
-]
+version = "1.0.3.dev8+g1bf8b94"
+source = { editable = "../edc-form-label" }
 
 [[package]]
 name = "edc-form-runners"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.1.dev9+g5c528d8"
+source = { editable = "../edc-form-runners" }
 dependencies = [
     { name = "beautifulsoup4" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/13/3c/a92da551c0194803738788536239e343d10f04d302586b6614269166019b/edc_form_runners-1.0.0.tar.gz", hash = "sha256:63bd6e11740c4976c52a607ee73372c3e41dab68f1db7e4dae095decaf3b6ea8", size = 45026, upload-time = "2025-01-22T02:05:50.822Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/2a/6c99b77e6178ac81f08a3da9733389faa15105c2000a86089990d74f25fb/edc_form_runners-1.0.0-py3-none-any.whl", hash = "sha256:40eb4fee1c7d6357ad23b63442bc516f47a1472cb28ce42b9731ade29cff6138", size = 48659, upload-time = "2025-01-22T02:05:48.821Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "beautifulsoup4" }]
 
 [[package]]
 name = "edc-form-validators"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/9c/dd/01111135a512c0d256318ed347bafd081fd4f533c469cc5493508fe3fbfe/edc_form_validators-1.0.0.tar.gz", hash = "sha256:41c469692a8521d8a8eb7aeb5c12ff64aab5a1d4cef228b83a84604aa35ee4e2", size = 41939, upload-time = "2025-01-21T18:05:23.487Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/0f/7c/14d1265193e95269919ba6d9934eb0631a246b4f75b3abab40895a34b53c/edc_form_validators-1.0.0-py3-none-any.whl", hash = "sha256:cd03d3b70bfef5fa024ef8bfff0d29832523f574049d8703ee7749d9117ae162", size = 48834, upload-time = "2025-01-21T18:05:20.68Z" },
-]
+version = "1.0.1.dev9+g1b2a39f"
+source = { editable = "../edc-form-validators" }
 
 [[package]]
 name = "edc-glucose"
-version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/91/c4/bc3df4ffb02ebb4e40656e3444f5a6d130747b7d7d9b082a85a155ecaed4/edc_glucose-1.0.3.tar.gz", hash = "sha256:039a5992ff1f1a4dc5966a9832a8c365679541401696056f143fae0182fbb3f1", size = 33168, upload-time = "2025-07-16T19:58:26.13Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/98/4d/efe3aa0fc035b4ce3e21e483b8e5d9a33cf6ac826506038c0440c2638cc1/edc_glucose-1.0.3-py3-none-any.whl", hash = "sha256:3756ab768498b36a97376646022f1d3b77fe36c273b68045b8a360d5431714f1", size = 36386, upload-time = "2025-07-16T19:58:24.385Z" },
-]
+version = "1.0.4.dev0+ge553857.d20250727"
+source = { editable = "../edc-glucose" }
 
 [[package]]
 name = "edc-he"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/58/6d/100ecc1d4704c3e90ad511f8806d176c2c27f64467c729eba04b318ad8b7/edc_he-1.0.2.tar.gz", hash = "sha256:243e6fc0696221192de824a82ba7b0bfb20ba95d52337725fb0fb97545ac8ddd", size = 78155, upload-time = "2025-02-27T12:20:39.251Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a3/fa/9b660e2cb47d76ff69bc45a3dda7c7c1ea7c0bf91c5c5c323003066cb64d/edc_he-1.0.2-py3-none-any.whl", hash = "sha256:f82f4d51a1fc10e873b1f9d5334668c12a3607ecee091aacc562c35dbb91b244", size = 105696, upload-time = "2025-02-27T12:20:36.053Z" },
-]
+version = "1.0.3.dev10+gc837399"
+source = { editable = "../edc-he" }
 
 [[package]]
 name = "edc-identifier"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a1/49/960d85dc74fdddafc5ecb33de1c39992cba7ceaf78b8b70dc8e3ea533900/edc_identifier-1.0.0.tar.gz", hash = "sha256:bbaf7be0ba7c58de1b31a61a4145e579dba8d65d4e18b8f21aad0b343c504eea", size = 42303, upload-time = "2025-01-21T17:34:15.734Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/fa/0e/43e7c38c13b65887cb3f3cc2447029d926f1c9a72d579c7bf231cbb3279a/edc_identifier-1.0.0-py3-none-any.whl", hash = "sha256:575fecb555a104cbd6448bc334b97006dff4a80588210fe9a89ba1170235fe6d", size = 56604, upload-time = "2025-01-21T17:34:13.529Z" },
-]
+version = "1.0.1.dev8+g5f76e4d"
+source = { editable = "../edc-identifier" }
 
 [[package]]
 name = "edc-lab"
-version = "1.0.5"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.6.dev1+g1811b80"
+source = { editable = "../edc-lab" }
 dependencies = [
     { name = "pycups" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e1/ba/244353d17b394ba5a76f7f3357cbd1a430e192c2094d8135d82d8cd50cba/edc_lab-1.0.5.tar.gz", hash = "sha256:4b74075b69bb881cac26de32f1bc2132112bd2e4f9b655c552fdb2f4d617a3e3", size = 82956, upload-time = "2025-07-02T20:13:24.44Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/36/f228834d30c73d8aa2446fc8d716e7f2bafef82c7170735f87c4caa0b036/edc_lab-1.0.5-py3-none-any.whl", hash = "sha256:1a7e9dceaa1c9fdb20f8b1c3366794f0998fe1c89bdca6ef88d6920e8586c5c6", size = 133486, upload-time = "2025-07-02T20:13:23.06Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "pycups" }]
 
 [[package]]
 name = "edc-lab-dashboard"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d1/17/6b040d9c18b9c77f6ed7b6d284952f614387715f9a29b1ff91d5fb3d8119/edc_lab_dashboard-1.0.2.tar.gz", hash = "sha256:ad3d0ad2f3cf940dc925f70f7f6e6a7dad9b51f7d57043b610452a4066a7b8d3", size = 63202, upload-time = "2025-07-02T20:15:14.723Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c9/90/abf03f405a81d85a433d05117225e20441a909ade5b898c1a08fb1f49c39/edc_lab_dashboard-1.0.2-py3-none-any.whl", hash = "sha256:b42804ec0d0a7ce8a3def18eca26c3797170a0e9ad3375469789febffbf554cb", size = 101099, upload-time = "2025-07-02T20:15:13.478Z" },
-]
+version = "1.0.3.dev1+gc158a52"
+source = { editable = "../edc-lab-dashboard" }
 
 [[package]]
 name = "edc-lab-panel"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/77/3e/ec26906bb3157a4d378dc6d318cc6e5bc966c8977995371a828e3f2906bb/edc_lab_panel-1.0.0.tar.gz", hash = "sha256:03b9c05986986d205c7a8d5f9d3e7a74735d253508f8e892c2a3c6249bb90c4a", size = 28383, upload-time = "2025-01-21T16:24:14.31Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f1/bd/b87b50be6760eb52b0a503d13f268370bebb7362a87f6091c518b478469e/edc_lab_panel-1.0.0-py3-none-any.whl", hash = "sha256:bccb4cac2b66dea1bcb63ef3054782aff035678747f626c837f98c2a7cd1750f", size = 27402, upload-time = "2025-01-21T16:24:13.156Z" },
-]
+version = "1.0.1.dev10+gcfceeb9"
+source = { editable = "../edc-lab-panel" }
 
 [[package]]
 name = "edc-lab-results"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/79/d0/75278605d821a55a815d8e0ac3f87e9e8b34a6a8864296cb34a9770bace8/edc_lab_results-1.0.2.tar.gz", hash = "sha256:3e5ae8cce136e7cf7a8efa17eb8bf5f9470a07218e7bf8e2b10e201d0cbadfc1", size = 41358, upload-time = "2025-07-02T20:16:48.074Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2b/53/52c80f6890eef52f4dd337e762950ce2cfcd991bfc7a2a01c413eec8214e/edc_lab_results-1.0.2-py3-none-any.whl", hash = "sha256:1a0d099afd50ad1c1ac1791308eba23e7f10b2db68536cd2e6eb01540c413f94", size = 48222, upload-time = "2025-07-02T20:16:47.091Z" },
-]
+version = "1.0.3.dev1+g730d1f7"
+source = { editable = "../edc-lab-results" }
 
 [[package]]
 name = "edc-label"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.1.dev8+g1b777b3"
+source = { editable = "../edc-label" }
 dependencies = [
     { name = "pycups" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/87/f9/734939bc86522fd812221c25470be5f80c674063fb345ffacc42ab36332d/edc_label-1.0.0.tar.gz", hash = "sha256:ad96dd31061b136e435ef31ad486833edb78fc0ca9ed94144675a121144da53e", size = 44957, upload-time = "2025-01-21T11:54:53.425Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ab/1e/a2252bde0b3afc925eabb79b2f7e1011e8777f24ba707333547cd766e5e1/edc_label-1.0.0-py3-none-any.whl", hash = "sha256:9b43b295cf90dfc95bc7618644cba38115d0478f4fed615ef6b9221a50eb9c14", size = 51439, upload-time = "2025-01-21T11:54:52.203Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "pycups" }]
 
 [[package]]
 name = "edc-list-data"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/dc/6d/6845bfa62f84105c0957c6dcc1c6824ac7d49531566bd2cf408c98b28d99/edc_list_data-1.0.0.tar.gz", hash = "sha256:77dc3b3e208f16faaf7111a739297aa5dcddf6645bec4a0b2326544ae6b5dd26", size = 34970, upload-time = "2025-01-21T16:26:58.23Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/be/1e/fe3464b8908a51b41e114a61eecaa32ff60b3275f6089791f9154146b88b/edc_list_data-1.0.0-py3-none-any.whl", hash = "sha256:24ee3dc402177f3b5221b7bbf2fccbbcf787bd9b8ee263fd70ee9723819c3857", size = 37908, upload-time = "2025-01-21T16:26:57.097Z" },
-]
+version = "1.0.1.dev8+gdfff7d8"
+source = { editable = "../edc-list-data" }
 
 [[package]]
 name = "edc-listboard"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/5c/65/705493e7add2c4bc05086f1f86a3b22511864adc33a0f190950c864689a4/edc_listboard-1.0.0.tar.gz", hash = "sha256:6e7f469e7d7ccd81e46c36d0e16035097494fa7453c738b1f340cb3939d87c6c", size = 38132, upload-time = "2025-01-21T04:22:47.252Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/24/f0/bda9f38a19c6bc997ff74a299938e018e3ffad71abb84dc6cc85a09da7f8/edc_listboard-1.0.0-py3-none-any.whl", hash = "sha256:039830e74c4aa638ae4a68c17f5d233e3b0a3bdc68d8a7aa0ded418a0b74da83", size = 44881, upload-time = "2025-01-21T04:22:44.861Z" },
-]
+version = "1.0.1.dev9+ga739bc8"
+source = { editable = "../edc-listboard" }
 
 [[package]]
 name = "edc-locator"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/94/46/4e58af17332318c0f236cdc8982f1a3da50af092d3e3d50e6dba6cdf9e0e/edc_locator-1.0.2.tar.gz", hash = "sha256:560678d2f212ce1957ea25366b7ecf6d8af460c93295f1abd6b12a5fd94ab496", size = 36273, upload-time = "2025-01-22T03:29:58.634Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1e/62/41d660ec45597795fc985b5ca61ea55eb37530cc2225ecde55bb9fadc736/edc_locator-1.0.2-py3-none-any.whl", hash = "sha256:3053474c0db248c47982d6e3e467991dde2c49c6d096340168f63c53ebd054bf", size = 56994, upload-time = "2025-01-22T03:29:57.33Z" },
-]
+version = "1.0.3.dev10+ge502011"
+source = { editable = "../edc-locator" }
 
 [[package]]
 name = "edc-ltfu"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f6/6b/f5d791fffb0966e90c67dd7efad9ea6179f0df029f833096489e744171e4/edc_ltfu-1.0.1.tar.gz", hash = "sha256:606488abd83afbb62c093053333fe088f03c2001b76a7f81d4512d11bf24af3d", size = 31227, upload-time = "2025-03-17T12:15:49.129Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/55/27/d63c3cf5bd28d2ee0468cd961f205da150651b65e10a1f21d4ab75a23a73/edc_ltfu-1.0.1-py3-none-any.whl", hash = "sha256:877104196de9a73fccea44dbad116f7242896a5559f30b918502cf623143ba24", size = 32495, upload-time = "2025-03-17T12:15:47.331Z" },
-]
+version = "1.0.2.dev7+gf7257ac"
+source = { editable = "../edc-ltfu" }
 
 [[package]]
 name = "edc-metadata"
 version = "1.0.5"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../edc-metadata" }
 dependencies = [
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/03/45/0249c46fc20bf70d8f99fc54ec243ba35a64d5d76dd071429f814acdf986/edc_metadata-1.0.5.tar.gz", hash = "sha256:f52246523ed4895154074ebd5d6e93a2b3e290df0030750a56083e53fe27f292", size = 93460, upload-time = "2025-07-15T14:57:58.917Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1c/6a/3e85dcd3e05f69a1bcb7d96d83f7f155a9ea13168ef30bdca5be0403d45a/edc_metadata-1.0.5-py3-none-any.whl", hash = "sha256:41f00281d371a8b886eab605dc885161f6f2ac485599b8bea42efb253431e45c", size = 141341, upload-time = "2025-07-15T14:57:57.666Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "tqdm" }]
 
 [[package]]
 name = "edc-microbiology"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ba/12/28f7ec47091878ddd7b3b2fce144555a27f12bbe455e43f6fe55a43ee978/edc_microbiology-1.0.0.tar.gz", hash = "sha256:1cc12b4d37fecae768c2ace6cdcdcb4ecc0804ef551b389afafe6c7b8bdafd59", size = 39459, upload-time = "2025-01-21T21:47:51.269Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2b/e0/b3b1cfd27dbd6dd46d8124308cc0ff814cb928fd8d5719fa5a8d7191ef59/edc_microbiology-1.0.0-py3-none-any.whl", hash = "sha256:44b0df88d1733290c4e4e77cf4a8afacd0ec852d30df2c3d675f2423b9313560", size = 51210, upload-time = "2025-01-21T21:47:50.052Z" },
-]
+version = "1.0.1.dev9+g40ef05e"
+source = { editable = "../edc-microbiology" }
 
 [[package]]
 name = "edc-microscopy"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d9/06/565146809321af354047d90b0dfe20fa36f5b5243917306777927ce36085/edc_microscopy-1.0.0.tar.gz", hash = "sha256:e3013b1dcae03da93370c11c0bd1fcf92f09283391c7b717065a775d53f287ca", size = 26736, upload-time = "2025-01-21T21:51:19.49Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/b3/add1ce0c97cc7ac8c3ae1156fe3f03393455798055327465e996babafa82/edc_microscopy-1.0.0-py3-none-any.whl", hash = "sha256:9bbb4dd05eb1506b2e63e57b5e409bd8e8a75697f2da3d7626f147d29068d78a", size = 25329, upload-time = "2025-01-21T21:51:17.738Z" },
-]
+version = "1.0.1.dev9+g97d3d40"
+source = { editable = "../edc-microscopy" }
 
 [[package]]
 name = "edc-mnsi"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/70/63/59e72c81610271d0d6c731effc2f425c58565bf5b85267df243969377d0b/edc_mnsi-1.0.0.tar.gz", hash = "sha256:3e32605e17b2cc967820fa326348137cd3dbd6dde2df0359203a36b1f21e04f9", size = 45029, upload-time = "2025-01-22T02:02:31.122Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/49/0b/b5aa9ffa34e0f8d36bd6c0e1e1fe246ba1ec51fc21a0a484a1a83d1bf549/edc_mnsi-1.0.0-py3-none-any.whl", hash = "sha256:82bc3fad295aa9705d624465975177cb3e69ad565ef503405aa6b5bd63af7bb2", size = 52086, upload-time = "2025-01-22T02:02:29.12Z" },
-]
+version = "1.0.1.dev7+g8220332"
+source = { editable = "../edc-mnsi" }
 
 [[package]]
 name = "edc-model"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e6/e6/cdf6d86a188d52c4495d4b2d01a72e62108ed4e20d0253b81a1013daae2b/edc_model-1.0.0.tar.gz", hash = "sha256:6c62c9495be0cdc43992b1fdfa735645b5ebad8cfbbdadd63b2849139dd393fe", size = 51600, upload-time = "2025-01-21T17:38:57.558Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/8f/c8/9acf32195744a9d9cc5aa73d27acc95b0766d1d5f5d18dc7102094971d6e/edc_model-1.0.0-py3-none-any.whl", hash = "sha256:791f7116de980ca6c73d2000024d1df98930245d682a9bae3aebd13c715f5302", size = 55878, upload-time = "2025-01-21T17:38:55.215Z" },
-]
+version = "1.0.1.dev10+g94c637e"
+source = { editable = "../edc-model" }
 
 [[package]]
 name = "edc-model-admin"
 version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/81/95/4c9d0dd61d8f8a54558a8a77707f99677116566bf92d2a5f9afae754a6a3/edc_model_admin-1.0.3.tar.gz", hash = "sha256:fd31f81595c4a4b97999b5ad53dabd5914c6d2ba3ce7fe5e8da4dee57a8dd1cd", size = 68790, upload-time = "2025-07-09T15:41:29.216Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b1/e4/3823e8286a5237177d29577fd1767e645894db5b4da7e1ad5c3f2043e6dc/edc_model_admin-1.0.3-py3-none-any.whl", hash = "sha256:5a3655914a094b817da6720bcbf796408d81bb02c68becd571ac347fa04e8920", size = 95516, upload-time = "2025-07-09T15:41:27.769Z" },
-]
+source = { editable = "../edc-model-admin" }
+
+[package.metadata]
+requires-dist = [{ name = "django-webtest", marker = "extra == 'test'" }]
+provides-extras = ["test"]
 
 [[package]]
 name = "edc-model-fields"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/1b/a1/50ce9748278ff556cb9a2c5e25a308f22cc96ef79f4f5d75c6edb85160cc/edc_model_fields-1.0.0.tar.gz", hash = "sha256:906da1a96178a34c0544941cabba96a506f06eda804b81e6ebd489fbb8f1f144", size = 40357, upload-time = "2025-01-21T16:42:37.431Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/0f/19/2e3708648aec69079709f2d38573b6097c7a3dcd7a212e769801c614fb1b/edc_model_fields-1.0.0-py3-none-any.whl", hash = "sha256:e977a5fde96b60d6f585fa29298bb66cd5e2f835a95abccca7f51029384a445d", size = 40611, upload-time = "2025-01-21T16:42:35.529Z" },
-]
+version = "1.0.1.dev10+gaf69be3"
+source = { editable = "../edc-model-fields" }
 
 [[package]]
 name = "edc-model-form"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f6/18/c3959771cf5a4c9fd1eea3cb88a804c8f26cc71433183ad492d2634ca319/edc_model_form-1.0.0.tar.gz", hash = "sha256:2867a7205157b8b1cb7530b288ee26cb31ba66c34e219ab301a945e7910a50c2", size = 27951, upload-time = "2025-01-21T16:44:55.007Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/5f/3f74aa5bdf69bacfaf5305b3aeb51021ffa9d517a094566d760da19e069f/edc_model_form-1.0.0-py3-none-any.whl", hash = "sha256:1463fe0a4af47c9872ab53aa787bfb5b28dd1786a2d28594c4e3bbe6468c739f", size = 26289, upload-time = "2025-01-21T16:44:52.143Z" },
-]
+version = "1.0.1.dev8+gc089159"
+source = { editable = "../edc-model-form" }
 
 [[package]]
 name = "edc-model-to-dataframe"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/67/df/256edd079984440dd75b4d9f5745a1d5e1f0fccd7ed6b9135029c81b8c29/edc_model_to_dataframe-1.0.1.tar.gz", hash = "sha256:bf428baf14b168279e50bfbce4ef73a529facf9490731aa7eaef803ac990961a", size = 35988, upload-time = "2025-02-27T11:08:10.03Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2b/14/ad8cbe66f5ce93cdb5ee4c66941fde0a7497c7fff142ab8a9985cbd79b08/edc_model_to_dataframe-1.0.1-py3-none-any.whl", hash = "sha256:3fdf606098e952108a6f000dc58dffa87aaa70a7fca615489ec7316a744bcc5d", size = 36705, upload-time = "2025-02-27T11:08:07.632Z" },
-]
+version = "1.0.2.dev8+gbac2e8b"
+source = { editable = "../edc-model-to-dataframe" }
 
 [[package]]
 name = "edc-navbar"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/8c/d3/c56219e440d2123f2da390a98fcbcd931e66144356005839b10f6b40c91c/edc_navbar-1.0.0.tar.gz", hash = "sha256:ea6e93505b8622462505519633e5855d18c302dc89e556860f57facf038422f6", size = 36842, upload-time = "2025-01-21T01:37:20.133Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/3a/e3/d2c527568b908ff9f8d64526975270b998abafd061d24ee187f2682a2ebe/edc_navbar-1.0.0-py3-none-any.whl", hash = "sha256:9d1e8a4a80b50faeb1cdf408e6fedb7fc77193759926a7adb9956fccffa0160d", size = 40709, upload-time = "2025-01-21T01:37:18.89Z" },
-]
+version = "1.0.1.dev9+gf39c403"
+source = { editable = "../edc-navbar" }
 
 [[package]]
 name = "edc-next-appointment"
-version = "0.3.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/60/9b/9ceffd142360e3b1383b7f8985a744473f23112e7e7aa5e262168e205b56/edc_next_appointment-0.3.1.tar.gz", hash = "sha256:f8ea3f4197a3b5d135e6d7fe2baaf8cff9a83760b75035215ead61268cb5abf4", size = 36705, upload-time = "2024-04-17T13:29:48.287Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1d/d5/129b6decbebf0339fd5b0eb29df2b51f48ac090310646d2a43869cdc99f0/edc_next_appointment-0.3.1-py3-none-any.whl", hash = "sha256:338ef548b76b9e2985ebed1203f123fe961afac081573ca23b335222d3078e57", size = 40599, upload-time = "2024-04-17T13:29:46.782Z" },
-]
+version = "0.3.2.dev27+g917b300"
+source = { editable = "../edc-next-appointment" }
 
 [[package]]
 name = "edc-notification"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.2.dev3+g765cb02"
+source = { editable = "../edc-notification" }
 dependencies = [
     { name = "requests" },
     { name = "twilio" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/37/8f/564412cdb3eaa513c105ebf53b0ffc857f378cdbe5195859f867fc55698a/edc_notification-1.0.1.tar.gz", hash = "sha256:f9eed836c631958923c4ced17dc94713001384e863a2b8417f3e628dd3779613", size = 44930, upload-time = "2025-06-26T03:06:05.184Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/40/8a/62fe664fe42560f74c173ab9fc1f0880bb57b35da552376c70ecbc1a1143/edc_notification-1.0.1-py3-none-any.whl", hash = "sha256:b10535780514d0a700167e23310b36ed6a354bdb1f12afcee0004b93b08180f0", size = 55977, upload-time = "2025-06-26T03:06:03.723Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "requests" },
+    { name = "twilio" },
 ]
 
 [[package]]
 name = "edc-offstudy"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/cc/a0/0a0d1b6d6a508f79bc158bba4bc7ce642dadff62abdfcec7fdb04aa85936/edc_offstudy-1.0.1.tar.gz", hash = "sha256:f2915a38d6add12668f84e88dce2823be6218c56d8bf329cd82e2379ae794150", size = 40764, upload-time = "2025-06-26T03:07:16.235Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b4/be/6923a689368c63c473ce70040104d8bc5b4fe58aa348929039aa7c0169b6/edc_offstudy-1.0.1-py3-none-any.whl", hash = "sha256:ea6154ea5b964a1821e74b5e1db0c4b0f7190ae8819c99a57bfc1ed984258e19", size = 55258, upload-time = "2025-06-26T03:07:14.957Z" },
-]
+version = "1.0.2.dev3+ga83a799"
+source = { editable = "../edc-offstudy" }
 
 [[package]]
 name = "edc-pdf-reports"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.3.dev3+gf4fc96f"
+source = { editable = "../edc-pdf-reports" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "inflect" },
     { name = "pypdf", extra = ["crypto"] },
     { name = "reportlab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1c/04/032e3f5a8b383944c4987321842393e0d96be0f981b4b4c9ca65dab7789d/edc_pdf_reports-1.0.2.tar.gz", hash = "sha256:a2bdd7e1bc1a31c25975cea72fbd04cd8ec838d96bbc922fa5fb6bd450e670ed", size = 124073, upload-time = "2025-06-26T12:01:10.433Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/14/9e/c60c8a4396879ecd476e0527effe317468c19f4ab3ea32e343436990b361/edc_pdf_reports-1.0.2-py3-none-any.whl", hash = "sha256:87ae97dfc0b130209a39cc0417ed370b83ce302c33db60ffa42fe9ae7f6fffbf", size = 47555, upload-time = "2025-06-26T12:01:09.078Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4" },
+    { name = "inflect" },
+    { name = "pypdf", extras = ["crypto"] },
+    { name = "reportlab" },
 ]
 
 [[package]]
 name = "edc-pdutils"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.3.dev3+gfa44263"
+source = { editable = "../edc-pdutils" }
 dependencies = [
     { name = "mysqlclient" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f2/84/75e25e17c2c15603a4a731cdfd01174bcd2ecdc2af5fb5ad6588104aa9a8/edc_pdutils-1.0.2.tar.gz", hash = "sha256:e6a343d42323e5daf690a95f3c1ab2e12cd2bdc79bab2e3f5fd3ab1c049cb7ed", size = 59201, upload-time = "2025-06-26T03:08:51.027Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ff/59/35ccb5c93251279e9286cf6a1c1d02764d0c687cb14a5e8851f4a4115438/edc_pdutils-1.0.2-py3-none-any.whl", hash = "sha256:9d7470252968685dc54900822c42ab03af27be083791d024bda4667fdd318a63", size = 77415, upload-time = "2025-06-26T03:08:50.049Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "mysqlclient" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "sqlalchemy" },
 ]
 
 [[package]]
 name = "edc-pharmacy"
-version = "1.2.3"
-source = { registry = "https://pypi.org/simple" }
+version = "1.2.4.dev5+ga4228c1.d20250727"
+source = { editable = "../edc-pharmacy" }
 dependencies = [
     { name = "celery" },
     { name = "django-sequences" },
@@ -1557,237 +1755,376 @@ dependencies = [
     { name = "redis" },
     { name = "reportlab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/76/cc/071e6e3f950f345a98c6deacdec7f3790f6fd08d8275b167a0089fe967c9/edc_pharmacy-1.2.3.tar.gz", hash = "sha256:61fcd3226d5cc8e74e266159762c7d7ce225b78e039b83112ca8f7b4933f22ff", size = 264400, upload-time = "2025-07-10T13:51:55.338Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b8/02/0d836e190639d33728de3ae0a8928070d3dfa42d528c384d8183b09cdc22/edc_pharmacy-1.2.3-py3-none-any.whl", hash = "sha256:f4e9cad2452683279ffabbf448daf0974dbe397293b8bf373a5241422ce8b25d", size = 366941, upload-time = "2025-07-10T13:51:53.946Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "celery" },
+    { name = "django-sequences" },
+    { name = "edc-pylabels" },
+    { name = "redis" },
+    { name = "reportlab" },
 ]
+
+[[package]]
+name = "edc-pharmacy-dashboard"
+version = "0.1.10.dev11+g4fa0f0a"
+source = { editable = "../edc-pharmacy-dashboard" }
+
+[[package]]
+name = "edc-phq9"
+version = "1.0.1.dev3+g598a04e"
+source = { editable = "../edc-phq9" }
 
 [[package]]
 name = "edc-prn"
 version = "1.1.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/8c/10/f5663d0abbe9d966e7e2f3377cfcf32f1fe12785867720d9061a57fd3454/edc_prn-1.1.1.tar.gz", hash = "sha256:d98bb7c65c73c1979e244c1fa4aff2fa17ff9f5baa68d2c8aa0ae1bfa4643f76", size = 33407, upload-time = "2025-07-09T15:40:21.116Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/1b/fb08060fdc8e15d9e6e34905011c9945e9d96a04b3f5375ea0033650fce1/edc_prn-1.1.1-py3-none-any.whl", hash = "sha256:069311f196434077a69d141ef49ec85e86947e190b7d249cf161e6435835cab0", size = 33859, upload-time = "2025-07-09T15:40:19.925Z" },
-]
+source = { editable = "../edc-prn" }
 
 [[package]]
 name = "edc-protocol"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/18/ce/c86c4f184d700ccb2fb585a286bf1a6ec8223533bd31ac4373710f80e956/edc_protocol-1.0.1.tar.gz", hash = "sha256:6220513e5589ecc26e350c9702fafc8b99b5905f4cbaf21dcd0912d3eb9f06d5", size = 29629, upload-time = "2025-06-26T11:58:47.752Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/8d/74/0468caa33fdd66b40d2761cf78344de223ddd3eb97e51564a02d5b4645a2/edc_protocol-1.0.1-py3-none-any.whl", hash = "sha256:be209ea92e6fa243d7dfe6f6b639cb14ac4e2a8ef52c639a2c4b8a26bb9f44dc", size = 29785, upload-time = "2025-06-26T11:58:46.531Z" },
-]
+version = "1.0.2.dev3+gccaba46"
+source = { editable = "../edc-protocol" }
 
 [[package]]
 name = "edc-protocol-incident"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/30/49/f8ad96ee2ad8ebb0b1f9e690cea06e7e33c354e120bfca86ca162af46ebb/edc_protocol_incident-1.0.1.tar.gz", hash = "sha256:7df8e53434c41255b4b0da7b9fd829db5a4e018bccc2d1ad03c87b79ef1d3885", size = 48328, upload-time = "2025-06-26T11:58:07.98Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/2f/c0c0b9f947f598422e5429992475cd55c15b9300e542d8e74cdf711c6c22/edc_protocol_incident-1.0.1-py3-none-any.whl", hash = "sha256:b79ce104ba221ea54fd92dbe6e3afd9be8df7a96e16fd2c920560aef143310b8", size = 68302, upload-time = "2025-06-26T11:58:06.728Z" },
-]
+version = "1.0.2.dev3+g61e8442"
+source = { editable = "../edc-protocol-incident" }
 
 [[package]]
 name = "edc-pylabels"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../edc-pylabels" }
 dependencies = [
     { name = "django-pylabels" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/30/17/3399be8737e320c34f3dab43818ab0182a4b63cea9ee6eb196cbe18c9371/edc_pylabels-1.0.1.tar.gz", hash = "sha256:da96bae24cb5871d39729985ca1dad7cd108eac0c00083b6312676848e1f4ce7", size = 52008, upload-time = "2025-06-26T11:57:19.834Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/91/6f00da65dcbc5d85896cb46e29b21db27d048883295a19e78f8fcf2f43b7/edc_pylabels-1.0.1-py3-none-any.whl", hash = "sha256:6f5391a4ab221a13aa54e9131a3415e39c4a4b79aa1def55ada48abe082cebba", size = 45619, upload-time = "2025-06-26T11:57:18.961Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "django-pylabels" }]
 
 [[package]]
 name = "edc-qareports"
 version = "1.0.4"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../edc-qareports" }
 dependencies = [
     { name = "sqlglot", extra = ["rs"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f6/4a/217d263f2c68ec570958228d4e19f9f367bf305399571a97f260a1265853/edc_qareports-1.0.4.tar.gz", hash = "sha256:a8ea2b8985bd00856e15b790945fc89dc0b2374223ea40adaa41fbd88fcccede", size = 48995, upload-time = "2025-07-16T16:26:20.503Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/a3/461e4c24f83cdb6ba11921c23dabb64adc9a0ea87cff1f17ccf3158cafa6/edc_qareports-1.0.4-py3-none-any.whl", hash = "sha256:e872d6482786820f2ba6a375a8d94485bae942fe9d045d13de73acffc7930bd7", size = 63211, upload-time = "2025-07-16T16:26:19.15Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "sqlglot", extras = ["rs"] }]
 
 [[package]]
 name = "edc-qol"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/98/e0/251df6023efb18b3e161d1989aff845bbedacf419a7423536876153b8afb/edc_qol-1.0.2.tar.gz", hash = "sha256:f249cc19bb2bf4eba8f0cbb0c657b45644f80dc2fc9e2abe0c0c4447ae9049b3", size = 45264, upload-time = "2025-06-26T11:55:46.995Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/82/83/f264bdcfadc3a4b29b82e24595c5dc23e1c44cb2d3796bf73e595fb03b78/edc_qol-1.0.2-py3-none-any.whl", hash = "sha256:375f4dc943cd84b71d592d9079ae857f56ec911fed14187856f50467e95a7ce3", size = 59681, upload-time = "2025-06-26T11:55:46.045Z" },
-]
+version = "1.0.3.dev3+ga940946"
+source = { editable = "../edc-qol" }
 
 [[package]]
 name = "edc-randomization"
-version = "1.0.4"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/85/0d/d1b9d1c2c21e2f7c01f5e56ff83293de06d3574f31a57d0804b5379a8d30/edc_randomization-1.0.4.tar.gz", hash = "sha256:9a799b0521c227624a6a86ee35335e112e8a11ecfc5b950143ba1ad8c64eaa0b", size = 53783, upload-time = "2025-04-24T17:40:32.604Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/2b/ea50714373126fe1d1d6c338fc11ff8d129472145f44d437a3ee82c48abe/edc_randomization-1.0.4-py3-none-any.whl", hash = "sha256:fd98f5039a2041743636daff8feff9ad5d9342aa35d63f2426fd76abd3d19412", size = 64162, upload-time = "2025-04-24T17:40:31.003Z" },
-]
+version = "1.0.5.dev2+g302c0fe"
+source = { editable = "../edc-randomization" }
 
 [[package]]
 name = "edc-refusal"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d6/f0/c3a4ee3ecc01c9f26382ae64923ff1b12f9db7ea3b3c9daf087f518f2e2b/edc_refusal-1.0.1.tar.gz", hash = "sha256:4d82144de35470891fa5cd3ed19d9ce4e4ce09358d54ecba197f3823cd57dc4d", size = 33020, upload-time = "2025-06-26T11:53:43.439Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b4/49/0eaf05302f21ad626ac5af3342a37ac037a8e264c32ee91e1f5e3313adb3/edc_refusal-1.0.1-py3-none-any.whl", hash = "sha256:718c1e82c2fc901ba6f10f5ee79f5f632cabc14571af9f1bf6752c2195669a1b", size = 38246, upload-time = "2025-06-26T11:53:42.613Z" },
-]
+version = "1.0.2.dev3+g4acdb8b"
+source = { editable = "../edc-refusal" }
 
 [[package]]
 name = "edc-registration"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e1/33/2ddb5978ba779e24f4cfb362be34173b9f8a1e6531cc3696c6e907c2dd16/edc_registration-1.0.1.tar.gz", hash = "sha256:bb1aa99443bbbcfd8f5cd4e03f80eb6abc150e3503ce54b60b6390bee14beb1e", size = 37211, upload-time = "2025-06-26T11:52:59.23Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ee/0c/b542b9fcc5ceac7140fa4dd97e4b882c37b429e1e521713066c8e81d132c/edc_registration-1.0.1-py3-none-any.whl", hash = "sha256:c65d1bd93935f5e56f6f4079f17a7dcd9c4a2407e76006cd839c3b955391721b", size = 52557, upload-time = "2025-06-26T11:52:57.972Z" },
-]
+version = "1.0.2.dev3+g13e908a"
+source = { editable = "../edc-registration" }
 
 [[package]]
 name = "edc-reportable"
 version = "2.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/74/4d/67dd196ad9af4afa2c67db3ca15e8ea88d09c231d8d68b9ce3335b0ecbbe/edc_reportable-2.0.2.tar.gz", hash = "sha256:a7ca71ebf37efa7637af45b501cea4d5b17b49359c92cbc6b8197ff14465c0bb", size = 60224, upload-time = "2025-07-16T16:24:59.599Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/56/7b/e2d257e7bf7fe2a53816df735497fe7ce0571d0027f825e225aed40dbaa6/edc_reportable-2.0.2-py3-none-any.whl", hash = "sha256:788725d9659e19a70b052c59e942711cac0627474cba937577821bc7813760a3", size = 77862, upload-time = "2025-07-16T16:24:58.472Z" },
+source = { editable = "../edc-reportable" }
+dependencies = [
+    { name = "numexpr" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "numexpr", specifier = ">=2.11.0" }]
+
+[package.metadata.requires-dev]
+develop = [
+    { name = "django-admin-rangefilter" },
+    { name = "django-audit-fields", editable = "../django-audit-fields" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
+    { name = "django-pandas" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-adherence", editable = "../edc-adherence" },
+    { name = "edc-adverse-event", editable = "../edc-adverse-event" },
+    { name = "edc-analytics", editable = "../edc-analytics" },
+    { name = "edc-appconfig", editable = "../edc-appconfig" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-csf", editable = "../edc-csf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-device", editable = "../edc-device" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-dx", editable = "../edc-dx" },
+    { name = "edc-dx-review", editable = "../edc-dx-review" },
+    { name = "edc-egfr", editable = "../edc-egfr" },
+    { name = "edc-export", editable = "../edc-export" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-form-describer", editable = "../edc-form-describer" },
+    { name = "edc-form-label", editable = "../edc-form-label" },
+    { name = "edc-form-runners", editable = "../edc-form-runners" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-glucose", editable = "../edc-glucose" },
+    { name = "edc-he", editable = "../edc-he" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-lab", editable = "../edc-lab" },
+    { name = "edc-lab-dashboard", editable = "../edc-lab-dashboard" },
+    { name = "edc-lab-panel", editable = "../edc-lab-panel" },
+    { name = "edc-lab-results", editable = "../edc-lab-results" },
+    { name = "edc-label", editable = "../edc-label" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-listboard", editable = "../edc-listboard" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-ltfu", editable = "../edc-ltfu" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-microbiology", editable = "../edc-microbiology" },
+    { name = "edc-microscopy", editable = "../edc-microscopy" },
+    { name = "edc-mnsi", editable = "../edc-mnsi" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-fields", editable = "../edc-model-fields" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-model-to-dataframe", editable = "../edc-model-to-dataframe" },
+    { name = "edc-navbar", editable = "../edc-navbar" },
+    { name = "edc-next-appointment", editable = "../edc-next-appointment" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pdf-reports", editable = "../edc-pdf-reports" },
+    { name = "edc-pdutils", editable = "../edc-pdutils" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-pharmacy-dashboard", editable = "../edc-pharmacy-dashboard" },
+    { name = "edc-phq9", editable = "../edc-phq9" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-protocol-incident", editable = "../edc-protocol-incident" },
+    { name = "edc-pylabels", editable = "../edc-pylabels" },
+    { name = "edc-qareports", editable = "../edc-qareports" },
+    { name = "edc-qol", editable = "../edc-qol" },
+    { name = "edc-randomization", editable = "../edc-randomization" },
+    { name = "edc-refusal", editable = "../edc-refusal" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-reportable", editable = "../edc-reportable" },
+    { name = "edc-review-dashboard", editable = "../edc-review-dashboard" },
+    { name = "edc-rx", editable = "../edc-rx" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-subject-dashboard", editable = "../edc-subject-dashboard" },
+    { name = "edc-test-settings", editable = "../edc-test-settings" },
+    { name = "edc-test-utils", editable = "../edc-test-utils" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-transfer", editable = "../edc-transfer" },
+    { name = "edc-unblinding", editable = "../edc-unblinding" },
+    { name = "edc-utils", editable = "../edc-utils" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "edc-vitals", editable = "../edc-vitals" },
+]
+lint = [
+    { name = "black", specifier = ">=25.1.0" },
+    { name = "deptry", specifier = ">=0.23.0" },
+    { name = "flake8", specifier = ">=7.3.0" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "ruff", specifier = ">=0.12.5" },
+]
+test = [
+    { name = "coverage", specifier = ">=7.10.1" },
+    { name = "django-admin-rangefilter", specifier = ">=0.13.3" },
+    { name = "django-crypto-fields", editable = "../django-crypto-fields" },
+    { name = "django-logentry-admin", editable = "../django-logentry-admin" },
+    { name = "django-multisite2", editable = "../django-multisite2" },
+    { name = "django-pandas", specifier = ">=0.6.7" },
+    { name = "django-revision", editable = "../django-revision" },
+    { name = "django-simple-history", editable = "../django-simple-history" },
+    { name = "django-webtest", specifier = ">=1.9.13" },
+    { name = "edc-action-item", editable = "../edc-action-item" },
+    { name = "edc-adverse-event", editable = "../edc-adverse-event" },
+    { name = "edc-appconfig", editable = "../edc-appconfig" },
+    { name = "edc-appointment", editable = "../edc-appointment" },
+    { name = "edc-auth", editable = "../edc-auth" },
+    { name = "edc-consent", editable = "../edc-consent" },
+    { name = "edc-constants", editable = "../edc-constants" },
+    { name = "edc-crf", editable = "../edc-crf" },
+    { name = "edc-dashboard", editable = "../edc-dashboard" },
+    { name = "edc-data-manager", editable = "../edc-data-manager" },
+    { name = "edc-device", editable = "../edc-device" },
+    { name = "edc-document-status", editable = "../edc-document-status" },
+    { name = "edc-export", editable = "../edc-export" },
+    { name = "edc-facility", editable = "../edc-facility" },
+    { name = "edc-fieldsets", editable = "../edc-fieldsets" },
+    { name = "edc-form-runners", editable = "../edc-form-runners" },
+    { name = "edc-form-validators", editable = "../edc-form-validators" },
+    { name = "edc-identifier", editable = "../edc-identifier" },
+    { name = "edc-lab", editable = "../edc-lab" },
+    { name = "edc-label", editable = "../edc-label" },
+    { name = "edc-list-data", editable = "../edc-list-data" },
+    { name = "edc-locator", editable = "../edc-locator" },
+    { name = "edc-ltfu", editable = "../edc-ltfu" },
+    { name = "edc-metadata", editable = "../edc-metadata" },
+    { name = "edc-model", editable = "../edc-model" },
+    { name = "edc-model-admin", editable = "../edc-model-admin" },
+    { name = "edc-model-form", editable = "../edc-model-form" },
+    { name = "edc-model-to-dataframe", editable = "../edc-model-to-dataframe" },
+    { name = "edc-navbar", editable = "../edc-navbar" },
+    { name = "edc-notification", editable = "../edc-notification" },
+    { name = "edc-offstudy", editable = "../edc-offstudy" },
+    { name = "edc-pdf-reports", editable = "../edc-pdf-reports" },
+    { name = "edc-pdutils", editable = "../edc-pdutils" },
+    { name = "edc-pharmacy", editable = "../edc-pharmacy" },
+    { name = "edc-prn", editable = "../edc-prn" },
+    { name = "edc-protocol", editable = "../edc-protocol" },
+    { name = "edc-randomization", editable = "../edc-randomization" },
+    { name = "edc-registration", editable = "../edc-registration" },
+    { name = "edc-reportable", editable = "../edc-reportable" },
+    { name = "edc-review-dashboard", editable = "../edc-review-dashboard" },
+    { name = "edc-screening", editable = "../edc-screening" },
+    { name = "edc-search", editable = "../edc-search" },
+    { name = "edc-sites", editable = "../edc-sites" },
+    { name = "edc-subject-dashboard", editable = "../edc-subject-dashboard" },
+    { name = "edc-test-settings", editable = "../edc-test-settings" },
+    { name = "edc-timepoint", editable = "../edc-timepoint" },
+    { name = "edc-unblinding", editable = "../edc-unblinding" },
+    { name = "edc-view-utils", editable = "../edc-view-utils" },
+    { name = "edc-visit-schedule", editable = "../edc-visit-schedule" },
+    { name = "edc-visit-tracking", editable = "../edc-visit-tracking" },
+    { name = "faker", specifier = ">=37.4.2" },
+    { name = "model-bakery", specifier = ">=1.20.5" },
+    { name = "time-machine", specifier = ">=2.16.0" },
+    { name = "tox-uv", specifier = ">=1.26.2" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]
 name = "edc-review-dashboard"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b3/62/d8143d3cc694163b0e0ca1b94ecdaef4f7d18ec543d2f3ce013401fe1ff0/edc_review_dashboard-1.0.2.tar.gz", hash = "sha256:141282987ef10feacb465d05c2228dbdf560939008b73dd4152fb62f6cf05097", size = 38315, upload-time = "2025-06-26T11:52:18.364Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/d5/f22f525d81c16ad840c14a4f16f16bdb86adbadb7861136528660dd92f02/edc_review_dashboard-1.0.2-py3-none-any.whl", hash = "sha256:c2999a4ec626a01bc0179a6390873b9de390ec770bdd45ff084c207819bba358", size = 42873, upload-time = "2025-06-26T11:52:17.309Z" },
-]
+version = "1.0.3.dev3+g95fe72f"
+source = { editable = "../edc-review-dashboard" }
+
+[package.metadata]
+requires-dist = [{ name = "django-webtest", marker = "extra == 'test'" }]
+provides-extras = ["test"]
 
 [[package]]
 name = "edc-rx"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/77/bf/2c315670f82580bc3a9578661bb8fa48f0627fd133387b5254ca8b001a2c/edc_rx-1.0.1.tar.gz", hash = "sha256:abf410b1f2fad6ae26e11d08b5e5de5a3493c568ed7901308fd8cfe0112151b1", size = 30123, upload-time = "2025-02-27T12:23:53.201Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/2c/ea73a7e5fd43b364652774923e5673f2fd51f0290ceda8453caac9553930/edc_rx-1.0.1-py3-none-any.whl", hash = "sha256:a41c6a4fdfce992224cd1cb151b614ec51bbc77adc27ff2c7bb46fad7b4fea73", size = 31474, upload-time = "2025-02-27T12:23:50.679Z" },
-]
+version = "1.0.2.dev7+g32b1a97"
+source = { editable = "../edc-rx" }
 
 [[package]]
 name = "edc-screening"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/32/b8/5d672a4f6a32f9fce249e1196b0a44727ba7b09c8836e36a56102b23c257/edc_screening-1.1.0.tar.gz", hash = "sha256:cb7b78a52e47b0d5b4276751b3abffd3fbf0119622ab896b3a44565a187be38e", size = 40388, upload-time = "2025-06-26T03:15:17.206Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/9f/00/5026850b5c4520aac22f56d65b6964f6eb41a0fa17cd724f4af9e7dceece/edc_screening-1.1.0-py3-none-any.whl", hash = "sha256:115cb520255d620659792a35ae523e3b086fe781d7b1079ae6ddfdb5236579f0", size = 46026, upload-time = "2025-06-26T03:15:16.267Z" },
-]
+version = "1.1.1.dev3+g946e245"
+source = { editable = "../edc-screening" }
 
 [[package]]
 name = "edc-search"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3f/e6/ea4cd03fede16376110af448de5cb2c6e21d537a97dae112ce35d5528011/edc_search-1.0.1.tar.gz", hash = "sha256:3dd481222d40d84e252ff1557c0229c28b3924215c5f6c3f10ad0deb901888db", size = 28296, upload-time = "2025-06-26T11:32:25.906Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/dc/ce/a10b5c53555fda0f9a6669223ec4d0fc5ee0b1f386b698d41ebbfc9c743a/edc_search-1.0.1-py3-none-any.whl", hash = "sha256:ac415fd400ff64f57519cc6a3733336d6725e16417f4700486c05e645c21da8a", size = 26514, upload-time = "2025-06-26T11:32:24.767Z" },
-]
+version = "1.0.2.dev3+g6fc10af"
+source = { editable = "../edc-search" }
 
 [[package]]
 name = "edc-sites"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/20/6c/8b23b1302ceb0c8f31255cef921e7ce7158369888690d66a7c1462cb55cf/edc_sites-1.1.0.tar.gz", hash = "sha256:bdece86c6ff62235012ce7dd759396745a2547b507d379189014b31103df2ef8", size = 50245, upload-time = "2025-07-09T20:34:09.818Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/fa/b006337398387b8fa872d8cca45720f3acf357966804ad51dea1cb2f8bc3/edc_sites-1.1.0-py3-none-any.whl", hash = "sha256:edc527aa3806f7b47c00388592882f5d3400b05818ac030568317b00637d863d", size = 59097, upload-time = "2025-07-09T20:34:08.302Z" },
-]
+version = "1.1.1.dev1+g425e882.d20250727"
+source = { editable = "../edc-sites" }
 
 [[package]]
 name = "edc-subject-dashboard"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/33/ff/a23c1eb4a56ab7f57a4f1b740b6a4d2f2f2f86ac9d3903aef74038d9896d/edc_subject_dashboard-1.0.1.tar.gz", hash = "sha256:45e0c1fcc7c94994baa90897ed81ed0602b88a8eb4666e84ab1d0f6ddfa38f1c", size = 57298, upload-time = "2025-06-26T11:28:45.987Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/62/af7924152339d051aaa4056b12b640c57d8f04c5b5367144bc097d4dc0be/edc_subject_dashboard-1.0.1-py3-none-any.whl", hash = "sha256:b3e63353609c523435649f1b1dacb3d02b665c0f12e36219a1b08422b8edae77", size = 80121, upload-time = "2025-06-26T11:28:44.681Z" },
+version = "1.0.2.dev3+gffe8a50"
+source = { editable = "../edc-subject-dashboard" }
+
+[[package]]
+name = "edc-test-settings"
+source = { editable = "../edc-test-settings" }
+
+[[package]]
+name = "edc-test-utils"
+version = "1.0.1.dev3+g8cce2ca"
+source = { editable = "../edc-test-utils" }
+dependencies = [
+    { name = "django-webtest" },
+    { name = "faker" },
+    { name = "model-bakery" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "django-webtest" },
+    { name = "faker" },
+    { name = "model-bakery" },
 ]
 
 [[package]]
 name = "edc-timepoint"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/45/dc/6b5d59bae4f2a687d6cb937823630fbb09cfa304d800a9cdc2f385a0e17d/edc_timepoint-1.0.1.tar.gz", hash = "sha256:1e6999d0119ec3a6139b70a22abb1ee175b8b05d95f983bbdaab6c5acf4ca64a", size = 33963, upload-time = "2025-06-26T11:26:45.436Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/53/3e/e6dc05043fe9e4b723cf34ef3d2489bafed85f805f1d6a01daa3264c9f23/edc_timepoint-1.0.1-py3-none-any.whl", hash = "sha256:8d72766fb7431849b5f44ccc578d2da00eebf534b3d6fcbf5d116fedf009b719", size = 33638, upload-time = "2025-06-26T11:26:44.275Z" },
-]
+version = "1.0.2.dev3+ge196df5"
+source = { editable = "../edc-timepoint" }
 
 [[package]]
 name = "edc-transfer"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/50/03/9b0d444cd900e4d7057f2c65b500d9a1f983d9026683c0d1d9c6d272510b/edc_transfer-1.0.1.tar.gz", hash = "sha256:386d680f781c6c606aa58db6650f9d19a328b59d38aed8544cec9799afa7fa17", size = 29551, upload-time = "2025-06-26T11:26:09.33Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/49/f5/e628290b5f4fe0868c8baaf38afd3e7a9a81006ee2c29f2dcd058e5e661f/edc_transfer-1.0.1-py3-none-any.whl", hash = "sha256:e8daedb4dee9d9867d9f026f40bc9f819bc8d7105b8f974d7acbfa0726f31b08", size = 29187, upload-time = "2025-06-26T11:26:08.481Z" },
-]
+version = "1.0.2.dev3+g64a72b6"
+source = { editable = "../edc-transfer" }
 
 [[package]]
 name = "edc-unblinding"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a2/d8/cecb3b4e7441442fd45778e5a0446401692f1673fa742b27c258c62680fe/edc_unblinding-1.0.2.tar.gz", hash = "sha256:14ee9202e18ab708ddd3f386e1cc2adaab27d507bbda1849e39bc3233a91455c", size = 34493, upload-time = "2025-06-26T11:25:01.844Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e3/86/a8da17e5c93eba9afb6746ef7eb894cac19eff8fd90b6a5493e91915774d/edc_unblinding-1.0.2-py3-none-any.whl", hash = "sha256:a794e2bc944d30ea9dc73f4d8fbc92903b2f7c35ea252c85a78b059361a13cd2", size = 42180, upload-time = "2025-06-26T11:25:00.789Z" },
-]
+version = "1.0.3.dev3+gb2ce91e"
+source = { editable = "../edc-unblinding" }
 
 [[package]]
 name = "edc-utils"
 version = "1.1.1"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../edc-utils" }
 dependencies = [
     { name = "python-dateutil" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/97/e3/3acedaf7b99b5afe2c6f71889e4397febc5317f8d048e2ab2fbb971592bd/edc_utils-1.1.1.tar.gz", hash = "sha256:b68acaef4276c529d127edfabc401fe5788cf4017e539e3164a80f26fff9df96", size = 34611, upload-time = "2025-07-15T14:58:48.794Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/06/c0afced8d415b56824233a37bd135b596261588e1f9b6d019dc9b118d852/edc_utils-1.1.1-py3-none-any.whl", hash = "sha256:5f5a028f3dc995414a84e137be9978db0b20b9cdb1352563db8bc3b2e206ba0c", size = 35830, upload-time = "2025-07-15T14:58:47.473Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "python-dateutil" }]
 
 [[package]]
 name = "edc-view-utils"
-version = "1.0.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.2.dev3+g988f2be"
+source = { editable = "../edc-view-utils" }
 dependencies = [
     { name = "python-dateutil" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f4/ae/7bbe2dc4aa4715d739ae1913eb7e7449e44b0579bd9d275485ddd9997c8b/edc_view_utils-1.0.1.tar.gz", hash = "sha256:1b452eb92a6d9e5f80ae55ff02d0c2eeadeb807934b55a904a3ea7fd796b45bb", size = 28842, upload-time = "2025-06-26T11:23:55.729Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/b3/730a2b63ed9e3476c9982dfddd4fe42c1110d9e6ca5592eb38d506fd018d/edc_view_utils-1.0.1-py3-none-any.whl", hash = "sha256:ffc101b952e6610cdb742d8893faad688604891a39dc4bacaf4510234a2976ca", size = 30540, upload-time = "2025-06-26T11:23:54.536Z" },
-]
+
+[package.metadata]
+requires-dist = [{ name = "python-dateutil" }]
 
 [[package]]
 name = "edc-visit-schedule"
-version = "4.1.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a7/21/14708ff0ada9b4b4143fd0d34019fdb3fca7be6261d255756f01615548d3/edc_visit_schedule-4.1.1.tar.gz", hash = "sha256:e94af279d3450014174b8831790da375c30be171c8460610b1255b00df8dfe09", size = 84127, upload-time = "2025-06-26T18:29:18.669Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/03/2d42a7d2f48671891bef1a144e79aeecabc88d890f6167c1c1e7043561c1/edc_visit_schedule-4.1.1-py3-none-any.whl", hash = "sha256:b927d614cddb1154166e81c4323d148a190600f2bc354adac8bd0253f1d6c20c", size = 119347, upload-time = "2025-06-26T18:29:17.462Z" },
-]
+version = "4.1.2.dev2+g0553903"
+source = { editable = "../edc-visit-schedule" }
 
 [[package]]
 name = "edc-visit-tracking"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/77/bc/31921cb081c9fe69add8b0f0260d52d39e27593c7b4e4d1ab08e65d62528/edc_visit_tracking-1.0.2.tar.gz", hash = "sha256:bd057c50511a05644927c806fb6eafb4ceb775f68230f895b578d5fffc613544", size = 66989, upload-time = "2025-06-26T11:23:12.895Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/c5/9c7fa366883476f5d33391751b0b1b81bea17f8bfa886fb8ebe9b84e706a/edc_visit_tracking-1.0.2-py3-none-any.whl", hash = "sha256:960f277bc047ec05c364f62cacf1af5a8036f8fecf7d6406d4f72b3492e1a2ce", size = 89062, upload-time = "2025-06-26T11:23:11.53Z" },
-]
+version = "1.0.3.dev3+g4cf359e"
+source = { editable = "../edc-visit-tracking" }
 
 [[package]]
 name = "edc-vitals"
-version = "1.1.2"
+version = "1.1.3.dev4+g14a8521"
+source = { editable = "../edc-vitals" }
+
+[[package]]
+name = "faker"
+version = "37.5.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/03/e4/56edbc7ee600f02a8fed61389828b0c9cf4a987a80955adcb817bc150d2e/edc_vitals-1.1.2.tar.gz", hash = "sha256:921a9390ba10f0cdec73f960d710e3004a9861c2db138ece5b2648c1c6e27fab", size = 33392, upload-time = "2025-06-28T01:11:21.392Z" }
+dependencies = [
+    { name = "tzdata" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ce/5d/7797a74e8e31fa227f0303239802c5f09b6722bdb6638359e7b6c8f30004/faker-37.5.3.tar.gz", hash = "sha256:8315d8ff4d6f4f588bd42ffe63abd599886c785073e26a44707e10eeba5713dc", size = 1907147, upload-time = "2025-07-30T15:52:19.528Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/9b/74e373fa81039eb472ff615e4ab84f74495009acdfe5d7ad2b11771cd6c1/edc_vitals-1.1.2-py3-none-any.whl", hash = "sha256:c9378f1339d2ea683ad356c1a66ccb5e9aa6b32f1f4bdac92ccd7f1d9af3153b", size = 38502, upload-time = "2025-06-28T01:11:20.258Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/bf/d06dd96e7afa72069dbdd26ed0853b5e8bd7941e2c0819a9b21d6e6fc052/faker-37.5.3-py3-none-any.whl", hash = "sha256:386fe9d5e6132a915984bf887fcebcc72d6366a25dd5952905b31b141a17016d", size = 1949261, upload-time = "2025-07-30T15:52:17.729Z" },
 ]
 
 [[package]]
@@ -1953,18 +2290,6 @@ wheels = [
 ]
 
 [[package]]
-name = "httplib2"
-version = "0.22.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyparsing" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3d/ad/2371116b22d616c194aa25ec410c9c6c37f23599dcd590502b74db197584/httplib2-0.22.0.tar.gz", hash = "sha256:d7a10bc5ef5ab08322488bde8c726eeee5c8618723fdb399597ec58f3d82df81", size = 351116, upload-time = "2023-03-21T22:29:37.214Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a8/6c/d2fbdaaa5959339d53ba38e94c123e4e84b8fbc4b84beb0e70d7c1608486/httplib2-0.22.0-py3-none-any.whl", hash = "sha256:14ae0a53c1ba8f3d37e9e27cf37eabb0fb9980f435ba405d546948b009dd64dc", size = 96854, upload-time = "2023-03-21T22:29:35.683Z" },
-]
-
-[[package]]
 name = "idna"
 version = "3.10"
 source = { registry = "https://pypi.org/simple" }
@@ -2041,6 +2366,15 @@ wheels = [
 ]
 
 [[package]]
+name = "legacy-cgi"
+version = "2.6.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a6/ed/300cabc9693209d5a03e2ebc5eb5c4171b51607c08ed84a2b71c9015e0f3/legacy_cgi-2.6.3.tar.gz", hash = "sha256:4c119d6cb8e9d8b6ad7cc0ddad880552c62df4029622835d06dfd18f438a8154", size = 24401, upload-time = "2025-03-27T00:48:56.957Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5a/33/68c6c38193684537757e0d50a7ccb4f4656e5c2f7cd2be737a9d4a1bff71/legacy_cgi-2.6.3-py3-none-any.whl", hash = "sha256:6df2ea5ae14c71ef6f097f8b6372b44f6685283dc018535a75c924564183cdab", size = 19851, upload-time = "2025-03-27T00:48:55.366Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2087,6 +2421,18 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5e/59/1ad939058d3dc0dd69942b3220e1ce279777de5a08f8df197e26d0d513f8/mempass-0.1.2-py3-none-any.whl", hash = "sha256:b9c862fef1542c1c85058ab3dc478af2d33761ab1bbbedaed8d488e087ee0313", size = 16464, upload-time = "2019-03-19T21:50:18.438Z" },
+]
+
+[[package]]
+name = "model-bakery"
+version = "1.20.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "django" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/bf/73/24854c5053c852201b4799e7837060496d1418a28488a90a299e8d9c618b/model_bakery-1.20.5.tar.gz", hash = "sha256:107b3efb8889baac83cae0e2d81465903b69a70eeb99ecfd0929d959a653ab90", size = 21332, upload-time = "2025-06-07T10:21:47.727Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/4b/157c1113e317f79a257b4dfe0607dbab7f57bec67a34d053588dfb8945ac/model_bakery-1.20.5-py3-none-any.whl", hash = "sha256:796e0b7fa6bf2acc09feaadce40c6bcc13e5b55c5bdff9f76e87ceb64f736070", size = 24292, upload-time = "2025-06-07T10:21:46.438Z" },
 ]
 
 [[package]]
@@ -2178,6 +2524,35 @@ sdist = { url = "https://files.pythonhosted.org/packages/61/68/810093cb579daae42
 wheels = [
     { url = "https://files.pythonhosted.org/packages/bb/b5/2a8a4bcba3440550f358b839638fe8ec9146fa3c9194890b4998a530c926/mysqlclient-2.2.7-cp312-cp312-win_amd64.whl", hash = "sha256:4b4c0200890837fc64014cc938ef2273252ab544c1b12a6c1d674c23943f3f2e", size = 208032, upload-time = "2025-01-10T11:56:29.879Z" },
     { url = "https://files.pythonhosted.org/packages/29/01/e80141f1cd0459e4c9a5dd309dee135bbae41d6c6c121252fdd853001a8a/mysqlclient-2.2.7-cp313-cp313-win_amd64.whl", hash = "sha256:201a6faa301011dd07bca6b651fe5aaa546d7c9a5426835a06c3172e1056a3c5", size = 208000, upload-time = "2025-01-10T11:56:32.293Z" },
+]
+
+[[package]]
+name = "numexpr"
+version = "2.11.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/8f/2cc977e91adbfbcdb6b49fdb9147e1d1c7566eb2c0c1e737e9a47020b5ca/numexpr-2.11.0.tar.gz", hash = "sha256:75b2c01a4eda2e7c357bc67a3f5c3dd76506c15b5fd4dc42845ef2e182181bad", size = 108960, upload-time = "2025-06-09T11:05:56.79Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/38/45/7a0e5a0b800d92e73825494ac695fa05a52c7fc7088d69a336880136b437/numexpr-2.11.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:4229060be866813122385c608bbd3ea48fe0b33e91f2756810d28c1cdbfc98f1", size = 147494, upload-time = "2025-06-09T11:05:17.015Z" },
+    { url = "https://files.pythonhosted.org/packages/74/46/3a26b84e44f4739ec98de0ede4b95b4b8096f721e22d0e97517eeb02017e/numexpr-2.11.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:097aa8835d32d6ac52f2be543384019b4b134d1fb67998cbfc4271155edfe54a", size = 136832, upload-time = "2025-06-09T11:05:18.55Z" },
+    { url = "https://files.pythonhosted.org/packages/75/05/e3076ff25d4a108b47640c169c0a64811748c43b63d9cc052ea56de1631e/numexpr-2.11.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:7f082321c244ff5d0e252071fb2c4fe02063a45934144a1456a5370ca139bec2", size = 412618, upload-time = "2025-06-09T11:05:20.093Z" },
+    { url = "https://files.pythonhosted.org/packages/70/e8/15e0e077a004db0edd530da96c60c948689c888c464ee5d14b82405ebd86/numexpr-2.11.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d7a19435ca3d7dd502b8d8dce643555eb1b6013989e3f7577857289f6db6be16", size = 403363, upload-time = "2025-06-09T11:05:21.217Z" },
+    { url = "https://files.pythonhosted.org/packages/10/14/f22afb3a7ae41d03ba87f62d00fbcfb76389f9cc91b7a82593c39c509318/numexpr-2.11.0-cp312-cp312-win32.whl", hash = "sha256:f326218262c8d8537887cc4bbd613c8409d62f2cac799835c0360e0d9cefaa5c", size = 153307, upload-time = "2025-06-09T11:05:22.855Z" },
+    { url = "https://files.pythonhosted.org/packages/18/70/abc585269424582b3cd6db261e33b2ec96b5d4971da3edb29fc9b62a8926/numexpr-2.11.0-cp312-cp312-win_amd64.whl", hash = "sha256:0a184e5930c77ab91dd9beee4df403b825cd9dfc4e9ba4670d31c9fcb4e2c08e", size = 146337, upload-time = "2025-06-09T11:05:23.976Z" },
+    { url = "https://files.pythonhosted.org/packages/74/63/dbf4fb6c48006d413a82db138d03c3c007d0ed0684f693c4b77196448660/numexpr-2.11.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:eb766218abad05c7c3ddad5367d0ec702d6152cb4a48d9fd56a6cef6abade70c", size = 147495, upload-time = "2025-06-09T11:05:25.105Z" },
+    { url = "https://files.pythonhosted.org/packages/3a/e4/2fbbf5b9121f54722dc4d4dfc75bc0b4e8ee2675f92ec86ee5697aecc53f/numexpr-2.11.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:2036be213a6a1b5ce49acf60de99b911a0f9d174aab7679dde1fae315134f826", size = 136839, upload-time = "2025-06-09T11:05:26.171Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/3f/aa36415919c90f712a11127eaa7c0c8d045768d62a484a29364e4801c383/numexpr-2.11.0-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:096ec768bee2ef14ac757b4178e3c5f05e5f1cb6cae83b2eea9b4ba3ec1a86dd", size = 416240, upload-time = "2025-06-09T11:05:27.634Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/7d/4911f40d3610fc5557029f0d1f20ef9f571488319567ac4d8ee6d0978ee6/numexpr-2.11.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a1719788a787808c15c9bb98b6ff0c97d64a0e59c1a6ebe36d4ae4d7c5c09b95", size = 406641, upload-time = "2025-06-09T11:05:29.408Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/bc/d00e717e77691c410c6c461d7880b4c498896874316acc0e044d7eafacbf/numexpr-2.11.0-cp313-cp313-win32.whl", hash = "sha256:6b5fdfc86cbf5373ea67d554cc6f08863825ea8e928416bed8d5285e387420c6", size = 153313, upload-time = "2025-06-09T11:05:30.633Z" },
+    { url = "https://files.pythonhosted.org/packages/52/a2/93346789e6d73a76fdb68171904ade25c112f25df363a8f602c6b21bc220/numexpr-2.11.0-cp313-cp313-win_amd64.whl", hash = "sha256:5ff337b36db141a1a0b49f01282783744f49f0d401cc83a512fc5596eb7db5c6", size = 146340, upload-time = "2025-06-09T11:05:31.771Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/20/c0e3aaf3cc4497e5253df2523a55c83b9d316cb5c9d5caaa4a1156cef6e3/numexpr-2.11.0-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:b9854fa70edbe93242b8bb4840e58d1128c45766d9a70710f05b4f67eb0feb6e", size = 148206, upload-time = "2025-06-09T11:05:33.3Z" },
+    { url = "https://files.pythonhosted.org/packages/de/49/22fd38ac990ba333f25b771305a5ffcd98c771f4d278868661ffb26deac1/numexpr-2.11.0-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:321736cb98f090ce864b58cc5c37661cb5548e394e0fe24d5f2c7892a89070c3", size = 137573, upload-time = "2025-06-09T11:05:34.422Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/1e/50074e472e9e6bea4fe430869708d9ede333a187d8d0740e70d5a9560aad/numexpr-2.11.0-cp313-cp313t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b5cc434eb4a4df2fe442bcc50df114e82ff7aa234657baf873b2c9cf3f851e8e", size = 426674, upload-time = "2025-06-09T11:05:35.553Z" },
+    { url = "https://files.pythonhosted.org/packages/8e/6d/7ccbc72b950653df62d29e2531c811ed80cfff93c927a5bfd86a71edb4da/numexpr-2.11.0-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:238d19465a272ada3967600fada55e4c6900485aefb42122a78dfcaf2efca65f", size = 416037, upload-time = "2025-06-09T11:05:36.601Z" },
+    { url = "https://files.pythonhosted.org/packages/31/7c/bbccad2734dd4b251cc6bdff8cf5ded18b5383f5a05aa8de7bf02acbb65b/numexpr-2.11.0-cp313-cp313t-win32.whl", hash = "sha256:0db4c2dcad09f9594b45fce794f4b903345195a8c216e252de2aa92884fd81a8", size = 153967, upload-time = "2025-06-09T11:05:37.907Z" },
+    { url = "https://files.pythonhosted.org/packages/75/d7/41287384e413e8d20457d35e264d9c9754e65eb13a988af51ceb7057f61b/numexpr-2.11.0-cp313-cp313t-win_amd64.whl", hash = "sha256:a69b5c02014448a412012752dc46091902d28932c3be0c6e02e73cecceffb700", size = 147207, upload-time = "2025-06-09T11:05:39.011Z" },
 ]
 
 [[package]]
@@ -2515,15 +2890,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pyparsing"
-version = "3.2.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/bb/22/f1129e69d94ffff626bdb5c835506b3a5b4f3d070f17ea295e12c2c6f60f/pyparsing-3.2.3.tar.gz", hash = "sha256:b9c13f1ab8b3b542f72e28f634bad4de758ab3ce4546e4301970ad6fa77c38be", size = 1088608, upload-time = "2025-03-25T05:01:28.114Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/05/e7/df2285f3d08fee213f2d041540fa4fc9ca6c2d44cf36d3a035bf2a8d2bcc/pyparsing-3.2.3-py3-none-any.whl", hash = "sha256:a749938e02d6fd0b59b356ca504a24982314bb090c383e3cf201c95ef7e2bfcf", size = 111120, upload-time = "2025-03-25T05:01:24.908Z" },
-]
-
-[[package]]
 name = "pypdf"
 version = "5.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2536,15 +2902,6 @@ wheels = [
 crypto = [
     { name = "cryptography" },
 ]
-
-[[package]]
-name = "pyrabbit"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "httplib2" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/5d/05/6bc2b8b4c096594eeeb5ca59a1e8e66c44f039592bdb58f0f3df0cce1ce2/pyrabbit-1.1.0.tar.gz", hash = "sha256:50b8995fbfde14820ddc97292312c8f0c77054748c2b018138d03d94e400c39c", size = 10116, upload-time = "2014-08-28T03:51:45.137Z" }
 
 [[package]]
 name = "python-dateutil"
@@ -3005,12 +3362,47 @@ wheels = [
 ]
 
 [[package]]
+name = "waitress"
+version = "3.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bf/cb/04ddb054f45faa306a230769e868c28b8065ea196891f09004ebace5b184/waitress-3.0.2.tar.gz", hash = "sha256:682aaaf2af0c44ada4abfb70ded36393f0e307f4ab9456a215ce0020baefc31f", size = 179901, upload-time = "2024-11-16T20:02:35.195Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8d/57/a27182528c90ef38d82b636a11f606b0cbb0e17588ed205435f8affe3368/waitress-3.0.2-py3-none-any.whl", hash = "sha256:c56d67fd6e87c2ee598b76abdd4e96cfad1f24cacdea5078d382b1f9d7b5ed2e", size = 56232, upload-time = "2024-11-16T20:02:33.858Z" },
+]
+
+[[package]]
 name = "wcwidth"
 version = "0.2.13"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5", size = 101301, upload-time = "2024-01-06T02:10:57.829Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859", size = 34166, upload-time = "2024-01-06T02:10:55.763Z" },
+]
+
+[[package]]
+name = "webob"
+version = "1.8.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "legacy-cgi", marker = "python_full_version >= '3.13'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/85/0b/1732085540b01f65e4e7999e15864fe14cd18b12a95731a43fd6fd11b26a/webob-1.8.9.tar.gz", hash = "sha256:ad6078e2edb6766d1334ec3dee072ac6a7f95b1e32ce10def8ff7f0f02d56589", size = 279775, upload-time = "2024-10-24T03:19:20.651Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/50/bd/c336448be43d40be28e71f2e0f3caf7ccb28e2755c58f4c02c065bfe3e8e/WebOb-1.8.9-py2.py3-none-any.whl", hash = "sha256:45e34c58ed0c7e2ecd238ffd34432487ff13d9ad459ddfd77895e67abba7c1f9", size = 115364, upload-time = "2024-10-24T03:19:18.642Z" },
+]
+
+[[package]]
+name = "webtest"
+version = "3.0.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "waitress" },
+    { name = "webob" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d4/3d/1bead94691f496ea85de7cf0d317e20318fa8813010a346cc1034f6d8fbd/webtest-3.0.6.tar.gz", hash = "sha256:4256fd5242448f56c575bcb9afe275e305a6f0723c4b01438dbdd4dd5344944b", size = 80151, upload-time = "2025-06-04T19:59:01.084Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b8/72/22f292e65be0d68f19bb5cc439119453ba60ea1e7fec2a38217fa3d0de28/webtest-3.0.6-py3-none-any.whl", hash = "sha256:0c4a5a3dcf745a78c7905b803d6a520a2cf241c1f00ccdf4351f52916d555543", size = 32368, upload-time = "2025-06-04T19:58:59.232Z" },
 ]
 
 [[package]]

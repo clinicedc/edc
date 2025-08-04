@@ -1,0 +1,4 @@
+django-audit-fields
+django-crypto-fields
+django-multisite2
+django-revision

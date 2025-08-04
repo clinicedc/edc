@@ -21,6 +21,7 @@ maintainers = [
     { name = "Erik van Widenfelt", email = "ew2789@gmail.com" },
 ]
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
     "Framework :: Django",
     "Framework :: Django :: 5.2",
@@ -35,28 +36,25 @@ license = "GPL-3.0-or-later"
 license-files = ["LICEN[CS]E*"]
 requires-python = ">=3.12"
 dependencies = [
-    "django==5.2.4",
-    "boto3>=1.39.15",
+    "argon2-cffi>=25.1.0",
+    "boto3>=1.39.16",
+    "django>=5.2.4,<5.3",
+    "django-admin-rangefilter>=0.13.3",
+    "django-audit-fields>=1.1.0",
+    "django-crypto-fields>=1.0.1",
     "django-db-views>=0.1.11",
     "django-defender>=0.9.8",
     "django-environ>=0.12.0",
     "django-logentry-admin>=1.1.0",
-    "django-admin-rangefilter>=0.13.3",
+    "django-multisite2>=2.1.0",
     "django-pandas>=0.6.7",
     "django-redis>=6.0.0",
+    "django-revision>=1.0.0",
     "django-simple-history>=3.10.1",
     "django-storages>=1.14.6",
     "djangorestframework>=3.16.0",
-    "fontawesomefree>=6.6.0",
-    "gunicorn>=23.0.0",
-    "pyrabbit>=1.1.0",
-    "python-memcached>=1.62",
-    "django-audit-fields>=1.1.0",
-    "django-crypto-fields>=1.0.1",
-    "django-multisite2>=2.1.0",
-    "django-revision>=1.0.0",
     "edc-action-item==1.0.3",
-    "edc-adherence==1.0.1",
+    "edc-adherence==1.2.0",
     "edc-adverse-event==1.0.3",
     "edc-analytics==0.1.4",
     "edc-appconfig==1.0.2",
@@ -131,81 +129,9 @@ dependencies = [
     "edc-visit-schedule==4.1.1",
     "edc-visit-tracking==1.0.2",
     "edc-vitals==1.1.2",
-    "aiohappyeyeballs>=2.6.1",
-    "aiohttp>=3.12.15",
-    "aiohttp-retry>=2.9.1",
-    "aiosignal>=1.4.0",
-    "amqp>=5.3.1",
-    "arrow>=1.3.0",
-    "asgiref>=3.9.1",
-    "attrs>=25.3.0",
-    "beautifulsoup4>=4.13.4",
-    "billiard>=4.2.1",
-    "botocore>=1.39.16",
-    "celery>=5.5.3",
-    "certifi>=2025.7.14",
-    "cffi>=1.17.1",
-    "charset-normalizer>=3.4.2",
-    "click>=8.2.1",
-    "click-didyoumean>=0.3.1",
-    "click-plugins>=1.1.1.2",
-    "click-repl>=0.3.0",
-    "cryptography>=45.0.5",
-    "django-extensions>=4.1",
-    "django-pylabels>=1.0.1",
-    "django-sequences>=3.0",
-    "filelock>=3.18.0",
-    "frozenlist>=1.7.0",
-    "gitdb>=4.0.12",
-    "gitpython>=3.1.45",
-    "httplib2>=0.22.0",
-    "idna>=3.10",
-    "inflect>=7.5.0",
-    "jmespath>=1.0.1",
-    "kombu>=5.5.4",
-    "mempass>=0.1.2",
-    "more-itertools>=10.7.0",
-    "multidict>=6.6.3",
-    "mysqlclient>=2.2.7",
-    "numpy>=2.3.2",
-    "packaging>=25.0",
-    "pandas>=2.3.1",
-    "pillow>=11.3.0",
-    "prompt-toolkit>=3.0.51",
-    "propcache>=0.3.2",
-    "pycparser>=2.22",
-    "pycryptodomex>=3.23.0",
-    "pycups>=2.0.4",
-    "pyjwt>=2.10.1",
-    "pylabels2>=1.4.4",
-    "pyparsing>=3.2.3",
-    "pypdf>=5.9.0",
-    "python-dateutil>=2.9.0.post0",
-    "pytz>=2025.2",
-    "redis>=6.2.0",
-    "reportlab>=4.4.3",
-    "requests>=2.32.4",
-    "requests-file>=2.1.0",
-    "s3transfer>=0.13.1",
-    "six>=1.17.0",
-    "smmap>=5.0.2",
-    "soupsieve>=2.7",
-    "sqlalchemy>=2.0.42",
-    "sqlglot>=27.4.1",
-    "sqlglotrs>=0.6.1",
-    "sqlparse>=0.5.3",
-    "tldextract>=5.3.0",
-    "tqdm>=4.67.1",
-    "twilio>=9.7.0",
-    "typeguard>=4.4.4",
-    "types-python-dateutil>=2.9.0.20250708",
-    "typing-extensions>=4.14.1",
-    "tzdata>=2025.2",
-    "urllib3>=2.5.0",
-    "vine>=5.1.0",
-    "wcwidth>=0.2.13",
-    "yarl>=1.20.1",
-    "zxcvbn>=4.5.0",
+    "fontawesomefree>=6.6.0",
+    "gunicorn>=23.0.0",
+    "python-memcached>=1.62",
 ]
 
 [project.urls]
@@ -223,9 +149,197 @@ docs = [
 ]
 lint = [
     "black>=25.1.0",
-    "isort>=6.0.1",
+    "isort==5.13.2",
     "ruff>=0.12.5",
 ]
+
+develop = [
+    'argon2-cffi',
+    'python-memcached',
+    'django-environ',
+    'django-storages',
+    'fontawesomefree',
+    'django-audit-fields',
+    'django-crypto-fields',
+    'django-revision',
+    'django-multisite2',
+    'django-simple-history',
+    'django-pandas',
+    'django-logentry-admin',
+    'django-admin-rangefilter',
+    'django-db-views',
+    'edc-action-item',
+    'edc-adherence',
+    'edc-adverse-event',
+    'edc-analytics',
+    'edc-appconfig',
+    'edc-appointment',
+    'edc-auth',
+    'edc-consent',
+    'edc-constants',
+    'edc-crf',
+    'edc-csf',
+    'edc-dashboard',
+    'edc-data-manager',
+    'edc-device',
+    'edc-document-status',
+    'edc-dx',
+    'edc-dx-review',
+    'edc-egfr',
+    'edc-export',
+    'edc-facility',
+    'edc-fieldsets',
+    'edc-form-describer',
+    'edc-form-label',
+    'edc-form-runners',
+    'edc-form-validators',
+    'edc-glucose',
+    'edc-he',
+    'edc-identifier',
+    'edc-lab',
+    'edc-lab-dashboard',
+    'edc-lab-panel',
+    'edc-lab-results',
+    'edc-label',
+    'edc-list-data',
+    'edc-listboard',
+    'edc-locator',
+    'edc-ltfu',
+    'edc-metadata',
+    'edc-microbiology',
+    'edc-microscopy',
+    'edc-mnsi',
+    'edc-model',
+    'edc-model-admin',
+    'edc-model-fields',
+    'edc-model-form',
+    'edc-model-to-dataframe',
+    'edc-navbar',
+    'edc-next-appointment',
+    'edc-notification',
+    'edc-offstudy',
+    'edc-pdf-reports',
+    'edc-pdutils',
+    'edc-pharmacy',
+    'edc-pharmacy-dashboard',
+    'edc-phq9',
+    'edc-prn',
+    'edc-protocol',
+    'edc-protocol-incident',
+    'edc-pylabels',
+    'edc-qareports',
+    'edc-qol',
+    'edc-randomization',
+    'edc-refusal',
+    'edc-registration',
+    'edc-reportable',
+    'edc-review-dashboard',
+    'edc-rx',
+    'edc-screening',
+    'edc-search',
+    'edc-sites',
+    'edc-subject-dashboard',
+    'edc-test-settings',
+    'edc-test-utils',
+    'edc-timepoint',
+    'edc-transfer',
+    'edc-unblinding',
+    'edc-utils',
+    'edc-view-utils',
+    'edc-visit-schedule',
+    'edc-visit-tracking',
+    'edc-vitals',
+]
+
+[tool.uv.sources]
+# edc = { workspace = true }
+django-audit-fields = { path = "../django-audit-fields", editable = true }
+django-crypto-fields = { path = "../django-crypto-fields", editable = true }
+django-revision = { path = "../django-revision", editable = true }
+django-multisite2 = { path = "../django-multisite2", editable = true }
+django-simple-history = { path = "../django-simple-history", editable = true }
+django-logentry-admin = { path = "../django-logentry-admin", editable = true }
+edc-action-item = { path = "../edc-action-item", editable = true }
+edc-adherence = { path = "../edc-adherence", editable = true }
+edc-adverse-event = { path = "../edc-adverse-event", editable = true }
+edc-analytics = { path = "../edc-analytics", editable = true }
+edc-appconfig = { path = "../edc-appconfig", editable = true }
+edc-appointment = { path = "../edc-appointment", editable = true }
+edc-auth = { path = "../edc-auth", editable = true }
+edc-consent = { path = "../edc-consent", editable = true }
+edc-constants = { path = "../edc-constants", editable = true }
+edc-crf = { path = "../edc-crf", editable = true }
+edc-csf = { path = "../edc-csf", editable = true }
+edc-dashboard = { path = "../edc-dashboard", editable = true }
+edc-data-manager = { path = "../edc-data-manager", editable = true }
+edc-device = { path = "../edc-device", editable = true }
+edc-document-status = { path = "../edc-document-status", editable = true }
+edc-dx = { path = "../edc-dx", editable = true }
+edc-dx-review = { path = "../edc-dx-review", editable = true }
+edc-egfr = { path = "../edc-egfr", editable = true }
+edc-export = { path = "../edc-export", editable = true }
+edc-facility = { path = "../edc-facility", editable = true }
+edc-fieldsets = { path = "../edc-fieldsets", editable = true }
+edc-form-describer = { path = "../edc-form-describer", editable = true }
+edc-form-label = { path = "../edc-form-label", editable = true }
+edc-form-runners = { path = "../edc-form-runners", editable = true }
+edc-form-validators = { path = "../edc-form-validators", editable = true }
+edc-glucose = { path = "../edc-glucose", editable = true }
+edc-he = { path = "../edc-he", editable = true }
+edc-identifier = { path = "../edc-identifier", editable = true }
+edc-lab = { path = "../edc-lab", editable = true }
+edc-lab-dashboard = { path = "../edc-lab-dashboard", editable = true }
+edc-lab-panel = { path = "../edc-lab-panel", editable = true }
+edc-lab-results = { path = "../edc-lab-results", editable = true }
+edc-label = { path = "../edc-label", editable = true }
+edc-list-data = { path = "../edc-list-data", editable = true }
+edc-listboard = { path = "../edc-listboard", editable = true }
+edc-locator = { path = "../edc-locator", editable = true }
+edc-ltfu = { path = "../edc-ltfu", editable = true }
+edc-metadata = { path = "../edc-metadata", editable = true }
+edc-microbiology = { path = "../edc-microbiology", editable = true }
+edc-microscopy = { path = "../edc-microscopy", editable = true }
+edc-mnsi = { path = "../edc-mnsi", editable = true }
+edc-model = { path = "../edc-model", editable = true }
+edc-model-admin = { path = "../edc-model-admin", editable = true }
+edc-model-fields = { path = "../edc-model-fields", editable = true }
+edc-model-form = { path = "../edc-model-form", editable = true }
+edc-model-to-dataframe = { path = "../edc-model-to-dataframe", editable = true }
+edc-navbar = { path = "../edc-navbar", editable = true }
+edc-next-appointment = { path = "../edc-next-appointment", editable = true }
+edc-notification = { path = "../edc-notification", editable = true }
+edc-offstudy = { path = "../edc-offstudy", editable = true }
+edc-pdf-reports = { path = "../edc-pdf-reports", editable = true }
+edc-pdutils = { path = "../edc-pdutils", editable = true }
+edc-pharmacy = { path = "../edc-pharmacy", editable = true }
+edc-pharmacy-dashboard = { path = "../edc-pharmacy-dashboard", editable = true }
+edc-phq9 = { path = "../edc-phq9", editable = true }
+edc-prn = { path = "../edc-prn", editable = true }
+edc-protocol = { path = "../edc-protocol", editable = true }
+edc-protocol-incident = { path = "../edc-protocol-incident", editable = true }
+edc-pylabels = { path = "../edc-pylabels", editable = true }
+edc-qareports = { path = "../edc-qareports", editable = true }
+edc-qol = { path = "../edc-qol", editable = true }
+edc-randomization = { path = "../edc-randomization", editable = true }
+edc-refusal = { path = "../edc-refusal", editable = true }
+edc-registration = { path = "../edc-registration", editable = true }
+edc-review-dashboard = { path = "../edc-review-dashboard", editable = true }
+edc-rx = { path = "../edc-rx", editable = true }
+edc-screening = { path = "../edc-screening", editable = true }
+edc-search = { path = "../edc-search", editable = true }
+edc-sites = { path = "../edc-sites", editable = true }
+edc-subject-dashboard = { path = "../edc-subject-dashboard", editable = true }
+edc-test-settings = { path = "../edc-test-settings", editable = true }
+edc-test-utils = { path = "../edc-test-utils", editable = true }
+edc-timepoint = { path = "../edc-timepoint", editable = true }
+edc-transfer = { path = "../edc-transfer", editable = true }
+edc-unblinding = { path = "../edc-unblinding", editable = true }
+edc-utils = { path = "../edc-utils", editable = true }
+edc-view-utils = { path = "../edc-view-utils", editable = true }
+edc-visit-schedule = { path = "../edc-visit-schedule", editable = true }
+edc-visit-tracking = { path = "../edc-visit-tracking", editable = true }
+edc-vitals = { path = "../edc-vitals", editable = true }
+edc-reportable = { path = "../edc-reportable", editable = true }
 
 [tool.black]
 line-length = 88
