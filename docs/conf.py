@@ -8,7 +8,7 @@
 
 from typing import Any, Dict
 
-project = "clinicedc"
+project = "edc"
 copyright = "2025, erik van widenfelt"
 author = "erik van widenfelt"
 release = "1.2.0"
@@ -88,7 +88,7 @@ html_context["github_user"] = "erikvw"
 html_context["github_repo"] = "edc"
 html_context["github_version"] = "main"
 # html_context["conf_py_path"] = ""
-html_context["slug"] = "clinicedc"
+html_context["slug"] = "edc"
 
 
 html_css_files += [

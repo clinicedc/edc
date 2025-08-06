@@ -51,7 +51,7 @@ auditor has view-only access to each subject's records and audit trail.
 
 For multi-site trials, the ``EDC`` will be configured to limit a user's access to data of the current site they are logged into. Users may be granted access to more than one research site but still can only see data for the current site.
 
-Monitoring will adhere to Good Clinical Practice Guidelines (based on ``ICH`` guidelines). The
+Data collection and modification will adhere to Good Clinical Practice guidelines (based on ``ICH`` guidelines). The
 following data should be verifiable from source documents: all signed consent forms; dates of
 visits including laboratory results; eligibility and baseline values for all study subjects; all clinical
 endpoints; all serious / severe adverse events; routine patient clinical and laboratory data;
