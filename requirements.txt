@@ -140,7 +140,7 @@ pycups==2.0.4
 pyjwt==2.10.1
 pylabels2==1.4.4
 pyparsing==3.2.3
-pypdf==5.9.0
+pypdf==6.0.0
 pyrabbit==1.1.0
 python-dateutil==2.9.0.post0
 python-memcached==1.62
