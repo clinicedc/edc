@@ -164,7 +164,7 @@ typeguard==4.4.4
 types-python-dateutil==2.9.0.20250708
 typing-extensions==4.14.1
 tzdata==2025.2
-urllib3==2.5.0
+urllib3==2.6.0
 vine==5.1.0
 wcwidth==0.2.13
 yarl==1.20.1
