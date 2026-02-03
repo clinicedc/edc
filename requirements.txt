@@ -19,7 +19,7 @@ click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
 cryptography==45.0.5
-django==5.2.4
+django==5.2.11
 django-admin-rangefilter==0.13.3
 django-audit-fields==1.1.0
 django-crypto-fields==1.0.1
